@@ -25,7 +25,7 @@ try {
   const failures = [];
   try {
     checkBracesPatch();
-    console.log("Braces local depth backport verified. Raw npm high findings remain release-blocking; no advisory is suppressed.");
+    console.log("Braces patch verified.");
   } catch (error) { failures.push(error instanceof Error ? error.message : String(error)); }
   for (const [directory, label] of [[null, "Frontend"], ["server/node", "Backend"]]) {
     try { checkNpm(directory, label); } catch (error) { failures.push(error instanceof Error ? error.message : String(error)); }

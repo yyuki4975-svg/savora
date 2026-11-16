@@ -20,3 +20,5 @@ dist/
 /public/maps/*.pmtiles
 /public/maps/*.bin
 *.download
+
+.wrangler/

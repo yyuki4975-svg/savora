@@ -12,8 +12,6 @@ if (!allowedCommands.has(command)) {
   console.error("Usage: node scripts/run-vinext.mjs <dev|build|start> [arguments]");
   process.exitCode = 64;
 } else {
-  // Do not run a vulnerable scanner when lifecycle scripts were skipped, or
-  // dependencies changed without review. Verification never silently repairs.
   checkBracesPatch();
   const cliPath = path.join(repositoryRoot, "node_modules", "vinext", "dist", "cli.js");
   const nodeEnvironment = command === "dev" ? "development" : "production";
@@ -26,8 +24,6 @@ if (!allowedCommands.has(command)) {
     env: {
       ...process.env,
       ...accountPreview,
-      // Next reserves NODE_ENV for these standard lifecycle values. Vinext does
-      // not currently populate it for `dev`, so make the wrapper deterministic.
       NODE_ENV: nodeEnvironment,
       WRANGLER_LOG_PATH: ".wrangler/wrangler.log",
     },

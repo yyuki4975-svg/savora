@@ -1,10 +1,6 @@
-// Isolated Docker context only: the canonical config is copied under this name.
-// https://nextjs.org/docs/app/api-reference/config/next-config-js/output
 import shared from "./next.shared.config";
 import type { NextConfig } from "next";
 
-// Public build inputs only, never a caller-selected or credential-bearing origin.
-// https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix
 const assetOrigin = process.env.SAVORA_PUBLIC_ASSET_ORIGIN || undefined;
 if (assetOrigin && assetOrigin !== "https://assets.cookwsavora.com") throw new Error("Unapproved public asset origin");
 const config: NextConfig = {
@@ -17,7 +13,6 @@ const config: NextConfig = {
   images: {
     ...shared.images,
     maximumResponseBody: 20 * 1024 ** 2,
-    // Only optimized public images use the persistent production cache mount.
     maximumDiskCacheSize: 384 * 1024 ** 2,
   },
   experimental: {
@@ -40,7 +35,6 @@ const config: NextConfig = {
     ];
   },
   webpack(configuration) {
-    // Bundle the worker's shared-module dependencies, not just its entry URL.
     configuration.module.rules.push({
       test: /maplibre-gl-worker\.mjs$/,
       resourceQuery: /worker&url/,

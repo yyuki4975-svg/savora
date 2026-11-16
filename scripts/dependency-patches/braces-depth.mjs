@@ -3,11 +3,6 @@ import { readFileSync, realpathSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-// Local backport, not an official release. GHSA-vfj7-8cjw-p6xm:
-// https://github.com/micromatch/braces/pull/72
-// Cap parser nesting AND all three recursive AST entry points. Preserve the
-// published stringify parent/escaping behavior rather than importing that PR's
-// unrelated change. Package identity/version and npm audit findings stay intact.
 export const repositoryRoot = fileURLToPath(new URL("../../", import.meta.url));
 const depthLimit = "  const maxDepth = Number.isFinite(options.maxDepth) ? Math.min(100, options.maxDepth) : 100;\n";
 const walkerGuard = "    if (node.nodes && depth > maxDepth) {\n      throw new RangeError(`AST depth (${depth}), exceeds max depth (${maxDepth})`);\n    }\n";
@@ -76,7 +71,6 @@ export function checkBracesPatch({ apply = false, root = repositoryRoot } = {}) 
   if (realpathSync(target) !== target) throw new Error("Refusing to patch a redirected braces directory.");
   const manifest = JSON.parse(readFileSync(path.join(target, "package.json"), "utf8"));
   if (manifest.name !== "braces" || manifest.version !== "3.0.3") throw new Error("Unexpected installed braces identity.");
-  // Validate the entire plan before writing anything. Unknown bytes fail closed.
   const plan = Object.entries(bracesPatchFiles).map(([file, spec]) => {
     const destination = path.join(target, "lib", file);
     if (realpathSync(destination) !== destination) throw new Error(`Redirected braces file: ${file}`);

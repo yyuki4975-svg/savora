@@ -1,4 +1,3 @@
-# Isolated native-Next comparison; no dependencies or canonical source changes.
 ARG NODE_IMAGE=mirror.gcr.io/library/node@sha256:0a7108bf6c7bf5de370ffb1a3ed6be93d405b43ff159f681a8d18c0e2bc2e402
 FROM ${NODE_IMAGE} AS build
 WORKDIR /app
@@ -17,9 +16,6 @@ COPY server/deploy/native-worker-url.cjs ./server/deploy/native-worker-url.cjs
 ENV NODE_ENV=production SAVORA_ISOLATED_NATIVE_NEXT_BUILD=true NEXT_TELEMETRY_DISABLED=1 NODE_OPTIONS=--max-old-space-size=1536
 ENV SAVORA_PRODUCT_ENABLED=false SAVORA_MAIL_DELIVERY_ENABLED=false SAVORA_TRANSLATION_ENABLED=false
 ENV SAVORA_CATALOG_API_ENABLED=false SAVORA_ACCOUNT_API_ENABLED=false SAVORA_ACCOUNT_MAIL_DELIVERY_READY=false
-# Keep critical CSS/JS/fonts/worker/map same-origin. A separate resource hostname
-# made first rendering depend on another DNS/TLS path. No design/content change.
-# https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix
 ENV SAVORA_PUBLIC_ASSET_ORIGIN=""
 RUN node scripts/dependency-patches/braces-depth.mjs --check && node prepare-native-next.mjs
 RUN node node_modules/next/dist/bin/next build --webpack

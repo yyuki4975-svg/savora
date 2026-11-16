@@ -8,7 +8,6 @@ const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
 
 const { d1, r2 } = hostingConfig;
 
-// macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 
 const localBindingConfig = {
@@ -34,35 +33,24 @@ const localBindingConfig = {
 };
 
 export default defineConfig(async () => {
-  // Keep Wrangler and Miniflare state project-local. These are non-secret tool
-  // settings; application environment belongs in ignored `.env*` files.
   process.env.WRANGLER_WRITE_LOGS ??= "false";
   process.env.WRANGLER_LOG_PATH ??= ".wrangler/logs";
   process.env.MINIFLARE_REGISTRY_PATH ??= ".wrangler/registry";
 
-  // Wrangler snapshots its log path while the Cloudflare plugin is imported.
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
-    // Vinext's Cloudflare environments do not inherit arbitrary host process
-    // variables. These non-secret routing settings are explicit build
-    // constants; never add credentials to this allowlist.
-    // Source: https://vite.dev/config/shared-options.html#define
     define: {
-      // Workers do not inherit the wrapper's NODE_ENV. Production is the default;
-      // only the explicit local dev wrapper enables loopback HTTP account routing.
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV === "development" ? "development" : "production"),
       "process.env.SAVORA_CATALOG_API_ENABLED": JSON.stringify(process.env.SAVORA_CATALOG_API_ENABLED ?? ""),
       "process.env.SAVORA_DRAFT_CATALOG_ENABLED": JSON.stringify(process.env.SAVORA_DRAFT_CATALOG_ENABLED ?? ""),
       "process.env.SAVORA_API_BASE_URL": JSON.stringify(process.env.SAVORA_API_BASE_URL ?? ""),
-      // Non-secret account routing only. Session/CSRF/mail secrets belong exclusively to the Node API.
       "process.env.SAVORA_ACCOUNT_API_ENABLED": JSON.stringify(process.env.SAVORA_ACCOUNT_API_ENABLED ?? "false"),
       "process.env.SAVORA_ACCOUNT_API_BASE_URL": JSON.stringify(process.env.SAVORA_ACCOUNT_API_BASE_URL ?? ""),
       "process.env.SAVORA_ACCOUNT_WEB_ORIGIN": JSON.stringify(process.env.SAVORA_ACCOUNT_WEB_ORIGIN ?? ""),
       "process.env.SAVORA_ACCOUNT_MAIL_DELIVERY_READY": JSON.stringify(process.env.SAVORA_ACCOUNT_MAIL_DELIVERY_READY ?? "false"),
     },
     server: { watch: {
-      // Isolated browser profiles/backups/test evidence must not trigger HMR.
       ignored: ["**/.run/**", "**/server/backups/**", "**/server/node/dist/**"],
       ...(isCodexSeatbeltSandbox ? { useFsEvents: false, usePolling: true } : {}),
     } },

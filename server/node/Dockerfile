@@ -1,4 +1,3 @@
-# Standalone Node 22 API; https://docs.nestjs.com/deployment
 ARG NODE_IMAGE=node:22-alpine
 FROM ${NODE_IMAGE} AS build
 WORKDIR /app
@@ -6,7 +5,6 @@ COPY package.json package-lock.json ./
 RUN npm ci --ignore-scripts
 COPY tsconfig.json ./
 COPY src ./src
-COPY test ./test
 RUN npm run build
 
 FROM ${NODE_IMAGE} AS runtime

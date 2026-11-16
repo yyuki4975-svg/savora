@@ -1,5 +1,3 @@
-// Mechanical compatibility adaptation ONLY inside the isolated Linux image.
-// Canonical app, Home, lockfile and Vite/Cloudflare configuration are untouched.
 import assert from 'node:assert/strict';
 import {existsSync, readFileSync, writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -15,10 +13,6 @@ for(const file of files){
   writeFileSync(file,result);
   receipt.push({file,source:sha(source),adapted:sha(result),replacements:1});
 }
-// These two MapLibre modules deliberately contain global marker rules. Vite
-// accepts them; native Next uses CSS Modules' "pure" mode by default. The
-// upstream CSS Modules directive preserves their existing selector semantics.
-// No selector, declaration, specificity, order or canonical stylesheet is edited.
 for(const file of ['app/world-map/world-map.module.css','app/world-map/world-map-passed-bowl.module.css','app/recipes/[id]/recipe-detail.module.css']){
   const source=readFileSync(file,'utf8');
   assert.ok(file.includes('/recipes/') ? source.includes('@media print') && source.includes(':global(.mobile-tabs)') : source.includes(':global(.savora-atlas-marker'));
@@ -27,9 +21,6 @@ for(const file of ['app/world-map/world-map.module.css','app/world-map/world-map
   writeFileSync(file,result);
   receipt.push({file,source:sha(source),adapted:sha(result),compatibilityCommentOnly:true});
 }
-// The deployment build deliberately has no catalog connection. Do not cache an
-// empty, build-time sitemap for a day; defer this metadata route to runtime.
-// https://nextjs.org/docs/app/api-reference/functions/connection
 {
   const file='app/sitemap.ts',source=readFileSync(file,'utf8');
   const marker='export default async function sitemap(): Promise<MetadataRoute.Sitemap> {';
@@ -39,9 +30,6 @@ for(const file of ['app/world-map/world-map.module.css','app/world-map/world-map
   writeFileSync(file,result);
   receipt.push({file,source:sha(source),adapted:sha(result),runtimeCatalogRequired:true});
 }
-// The former request-Host metadata read made the entire production tree dynamic.
-// Keep that runtime contract after the safe canonical-URL SEO change. Otherwise
-// catalog-disabled builds persist the unavailable Home, Map and dish pages.
 {
   const file='app/layout.tsx',source=readFileSync(file,'utf8');
   assert.equal(source.split('export default function RootLayout(').length-1,1);
@@ -54,9 +42,6 @@ for(const file of ['app/world-map/world-map.module.css','app/world-map/world-map
   writeFileSync(file,result);
   receipt.push({file,source:sha(source),adapted:sha(result),runtimeCatalogRequired:true,restoresPriorProductionRendering:true});
 }
-// A segment layout runs before that segment's loading/Suspense boundary. Resolve
-// a missing published recipe before streaming commits a successful HTTP status.
-// https://nextjs.org/docs/app/api-reference/file-conventions/loading
 {
   const file='app/recipes/[id]/layout.tsx';
   assert.ok(!existsSync(file));
