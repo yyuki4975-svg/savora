@@ -11,3 +11,12 @@ dist/
 *.dump
 *.log
 *.tsbuildinfo
+
+/public/images/**/*.jpg
+/public/images/**/*.jpeg
+/public/images/**/*.png
+/public/images/**/*.webp
+/public/images/**/*.avif
+/public/maps/*.pmtiles
+/public/maps/*.bin
+*.download
