@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://cookwsavora.com/">Visit Savora</a> ·
   <a href="#features">Features</a> ·
+  <a href="#try-it-for-yourself">Things to try</a> ·
   <a href="#technology">Technology</a> ·
   <a href="#recipe-selection">Recipe selection</a> ·
   <a href="#local-development">Get started</a>
@@ -18,7 +19,7 @@
 
 ![Savora home page with regional dishes and recipe discovery](docs/images/savora-home.jpg)
 
-Savora brings recipe discovery, food geography and everyday kitchen planning into one place. Explore a regional dish, follow its method, save it to your kitchen and share what you learned with other cooks. The catalogue combines international collections with editorial work on ingredients, cooking logic, equipment and translations.
+Savora helps you find something to cook, learn where it comes from and keep your kitchen organized. Browse dishes from around the world, plan a few meals or share a tip from your own kitchen. Recipes bring together ingredients, clear cooking steps and links to their sources.
 
 English, 简体中文, 日本語, Français, Italiano and Español are available throughout the experience, alongside light and dark themes.
 
@@ -46,6 +47,36 @@ The Ratatouille page brings the ingredient list, four cooking steps, equipment a
 The map opens a geographic view of the catalogue. Country markers lead into regional recipes and city-level stories.
 
 ![Savora world food map with country recipe counts and city markers](docs/images/savora-world-map.jpg)
+
+## Try it for yourself
+
+### Find dinner with a few words
+
+Try a search such as “quick chicken” or “spicy noodles.” Search suggestions help you find a dish as you type, and spelling corrections can help with unfamiliar names. You can also narrow the results by ingredient, country, type of dish or cooking time. [Find a recipe](https://cookwsavora.com/explore)
+
+### Discover something you might like
+
+After you have explored a few recipes, “Picked for you” brings together dishes related to your searches and recipes you have opened, along with something different to try. These suggestions use your interests in the current browser. You can turn them off or clear your taste history in Settings. [Explore recipes](https://cookwsavora.com/explore)
+
+### Cook at your own pace
+
+On selected dishes, Cook Mode shows one step at a time, with the ingredients needed for that step. Start a timer where a cooking time is available, pause it when needed and keep the screen awake on supported devices. Save your cooking progress and return to the same step later. [Try Cook Mode with Ratatouille](https://cookwsavora.com/cook/ratatouille)
+
+### Plan the week, then get ready to shop
+
+Choose meals for the week and open the prep list to see their ingredients and kitchen tools together. Matching ingredients with the same unit are combined, and you can check off what you already have or add an extra item to the grocery list. [Open the meal planner](https://cookwsavora.com/meal-planner)
+
+### Keep the details that make a recipe yours
+
+Save dishes as favorites, mark what you want to cook and keep track of what you have made. Add a private note such as “a little less salt next time,” or create a collection for weeknight dinners or weekend baking. Selected dish pages also let you adjust servings and switch between metric and imperial measures. [Open My Kitchen](https://cookwsavora.com/recipe-box)
+
+### Let the map choose your next stop
+
+Choose “Surprise me” on the world map and follow it to a country or city. Open a local dish, read its story and browse more recipes from that area. It is an easy way to find a recipe you might never have thought to search for. [Explore the world map](https://cookwsavora.com/world-map)
+
+### Keep a copy of your kitchen
+
+Print a recipe or save it as a PDF to use while you cook. In Settings, “Download my data” saves your recipes, notes, plans and lists in one file, including your account kitchen and recipe drafts when you are signed in. [Open data settings](https://cookwsavora.com/settings/data)
 
 ## Technology
 
