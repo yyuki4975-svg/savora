@@ -1,0 +1,34 @@
+[
+  {
+    "MigrationId": "20260910173449_InitialCatalog",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260910173750_AddCatalogIntegrityConstraints",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260911171852_AddRecipePlaceAssociations",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260913084122_ExtendMediaProvenanceAndRecipeAssociations",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260913154609_AddMediaReviewImports",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260913171652_SupportRemoteMediaReferences",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260914163816_AddRecipePublicationAudits",
+    "ProductVersion": "10.0.12"
+  },
+  {
+    "MigrationId": "20260920191139_ExpandRecipePublicationMediaPolicies",
+    "ProductVersion": "10.0.12"
+  }
+]

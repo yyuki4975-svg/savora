@@ -1,0 +1,39 @@
+# Isolated native-Next comparison; no dependencies or canonical source changes.
+ARG NODE_IMAGE=mirror.gcr.io/library/node@sha256:0a7108bf6c7bf5de370ffb1a3ed6be93d405b43ff159f681a8d18c0e2bc2e402
+FROM ${NODE_IMAGE} AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+COPY scripts/dependency-patches ./scripts/dependency-patches
+RUN npm ci --no-audit --no-fund
+COPY app ./app
+COPY lib ./lib
+COPY server/node/src ./server/node/src
+COPY public ./public
+COPY next.config.ts ./next.shared.config.ts
+COPY server/deploy/next.native.config.ts ./next.config.ts
+COPY postcss.config.mjs tsconfig.json ./
+COPY server/deploy/prepare-native-next.mjs ./prepare-native-next.mjs
+COPY server/deploy/native-worker-url.cjs ./server/deploy/native-worker-url.cjs
+ENV NODE_ENV=production SAVORA_ISOLATED_NATIVE_NEXT_BUILD=true NEXT_TELEMETRY_DISABLED=1 NODE_OPTIONS=--max-old-space-size=1536
+ENV SAVORA_PRODUCT_ENABLED=false SAVORA_MAIL_DELIVERY_ENABLED=false SAVORA_TRANSLATION_ENABLED=false
+ENV SAVORA_CATALOG_API_ENABLED=false SAVORA_ACCOUNT_API_ENABLED=false SAVORA_ACCOUNT_MAIL_DELIVERY_READY=false
+# Keep critical CSS/JS/fonts/worker/map same-origin. A separate resource hostname
+# made first rendering depend on another DNS/TLS path. No design/content change.
+# https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix
+ENV SAVORA_PUBLIC_ASSET_ORIGIN=""
+RUN node scripts/dependency-patches/braces-depth.mjs --check && node prepare-native-next.mjs
+RUN node node_modules/next/dist/bin/next build --webpack
+
+FROM ${NODE_IMAGE} AS runtime
+WORKDIR /app
+ENV NODE_ENV=production HOSTNAME=0.0.0.0 PORT=3000 NEXT_TELEMETRY_DISABLED=1 SAVORA_NATIVE_REQUEST_ORIGIN=true
+ENV SAVORA_PRODUCT_ENABLED=false SAVORA_MAIL_DELIVERY_ENABLED=false SAVORA_TRANSLATION_ENABLED=false
+ENV SAVORA_ACCOUNT_API_ENABLED=false SAVORA_ACCOUNT_MAIL_DELIVERY_READY=false
+COPY --from=build --chown=node:node /app/.next/standalone ./
+COPY --from=build --chown=node:node /app/.next/static ./.next/static
+COPY --from=build --chown=node:node /app/public ./public
+COPY --from=build --chown=node:node /app/native-context-adaptations.json ./
+USER node
+EXPOSE 3000
+HEALTHCHECK --interval=20s --timeout=5s --start-period=20s --retries=3 CMD node -e "fetch('http://127.0.0.1:3000/robots.txt').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+CMD ["node", "server.js"]

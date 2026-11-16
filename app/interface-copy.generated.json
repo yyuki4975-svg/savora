@@ -1,0 +1,229 @@
+{
+  "kind": "StaticInterfaceLocalRiskAcceptance",
+  "policy": "Codex-risk-based-static-interface-local-v1",
+  "planHashes": [
+    "48d2100b86de0dea5ff715d52247134267166c7d79372b3bd303b090d05644b2",
+    "a0bf6781acda7577569caaea799aa504d3b8d16ca999f9dd2069441f11dbef97"
+  ],
+  "staticSourceHash": "626297cb553facaad6cac0add714f3d4243530cfc74a6c6e87da8befddaf1316",
+  "counts": {
+    "zh": {
+      "keys": 2437,
+      "reusedExact": 777,
+      "newFields": 1660
+    },
+    "ja": {
+      "keys": 2437,
+      "reusedExact": 777,
+      "newFields": 1660
+    },
+    "fr": {
+      "keys": 2437,
+      "reusedExact": 777,
+      "newFields": 1660
+    },
+    "it": {
+      "keys": 2437,
+      "reusedExact": 777,
+      "newFields": 1660
+    },
+    "es": {
+      "keys": 2437,
+      "reusedExact": 777,
+      "newFields": 1660
+    }
+  },
+  "bundleHashes": {
+    "zh": "2ccf734e45b36398ec8b6caf2795c647711a22614276d0c7047df893c456ac14",
+    "ja": "e8eeddd106f6391903858fe1db180717badbd1629f31289df42d782707d40591",
+    "fr": "023c7bc96b996a8708856580f811834ab1b35bea1d4a21f4eca0d323b8536897",
+    "it": "0c1df00664a7992657ec8b6f4a608a5fef0a5433fbdabef36f25b589048faae8",
+    "es": "327cd122cd309ebefe9914d0d6e3fe07be952148f65902217ca9dcf8072af8ff"
+  },
+  "reviewedBy": "Codex",
+  "exhaustiveSentenceReview": false,
+  "personallyReadUniqueFields": 682,
+  "readingArtifacts": [
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-es-safety.json",
+      "sha256": "bebf7db7cf56c3f24465b889fb201a0ba08cd14d08771d6188eb7da4d5e47a78"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-fr-safety.json",
+      "sha256": "fa5c34570afc08074e832c4630625563c17d2e7533063b565878aabcb7d3a6b8"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-it-safety.json",
+      "sha256": "adb024faac4238dd576831aca15ccd4573e9de936dbe5fbf481ea1cc05453c8e"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-zh-catalog.json",
+      "sha256": "8e6e474dd1775b22efa6caca4cf728a34a7f08a3e891783d1fb14f54363178f2"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-zh-safety-a.json",
+      "sha256": "38d06075b32c514c7a10b94fc9f6f1601b8b7ef13813b6503bb6769ab0080749"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-zh-safety-b.json",
+      "sha256": "815d6e6deb5b85dbcc252a0c6722ba2ea0fa78324f3d56fc82929bc8874218c7"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b01-zh-safety-c.json",
+      "sha256": "a16bf093c27414a2d6a79379b7745b6fed6b63d407972784fdfc905088101e84"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b02-ja-safety.json",
+      "sha256": "f522d1f4eb977c1509b7f112c12230741b5dcc33e7aff620c869b861d9ed2779"
+    },
+    {
+      "artifact": "localization-refresh-20261015/review-readings/b02-zh-private-labels.json",
+      "sha256": "1c7f09243757ff02d57396a184b9f235cdcf40a43c4a46f2407eedcefe13d2d1"
+    },
+    {
+      "artifact": "localization-ui-gap-20261015/review-readings/gap-es-controls-safety.json",
+      "sha256": "7e14b9926abc50876769d397b5369518c51f7321a76322aa8a684da0febb68a6"
+    },
+    {
+      "artifact": "localization-ui-gap-20261015/review-readings/gap-fr-all.json",
+      "sha256": "5aa4e10fe1503c5c936d395333a4fde7f14a1e85b1030bc98097f2b4c8a32e03"
+    },
+    {
+      "artifact": "localization-ui-gap-20261015/review-readings/gap-it-controls-safety.json",
+      "sha256": "0fe279ef04525776cf616b59b2fe1d84d0ce84813739572c7af34dcee703d4d3"
+    },
+    {
+      "artifact": "localization-ui-gap-20261015/review-readings/gap-ja-controls-safety.json",
+      "sha256": "b2af240bc69c2fe9198a20ab7551788372b247da0ab8ce2c3a608b1786787866"
+    },
+    {
+      "artifact": "localization-ui-gap-20261015/review-readings/gap-zh-all.json",
+      "sha256": "6ce237466f1d12f86d954ddb6142c38d9606f662c9f33d0062450acdbbc72d0f"
+    }
+  ],
+  "mechanicalScreen": [
+    "exact source/target coverage",
+    "protected numeric/fraction facts",
+    "exact named slots",
+    "no invented braces",
+    "plain text",
+    "no remaining held rows"
+  ],
+  "warnings": [
+    {
+      "key": "fr:ui:fr:2654a7abe1a6d3ff80572d088e0fa96eb0cbf3e82f7dff17de0bea72a94d7892",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "French éviter explicitly prevents boiling dry; the accented word misses the old ASCII boundary heuristic."
+    },
+    {
+      "key": "fr:ui:fr:c5d350ac0f8bfec0cfc413377bae11bf624d2bf1a480a72d3da423339d185b17",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "Ne remuez plus preserves the prohibition on stirring after the liquid boils again."
+    },
+    {
+      "key": "ja:ui:ja:1b60b5c09b0b8c9ec080a7b5a323e8ced0ab167eeb0667e6b8adca42b40bb32f",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "絶対に水を使ってはいけません explicitly prohibits water on an oil fire."
+    },
+    {
+      "key": "ja:ui:ja:d88e8e21a0dd3456e669d5a58d492cd32fdace8f38694972b81f66960e9804af",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "決してありません preserves the no-copy/no-reupload claim."
+    },
+    {
+      "key": "zh:ui:zh:157ca67301d1df0541bc23e073d49ee422379755a4dc45b591625ca1d7ed2f92",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "以免下热油时飞溅 preserves prevention of hot-oil spitting."
+    },
+    {
+      "key": "zh:ui:zh:2654a7abe1a6d3ff80572d088e0fa96eb0cbf3e82f7dff17de0bea72a94d7892",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "以防烧干 explicitly preserves never boiling dry."
+    },
+    {
+      "key": "zh:ui:zh:533d1d231520aa2b327219b97a5efb17a624b7125bce87b9374cef1c5ca692cf",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "以防调酒壶粘黏 preserves the purpose of washing and drying the shaker seal."
+    },
+    {
+      "key": "zh:ui:zh:7d46e6f7edc89fab25f10668ac583a0c6768208c45d2c9e20de252ed0c5fc601",
+      "reasons": [
+        "negation"
+      ],
+      "disposition": "严禁用水 is an explicit prohibition, not a lost negative."
+    }
+  ],
+  "corrections": 73,
+  "personallyAuthoredBindings": {
+    "zh": {
+      "Explore {slotA} recipes": "探索 {slotA} 道食谱"
+    },
+    "ja": {
+      "Explore {slotA} recipes": "{slotA} 件のレシピを探す"
+    },
+    "fr": {
+      "Explore {slotA} recipes": "Explorez {slotA} recettes"
+    },
+    "it": {
+      "Explore {slotA} recipes": "Esplora {slotA} ricette"
+    },
+    "es": {
+      "Explore {slotA} recipes": "Explora {slotA} recetas"
+    }
+  },
+  "reviewedReusedCorrections": [
+    {
+      "locale": "ja",
+      "source": "Check line {slotA}: one full HTTPS link per line",
+      "previousDraft": "{slotA} 行目を確認：1 行に完全な HTTPS リンクを 1 つ",
+      "text": "{slotA} 行目を確認：一行につき完全な HTTPS リンクをひとつ記入してください。"
+    },
+    {
+      "locale": "ja",
+      "source": "Ingredients: quantity | ingredient, one per line. Add one instruction per line.",
+      "previousDraft": "材料は 1 行に 1 つ、「分量 | 材料」の形で。作り方は 1 行に 1 手順ずつ書きます。",
+      "text": "材料は一行にひとつ、「分量 | 材料」の形で記入します。作り方も一行にひとつずつ記入してください。"
+    },
+    {
+      "locale": "ja",
+      "source": "Missing one ingredient",
+      "previousDraft": "材料があと 1 つ",
+      "text": "材料があとひとつ必要です"
+    },
+    {
+      "locale": "ja",
+      "source": "Preview only. Existing account records will be kept. Up to 50 device records per batch.",
+      "previousDraft": "プレビューのみです。アカウントの既存の記録は保持されます。1 回あたり端末の記録は最大 50 件です。",
+      "text": "プレビューのみです。アカウントの既存の記録は保持されます。一回につき端末の記録は最大 50 件です。"
+    },
+    {
+      "locale": "ja",
+      "source": "Shared tools appear once, even when several recipes use them.",
+      "previousDraft": "複数のレシピで使う道具も 1 回だけ表示します。",
+      "text": "複数のレシピで使う道具も一度だけ表示します。"
+    }
+  ],
+  "orthographicRecoveries": 24,
+  "reportedNewCostUsd": 0.8788545200000004,
+  "sharedTotalBudgetUsd": 19,
+  "privateContentTranslated": false,
+  "paidAudits": 0,
+  "unresolvedMajorFindings": [],
+  "productionAccepted": false,
+  "limitations": "Risk-based local interface acceptance, not exhaustive native-language certification, cooking trials, visual browser acceptance or catalog/production publication. Generated rows remain Generated.",
+  "certificateSha256": "142c0a1905cd2efe6fcef4d00cce32809c9aada1daa1b5bb7dbee6ae80f6f683"
+}

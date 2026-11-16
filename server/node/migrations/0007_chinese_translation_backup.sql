@@ -1,0 +1,2 @@
+ALTER TABLE "translation_units" DROP CONSTRAINT "translation_unit_model";--> statement-breakpoint
+ALTER TABLE "translation_units" ADD CONSTRAINT "translation_unit_model" CHECK (("translation_units"."locale"='zh' AND "translation_units"."model" IN ('qwen/qwen3.8-flash','qwen/qwen3.7-flash')) OR ("translation_units"."locale"<>'zh' AND "translation_units"."model"='google/gemini-3.8-flash'));

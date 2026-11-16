@@ -1,0 +1,55 @@
+{
+  "name": "site-creator-vinext-starter",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "postinstall": "node scripts/dependency-patches/braces-depth.mjs",
+    "dependencies:patch:check": "node scripts/dependency-patches/braces-depth.mjs --check",
+    "dev": "node scripts/run-vinext.mjs dev",
+    "dev:accounts": "node scripts/run-vinext.mjs dev:accounts --port 5173",
+    "build": "node scripts/run-vinext.mjs build",
+    "start": "node scripts/run-vinext.mjs start",
+    "typecheck:web": "tsc -p tsconfig.web.json",
+    "prelint": "npm run dependencies:patch:check",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "security:audit": "node scripts/check-dependency-security.mjs",
+    "assets:restore": "node scripts/restore-assets.mjs"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "maplibre-gl": "6.11.2",
+    "next": "16.4.6",
+    "pmtiles": "4.5.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.63.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.1",
+    "@vitejs/plugin-rsc": "0.5.35",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.4.6",
+    "openapi-typescript": "7.13.0",
+    "react-server-dom-webpack": "19.3.1",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "1.0.1",
+    "vite": "8.3.4",
+    "wrangler": "4.149.0"
+  },
+  "overrides": {
+    "fflate": "0.7.5",
+    "miniflare": {
+      "undici": "7.30.1"
+    }
+  },
+  "type": "module"
+}

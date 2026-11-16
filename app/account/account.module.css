@@ -1,0 +1,78 @@
+/* Sign in / create account: a brand panel of arched autumn photographs beside a calm form card. */
+.page { --paper: #fffdf8; min-height: calc(100dvh - var(--sv-header-height)); padding: clamp(24px, 5vh, 64px) var(--sv-gutter); color: var(--sv-ink); background: var(--sv-oat); font-family: var(--sv-font-text); }
+:global(:root[data-theme="dark"]) .page { --paper: #1b211b; }
+.frame { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); width: min(1080px, 100%); margin-inline: auto; overflow: hidden; background: var(--paper); border-radius: 32px; box-shadow: 0 1px 0 var(--sv-line), 0 40px 80px -60px rgba(32, 48, 31, .55); }
+
+/* Brand panel */
+.panel { position: relative; display: grid; align-content: space-between; gap: 28px; min-height: 560px; padding: clamp(28px, 4vw, 48px); background: radial-gradient(circle at 70% 30%, color-mix(in srgb, var(--sv-butter) 85%, transparent), transparent 62%), var(--sv-linen); overflow: hidden; }
+.arches { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: end; height: 360px; }
+.arch { display: block; height: 100%; background: var(--sv-photo) center / cover no-repeat; border: 7px solid var(--paper); border-radius: 999px 999px 22px 22px; box-shadow: 0 24px 40px -28px rgba(30, 24, 16, .6); animation: arch-rise 700ms var(--sv-ease) both; }
+.arch[data-i="0"] { height: 78%; }
+.arch[data-i="1"] { height: 100%; animation-delay: 90ms; }
+.arch[data-i="2"] { height: 64%; align-self: start; animation-delay: 180ms; }
+.tagline { display: flex; align-items: center; gap: 12px; margin: 0; font-family: var(--sv-font-display); font-size: clamp(26px, 2.6vw, 36px); font-weight: 600; letter-spacing: -.02em; line-height: 1.15; }
+.tagline svg { width: 44px; height: 44px; flex: none; }
+@keyframes arch-rise { from { opacity: 0; transform: translateY(24px); } }
+
+/* Form card */
+.sheet { display: grid; align-content: center; gap: 0; padding: clamp(28px, 5vw, 64px); }
+.switch { display: inline-grid; grid-template-columns: 1fr 1fr; justify-self: start; gap: 2px; margin-bottom: 28px; padding: 4px; background: var(--sv-linen); border-radius: 999px; }
+.switch a { display: grid; min-height: 38px; place-items: center; padding: 0 18px; color: var(--sv-muted); border-radius: 999px; font-size: 15px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.switch a[aria-current="page"] { color: var(--sv-ink); background: var(--paper); box-shadow: 0 1px 3px rgba(32, 48, 31, .16); }
+.sheet h1 { margin: 0; font-family: var(--sv-font-display); font-size: clamp(34px, 3.6vw, 48px); font-weight: 600; line-height: 1.08; letter-spacing: -.03em; }
+.lead { margin: 10px 0 0; color: var(--sv-muted); font-size: 17px; line-height: 1.55; }
+.sheet form { display: grid; gap: 18px; margin-top: 30px; }
+.sheet label { display: grid; gap: 8px; font-size: 15px; font-weight: 700; }
+.labelRow { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.inlineLink { color: var(--sv-moss); font-size: 14px; font-weight: 600; text-decoration: none; }
+.inlineLink:hover { text-decoration: underline; text-underline-offset: 4px; }
+.sheet input { box-sizing: border-box; width: 100%; min-height: 52px; padding: 12px 16px; color: var(--sv-ink); background: var(--sv-oat); border: 1px solid var(--sv-line); border-radius: 14px; font: 500 17px/1.4 var(--sv-font-text); transition: border-color var(--sv-fast) ease, box-shadow var(--sv-fast) ease, background-color var(--sv-fast) ease; }
+.sheet input:hover { border-color: var(--sv-muted); }
+.sheet input:focus { border-color: var(--sv-moss); background: var(--paper); box-shadow: 0 0 0 4px color-mix(in srgb, var(--sv-leaf) 22%, transparent); outline: none; }
+.password { position: relative; display: block; }
+.password input { padding-right: 56px; }
+.password button { position: absolute; top: 50%; right: 6px; display: grid; width: 42px; height: 42px; place-items: center; padding: 0; color: var(--sv-muted); background: transparent; border: 0; border-radius: 10px; cursor: pointer; translate: 0 -50%; }
+.password button:hover { color: var(--sv-ink); background: var(--sv-linen); }
+.password svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.hint { display: flex; align-items: flex-start; gap: 8px; color: var(--sv-muted); font-size: 14px; font-weight: 500; line-height: 1.45; }
+.hint i { display: grid; width: 18px; height: 18px; flex: none; place-items: center; margin-top: 1px; border: 1.5px solid var(--sv-line); border-radius: 50%; font-size: 11px; font-style: normal; font-weight: 900; }
+.hint[data-ok="true"] { color: var(--sv-moss); }
+.hint[data-ok="true"] i { color: var(--sv-on-moss); background: var(--sv-moss); border-color: var(--sv-moss); }
+.primary { display: inline-flex; min-height: 54px; align-items: center; justify-content: center; gap: 10px; margin-top: 6px; color: var(--sv-on-action); background: var(--sv-action); border: 0; border-radius: 999px; font: 800 17px/1 var(--sv-font-text); cursor: pointer; transition: background-color var(--sv-fast) ease, transform var(--sv-fast) ease; }
+.primary:hover:not(:disabled) { background: var(--sv-action-strong); transform: translateY(-1px); }
+.sheet button:disabled { cursor: not-allowed; opacity: .6; }
+.spinner { width: 18px; height: 18px; border: 2.5px solid color-mix(in srgb, var(--sv-on-action) 30%, transparent); border-top-color: var(--sv-on-action); border-radius: 50%; animation: spin 800ms linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.notice, .error { margin: 0; padding: 12px 14px; border-radius: 12px; font-size: 15px; line-height: 1.55; overflow-wrap: anywhere; }
+.notice { color: var(--sv-moss); background: color-mix(in srgb, var(--sv-leaf) 14%, transparent); }
+.error { color: var(--sv-clay-strong); background: var(--sv-blush); }
+.links { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: 18px; }
+.links:empty { display: none; }
+.links a, .links button { display: inline-flex; align-items: center; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--sv-moss); font: 600 15px/1.5 var(--sv-font-text); text-underline-offset: 4px; cursor: pointer; }
+.links :is(a, button):hover { text-decoration: underline; }
+.sheet :is(input, button, a):focus-visible { outline: var(--sv-focus); outline-offset: 3px; }
+
+/* Signed-in account controls (account-controls.tsx) */
+.controls { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; margin: 0 auto 20px; padding-inline: var(--sv-gutter); font: 500 15px/1.5 var(--sv-font-text); color: var(--sv-ink); }
+.controls a, .controls button { display: inline-flex; align-items: center; min-height: 44px; color: var(--sv-moss); border: 0; background: transparent; font: inherit; cursor: pointer; text-underline-offset: 4px; }
+.controls :is(a, button):focus-visible { outline: var(--sv-focus); outline-offset: 3px; }
+.controls :is(button, a):hover { text-decoration: underline; }
+.controls button:active { opacity: .75; }
+
+@media (max-width: 860px) {
+  .frame { grid-template-columns: minmax(0, 1fr); }
+  .panel { min-height: 0; grid-template-columns: minmax(0, 1fr); padding-bottom: 20px; }
+  .arches { height: 150px; }
+  .tagline { font-size: 22px; }
+  .tagline svg { width: 34px; height: 34px; }
+}
+@media (max-width: 480px) {
+  .page { padding-inline: 12px; }
+  .frame { border-radius: 24px; }
+  .arches { height: 110px; gap: 8px; }
+  .arch { border-width: 5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arch, .spinner { animation: none; }
+  .primary, .sheet input { transition: none; }
+}

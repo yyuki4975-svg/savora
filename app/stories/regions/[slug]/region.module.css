@@ -1,0 +1,67 @@
+.page {
+  min-width: 320px;
+  color: #273029;
+  background: #fffdf8;
+  color-scheme: light;
+  --md-sys-color-surface: #fffdf8;
+  --md-sys-color-surface-container: #f0f3eb;
+  --md-sys-color-surface-container-low: #f7f8f3;
+  --md-sys-color-on-surface: #273029;
+  --md-sys-color-on-surface-variant: #667069;
+  --md-sys-color-primary: #5f715b;
+  --md-sys-color-outline-variant: #dce2d8;
+  --paper: #fffdf8;
+  --surface: #fff;
+  --surface-soft: #f3f5ef;
+  --line: #e3e8e1;
+  --ink: #273029;
+  --muted: #667069;
+  --green: #5f715b;
+}
+.hero { min-height: calc(100dvh - 72px); }
+.heroImage { position: relative; min-height: 68dvh; overflow: hidden; background: #dce8d2; }
+.heroImage img { object-fit: cover; animation: hero-settle 900ms var(--md-sys-motion-easing-standard) both; }
+.heroImage > a { position: absolute; right: 18px; bottom: 18px; padding: 9px 12px; color: #273127; background: rgba(255,255,255,.9); border-radius: 8px; font-size: 11px; text-decoration: none; backdrop-filter: blur(10px); }
+.heroCopy { display: grid; grid-template-columns: minmax(0, 1fr) minmax(340px, .72fr); gap: 44px 8vw; width: min(1440px, calc(100% - 8vw)); margin: 0 auto; padding: clamp(54px, 7vw, 100px) 0; }
+.heroCopy > p, .recipes header > p, .sources p { grid-column: 1 / -1; margin: 0; color: #607658; font-size: 12px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+.heroCopy h1 { margin: 0; max-width: 15ch; font-size: clamp(44px, 6vw, 88px); font-weight: 560; line-height: 1; letter-spacing: -.05em; }
+.heroCopy > div { align-self: end; }
+.heroCopy span { color: #607658; font-size: 14px; font-weight: 800; }
+.heroCopy div p { margin: 16px 0 0; color: var(--md-sys-color-on-surface-variant); font-size: clamp(17px, 1.5vw, 22px); line-height: 1.65; }
+.chapters { width: min(1440px, calc(100% - 8vw)); margin: 0 auto; }
+.chapter { position: relative; display: grid; grid-template-columns: minmax(0, .85fr) minmax(320px, 1fr); gap: 48px 9vw; min-height: 54vh; align-items: center; padding: clamp(70px, 10vw, 150px) 0; border-top: 1px solid #dce2d8; animation: chapter-arrive linear both; animation-timeline: view(); animation-range: entry 8% cover 36%; }
+.chapter small { color: #607658; font-size: 12px; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; }
+.chapter h2 { max-width: 16ch; margin: 16px 0 0; font-size: clamp(34px, 4vw, 60px); font-weight: 560; line-height: 1.06; letter-spacing: -.04em; }
+.chapter > p { margin: 0; max-width: 720px; color: var(--md-sys-color-on-surface-variant); font-size: clamp(17px, 1.5vw, 21px); line-height: 1.8; }
+.chapter > span { position: absolute; right: 0; top: 26px; color: #aab7a4; font-size: 11px; }
+.recipes { padding: clamp(70px, 9vw, 130px) 4vw; background: #dbecc9; }
+.recipes header { width: min(1360px, 100%); margin: 0 auto 42px; }
+.recipes h2 { margin: 12px 0 0; font-size: clamp(34px, 4vw, 58px); font-weight: 560; letter-spacing: -.04em; }
+.recipes > div { display: flex; gap: 14px; width: min(1360px, 100%); margin: 0 auto; overflow-x: auto; padding-bottom: 14px; scroll-snap-type: x proximity; }
+.recipes a { flex: 0 0 clamp(230px, 28vw, 390px); color: inherit; text-decoration: none; scroll-snap-align: start; }
+.recipes a > span { position: relative; display: block; aspect-ratio: 4/5; overflow: hidden; border-radius: 18px; }
+.recipes a img { object-fit: cover; transition: transform 260ms var(--md-sys-motion-easing-standard), filter 260ms ease; }
+.recipes a:hover img, .recipes a:focus-visible img { transform: scale(1.035); filter: saturate(1.08); }
+.recipes strong, .recipes small { display: block; }
+.recipes strong { margin-top: 15px; font-size: 21px; }
+.recipes small { margin-top: 5px; color: #52604d; }
+.sources { display: grid; grid-template-columns: 1fr auto auto; gap: 24px 50px; align-items: end; width: min(1360px, calc(100% - 8vw)); margin: 0 auto; padding: clamp(80px, 10vw, 150px) 0; }
+.sources h2 { margin: 10px 0 0; font-size: clamp(30px, 3vw, 48px); font-weight: 560; }
+.sources a { color: #4d6748; font-weight: 800; text-underline-offset: 4px; }
+@keyframes hero-settle { from { opacity: .45; transform: scale(1.04); } to { opacity: 1; transform: scale(1); } }
+@keyframes chapter-arrive { from { opacity: .2; transform: translateY(36px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 760px) {
+  .heroImage { min-height: 56dvh; }
+  .heroCopy, .chapter { grid-template-columns: 1fr; }
+  .heroCopy { width: calc(100% - 40px); }
+  .heroCopy h1 { font-size: 48px; }
+  .chapters { width: calc(100% - 40px); }
+  .chapter { min-height: auto; gap: 26px; }
+  .sources { grid-template-columns: 1fr; align-items: start; width: calc(100% - 40px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .heroImage img, .chapter { animation: none; }
+  .recipes a img { transition: none; }
+}
+
+/* Exhibitions intentionally keep their authored daylight palette in every site theme. */

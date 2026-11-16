@@ -1,0 +1,352 @@
+/* Home (design system v2). Shared by the public homepage and its noindex Phase 3 review route.
+   Image-led and wide on desktop; type never drops below 14px. Reads only --sv-* tokens. */
+.page {
+  min-width: 320px;
+  overflow-x: clip;
+  color: var(--sv-ink);
+  background: var(--sv-oat);
+  font-family: var(--sv-font-text);
+  font-size: var(--sv-size-body);
+  line-height: 1.6;
+}
+
+.page h1,
+.page h2,
+.feature h3,
+.placeCopy strong {
+  font-family: var(--sv-font-display);
+  font-weight: 600;
+  letter-spacing: -.02em;
+  text-wrap: balance;
+}
+.page h2 { margin: 0; font-size: var(--sv-size-h2); line-height: 1.08; }
+.page a:focus-visible { outline: var(--sv-focus); outline-offset: 3px; }
+
+.cravings,
+.next,
+.places,
+.kitchen,
+.togetherInner {
+  width: min(var(--sv-measure), 100%);
+  margin-inline: auto;
+  padding-inline: var(--sv-gutter);
+}
+
+.meta { display: flex; flex-wrap: wrap; gap: 2px 0; color: var(--sv-muted); font-size: var(--sv-size-small); line-height: 1.45; }
+.meta > span + span::before { margin-inline: .55em; content: "·"; }
+
+/* Hero: the headline beside an arcade of real dishes. Three arched windows (the shape the
+   exhibitions use) in cream, butter and blush frames, two round plates set in the gaps, and
+   the three Savora seeds. */
+.hero {
+  position: relative;
+  display: grid;
+  min-height: min(800px, calc(100dvh - var(--sv-header-height)));
+  padding: clamp(48px, 6vw, 88px) max(var(--sv-gutter), calc((100vw - var(--sv-measure)) / 2 + var(--sv-gutter)));
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 88px);
+  overflow: hidden;
+  isolation: isolate;
+}
+.hero::before {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  right: -12vw;
+  width: min(1040px, 72vw);
+  aspect-ratio: 1;
+  background: radial-gradient(circle, color-mix(in srgb, var(--sv-butter) 70%, transparent) 0 46%, transparent 70%);
+  border-radius: 50%;
+  content: "";
+  translate: 0 -50%;
+  pointer-events: none;
+}
+.heroCopy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heroCopy h1 { margin: 0; font-size: clamp(48px, 5.8vw, 96px); line-height: .98; letter-spacing: -.035em; }
+.heroCopy > p { max-width: 36ch; margin: clamp(20px, 2.2vw, 30px) 0 clamp(28px, 3vw, 40px); color: var(--sv-muted); font-size: clamp(18px, 1.4vw, 21px); line-height: 1.5; }
+.heroActions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 14px 28px; }
+.filledAction {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  padding-inline: 26px;
+  color: var(--sv-on-action);
+  background: var(--sv-action);
+  border-radius: var(--sv-radius-control);
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color var(--sv-fast) ease;
+}
+.filledAction:hover { background: var(--sv-action-strong); }
+.textAction {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  color: var(--sv-ink);
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--sv-clay);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+.textAction:hover { color: var(--sv-clay); }
+
+.plates {
+  position: relative;
+  display: grid;
+  height: clamp(440px, 46vw, 660px);
+  margin: 0;
+  padding: 0;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.18fr) minmax(0, 1fr);
+  gap: clamp(12px, 1.5vw, 22px);
+  list-style: none;
+}
+.plates li { position: relative; min-width: 0; }
+.plate { display: block; height: 100%; color: var(--sv-ink); text-decoration: none; }
+.plateImage {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--sv-photo);
+  border: clamp(6px, .7vw, 11px) solid var(--frame, #fbf8f1);
+  border-radius: 999px 999px 26px 26px;
+  box-shadow: 0 30px 50px -30px rgba(30, 24, 16, .55);
+  transition: transform 600ms var(--sv-ease);
+}
+.plateImage img { object-fit: cover; transition: transform 900ms var(--sv-ease); }
+.plate:hover .plateImage, .plate:focus-visible .plateImage { transform: translateY(-6px); }
+.plate:hover img, .plate:focus-visible img { transform: scale(1.05); }
+/* Arches: the lead dish is the tallest, centred; the side arches step down and up. */
+.plate1 { grid-column: 2; grid-row: 1; }
+.plate2 { --frame: var(--sv-butter); grid-column: 1; grid-row: 1; height: 76%; align-self: end; }
+.plate3 { --frame: var(--sv-blush); grid-column: 3; grid-row: 1; height: 68%; align-self: start; }
+/* Round plates sit in the space the arches leave free. */
+.plate4, .plate5 { position: absolute !important; z-index: 2; }
+.plate4 .plateImage, .plate5 .plateImage { width: var(--size); height: auto; aspect-ratio: 1; border-radius: 50%; }
+.plate4 { --size: clamp(118px, 11vw, 178px); right: -1%; bottom: 2%; }
+.plate5 { --size: clamp(92px, 8.4vw, 136px); top: 3%; left: 5%; }
+.seedMark { position: absolute; z-index: 3; width: clamp(54px, 5vw, 80px); height: auto; pointer-events: none; }
+.seedMark.top { top: clamp(24px, 4vw, 56px); right: max(var(--sv-gutter), calc((100vw - var(--sv-measure)) / 2 + var(--sv-gutter))); }
+
+/* Cravings: the filter choices set as large type, each a link into Explore. */
+.cravings {
+  display: grid;
+  padding-block: var(--sv-space-9);
+  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  align-items: start;
+  gap: var(--sv-space-6) clamp(32px, 5vw, 88px);
+}
+.cravings ul { display: flex; margin: 0; padding: 0; flex-wrap: wrap; gap: 4px clamp(18px, 2.4vw, 36px); list-style: none; }
+.cravings li a {
+  display: inline-flex;
+  min-height: 56px;
+  align-items: center;
+  color: var(--sv-ink);
+  font-family: var(--sv-font-display);
+  font-size: clamp(28px, 3.1vw, 46px);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.15;
+  text-decoration: none;
+  background: linear-gradient(var(--sv-honey), var(--sv-honey)) left 86% / 0 .22em no-repeat;
+  transition: background-size var(--sv-medium) var(--sv-ease), color var(--sv-fast) ease;
+}
+.cravings li a:hover { background-size: 100% .22em; }
+.cravings li:nth-child(3n + 1) a { color: var(--sv-clay); }
+.cravings li:nth-child(3n + 2) a { color: var(--sv-moss); }
+
+.sectionHead { display: flex; margin-bottom: clamp(28px, 3.4vw, 48px); align-items: end; justify-content: space-between; gap: 16px 32px; }
+.sectionHead > a {
+  display: inline-flex;
+  min-height: 44px;
+  flex: none;
+  align-items: center;
+  gap: 10px;
+  color: var(--sv-moss);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.sectionHead > a:hover { text-decoration: underline; text-underline-offset: 5px; }
+
+/* Next: one large feature and a reading list beside it. */
+/* Full-bleed bands behind content-width sections: a 100vmax shadow clipped to the sides. */
+.next { padding-block: var(--sv-space-8) var(--sv-space-9); background: var(--sv-cream); box-shadow: 0 0 0 100vmax var(--sv-cream); clip-path: inset(0 -100vmax); }
+.nextGrid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(28px, 4.4vw, 72px); }
+.feature a,
+.nextList a { display: block; color: inherit; text-decoration: none; }
+.featureImage { position: relative; display: block; overflow: hidden; aspect-ratio: 4 / 3; background: var(--sv-photo); }
+.feature h3 { margin: 22px 0 10px; font-size: clamp(28px, 2.6vw, 40px); line-height: 1.08; }
+.feature p { max-width: 58ch; margin: 0 0 12px; color: var(--sv-ink); }
+.nextList { display: grid; align-content: start; }
+.nextList article { padding-block: clamp(18px, 2vw, 28px); border-top: 1px solid var(--sv-line); }
+.nextList article:first-child { padding-top: 0; border-top: 0; }
+.nextList a { display: grid; grid-template-columns: minmax(96px, 38%) minmax(0, 1fr); align-items: center; gap: clamp(16px, 2vw, 28px); }
+.listImage { position: relative; display: block; overflow: hidden; aspect-ratio: 1; background: var(--sv-photo); }
+.listCopy { display: grid; gap: 8px; }
+.listCopy h3 { margin: 0; font-family: var(--sv-font-display); font-size: clamp(21px, 1.7vw, 26px); font-weight: 600; letter-spacing: -.015em; line-height: 1.15; }
+.feature a:hover h3,
+.nextList a:hover h3 { text-decoration: underline; text-decoration-color: var(--sv-clay); text-decoration-thickness: 2px; text-underline-offset: 5px; }
+
+/* Seasonal exhibition entry: an edge-to-edge photograph with the invitation set on paper. */
+.seasonal { position: relative; display: grid; min-height: clamp(520px, 52vw, 720px); align-items: end; }
+.seasonalImage { position: absolute; inset: 0; overflow: hidden; background: var(--sv-photo); }
+.seasonalCopy {
+  position: relative;
+  width: min(580px, calc(100% - 2 * var(--sv-gutter)));
+  margin: 0 0 clamp(28px, 4vw, 64px) max(var(--sv-gutter), calc((100% - var(--sv-measure)) / 2 + var(--sv-gutter)));
+  padding: clamp(28px, 3.4vw, 52px);
+  color: var(--sv-ink);
+  background: var(--sv-oat);
+}
+.seasonalCopy > p:first-child { margin: 0 0 14px; color: var(--sv-clay); font-size: var(--sv-size-small); font-weight: 700; }
+.seasonalCopy h2 { font-size: clamp(30px, 3.2vw, 46px); }
+.seasonalCopy > p:not(:first-child) { margin: 18px 0 22px; color: var(--sv-muted); }
+.seasonalCopy > a {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 12px;
+  padding-inline: 22px;
+  color: var(--sv-on-action);
+  background: var(--sv-action);
+  border-radius: var(--sv-radius-control);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.seasonalCopy > a:hover { background: var(--sv-action-strong); }
+
+/* Places: tall photographs with the name set on the image. */
+.places { padding-block: var(--sv-space-9); }
+.placeGrid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(10px, 1.4vw, 20px); }
+.placeGrid a { position: relative; display: block; overflow: hidden; aspect-ratio: 3 / 4; color: #fffaf0; background: var(--sv-photo); text-decoration: none; }
+.placeImage { position: absolute; inset: 0; }
+.placeCopy { position: absolute; right: 0; bottom: 0; left: 0; display: grid; gap: 2px; padding: 72px 18px 18px; background: linear-gradient(transparent, rgba(22, 30, 22, .8)); }
+.placeCopy strong { font-size: clamp(22px, 1.9vw, 30px); line-height: 1.1; }
+.placeCopy small { color: #f1ead7; font-size: var(--sv-size-small); }
+.placeGrid a:nth-child(even) { margin-top: clamp(16px, 2.6vw, 44px); }
+
+/* Community and the invitation to share. */
+.together { background: var(--sv-oat); }
+/* On white, the sections above and below already supply the space around the card. */
+.togetherInner { padding-block: 0; }
+.pass { display: grid; padding: clamp(28px, 3.4vw, 52px); grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: start; gap: 24px clamp(32px, 5vw, 88px); color: var(--sv-on-clay); background: var(--sv-clay); }
+.pass h2 { font-size: clamp(28px, 2.6vw, 36px); }
+.pass p { max-width: 34ch; margin: 14px 0 0; }
+.pass ol { display: grid; margin: 0 0 26px; padding-left: 1.3em; gap: 8px; }
+.passLinks { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 26px; }
+.passLinks a:last-child { color: var(--sv-on-clay); font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px; }
+.passLinks a:first-child {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  padding-inline: 22px;
+  color: var(--sv-clay-strong);
+  background: var(--sv-on-clay);
+  border-radius: var(--sv-radius-control);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.passLinks a:first-child:hover { color: var(--sv-ink); }
+.page .pass a:focus-visible { outline-color: var(--sv-on-clay); }
+
+.kitchen { display: grid; padding-block: var(--sv-space-9); grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: start; gap: var(--sv-space-6) clamp(32px, 5vw, 88px); background: transparent; border-radius: 0; }
+.kitchen p { max-width: 36ch; margin: 14px 0 0; color: var(--sv-muted); }
+.kitchen ul { display: grid; margin: 0; padding: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 clamp(20px, 3vw, 48px); list-style: none; }
+.kitchen li a {
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--sv-ink);
+  border-top: 1px solid var(--sv-line);
+  font-size: 19px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.kitchen li a:hover { color: var(--sv-moss); }
+.kitchen li a span { color: var(--sv-clay); }
+
+.review { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 24px; padding: 22px var(--sv-gutter); color: var(--sv-muted); background: var(--sv-linen); font-size: var(--sv-size-min); }
+.review a { color: var(--sv-moss); font-weight: 700; }
+
+.state { display: grid; min-height: 70vh; align-content: center; justify-items: center; padding: 90px var(--sv-gutter); text-align: center; }
+.state h1 { max-width: 18ch; margin: 0; font-size: var(--sv-size-display); line-height: 1.05; }
+.state > p { max-width: 46ch; margin: 22px 0; color: var(--sv-muted); }
+.state a { display: inline-flex; min-height: 48px; align-items: center; color: var(--sv-moss); font-weight: 700; }
+
+@media (max-width: 1050px) {
+  .placeGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .placeGrid a:nth-child(even) { margin-top: 0; }
+  .pass { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 900px) {
+  .hero { min-height: 0; padding-block: clamp(36px, 8vw, 64px) clamp(40px, 8vw, 64px); grid-template-columns: minmax(0, 1fr); }
+  .hero::before { top: auto; right: -30vw; bottom: -20vw; width: 110vw; translate: none; }
+  .heroCopy h1 { font-size: clamp(40px, 9.6vw, 68px); }
+  .plates { height: clamp(320px, 84vw, 480px); }
+  .plate4 { --size: clamp(92px, 24vw, 132px); }
+  .plate5 { --size: clamp(72px, 19vw, 104px); }
+  .seedMark.top { top: 20px; }
+  .cravings, .nextGrid, .kitchen { grid-template-columns: 1fr; }
+  .seasonal { min-height: 0; }
+  .seasonalImage { position: relative; inset: auto; aspect-ratio: 16 / 10; }
+  .seasonalCopy { width: auto; margin: 0; padding: clamp(28px, 6vw, 48px) var(--sv-gutter); background: var(--sv-linen); }
+}
+
+@media (max-width: 620px) {
+  .sectionHead { flex-direction: column; align-items: flex-start; }
+  .placeGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .placeGrid a:last-child:nth-child(odd) { grid-column: 1 / -1; aspect-ratio: 16 / 10; }
+  .kitchen ul { grid-template-columns: 1fr; }
+  .cravings li a { min-height: 48px; }
+  .heroActions { align-items: stretch; flex-direction: column; }
+  .filledAction { justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .plateImage, .plateImage img, .featureImage img, .listImage img, .placeImage img, .seasonalImage img,
+  .filledAction, .cravings li a { transition: none; }
+  .plate:hover .plateImage, .plate:focus-visible .plateImage, .feature a:hover img, .nextList a:hover img, .placeGrid a:hover img { transform: none; }
+}
+
+/* Plates are set down one after another, then drift apart as the page scrolls away. */
+@media (prefers-reduced-motion: no-preference) {
+  .plate { animation: plate-set 760ms var(--sv-ease) both; }
+  .plate2 .plate { animation-delay: 90ms; }
+  .plate3 .plate { animation-delay: 170ms; }
+  .plate4 .plate { animation-delay: 250ms; }
+  .plate5 .plate { animation-delay: 330ms; }
+  .heroCopy > * { animation: hero-rise 640ms var(--sv-ease) both; }
+  .heroCopy > :nth-child(2) { animation-delay: 80ms; }
+  .heroCopy > :nth-child(3) { animation-delay: 160ms; }
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) and (min-width: 901px) {
+    .plates li { animation: plate-drift linear both; animation-timeline: scroll(root block); animation-range: 0 80vh; }
+    .plate1 { --drift-y: -3vh; }
+    .plate2 { --drift-y: 5vh; }
+    .plate3 { --drift-y: -6vh; }
+    .plate4 { --drift-y: 8vh; --drift-r: 14deg; }
+    .plate5 { --drift-y: -4vh; --drift-r: -12deg; }
+  }
+}
+@keyframes plate-set { from { opacity: 0; transform: translateY(32px) scale(.96); } to { opacity: 1; transform: none; } }
+@keyframes hero-rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+@keyframes plate-drift { to { transform: translateY(var(--drift-y, 0)) rotate(var(--drift-r, 0deg)); } }

@@ -1,0 +1,5268 @@
+{
+  "schemaVersion": 1,
+  "seedId": "nih-nhlbi-recipes-v2",
+  "sourceRevision": "nih-nhlbi-snapshot-20260912T162736251Z",
+  "retrievedAt": "2026-09-12T16:27:36.251Z",
+  "sourceName": "National Heart, Lung, and Blood Institute (NIH)",
+  "licenseCode": "US-GOV-PUBLIC-DOMAIN",
+  "recipes": [
+    {
+      "slug": "chicken-creole",
+      "title": "20-Minute Chicken Creole",
+      "summary": "Chicken strips simmered with tomato, peppers, celery, herbs, and gentle chile heat.",
+      "culturalNote": "This is an NHLBI health-focused interpretation of a Southern Creole-style dish. The New Orleans link is a discovery anchor and must be culturally reviewed before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": 20,
+      "placeSlug": "new-orleans",
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/20-minute-chicken-creole",
+      "externalId": "nhlbi:20-minute-chicken-creole",
+      "ingredients": [
+        {
+          "name": "boneless skinless chicken breast",
+          "quantity": 12,
+          "unit": "oz",
+          "preparationNote": "cut into thin strips"
+        },
+        {
+          "name": "whole peeled tomatoes",
+          "quantity": 1,
+          "unit": "cup",
+          "preparationNote": "chopped, with juices"
+        },
+        {
+          "name": "low-sodium chili sauce",
+          "quantity": 1,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "green bell pepper",
+          "quantity": 1.5,
+          "unit": "cups",
+          "preparationNote": "chopped"
+        },
+        {
+          "name": "celery",
+          "quantity": 1.5,
+          "unit": "cups",
+          "preparationNote": "chopped"
+        },
+        {
+          "name": "onion",
+          "quantity": 0.25,
+          "unit": "cup",
+          "preparationNote": "chopped"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "minced"
+        },
+        {
+          "name": "fresh basil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "chopped; or 1 tsp dried"
+        },
+        {
+          "name": "fresh parsley",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "chopped; or 1 tsp dried"
+        },
+        {
+          "name": "crushed red pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "preparationNote": null
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "preparationNote": null
+        },
+        {
+          "name": "cooking spray",
+          "quantity": 1,
+          "unit": "light coating",
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Sear the chicken",
+          "instruction": "Lightly coat a saute pan with cooking spray and preheat it. Add the chicken strips and stir until the surface is cooked, then lower the heat.",
+          "durationMinutes": 5
+        },
+        {
+          "title": "Build the sauce",
+          "instruction": "Add the tomatoes and their juices, chili sauce, bell pepper, celery, onion, garlic, herbs, red pepper, and salt. Bring the mixture just to a boil.",
+          "durationMinutes": 5
+        },
+        {
+          "title": "Simmer",
+          "instruction": "Reduce to a gentle simmer, cover, and cook until the vegetables are tender and the chicken is safely cooked through.",
+          "durationMinutes": 10
+        }
+      ]
+    },
+    {
+      "slug": "alaska-salmon-salad",
+      "title": "Alaska Salmon Salad",
+      "summary": "Easy, quick, and tasty — plus, fresh salmon is naturally low in sodium.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": 30,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/alaska-salmon-salad",
+      "externalId": "nhlbi:alaska-salmon-salad",
+      "ingredients": [
+        {
+          "name": "1 fillet (14 oz) salmon",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅓ C chopped green onion",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅓ C chopped celery",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅓ C nonfat plain yogurt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Ground black pepper, to taste",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Bake fresh, unsalted salmon (until it flakes easily with a fork in the thickest part). Flake, place in a bowl, and chill.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "After salmon has chilled, stir in the remaining ingredients.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Season with black pepper to taste.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Serve as a side dish or salad, or spread on pilot bread or unsalted crackers.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "apple-coffee-cake",
+      "title": "Apple Coffee Cake",
+      "summary": "Tart apples and raisins make for a moist, delicious cake.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 20,
+      "preparationMinutes": 10,
+      "cookingMinutes": 40,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/apple-coffee-cake",
+      "externalId": "nhlbi:apple-coffee-cake",
+      "ingredients": [
+        {
+          "name": "5 C tart apples, cored, peeled, and chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C sugar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C dark raisins",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C pecans, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C vegetable oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp vanilla",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2½ C sifted all-purpose flour",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1½ tsp baking soda",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp ground cinnamon",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 350 °F. Lightly oil a 13×9×2-inch pan.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a large mixing bowl, combine apples with sugar, raisins, and pecans; mix well. Let stand for 30 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Stir in oil, vanilla, and egg. Sift together flour, baking soda, and cinnamon; stir into apple mixture about 1/3 at a time, stirring just enough to moisten dry ingredients.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Turn batter into pan. Bake 35 to 40 minutes, until a toothpick inserted in the center of the cake comes out clean.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Cool cake slightly before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "asian-style-steamed-salmon",
+      "title": "Asian-Style Steamed Salmon",
+      "summary": "Enjoy this simple, fast dish any weeknight.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": 10,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/asian-style-steamed-salmon",
+      "externalId": "nhlbi:asian-style-steamed-salmon",
+      "ingredients": [
+        {
+          "name": "1 C low-sodium chicken broth",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C shiitake mushroom caps, rinsed and sliced (or substitute dried shiitake mushrooms)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp fresh ginger, minced (or 2 tsp ground)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C scallions (green onions), rinsed and chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lite soy sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp sesame oil (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "12 oz salmon fillet, cut into 4 portions (3 oz each)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Combine chicken broth, mushroom caps, ginger, scallions, soy sauce, and sesame oil (optional) in a large, shallow sauté pan. Bring to a boil over high heat, then lower heat and simmer for 2–3 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add salmon fillets, and cover with a tight-fitting lid. Cook gently over low heat for 4–5 minutes or until the salmon flakes easily with a fork in the thickest part (to a minimum internal temperature of 145 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Serve one piece of salmon with ¼ cup of broth.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "asparagus-lemon-sauce",
+      "title": "Asparagus With Lemon Sauce",
+      "summary": "Lemon sauce makes fresh asparagus the perfect side dish for fish, scallops, chicken, or meat dishes.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 5,
+      "cookingMinutes": 10,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/asparagus-lemon-sauce",
+      "externalId": "nhlbi:asparagus-lemon-sauce",
+      "ingredients": [
+        {
+          "name": "20 medium asparagus spears, rinsed and trimmed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 fresh lemon, rinsed (for peel and juice)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp reduced-fat mayonnaise",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp dried parsley",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1/16 tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Place 1 inch of water in a 4-quart pot with a lid. Place a steamer basket inside the pot, and add asparagus. Cover and bring to a boil over high heat. Reduce heat to medium. Cook for 5–10 minutes, until asparagus is easily pierced with a sharp knife. Do not overcook.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "While the asparagus cooks, grate the lemon zest into a small bowl. Cut the lemon in half and squeeze the juice into the bowl. Use the back of a spoon to press out extra juice and remove pits. Add mayonnaise, parsley, pepper, and salt. Stir well. Set aside.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "When the asparagus is tender, remove the pot from the heat. Place asparagus spears in a serving bowl. Drizzle the lemon sauce evenly over the asparagus (about 1½ teaspoons per portion) and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "autumn-salad",
+      "title": "Autumn Salad",
+      "summary": "Fruit and nuts make this salad a fun starter or side to most main-dish meals...and it can be served year round!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/autumn-salad",
+      "externalId": "nhlbi:autumn-salad",
+      "ingredients": [
+        {
+          "name": "1 Granny Smith apple, rinsed and sliced thinly (with skin)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 bag mixed lettuce greens (or your favorite lettuce) (about 5 C), rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C dried cranberries",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C walnuts, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C unsalted sunflower seeds",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅓ C low-fat raspberry vinaigrette dressing",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Sprinkle lemon juice on the apple slices.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Mix the lettuce, cranberries, apple, walnuts, and sunflower seeds in a bowl.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Toss with raspberry vinaigrette dressing, to lightly cover the salad, and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "baby-spinach-golden-raisins-and",
+      "title": "Baby Spinach With Golden Raisins and Pine Nuts",
+      "summary": "Sweet golden raisins and crunchy pine nuts make this a fabulous way to get your spinach.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": null,
+      "cookingMinutes": 10,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/baby-spinach-golden-raisins-and",
+      "externalId": "nhlbi:baby-spinach-golden-raisins-and",
+      "ingredients": [
+        {
+          "name": "4 Tbsp pine nuts",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 bags (10 oz each) leaf spinach, rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅔ C golden seedless raisins",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground nutmeg",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a medium nonstick pan over high heat, cook and stir the pine nuts until they begin to brown lightly and smell toasted, but not burnt. Set the pine nuts aside in another dish.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Return the pan to the burner over medium-high heat. Add ¼ cup water. As it begins to boil, add a small handful of the spinach. Cook and stir just until it begins to wilt. Then push it to the side of the pan, and add another ¼ cup water and handful of spinach. Continue until all the spinach has been cooked, adding the raisins with the last handful of spinach.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Sprinkle with nutmeg and salt. Cook and stir until all the spinach is wilted and the raisins are warm.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Remove from heat. Press out excess water. Place 1 cup spinach and raisins in a serving bowl. Top with pine nuts.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "baked-fish",
+      "title": "Baked Fish",
+      "summary": "This heart-healthy dish can be made with many kinds of fish — to be enjoyed over and over.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": 25,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/baked-fish",
+      "externalId": "nhlbi:baked-fish",
+      "ingredients": [
+        {
+          "name": "2 lb fish fillets",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C fat-free or 1 percent buttermilk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 drops hot sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp fresh garlic, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground white pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp onion powder",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C cornflakes, crumbled, or regular bread crumbs",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp vegetable oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 fresh lemon, cut in wedges",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 475 °F.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Drizzle lemon juice on fish. Then, pat dry.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Combine milk, hot sauce, and garlic in a mixing bowl.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Combine white pepper, salt, and onion powder with cornflakes, and spread on a plate.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Let fillets sit briefly in milk mixture. Remove a fillet, coat on both sides with seasoned crumbs, and let stand briefly until coating sticks to each side of fish. Repeat for all fillets.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Arrange fillets on a lightly oiled shallow baking dish.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Bake for 20 minutes on middle rack without turning.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 8",
+          "instruction": "Cut into 6 pieces. Serve with fresh lemon.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "baked-french-fries",
+      "title": "Baked French Fries",
+      "summary": "Oven baking makes these french fries lower in fat and still crispy.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 5,
+      "preparationMinutes": 10,
+      "cookingMinutes": 35,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/baked-french-fries",
+      "externalId": "nhlbi:baked-french-fries",
+      "ingredients": [
+        {
+          "name": "4 large potatoes (2 lbs)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 C ice water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp garlic powder",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp onion powder",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp white pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp allspice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp hot pepper flakes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp vegetable oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Scrub potatoes and cut them into long ½-inch strips. Place the strips in the ice water, cover, and chill for 1 hour or longer.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Remove potato strips and dry them thoroughly. Preheat oven to 475 °F.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Place garlic powder, onion powder, salt, white pepper, allspice, and pepper flakes in a plastic bag. Toss the potato strips in the spice mixture.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Put the potato strips in a shallow baking pan, and brush them with oil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Cover the baking pan with aluminum foil, and bake at 475 °F for 15 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Remove the foil, and continue baking, uncovered, for an additional 15 to 20 minutes or until golden brown. Turn fries occasionally to brown on all sides.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "baked-salmon-dijon",
+      "title": "Baked Salmon Dijon",
+      "summary": "This salmon entree is easy to make and will be enjoyed by the whole family.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/baked-salmon-dijon",
+      "externalId": "nhlbi:baked-salmon-dijon",
+      "ingredients": [
+        {
+          "name": "1 C fat-free sour cream",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp dried dill",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 Tbsp scallions (green onions), rinsed and finely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp Dijon mustard",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1½ lb salmon fillet, cut into 6 portions (4 oz each)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp garlic powder",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 400 °F.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Whisk sour cream, dill, scallions, mustard, and lemon juice in a small bowl to blend.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Lightly coat baking sheet with cooking spray.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Place salmon, skin side down, on the prepared baking sheet. Sprinkle with garlic powder and pepper, then spread with sauce.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Bake salmon fillets until each is opaque in the center and flakes easily with a fork in the thickest part, about 20 minutes (to a minimum internal temperature of 145 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "baked-tilapia-tomatoes",
+      "title": "Baked Tilapia With Tomatoes",
+      "summary": "This dish is easy to prepare, low in calories, and economical.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 25,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/baked-tilapia-tomatoes",
+      "externalId": "nhlbi:baked-tilapia-tomatoes",
+      "ingredients": [
+        {
+          "name": "Cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 tilapia fillets",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 medium tomatoes, peeled and chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1½ tsp thyme",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C pitted black olives, diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp red pepper flakes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cloves garlic, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C red onion, diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lime juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Parsley and lemon wedges for garnish",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 400 °F.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Spray baking dish with cooking spray.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Arrange fillets in the baking dish. The dish should be large enough so the fillets do not overlap.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Mix remaining ingredients, except parsley and lemon wedges, in a bowl.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Spoon the tomato mixture evenly over the fillets.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Bake uncovered 15 to 20 minutes or until the fish flakes easily with a fork.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Garnish with parsley and a lemon wedge, and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "braised-cod-leeks",
+      "title": "Braised Cod With Leeks",
+      "summary": "A simple, but elegant, weeknight meal.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": 25,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/braised-cod-leeks",
+      "externalId": "nhlbi:braised-cod-leeks",
+      "ingredients": [
+        {
+          "name": "1 Tbsp butter",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C leeks, split lengthwise, sliced thin, and rinsed well",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 medium carrots, rinsed, peeled, and cut into thin sticks",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 new (red) potatoes, rinsed and sliced into ½-inch thick circles",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C low-sodium chicken broth",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp fresh parsley, rinsed, dried, and chopped (or 2 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "12 oz cod fillets, cut into 4 portions (3 oz each)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Heat butter in a large sauté pan. Add leeks and carrots, and cook gently for 3–5 minutes, stirring often, until the vegetables begin to soften.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add potatoes, chicken broth, parsley, and salt and pepper, and bring to a boil over high heat. Reduce heat and simmer gently until the vegetables are just tender, about 10–12 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add cod fillets, and cover with a tight-fitting lid. Continue cooking over low heat for an additional 5 minutes or until the fish is white and flakes easily with a fork in the thickest part (to a minimum internal temperature of 145 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Serve each cod fillet with 1½ cups broth and vegetables.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "caribbean-pink-beans",
+      "title": "Caribbean Pink Beans with Plantain",
+      "summary": "Tender pink beans finished with plantain, tomato, sweet pepper, onion, and garlic.",
+      "culturalNote": "NHLBI presents this as a Caribbean-style bean dish. Kingston is used only as a regional discovery anchor; a Caribbean editor should review the cultural framing before publication.",
+      "servings": 16,
+      "preparationMinutes": 10,
+      "cookingMinutes": 60,
+      "placeSlug": "kingston",
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/caribbean-pink-beans",
+      "externalId": "nhlbi:caribbean-pink-beans",
+      "ingredients": [
+        {
+          "name": "dried pink beans",
+          "quantity": 1,
+          "unit": "lb",
+          "preparationNote": "picked over and rinsed"
+        },
+        {
+          "name": "water",
+          "quantity": 10,
+          "unit": "cups",
+          "preparationNote": "for soaking, plus more for cooking"
+        },
+        {
+          "name": "plantains",
+          "quantity": 2,
+          "unit": "medium",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "tomato",
+          "quantity": 1,
+          "unit": "large",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "red bell pepper",
+          "quantity": 1,
+          "unit": "small",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "white onion",
+          "quantity": 1,
+          "unit": "medium",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "preparationNote": "minced"
+        },
+        {
+          "name": "salt",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Soak the beans",
+          "instruction": "Cover the rinsed beans with the measured water and refrigerate overnight. Drain before cooking.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Cook until tender",
+          "instruction": "Put the soaked beans in a large pot and cover them with fresh water by about an inch. Boil gently with the lid tilted, adding water when needed, until soft.",
+          "durationMinutes": 60
+        },
+        {
+          "title": "Add the vegetables",
+          "instruction": "Stir in the plantains, tomato, bell pepper, onion, garlic, and salt. Continue over low heat until the plantain is tender, then serve warm.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "chicken-and-mushroom-fricassee",
+      "title": "Chicken and Mushroom Fricassee",
+      "summary": "Fat-free sour cream, vegetables, and herbs make this rich and hearty dish guilt free.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 30,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/chicken-and-mushroom-fricassee",
+      "externalId": "nhlbi:chicken-and-mushroom-fricassee",
+      "ingredients": [
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 carton (10 oz) white button mushrooms, rinsed and quartered",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C leeks, split into quarters, then sliced into small squares and rinsed well",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C potatoes, peeled and diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C celery, rinsed and diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C pearl onions, raw or frozen",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 C low-sodium chicken broth",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 lb skinless chicken legs or thighs (4 whole legs, split, or 8 thighs)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp each fresh herbs (such as parsley and chives), rinsed, dried, and minced (or 2 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp cornstarch",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp fat-free sour cream",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 350 ºF.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Heat olive oil in a medium-sized heavy-bottom roasting or braising pan (a large sauté pan with a metal handle will work as well).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add mushrooms to pan, and cook until golden brown, about 3–5 minutes. Add leeks, potatoes, celery, and pearl onions, and continue to cook until the vegetables become soft, about 3–5 additional minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Add chicken broth to the pan, and bring to a boil. Add chicken legs to the pan, cover, and place in the heated oven for about 20 minutes or until the chicken legs are tender when pierced with a fork (to a minimum internal temperature of 165 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "When chicken legs are tender, remove legs from the pan, return the pan to the stovetop, and bring the liquid to a boil. Add herbs and lemon juice.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "In a bowl, mix the cornstarch with the sour cream, and add to the pan. Bring back to a boil and then remove from the heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Season with salt and pepper, and pour 1 cup of vegetables and sauce over chicken.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "chicken-chile-stew",
+      "title": "Chicken Chile Stew",
+      "summary": "The ultimate comfort food, with lower saturated fat and cholesterol.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 10,
+      "preparationMinutes": 20,
+      "cookingMinutes": 105,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/chicken-chile-stew",
+      "externalId": "nhlbi:chicken-chile-stew",
+      "ingredients": [
+        {
+          "name": "Nonstick cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 lb boneless, skinless chicken (breast or leg), cubed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 stalks celery, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 medium tomato, diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "7 green chilies, roasted, peeled, seeded, and chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 cloves garlic, peeled and crushed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Ground black pepper to taste",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Spray a heavy iron skillet with cooking spray, and preheat over medium heat. Brown the chicken cubes, in batches, with cooking spray as needed.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Place the meat in a 3- or 4-quart casserole (with cover), and add the remaining ingredients.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Deglaze the skillet: On high heat, add some cold water and scrape the hardened juices with a spoon or spatula to dissolve them into the water. Add the sauce to the casserole.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Add water to barely cover the ingredients. Cover the casserole, and simmer until the stew is thick and the meat is very tender, about 1½ hours.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Add black pepper to taste before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "chicken-picadillo",
+      "title": "Chicken Picadillo",
+      "summary": "A one-pan chicken dish with peppers, tomato, citrus, raisins, capers, and olives.",
+      "culturalNote": "Picadillo has many regional forms across Latin America and the Caribbean. Mexico City is a temporary discovery anchor for this NHLBI version, not a definitive origin claim.",
+      "servings": 6,
+      "preparationMinutes": 15,
+      "cookingMinutes": 25,
+      "placeSlug": "mexico-city",
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/chicken-picadillo",
+      "externalId": "nhlbi:chicken-picadillo",
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "preparationNote": null
+        },
+        {
+          "name": "yellow onion",
+          "quantity": 1,
+          "unit": "large",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "green bell pepper",
+          "quantity": 1,
+          "unit": "medium",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "red bell pepper",
+          "quantity": 1,
+          "unit": "medium",
+          "preparationNote": "finely chopped"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "preparationNote": "mashed"
+        },
+        {
+          "name": "boneless skinless chicken breast",
+          "quantity": 12,
+          "unit": "oz",
+          "preparationNote": "cut into thin strips"
+        },
+        {
+          "name": "no-salt-added tomato sauce",
+          "quantity": 0.3333,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "low-sodium chicken broth",
+          "quantity": 0.3333,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "lemon juice",
+          "quantity": 0.3333,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "preparationNote": null
+        },
+        {
+          "name": "bay leaves",
+          "quantity": 2,
+          "unit": "leaves",
+          "preparationNote": null
+        },
+        {
+          "name": "water",
+          "quantity": 0.3333,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "golden seedless raisins",
+          "quantity": 0.25,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "fresh cilantro",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "chopped, for garnish"
+        },
+        {
+          "name": "capers",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "drained, for garnish"
+        },
+        {
+          "name": "green olives",
+          "quantity": 2,
+          "unit": "tbsp",
+          "preparationNote": "chopped, for garnish"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Soften the vegetables",
+          "instruction": "Warm the olive oil in a large pan. Cook the onion, peppers, and garlic over medium heat until softened.",
+          "durationMinutes": 5
+        },
+        {
+          "title": "Cook the chicken",
+          "instruction": "Add the chicken strips and stir-fry until no pink remains and the chicken is safely cooked through.",
+          "durationMinutes": 10
+        },
+        {
+          "title": "Simmer the sauce",
+          "instruction": "Stir in the tomato sauce, broth, lemon juice, cumin, bay leaves, water, and raisins. Cover, lower the heat, and simmer.",
+          "durationMinutes": 10
+        },
+        {
+          "title": "Garnish",
+          "instruction": "Discard the bay leaves. Finish with cilantro, capers, and chopped olives before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "chicken-salad",
+      "title": "Chicken Salad",
+      "summary": "Flavorful, fast, and a great way to use leftover chicken!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 5,
+      "preparationMinutes": 10,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/chicken-salad",
+      "externalId": "nhlbi:chicken-salad",
+      "ingredients": [
+        {
+          "name": "3¼ C boneless, skinless chicken breast",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C chopped celery",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp onion powder",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 Tbsp reduced-fat mayonnaise",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Bake chicken, cut into cubes, and refrigerate.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a large bowl, combine the rest of the ingredients. Add chilled chicken, and mix well.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "cold-fusilli-pasta-summer",
+      "title": "Cold Fusilli Pasta with Summer Vegetables",
+      "summary": "A whole new twist on pasta salad!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 20,
+      "cookingMinutes": 10,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/cold-fusilli-pasta-summer",
+      "externalId": "nhlbi:cold-fusilli-pasta-summer",
+      "ingredients": [
+        {
+          "name": "8 oz whole-wheat fusilli (spiral) pasta",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C cherry tomatoes, rinsed and halved",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 large green bell pepper, rinsed and sliced in pieces ¼ inch wide by 2 inches long",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C red onion, thinly sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 medium zucchini, rinsed and shredded finely or sliced into small chunks (about 1 C)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 can (15½ oz) low-sodium chickpeas (or garbanzo beans), drained and rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp fresh basil, rinsed, dried, and cut into thin strips (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp balsamic vinegar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C shredded parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a 4-quart saucepan, bring 3 quarts of water to a boil over high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add pasta, and cook according to package directions for the shortest recommended time, about 8–9 minutes. Drain. Rinse pasta under cold running water to cool, about 3 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Place all the vegetables and beans in a large salad serving bowl. Season with basil, salt, and pepper.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Add the cooled pasta.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Combine olive oil and vinegar in a small bowl. Mix until completely blended. Pour over vegetables and pasta. Mix gently until well coated.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Divide into four equal portions. Top each with 2 tablespoons shredded parmesan cheese.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "couscous-carrots-walnuts-and",
+      "title": "Couscous With Carrots, Walnuts, and Raisins",
+      "summary": "This quick-cooking grain dish has a touch of sweet and nutty flavors to go with most main dishes.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 5,
+      "cookingMinutes": 12,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/couscous-carrots-walnuts-and",
+      "externalId": "nhlbi:couscous-carrots-walnuts-and",
+      "ingredients": [
+        {
+          "name": "1 C couscous (try whole-wheat couscous)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp walnuts, coarsely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp pumpkin pie spice or cinnamon",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1⅓ C water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp raisins",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C carrots, rinsed, peeled, and shredded or thinly sliced; cut in half",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a 4-quart saucepan over medium heat, cook and stir couscous, olive oil, walnuts, salt, pepper, and spice just until couscous begins to brown.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Slowly add water, then raisins and carrots. Cover. Bring to a boil over high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Remove from the heat, and let stand for 10 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Fluff with a fork. Serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "creamy-squash-soup-shredded-apples",
+      "title": "Creamy Squash Soup With Shredded Apples",
+      "summary": "This easy-to-make soup will warm you up with flavor. Serve with a green salad and whole-wheat bread.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/creamy-squash-soup-shredded-apples",
+      "externalId": "nhlbi:creamy-squash-soup-shredded-apples",
+      "ingredients": [
+        {
+          "name": "2 boxes (16 oz each) frozen pureed winter (butternut) squash",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 medium apples (try Golden Delicious or Gala)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp pumpkin pie spice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cans (12 oz each) fat-free evaporated milk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Place the frozen squash in a microwave-safe dish. Cover loosely. Defrost in the microwave on medium power for 5–10 minutes, until mostly thawed.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Meanwhile, peel then shred the apples using a grater or food processor, or peel and finely chop apples into thin strips. Set aside ¼ cup.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Warm oil in a 4-quart saucepan over medium heat. Add all but ¼ cup of the apples. Cook and stir until apples soften, about 5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Stir in thawed squash and pumpkin pie spice.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Add the evaporated milk about ½ cup at a time, stirring after each addition.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Season with salt and pepper.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Cook and stir over high heat just until soup is about to boil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 8",
+          "instruction": "Ladle into individual soup bowls. Top each with a tablespoon of the unused apples. Sprinkle with additional pumpkin pie spice, if desired.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "flavorful-green-beans",
+      "title": "Flavorful Green Beans",
+      "summary": "The seasonings are perfect companions to the green beans.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 7,
+      "preparationMinutes": 10,
+      "cookingMinutes": 40,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/flavorful-green-beans",
+      "externalId": "nhlbi:flavorful-green-beans",
+      "ingredients": [
+        {
+          "name": "2 lb fresh green beans",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C cold water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Nonstick cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅓ C chopped onions",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 cloves garlic, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried basil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried oregano",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Rinse green beans and snap off tips.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Place green beans in a large pot and add ½ cup of cold water.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Cook green beans on stovetop over medium heat for 10 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Spray a sauté pan with cooking spray, and sauté the chopped onions and garlic for 5 minutes, or until they are tender and very lightly browned.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Add onions, garlic, and black pepper to green beans. Spray the cooking spray over mixture, and cook on medium heat for another 20 minutes or until green beans are tender, but not soft. Stir occasionally.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Sprinkle dried basil and oregano over green beans. Mix and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "fresh-lumpia-lumpiang-sariwa",
+      "title": "Fresh Lumpia (Lumpiang Sariwa)",
+      "summary": "These delicious spring rolls are a traditional Filipino dish.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 8,
+      "preparationMinutes": 30,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/fresh-lumpia-lumpiang-sariwa",
+      "externalId": "nhlbi:fresh-lumpia-lumpiang-sariwa",
+      "ingredients": [
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C ground chicken breast or lean pork",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C shrimp, peeled and deveined",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cloves garlic, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C cabbage, julienned",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C green beans, julienned",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C carrots, julienned",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C celery, julienned",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C jicama, julienned",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C low-sodium chicken broth",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C broth from preparing the filling",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lite soy sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp brown sugar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 cloves garlic, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp cornstarch",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp cold water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 Vietnamese spring-roll wrappers or lumpia wrappers",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 pieces red leaf lettuce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅓ C dry roasted peanuts, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Prepare the filling: Heat oil in a sauté pan, and sauté the ground meat with the shrimp and garlic.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add the vegetables (cabbage, green beans, carrots, celery, and jicama), and sauté until slightly crisp.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add the chicken broth, and continue until vegetables are cooked. Season with salt and black pepper.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Remove from heat and use a colander to strain; save the broth for use in preparing the lumpia sauce (steps below). Let meat and vegetable mixture cool to room temperature.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Meanwhile, prepare the sauce: Mix 1 cup of the broth strained from the cooked filling, soy sauce, brown sugar, and garlic together in a saucepan, and bring to a boil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "In a small bowl, mix the cornstarch in 2 tablespoons of cold water. Slowly add the cornstarch mixture to the broth in the saucepan. Stir over medium heat until sauce thickens.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "To assemble the spring rolls: Soak one spring roll wrapper in warm water until soft and transparent. Dry immediately with a paper towel.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 8",
+          "instruction": "Place the wrapper on a plate, and lay a piece of lettuce on the wrapper. Put 2 tablespoons of the meat and vegetable mixture on the wrapper.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 9",
+          "instruction": "Fold bottom of wrapper over filling; wrap one side over filling and roll to the other side (to seal in the filling).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 10",
+          "instruction": "Repeat with remaining wrappers and filling.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 11",
+          "instruction": "Serve with lumpia sauce on top. Sprinkle with chopped peanuts.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "garden-potato-salad",
+      "title": "Garden Potato Salad",
+      "summary": "Low-fat cottage cheese is the secret to the dressing in this delicious low-fat, low-cholesterol, and low-sodium mixture of vegetables and herbs.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 10,
+      "preparationMinutes": 15,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/garden-potato-salad",
+      "externalId": "nhlbi:garden-potato-salad",
+      "ingredients": [
+        {
+          "name": "3 lb potatoes (about 6 large), boiled in jackets, peeled and cut into ½-inch cubes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C chopped celery",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C sliced green onion",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp chopped parsley",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C low-fat (1 percent) cottage cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¾ C low-fat (1 percent) milk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp cider vinegar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp celery seed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dill weed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dry mustard",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp white pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a large bowl, place potatoes, celery, green onion, and parsley.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Meanwhile, in a blender or food processor, blend cottage cheese, milk, lemon juice, vinegar, celery seed, dill weed, dry mustard, and white pepper until smooth. Chill for 1 hour.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Pour chilled cottage cheese mixture over vegetables; mix well.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Chill for at least 30 minutes before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "grapesicles",
+      "title": "Grapesicles",
+      "summary": "Try this snack on a hot summer day!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 5,
+      "cookingMinutes": 30,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/grapesicles",
+      "externalId": "nhlbi:grapesicles",
+      "ingredients": [
+        {
+          "name": "48 green seedless grapes, rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "48 red seedless grapes, rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "6-inch wooden skewers",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Thread six grapes, alternating grape colors, onto each wooden skewer.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Place skewers into the freezer for 30 minutes, or until frozen.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "grilled-tuna-chickpea-and-spinach",
+      "title": "Grilled Tuna With Chickpea and Spinach Salad",
+      "summary": "Tuna is a sturdy fish that is easy to grill or broil.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 25,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/grilled-tuna-chickpea-and-spinach",
+      "externalId": "nhlbi:grilled-tuna-chickpea-and-spinach",
+      "ingredients": [
+        {
+          "name": "1 Tbsp olive or canola oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp garlic, minced (about 2–3 cloves)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp oregano, minced (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "12 oz tuna steak, cut into 4 portions (3 oz each)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "For salad: ½ can (15½ oz) low-sodium chickpeas (or garbanzo beans), drained and rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ bag (10 oz) leaf spinach, rinsed and dried",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 medium tomato, rinsed and cut into wedges",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat grill pan or oven broiler (with the rack 3 inches from heat source) on high temperature.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Combine oil, garlic, lemon juice, and oregano, and brush over tuna steaks. Marinate for 5–10 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Meanwhile, combine all salad ingredients. (Salad can be made up to 2 hours in advance and refrigerated.)",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Grill or broil tuna on high heat for 3–4 minutes on each side until the flesh is opaque and separates easily with a fork (to a minimum internal temperature of 145 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Serve one tuna steak over 1 cup of mixed salad.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "hawaiian-huli-huli-chicken",
+      "title": "Hawaiian Huli Huli Chicken",
+      "summary": "So fun to eat and healthy too!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 30,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/hawaiian-huli-huli-chicken",
+      "externalId": "nhlbi:hawaiian-huli-huli-chicken",
+      "ingredients": [
+        {
+          "name": "12 oz boneless, skinless chicken breast, cut into 1-inch cubes (24 cubes) (about 2 large breasts)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C fresh pineapple, diced (24 pieces) (or canned pineapple chunks in juice)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 6-inch wooden skewers",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "For sauce: 2 Tbsp ketchup",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp lite soy sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp honey",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp orange juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp garlic, minced (about 1 clove)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp ginger, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat a broiler or grill on medium-high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Thread three chicken cubes and three pineapple chunks alternately on each skewer.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Combine ingredients for sauce and mix well; separate into two bowls and set one aside for later.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Grill skewers for 3–5 minutes on each side. Brush or spoon sauce (from the bowl that wasn’t set aside) onto chicken and pineapple about every other minute. Discard the sauce when done with this step.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "To prevent chicken from drying out, finish cooking skewers in a 350 °F oven immediately after grilling (to a minimum internal temperature of 165 °F). Using a clean brush or spoon, coat with sauce from the set-aside bowl before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "heavenly-chicken-angel-hair-pasta",
+      "title": "Heavenly Chicken With Angel Hair Pasta",
+      "summary": "A mildly spicy sauce complements this simple, but heavenly, chicken and pasta dish.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": 15,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/heavenly-chicken-angel-hair-pasta",
+      "externalId": "nhlbi:heavenly-chicken-angel-hair-pasta",
+      "ingredients": [
+        {
+          "name": "1 C onion, finely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp garlic, minced or pressed (about 2–3 cloves)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 C broccoli florets, rinsed (about 1 lb)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 oz very thinly sliced chicken breast, cut in ½-inch strips",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 jar (26 oz) no-salt-added pasta sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground cayenne pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 oz whole-wheat angel hair pasta",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a 4-quart saucepan, bring 3 quarts of water to a boil over high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "While the water heats, chop onion, mince garlic, and cut broccoli into tiny florets. Set aside.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "In a large nonstick pan, heat olive oil until very hot. Add the chicken. Cook and stir until lightly browned on both sides, about 5–8 minutes. Place chicken on a clean plate, and cover to keep warm.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Coat pan with cooking spray. Over medium heat, cook and stir the onion for about 3 minutes. Add the garlic and broccoli. Cook and stir for 2 more minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Return the chicken to the pan. Add entire jar of pasta sauce, cayenne pepper, and salt. Gently mix to blend ingredients. Cover. Simmer until chicken and vegetables are warmed through, about 4 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Drop pasta into boiling water. Cook according to package directions for the shortest recommended time, about 2 minutes. Drain.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Divide pasta among four dinner plates (about 1 cup each). Top each with one-fourth of the chicken and sauce mixture. Serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "homemade-turkey-soup",
+      "title": "Homemade Turkey Soup",
+      "summary": "Use your leftover holiday turkey to make this flavorful, from-scratch soup!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 16,
+      "preparationMinutes": 15,
+      "cookingMinutes": 180,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/homemade-turkey-soup",
+      "externalId": "nhlbi:homemade-turkey-soup",
+      "ingredients": [
+        {
+          "name": "1 turkey carcass—it should have some meat (at least 2 C) remaining",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 medium onions",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 stalks of celery",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp dried thyme",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried rosemary",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried sage",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp dried basil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried marjoram",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried tarragon",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Ground black pepper, to taste",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ lb Italian pastina or other small pasta",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Place turkey carcass in a large 6-quart pot. Cover with water, at least ¾ full.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Peel onions, cut into large pieces, and add to pot. Wash celery stalks, slice, and add to pot as well.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Simmer, covered, for about 2 ½ hours.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Remove carcass from pot. Cool soup in the refrigerator (hint: divide soup into smaller, shallower containers for quicker cooling).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "While soup is cooling, remove remaining meat from turkey carcass. Discard bones and cut meat into bite-sized pieces.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "After soup has cooled, skim off fat from top. Return soup to pot.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Add turkey meat to skimmed soup, along with herbs and spices.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 8",
+          "instruction": "Bring to a boil and add pastina. Continue cooking on low boil for about 20 minutes, until pastina is done. Serve at once or refrigerate for later reheating.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "lentil-soup",
+      "title": "Lentil Soup",
+      "summary": "There's no better way to warm up on a cold day than with this hearty, delicious soup.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 11,
+      "preparationMinutes": 15,
+      "cookingMinutes": 90,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/lentil-soup",
+      "externalId": "nhlbi:lentil-soup",
+      "ingredients": [
+        {
+          "name": "2 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 medium carrots, diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 medium stalks celery, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 small yellow onion, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cloves garlic, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp dried oregano",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp dried basil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C dry lentils",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 can (14½ oz) crushed tomatoes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C vegetable broth",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "6½ C water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a large soup pot, heat oil over medium heat. Add carrots, celery, and onion; cook and stir until the onion is tender.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Stir in garlic, oregano, basil, and pepper. Cook for 2 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Stir in lentils and tomatoes, then add the vegetable broth and water.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Cover and bring to a boil. Reduce heat and simmer for at least 1 hour or until lentils are tender.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Store leftovers in the refrigerator and reheat on the stove or in the microwave. The soup will taste better the next day!",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "mango-shake",
+      "title": "Mango Shake",
+      "summary": "People love the creamy sweet taste of this drink.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 5,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/mango-shake",
+      "externalId": "nhlbi:mango-shake",
+      "ingredients": [
+        {
+          "name": "2 C low-fat (1 percent) milk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 Tbsp frozen mango juice (or 1 fresh pitted mango)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 small banana",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 ice cubes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Put all ingredients into a blender. Blend until foamy. Serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "marinated-chicken-adobong-manok",
+      "title": "Marinated Chicken (Adobong Manok)",
+      "summary": "A heart healthy spin on a favorite Filipino dish, slowly simmered and richly flavored.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 90,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/marinated-chicken-adobong-manok",
+      "externalId": "nhlbi:marinated-chicken-adobong-manok",
+      "ingredients": [
+        {
+          "name": "1 tsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cloves fresh garlic, crushed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 medium onions, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 lb boneless, skinless chicken breasts",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp lite soy sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C vinegar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp paprika",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 bay leaf, broken in half",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 medium red tomato (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Combine olive oil, garlic, and chopped onion in a frying pan. Add chicken, and sauté together until chicken has browned.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add soy sauce, vinegar, paprika, black pepper, and bay leaf, and stir to mix.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Bring to a boil. Simmer for 45 to 60 minutes, or until chicken is done.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Remove the chicken, and save the liquid in the pan. Arrange the chicken on a broiler pan. Broil until the chicken has nicely browned. Remove from the broiler, and place chicken in a serving bowl.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Boil the sauce in the uncovered pan until its volume is reduced to about half and the sauce is thick.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Pour the thickened sauce over the broiled adobo (chicken), and garnish with red tomato wedges, if desired.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "minestrone-soup",
+      "title": "Vegetable Minestrone Soup",
+      "summary": "A large-pot Italian vegetable soup with beans, cabbage, peas, green beans, and broken pasta.",
+      "culturalNote": "This is an NHLBI heart-conscious version of minestrone rather than a claim to one canonical recipe. Rome is used as an Italian discovery anchor pending editorial review.",
+      "servings": 16,
+      "preparationMinutes": 15,
+      "cookingMinutes": 60,
+      "placeSlug": "rome",
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/minestrone-soup",
+      "externalId": "nhlbi:minestrone-soup",
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "preparationNote": null
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "preparationNote": "minced; or 1/8 tsp garlic powder"
+        },
+        {
+          "name": "onion",
+          "quantity": 1.3333,
+          "unit": "cups",
+          "preparationNote": "coarsely chopped"
+        },
+        {
+          "name": "celery with leaves",
+          "quantity": 1.5,
+          "unit": "cups",
+          "preparationNote": "coarsely chopped"
+        },
+        {
+          "name": "no-salt-added tomato paste",
+          "quantity": 1,
+          "unit": "can",
+          "preparationNote": "6 oz"
+        },
+        {
+          "name": "fresh parsley",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "chopped"
+        },
+        {
+          "name": "carrots",
+          "quantity": 1,
+          "unit": "cup",
+          "preparationNote": "sliced"
+        },
+        {
+          "name": "cabbage",
+          "quantity": 4.75,
+          "unit": "cups",
+          "preparationNote": "shredded"
+        },
+        {
+          "name": "no-salt-added tomatoes",
+          "quantity": 1,
+          "unit": "can",
+          "preparationNote": "16 oz, cut up"
+        },
+        {
+          "name": "low-sodium red kidney beans",
+          "quantity": 1,
+          "unit": "can",
+          "preparationNote": "15.5 oz, drained and rinsed"
+        },
+        {
+          "name": "frozen peas",
+          "quantity": 1.5,
+          "unit": "cups",
+          "preparationNote": null
+        },
+        {
+          "name": "fresh green beans",
+          "quantity": 1.5,
+          "unit": "cups",
+          "preparationNote": null
+        },
+        {
+          "name": "hot sauce",
+          "quantity": 1,
+          "unit": "dash",
+          "preparationNote": null
+        },
+        {
+          "name": "water",
+          "quantity": 11,
+          "unit": "cups",
+          "preparationNote": null
+        },
+        {
+          "name": "spaghetti",
+          "quantity": 2,
+          "unit": "cups",
+          "preparationNote": "uncooked and finely broken"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Start the aromatics",
+          "instruction": "Heat the oil in a large saucepan. Add the garlic, onion, and celery and cook until aromatic and beginning to soften.",
+          "durationMinutes": 5
+        },
+        {
+          "title": "Build the soup",
+          "instruction": "Add every remaining ingredient except the spaghetti and stir thoroughly. Bring to a boil, then cover and reduce to a simmer until the vegetables are tender.",
+          "durationMinutes": 45
+        },
+        {
+          "title": "Cook the pasta",
+          "instruction": "Add the broken spaghetti and simmer only until just cooked. Serve the soup warm.",
+          "durationMinutes": 3
+        }
+      ]
+    },
+    {
+      "slug": "mushroom-penne",
+      "title": "Mushroom Penne",
+      "summary": "A mushroom lover’s dish that makes a quick and cozy meal at home or an elegant dish for company.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": 15,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/mushroom-penne",
+      "externalId": "nhlbi:mushroom-penne",
+      "ingredients": [
+        {
+          "name": "8 oz whole-wheat penne pasta",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 oz white mushrooms, rinsed and sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C onion, thinly sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp garlic, minced or pressed (about 2–3 cloves)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "6 Tbsp dry red wine",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C low-sodium chicken broth",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp dried thyme",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 Tbsp shredded parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a 4-quart saucepan, bring 3 quarts of water to a boil over high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "While water heats and pasta cooks, warm olive oil in a large nonstick pan over medium heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add pasta, and cook according to package directions for the shortest recommended time, about 8 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Chop the mushrooms into bite-sized pieces. Cook the mushrooms in the oil for 5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Meanwhile, slice onion and mince garlic. Add to mushrooms. Cook for 3 minutes, stirring occasionally.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Add wine. Cook and stir to loosen any flavorful browned bits to mix into the sauce. Stir in chicken broth, salt, pepper, and thyme.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Drain pasta. Stir into mushroom mixture. Continue simmering mixture until all moisture is absorbed, about 3 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 8",
+          "instruction": "Divide into four equal portions (each about 1¼ cups). Top each with 1 tablespoon shredded parmesan cheese.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "new-orleans-red-beans",
+      "title": "New Orleans Red Beans",
+      "summary": "Enjoy this cholesterol-free and virtually fat-free take on a very tasty New Orleans tradition!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 8,
+      "preparationMinutes": 10,
+      "cookingMinutes": 140,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/new-orleans-red-beans",
+      "externalId": "nhlbi:new-orleans-red-beans",
+      "ingredients": [
+        {
+          "name": "1 lb dry red beans",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 C (2 quarts) water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1½ C chopped onion",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C chopped celery",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 bay leaves",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C chopped green pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 Tbsp chopped garlic",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 Tbsp chopped parsley",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp dried thyme, crushed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Pick through beans to remove bad beans; rinse thoroughly.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a large pot combine the beans, water, onion, celery, and bay leaves. Bring to a boil; reduce heat. Cover and cook over low heat for about 1½ hours or until beans are tender. Stir. Use a spoon to mash the beans against the side of the pot.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add green pepper, garlic, parsley, thyme, salt, and black pepper. Cook, uncovered, over low heat until creamy, about 30 minutes. Remove bay leaves.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Serve with hot cooked brown rice, if desired.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "oven-fried-yucca",
+      "title": "Oven-Fried Yucca",
+      "summary": "Crispy and delicious! Use cooking spray to cut back on fat.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": 45,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/oven-fried-yucca",
+      "externalId": "nhlbi:oven-fried-yucca",
+      "ingredients": [
+        {
+          "name": "1 pound fresh yucca (cassava), cut into 3-inch sections and peeled (or 1 pound peeled frozen yucca)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Nonstick cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a kettle, combine the yucca with enough cold water to cover it by 1 inch. Bring the water to a boil, and slowly simmer the yucca for 20 to 30 minutes, or until it is tender.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Preheat oven to 350° F.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Transfer the yucca with a slotted spoon to a cutting board, let it cool, and cut it lengthwise into ¾-inch-wide wedges, discarding the thin woody core.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Spray a cookie sheet lightly with the cooking spray. Spread yucca wedges in a single layer on the cookie sheet, and spray the wedges with cooking spray. Cover with foil and bake for 8 minutes. Uncover and return to oven to bake for an additional 7 minutes.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "pinto-beans",
+      "title": "Pinto Beans",
+      "summary": "A heart-healthy take on a staple dish.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 16,
+      "preparationMinutes": 20,
+      "cookingMinutes": 45,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/pinto-beans",
+      "externalId": "nhlbi:pinto-beans",
+      "ingredients": [
+        {
+          "name": "3 C dried pinto beans, cooked",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Nonstick cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C chopped celery",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C chopped onion",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 large green bell pepper, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 medium tomatoes, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 garlic cloves, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Cook the dried beans as directed on the package, until they are soft. Set aside.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Spray a large saucepan with nonstick cooking spray, and preheat over medium heat. Cook celery, onion, and green pepper until soft, about 5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add tomatoes, water, and seasonings to vegetable mixture. Bring to a boil. Add beans, and return to a boil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Cover and cook over low heat until flavors are blended and liquid is absorbed away, about 15 minutes. Stir once in a while to prevent from sticking.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Serve with rice that is cooked without salt.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "pita-pizzas",
+      "title": "Pita Pizzas",
+      "summary": "Personal pita pizzas are fun to make, and even more fun to eat!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 8,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/pita-pizzas",
+      "externalId": "nhlbi:pita-pizzas",
+      "ingredients": [
+        {
+          "name": "1 C chunky tomato sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C grilled boneless, skinless chicken breast, diced (about 2 small breasts)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C broccoli, rinsed, chopped, and cooked",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp grated parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp fresh basil, rinsed, dried, and chopped (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 (6½-inch) whole-wheat pitas",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven or toaster oven to 450 °F.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "For each pizza, spread ¼ cup tomato sauce on a pita and top with ¼ cup chicken, ¼ cup broccoli, ½ tablespoon parmesan cheese, and ¼ tablespoon chopped basil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Place pitas on a nonstick baking sheet and bake for about 5–8 minutes until golden brown and chicken is heated through. Serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "rainbow-fruit-salad",
+      "title": "Rainbow Fruit Salad",
+      "summary": "Makes a great side dish or dessert!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 12,
+      "preparationMinutes": 20,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/rainbow-fruit-salad",
+      "externalId": "nhlbi:rainbow-fruit-salad",
+      "ingredients": [
+        {
+          "name": "For salad: 1 large mango, peeled and diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C fresh blueberries",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 bananas, sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C fresh strawberries, halved",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C seedless grapes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 nectarines, peeled and sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 kiwi fruit, peeled and sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "For honey orange sauce: ⅓ C unsweetened orange juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1½ Tbsp honey",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground ginger",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Dash nutmeg",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Mix the fruit together in a large bowl.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a small bowl, combine all the ingredients for the honey orange sauce and mix well.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Just before serving, pour the honey orange sauce over the fruit.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "red-beans-and-rice",
+      "title": "Red Beans and Brown Rice",
+      "summary": "A streamlined bean-and-brown-rice skillet with peppers, cumin, and oregano.",
+      "culturalNote": "This NHLBI home-cooking adaptation is linked to New Orleans as a discovery anchor. Its cultural framing and naming require editorial review before publication.",
+      "servings": 4,
+      "preparationMinutes": 5,
+      "cookingMinutes": 25,
+      "placeSlug": "new-orleans",
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/red-beans-and-rice",
+      "externalId": "nhlbi:red-beans-and-rice",
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": null
+        },
+        {
+          "name": "yellow onion",
+          "quantity": 1,
+          "unit": "cup",
+          "preparationNote": "cut into small pieces"
+        },
+        {
+          "name": "green bell pepper",
+          "quantity": 1,
+          "unit": "cup",
+          "preparationNote": "diced"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "tbsp",
+          "preparationNote": "minced"
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "preparationNote": null
+        },
+        {
+          "name": "dried oregano",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "preparationNote": null
+        },
+        {
+          "name": "low-sodium chicken or vegetable broth",
+          "quantity": 1,
+          "unit": "can",
+          "preparationNote": "14.5 oz"
+        },
+        {
+          "name": "instant brown rice",
+          "quantity": 0.5,
+          "unit": "cup",
+          "preparationNote": "uncooked"
+        },
+        {
+          "name": "low-sodium red kidney beans",
+          "quantity": 2,
+          "unit": "cans",
+          "preparationNote": "15 oz each, drained and rinsed"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Soften the onion",
+          "instruction": "Warm the oil in a wide pan over medium heat. Add the onion and cook, stirring now and then, until it begins to soften without browning.",
+          "durationMinutes": 5
+        },
+        {
+          "title": "Add pepper and aromatics",
+          "instruction": "Add the diced bell pepper, cover, and cook until slightly tender. Stir in the garlic, cumin, and oregano for the final minute.",
+          "durationMinutes": 6
+        },
+        {
+          "title": "Cook the rice",
+          "instruction": "Pour in the broth and add the brown rice. Stir, cover, and keep at a gentle simmer.",
+          "durationMinutes": 10
+        },
+        {
+          "title": "Finish with beans",
+          "instruction": "Fold in the drained beans, cover again, and simmer until the beans are hot and the flavors have combined.",
+          "durationMinutes": 5
+        }
+      ]
+    },
+    {
+      "slug": "roasted-beets-orange-sauce",
+      "title": "Roasted Beets with Orange Sauce",
+      "summary": "This colorful side dish comes alive with orange flavor.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 45,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/roasted-beets-orange-sauce",
+      "externalId": "nhlbi:roasted-beets-orange-sauce",
+      "ingredients": [
+        {
+          "name": "1½ lb small beets, leaves trimmed, each peeled and cut into four chunks",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 orange, rinsed (for peel and juice)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp anise seeds (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 450 °F. Cover a baking sheet with aluminum foil for easy cleanup.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a medium bowl, toss the beets with the olive oil until well coated.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Spread beets on baking sheet in a single layer.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Bake 30–40 minutes. When done, beets should be easily pierced with a sharp knife.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "While beets bake, grate the zest from the orange. Place in a small bowl. Cut the orange in half. Squeeze the juice (about ½ cup) into the bowl with the orange zest. (Use a large spoon to press the inside of the orange to extract more juice.) Add anise seeds (optional). Set aside.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "When the beets are tender, return them to the tossing bowl. Pour the juice mixture over the beets. Mix well to coat, and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "savory-potato-salad",
+      "title": "Savory Potato Salad",
+      "summary": "Here’s a potato salad that’s both traditional and new — with great taste and a low-fat twist.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 10,
+      "preparationMinutes": 20,
+      "cookingMinutes": 30,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/savory-potato-salad",
+      "externalId": "nhlbi:savory-potato-salad",
+      "ingredients": [
+        {
+          "name": "6 medium potatoes (about 2 lb)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 stalks celery, finely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 scallions, finely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C red bell pepper, coarsely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C green bell pepper, coarsely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp onion, finely chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 egg, hard boiled, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "6 Tbsp reduced-fat mayonnaise",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp mustard",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp dried dill weed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Wash potatoes, cut in half, and place in saucepan of cold water. Cook, covered, over medium heat for 25 to 30 minutes or until tender.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Drain and dice potatoes when cool.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add vegetables and egg to potatoes, and toss.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "In a small bowl, blend together the mayonnaise, mustard, salt, pepper, and dill weed.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Pour dressing over potato mixture and stir gently to coat evenly.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Chill for at least 1 hour before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "spicy-southern-barbecued-chicken",
+      "title": "Spicy Southern Barbecued Chicken",
+      "summary": "Let yourself fall under the spell of this Southern style, sweet barbecue sauce.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": 65,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/spicy-southern-barbecued-chicken",
+      "externalId": "nhlbi:spicy-southern-barbecued-chicken",
+      "ingredients": [
+        {
+          "name": "5 Tbsp tomato paste",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp ketchup",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp honey",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp molasses",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp Worcestershire sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 tsp white vinegar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¾ tsp cayenne pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp onion powder",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp grated ginger",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cloves garlic, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 pieces skinless chicken (4 breasts, 4 drumsticks)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Combine all ingredients except chicken in a saucepan. Simmer for 15 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Place chicken on a large platter and brush it with half the sauce mixture.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Cover with plastic wrap and marinate in refrigerator for 1 hour.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Place chicken on a baking sheet lined with aluminum foil, and broil for 10 minutes on each side to seal in juices.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Remove from oven and brush chicken pieces with remaining sauce. Cover with aluminum foil and bake at 350 °F for 30 minutes.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "strawberry-banana-yogurt-parfait",
+      "title": "Strawberry Banana Yogurt Parfait",
+      "summary": "This nutritious treat will add color and joy to your celebrations.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 8,
+      "preparationMinutes": 10,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/strawberry-banana-yogurt-parfait",
+      "externalId": "nhlbi:strawberry-banana-yogurt-parfait",
+      "ingredients": [
+        {
+          "name": "4 C fat-free, no-sugar-added vanilla yogurt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 large bananas, sliced (about 2 C)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C fresh strawberries, sliced (or use thawed frozen fruit)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C crumbled graham crackers",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C fat-free whipped topping (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 8-oz wine or parfait glasses",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Spoon 1 tablespoon of yogurt into the bottom of each 8-ounce wine or parfait glass. Top the yogurt with 1 tablespoon sliced bananas, 1 tablespoon sliced strawberries, and ¼ cup graham cracker crumbs.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Repeat the yogurt, banana, strawberry, and graham cracker layers.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Top with a rounded tablespoon of fat-free whipped topping, if desired.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Serve the parfait immediately, or cover each glass with plastic wrap and chill for up to 2 hours before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "summer-breeze-smoothie",
+      "title": "Summer Breeze Smoothie",
+      "summary": "Here’s a perfect low-fat thirst quencher.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 3,
+      "preparationMinutes": 5,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/summer-breeze-smoothie",
+      "externalId": "nhlbi:summer-breeze-smoothie",
+      "ingredients": [
+        {
+          "name": "1 C nonfat plain yogurt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "6 medium strawberries",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C pineapple, crushed, canned in juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 medium banana",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp vanilla extract",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 ice cubes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Place all ingredients in blender, and puree until smooth.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Serve in frosted glasses.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "sweet-potato-custard",
+      "title": "Sweet Potato Custard",
+      "summary": "A flavorful custard that's tasty and healthy.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 6,
+      "preparationMinutes": 10,
+      "cookingMinutes": 45,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/sweet-potato-custard",
+      "externalId": "nhlbi:sweet-potato-custard",
+      "ingredients": [
+        {
+          "name": "Nonstick cooking spray",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C mashed cooked sweet potato",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C mashed banana (about 2 small)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C evaporated skim milk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp packed brown sugar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 beaten egg yolks (or ⅓ C egg substitute; if using egg substitite, cholesterol will be lower)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C raisins",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp sugar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp ground cinnamon",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 325 °F. Spray a 1-quart casserole with nonstick cooking spray.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a medium bowl, stir together sweet potato and banana. Add milk, blending well.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add brown sugar, egg yolks, and salt, and mix thoroughly.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Transfer sweet potato mixture to casserole dish.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Combine raisins, sugar, and cinnamon; sprinkle over the top of the sweet potato mixture.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Bake for 40 to 45 minutes, or until a knife inserted near the center comes out clean.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "tropical-fruit-compote",
+      "title": "Tropical Fruit Compote",
+      "summary": "Fresh or cooked fruits make a great low-calorie dessert.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 8,
+      "preparationMinutes": 15,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/tropical-fruit-compote",
+      "externalId": "nhlbi:tropical-fruit-compote",
+      "ingredients": [
+        {
+          "name": "¾ C water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C sugar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 tsp fresh lemon juice",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 piece lemon peel",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp rum or vanilla extract (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 pineapple, cored and peeled, cut into 8 slices",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 mangos, peeled and pitted, cut into 8 pieces",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "3 bananas, peeled, cut into 8 diagonal pieces",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "Fresh mint leaves (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a saucepan combine ¾ cup of water with the sugar, lemon juice, and lemon peel (and rum or vanilla extract if desired). Bring to a boil, then reduce the heat and add the fruit. Cook at a very low heat for 5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Pour the syrup into a cup and set aside. Remove the lemon peel and cool the cooked fruit for 2 hours.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "To serve the compote, arrange the fruit in a serving dish and pour a few teaspoons of syrup over the fruit. Garnish with mint leaves (if desired).",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "turkey-and-beef-meatballs-whole",
+      "title": "Turkey and Beef Meatballs with Whole-Wheat Spaghetti",
+      "summary": "Easy and delicious!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 20,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/turkey-and-beef-meatballs-whole",
+      "externalId": "nhlbi:turkey-and-beef-meatballs-whole",
+      "ingredients": [
+        {
+          "name": "8 oz dry whole-wheat spaghetti",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C chunky tomato sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp fresh basil, rinsed, dried, and chopped (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 tsp grated parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "For turkey meatballs: 6 oz 99 percent lean ground turkey",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C whole-wheat breadcrumbs",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp fat-free evaporated milk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp grated parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ Tbsp fresh chives, rinsed, dried, and chopped (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ Tbsp fresh parsley, rinsed, dried, and chopped (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "For beef meatballs: 6 oz 93 percent lean ground beef",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C whole-wheat breadcrumbs",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp fat-free evaporated milk",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp grated parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ Tbsp fresh chives, rinsed, dried, and chopped (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ Tbsp fresh parsley, rinsed, dried, and chopped (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven to 400 ºF.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a 4-quart saucepan, bring 3 quarts of water to a boil over high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add pasta, and cook according to package directions. Drain.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Meanwhile, combine ingredients for the turkey and beef meatballs in separate bowls, and mix well. Measure 1½ tablespoons of turkey mixture and roll in hand to form a ball; then place the meatball on a nonstick baking sheet. Repeat, and follow same instruction for beef mixture, until eight turkey and eight beef meatballs are made.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Bake meatballs on a nonstick baking sheet for 10 minutes (to a minimal internal temperature of 165 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Warm sauce, if necessary.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Serve four meatballs, ¾ cup hot pasta, ½ cup sauce, 1 teaspoon cheese, and a pinch of basil per portion.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "turkey-bolognese-shell-pasta",
+      "title": "Turkey Bolognese With Shell Pasta",
+      "summary": "Anise seed makes turkey taste like Italian sausage, with none of the saturated fat; the red wine and dried mushrooms make this a uniquely delicious dish.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 5,
+      "cookingMinutes": 35,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/turkey-bolognese-shell-pasta",
+      "externalId": "nhlbi:turkey-bolognese-shell-pasta",
+      "ingredients": [
+        {
+          "name": "1½ C dry red wine (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ oz dried porcini mushrooms (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C onion, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C celery, rinsed and chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C carrots, rinsed and thinly sliced or shredded",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp garlic, pressed or finely chopped (about 2–3 cloves)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "12 oz 99 percent lean ground turkey",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp anise seed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp salt",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 oz medium shell pasta",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 Tbsp no-salt-added tomato paste",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C shredded parmesan cheese",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Optional step: Bring the wine to a boil in a medium saucepan. Break up the mushrooms, then stir them into the wine. Cover, reduce heat, and simmer for 20 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Finely chop the onion, celery, carrots, and garlic. Or you can coarsely chop them, place them in a food processor, and pulse until all vegetables are finely chopped.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "In a 4-quart saucepan, bring 3 quarts of water to a boil over high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "While the water is heating up, warm the olive oil in a large nonstick pan over medium-high heat. Crumble in the ground turkey. Sprinkle with anise seed and salt. Cook for 5–10 minutes to brown, stirring occasionally.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Meanwhile, when the water comes to a boil, add pasta to boiling water. Cook according to package directions for the shortest recommended time, about 10–12 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Add vegetables to cooking turkey. Reduce heat to medium. Cook and stir 10 minutes until all vegetables are soft, but not browned. And tomato paste, and simmer for an additional 5–10 minutes. (Continue to optional step 7 if including the optional ingredients; otherwise, skip to step 8.)",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 7",
+          "instruction": "Optional step: While the pasta and turkey mixture cooks, strain mushrooms, draining unabsorbed wine directly into the turkey mixture. Place mushrooms on a cutting board and chop finely, or place in food processor and pulse once or twice to more finely chop mushrooms. Stir mushrooms into turkey mixture. Simmer for 10–15 minutes to blend flavors.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 8",
+          "instruction": "Drain pasta. Add pasta to turkey mixture (the minimum internal temperature of cooked turkey should be 165 °F). Stir to blend well.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 9",
+          "instruction": "Divide pasta mixture evenly (about 2 cups each) among four dinner plates. Top each with 2 tablespoons of shredded parmesan cheese.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "turkey-club-burger",
+      "title": "Turkey Club Burger",
+      "summary": "Lighten up your traditional hamburger with lean ground turkey — less saturated fat, without less flavor.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 20,
+      "cookingMinutes": 20,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/turkey-club-burger",
+      "externalId": "nhlbi:turkey-club-burger",
+      "ingredients": [
+        {
+          "name": "12 oz 99 percent fat-free ground turkey",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C scallions (green onions), rinsed and sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 large egg",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp light mayonnaise",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp Dijon mustard",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 oz spinach or arugula, rinsed and dried",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 oz portabella mushroom, rinsed, grilled or broiled, and sliced (optional)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 whole-wheat hamburger buns",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Preheat oven broiler on high temperature (with the rack 3 inches from heat source) or grill on medium-high heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "To prepare burgers, combine ground turkey, scallions, pepper, and egg, and mix well. Form into ½- to ¾-inch thick patties, and coat each lightly with olive oil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Broil or grill burgers for about 7–9 minutes on each side (to a minimum internal temperature of 160 °F).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Combine mayonnaise and mustard to make a spread.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Assemble ¾ tablespoon spread, 1 ounce spinach or arugula, several slices of grilled portabella mushroom (optional), and one burger on each bun.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "tuscan-beans-tomatoes-and-oregano",
+      "title": "Tuscan Beans With Tomatoes and Oregano",
+      "summary": "Dine outside on a warm summer evening with this cool and satisfying salad.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/tuscan-beans-tomatoes-and-oregano",
+      "externalId": "nhlbi:tuscan-beans-tomatoes-and-oregano",
+      "ingredients": [
+        {
+          "name": "1 can (15½ oz) low-sodium chickpeas (or garbanzo beans), drained and rinsed",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C cherry tomatoes, rinsed and halved",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp olive oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp balsamic vinegar",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 Tbsp fresh oregano, minced (or 1 teaspoon dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "⅛ tsp ground black pepper",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp salt-free seasoning blend",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 whole inner leaves of romaine lettuce, rinsed and dried",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "In a large salad bowl, combine beans and tomatoes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "In a small bowl, combine olive oil, vinegar, oregano, pepper, and salt-free seasoning blend. Using a wire whisk, beat the ingredients until they blend into one thick sauce at the point where the oil and vinegar no longer separate.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Pour the dressing over the beans and tomatoes, and mix gently to coat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Line four salad bowls with one romaine lettuce leaf each.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Top each leaf with one-fourth of the bean mixture, and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "vegetable-stew",
+      "title": "Vegetable Stew",
+      "summary": "Here’s a great new way to use summer vegetables.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 8,
+      "preparationMinutes": 20,
+      "cookingMinutes": 45,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/vegetable-stew",
+      "externalId": "nhlbi:vegetable-stew",
+      "ingredients": [
+        {
+          "name": "3 C water",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 cube (1 tsp) low-sodium vegetable bouillon",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C white potatoes, cut into 2-inch strips",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C carrots, sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "4 C summer squash, cut into 1-inch squares",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C summer squash, cut into 4 large chunks",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 can (15 oz) sweet corn, rinsed and drained (or 2 ears fresh corn, 1½ C)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp dried thyme",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 cloves garlic, minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 stalk scallion (green onion), chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ small hot pepper, chopped",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C coarsely chopped onion",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C diced tomatoes",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Put water and bouillon in a large pot, and bring to a boil.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add potatoes and carrots, and simmer for 5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add remaining ingredients, except for tomatoes, and continue cooking for 15 minutes over medium heat.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Remove the four large chunks of squash and puree in a blender. Return pureed mixture to the pot, and let cook for 10 minutes more.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Add tomatoes and cook for another 5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 6",
+          "instruction": "Remove from heat and let sit for 10 minutes to allow stew to thicken before serving.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "vietnamese-fresh-spring-rolls-goi",
+      "title": "Vietnamese Fresh Spring Rolls (Gỏi Cuốn)",
+      "summary": "Quick and refreshing — the perfect appetizer.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 8,
+      "preparationMinutes": 15,
+      "cookingMinutes": null,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/vietnamese-fresh-spring-rolls-goi",
+      "externalId": "nhlbi:vietnamese-fresh-spring-rolls-goi",
+      "ingredients": [
+        {
+          "name": "1 C carrots, cut into long, thin strips",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C bean sprouts",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C cucumber, seeded and cut into long, thin strips",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 C minced scallions",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C chopped fresh cilantro",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "¼ C chopped fresh mint",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "8 rice paper wrappers",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Toss first six ingredients in a large bowl.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Soak one rice paper wrapper in warm water until soft (1 to 2 minutes). Shake off excess water.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Place vegetable filling off-center on rice paper, and fold like an egg roll (tuck in the sides to keep the filling inside).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Repeat with remaining vegetable filling and rice paper wrappers.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Once you have assembled all of the spring rolls, serve immediately.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "wiki-fast-rice",
+      "title": "Wiki (Fast) Rice",
+      "summary": "Wiki means \"fast\" in Hawaiian, and this dish fits the bill—it's quick and easy to make.",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 10,
+      "cookingMinutes": 15,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/wiki-fast-rice",
+      "externalId": "nhlbi:wiki-fast-rice",
+      "ingredients": [
+        {
+          "name": "1 Tbsp fresh garlic, minced (about 3 cloves) (or 1 tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp fresh ginger, minced (or ¼ tsp dried)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp scallions (green onions), rinsed and minced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp olive or canola oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C canned sliced water chestnuts, drained",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C cooked mixed vegetables (or ½ bag frozen stir-fry vegetable mix) (Leftover Friendly)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "2 C cooked brown rice (Leftover Friendly)",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 Tbsp lite soy sauce",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 tsp sesame oil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Heat canola oil in a large wok or sauté pan over medium heat. Add garlic, ginger, and scallions, and cook until fragrant, about 1 minute.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Add water chestnuts, and continue to cook until they begin to soften, another 1–2 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add vegetables, and toss until heated through, about 2–3 minutes (or up to 5 minutes for frozen vegetables).",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Add rice, and continue to cook until hot, about 3–5 minutes.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 5",
+          "instruction": "Add soy sauce and sesame oil. Toss well, and serve.",
+          "durationMinutes": null
+        }
+      ]
+    },
+    {
+      "slug": "zucchini-medley",
+      "title": "Zucchini Medley",
+      "summary": "Your family will love this tasty vegetable side dish!",
+      "culturalNote": "This NHLBI entry is staged as a public-health recipe source. Geographic and cultural context has not yet been assigned; editorial review is required before publication.",
+      "servings": 4,
+      "preparationMinutes": 15,
+      "cookingMinutes": 10,
+      "placeSlug": null,
+      "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods/healthy-eating-recipes/zucchini-medley",
+      "externalId": "nhlbi:zucchini-medley",
+      "ingredients": [
+        {
+          "name": "3 C zucchini chunks",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 small yellow onion, sliced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "1 medium tomato, diced",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C chopped mushroom",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ tsp dried basil",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        },
+        {
+          "name": "½ C (2 oz) low-fat cheddar cheese, shredded",
+          "quantity": null,
+          "unit": null,
+          "preparationNote": null
+        }
+      ],
+      "steps": [
+        {
+          "title": "Step 1",
+          "instruction": "Place all ingredients except the cheese in a microwave-safe 2-quart casserole dish.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 2",
+          "instruction": "Microwave on high for 7 to 10 minutes, or until vegetables are fork tender.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 3",
+          "instruction": "Add the cheese, and microwave on high for 30 seconds.",
+          "durationMinutes": null
+        },
+        {
+          "title": "Step 4",
+          "instruction": "Let stand for 2 to 3 minutes before serving.",
+          "durationMinutes": null
+        }
+      ]
+    }
+  ]
+}

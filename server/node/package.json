@@ -1,0 +1,44 @@
+{
+  "name": "@savora/backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Savora catalog API, editorial tools and PostgreSQL migrations (NestJS + TypeScript).",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/main.js",
+    "db:status": "node dist/src/cli/migrate.js status",
+    "db:baseline": "node dist/src/cli/migrate.js baseline",
+    "db:migrate": "node dist/src/cli/migrate.js migrate",
+    "db:generate": "drizzle-kit generate",
+    "mail:status": "node dist/src/cli/product-maintenance.js status",
+    "mail:check": "node dist/src/cli/product-maintenance.js check",
+    "mail:policy": "node dist/src/cli/product-maintenance.js policy",
+    "mail:maintain": "node dist/src/cli/product-maintenance.js maintain",
+    "mail:deliver": "node dist/src/cli/mail-delivery.js",
+    "security:audit": "npm audit --omit=dev"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/platform-express": "^11.1.0",
+    "drizzle-orm": "0.45.2",
+    "pg": "^8.16.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "22.19.19",
+    "@types/pg": "^8.15.0",
+    "drizzle-kit": "0.31.10",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "body-parser": "2.4.0",
+    "multer": "2.5.0"
+  }
+}

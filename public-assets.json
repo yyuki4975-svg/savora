@@ -1,0 +1,4615 @@
+{
+  "origin": "https://cookwsavora.com",
+  "files": [
+    {
+      "path": "images/commons/01-paella-valenciana-original-e02a18a9.jpg",
+      "bytes": 322365,
+      "sha256": "3e944866be19ca30bc237c06cac1398cd526fbe2ebe4c7ef2983b3664a98d99b"
+    },
+    {
+      "path": "images/commons/03-paella-hirviendo-con-romero-ea84a9ba.jpg",
+      "bytes": 310902,
+      "sha256": "71ce3038a419b836b94dadb7800be7e472e4cea5644b96cfa7d46419c17dc4de"
+    },
+    {
+      "path": "images/commons/074-paelles-d-arros-al-mercat-central-de-valencia-1b53ba27.jpg",
+      "bytes": 405694,
+      "sha256": "76b836074f8e2297187f3c4995e252c4e95ef0d1e833bc03bca8b4e41e170a4a"
+    },
+    {
+      "path": "images/commons/20191205-spice-market-old-delhi-0711-6764-e64a2f19.jpg",
+      "bytes": 344137,
+      "sha256": "18fb38af66e59412f5a403b29f08b85b254c2f5a929d8e71b100cb393ae38fa0"
+    },
+    {
+      "path": "images/commons/a-man-prepares-food-in-a-market-in-bangkok-thailand-3aaa4f01.jpg",
+      "bytes": 487224,
+      "sha256": "cc091f121093ac10849b7a680a432399a087e4a423a1d6a97db4d1bfa5eba9e5"
+    },
+    {
+      "path": "images/commons/a-market-in-chandni-chowk-delhi-4fb95a2f.jpg",
+      "bytes": 140757,
+      "sha256": "65b94392764b3882ba3b11ab3a92b78ca2e0191573a2b37d58adfd27e4e49e3f"
+    },
+    {
+      "path": "images/commons/a-vegetable-store-in-tokyo-4c84c1be.jpg",
+      "bytes": 284243,
+      "sha256": "3b7aeff8216b5bfd2403efe19a4a15bd19ae58b43b0eafa414c8eca01e130542"
+    },
+    {
+      "path": "images/commons/adana-kebab-with-bulgur-65d7a991.jpg",
+      "bytes": 133874,
+      "sha256": "a45d06427b591b9241b7a96cb8f0fcfd5c2cb4628b09c83ca3f859668769cf70"
+    },
+    {
+      "path": "images/commons/adana-kebap-2024-0ce608e6.jpg",
+      "bytes": 135723,
+      "sha256": "2e19b54688942b31d33ac9f9510009c9486b286e71e63d3fddd7cc8b4ef42a4a"
+    },
+    {
+      "path": "images/commons/al-pastor-41223713980-2885f71b.jpg",
+      "bytes": 175255,
+      "sha256": "a2954c1afe509422fd49824dec55c9c37db5a127c40919f4123e491fe7a7ce4f"
+    },
+    {
+      "path": "images/commons/albufera-rice-paddy-5a5efccd.jpg",
+      "bytes": 274890,
+      "sha256": "3e58878d89aa710a5ab0b7a874c6f646a917c72450405468f4e55d2ba8122a47"
+    },
+    {
+      "path": "images/commons/apple-coffee-cake-f10b7c58.jpg",
+      "bytes": 115372,
+      "sha256": "b2520f94d82041a6c55b896e8a289d3d54942a1e43bafa3ec5646bfa2c742cc8"
+    },
+    {
+      "path": "images/commons/asparagus-with-lemon-egg-sauce-3056940872-8951b40b.jpg",
+      "bytes": 38681,
+      "sha256": "77951099b101e3198543ff9be136cd91666c1e67269238028c4cacc7cbc1f399"
+    },
+    {
+      "path": "images/commons/avocado-fruits-10895539.jpg",
+      "bytes": 215558,
+      "sha256": "bdd38933c5a0d178ad212a7d7b8cfc31fb7acbb9a854c380a3d481fac8a4bb3c"
+    },
+    {
+      "path": "images/commons/baguette-coocking-img-4272-14160296194-51eeef97.jpg",
+      "bytes": 77895,
+      "sha256": "eebc901b6aa73b4ed0ca0f68a43320ae7c948f3d79be07efca7407322c17c7c8"
+    },
+    {
+      "path": "images/commons/baguette-mie-f7e1cdaf.jpg",
+      "bytes": 89538,
+      "sha256": "4feb070790153abfa26ba18cf2d73e9a2e55b976f03ac5385459c5c421e52f4d"
+    },
+    {
+      "path": "images/commons/baguettes-d-epi-a68fc86f.jpg",
+      "bytes": 361345,
+      "sha256": "8bfc23f52849cc0b62ed894c49bb90c2339a444724362a2003c402b88b0e122c"
+    },
+    {
+      "path": "images/commons/baguettes-in-a-paris-shop-34743548581-d638f86d.jpg",
+      "bytes": 521046,
+      "sha256": "66f1b47b4ffa338e7107e474378f7798c78f23c2728a6f7f6b9c4c191c6d343c"
+    },
+    {
+      "path": "images/commons/baguettes-stonesoup-a93475e8.jpg",
+      "bytes": 398705,
+      "sha256": "a8cad0186837ea0974287f2521de925f56a10edaae3263eb05c955f233c8dd21"
+    },
+    {
+      "path": "images/commons/baked-salmon-with-dill-and-lemon-fc4dbd56.jpg",
+      "bytes": 214536,
+      "sha256": "b49921b3481ecc1f5dde0dfcde5f3cdcad70921d5191da710dabe9d4cf9e22fe"
+    },
+    {
+      "path": "images/commons/baker-woman-s-hands-kneading-bread-dough-4f1d6d61.jpg",
+      "bytes": 174108,
+      "sha256": "6f5ce0db290035ec9b6e8e2afea76f544fc0b126d3da981913503170dec7e1d2"
+    },
+    {
+      "path": "images/commons/bangkok-fruit-stall-67d9739e.jpg",
+      "bytes": 286908,
+      "sha256": "a76c261a49df1eb610557397fc0f48e311c2633d216d49f35e19e4cf4ff8c9da"
+    },
+    {
+      "path": "images/commons/bangkok-market-p1130011-29e6dea6.jpg",
+      "bytes": 421253,
+      "sha256": "14aa4abc176c3323c6cd2e3c6e07cd57a766a550586ba3a6164cdc330a25c901"
+    },
+    {
+      "path": "images/commons/barbeque-chicken-89fb9961.jpg",
+      "bytes": 119231,
+      "sha256": "8c9154eec3c62175ceb380e35d571895832d3a3da7552bba086d5c8e812f0e06"
+    },
+    {
+      "path": "images/commons/beanstlaya-056054de.jpg",
+      "bytes": 333784,
+      "sha256": "d2a8c4029759ed9a690e30a3d2b8f198525fb7e694bbea03ee7f09484e2049f9"
+    },
+    {
+      "path": "images/commons/bento-at-hanabishi-koyasan-2b295965.jpg",
+      "bytes": 286399,
+      "sha256": "da733ea42c9d957f7c4c4d4b7e758b68df4ab4d2de13138b6282fb6cc5f5ef09"
+    },
+    {
+      "path": "images/commons/bibimbap-8111593238-5f9924d5.jpg",
+      "bytes": 273035,
+      "sha256": "8ae11e9f309c01542385a4d45e6a06077d714006cab970fdb10738cf764e4411"
+    },
+    {
+      "path": "images/commons/bibimbap-in-jeonju-373b6dcb.jpg",
+      "bytes": 275040,
+      "sha256": "188dfd06c2b5de578b360ce178963445c55c8f592bff7a1d5128bdd9f609edb4"
+    },
+    {
+      "path": "images/commons/bosc-pears-in-rome-s-farmers-market-129a32cd.jpg",
+      "bytes": 258413,
+      "sha256": "c0ee55669ed08083fa4c94a642d091373df032027a044c51c2354cab69c85974"
+    },
+    {
+      "path": "images/commons/boulangerie-rue-du-pasteur-wagner-paris-2011-12e18da4.jpg",
+      "bytes": 597347,
+      "sha256": "1dde07fac42f81f2aa70f108ed77816436573ceb0264db598fc7d78c71db047f"
+    },
+    {
+      "path": "images/commons/butternut-squash-soup-5171665819-8be6c717.jpg",
+      "bytes": 107918,
+      "sha256": "9c30f666e2501ac09e7ed08444814762fbd481acd2b0dc21e334587695c07fc7"
+    },
+    {
+      "path": "images/commons/campo-de-fiori-street-market-2016-12-f2cb9f57.jpg",
+      "bytes": 349425,
+      "sha256": "6eccdc2dfab97d2ef86ac52d4bc892cccfbeed5f204b199f3c0ab1339d5c2c61"
+    },
+    {
+      "path": "images/commons/campo-dei-fiori-5ed3cc83.jpg",
+      "bytes": 287028,
+      "sha256": "5c8ebf4174f2269a8053228a562bf677b50b63ed2fc542812a492db18e931aa7"
+    },
+    {
+      "path": "images/commons/chengdu-hot-pot-0d1e8bdb.jpg",
+      "bytes": 274083,
+      "sha256": "4c158f8117ae13d55d6c21917f71fbc469ed8ce401a6eb20bea263ad3c3d0137"
+    },
+    {
+      "path": "images/commons/chengdu-zhong-dumpling-zhong-jiaozi-1c55f403.jpg",
+      "bytes": 195718,
+      "sha256": "544b7212544bda0ed5bc98508b17e8155b442b4d8fde473a21ef2fadc3965cd9"
+    },
+    {
+      "path": "images/commons/chicken-adobo-ee231551.jpg",
+      "bytes": 369183,
+      "sha256": "b904a65db43731b50850db78151e7372d92cd3ed5ec927f5929cd4b9a4d86575"
+    },
+    {
+      "path": "images/commons/chicken-chile-verde-7be7250c.jpg",
+      "bytes": 173628,
+      "sha256": "9f1e21f89076eb296542e83d7d4c7301230740bf1a1dd61b79f997328cb7ccfa"
+    },
+    {
+      "path": "images/commons/chicken-fricassee-01-3-5e886898.jpg",
+      "bytes": 290268,
+      "sha256": "e86d72af9979272ffd35dd4715a092d8fa7ff7c7f264cb4ed1d64edcb72f8d7b"
+    },
+    {
+      "path": "images/commons/chiles-secos-sobre-petate-en-oaxaca-0d136a1d.jpg",
+      "bytes": 394320,
+      "sha256": "48b2c21af20d89c659dab970d470d630e2058eb4c81637802d44554d005bf958"
+    },
+    {
+      "path": "images/commons/china-chengdu-5-vegetable-market-135953962-b238ff87.jpg",
+      "bytes": 355154,
+      "sha256": "0c2a26deff416e20f9830565fc6293863c1c683b33053a749265ad7315f2c452"
+    },
+    {
+      "path": "images/commons/chocolate-atole-1633beaa.jpg",
+      "bytes": 629585,
+      "sha256": "b1e35efd5e0d298af9b58caaf3d159ac14a12a281ba1a5c06afd64fd8e5c88c3"
+    },
+    {
+      "path": "images/commons/cours-saleya-flower-market-vegetable-stalls-nice-2026-53303212.jpg",
+      "bytes": 597886,
+      "sha256": "8dadd58bfb0bb4f609e663767e2b996c468cffc37b606a845791dafd54ace039"
+    },
+    {
+      "path": "images/commons/cours-saleya-market-fruit-stalls-nice-2026-1e7bf8d3.jpg",
+      "bytes": 358900,
+      "sha256": "0ed73cb0ac3c7ce139aa6fb0b7a99612a981cd6a059c43f89363fe57f2b7510a"
+    },
+    {
+      "path": "images/commons/creamy-mushroom-pasta-9118e2ff.jpg",
+      "bytes": 98631,
+      "sha256": "f8c79514b627656fae502c958e6e24ca891a8acbe47bd4cd7ad08f2540b26185"
+    },
+    {
+      "path": "images/commons/croissant-whole-d8fec239.jpg",
+      "bytes": 175542,
+      "sha256": "1579d5a14ac90fd85d19ce98903d3ae0df8e9996ecfd6fa2ff002c7c34650f5f"
+    },
+    {
+      "path": "images/commons/crust-and-crumb-bf07c4ba.jpg",
+      "bytes": 267333,
+      "sha256": "0c08037676c7f27e7526b567143de437ccf9529cee9f55d1bee355ac3f302f8d"
+    },
+    {
+      "path": "images/commons/devanture-boulangerie-159-rue-ordener-272ab549.jpg",
+      "bytes": 298881,
+      "sha256": "9d8ef6231cee29989cd26c0cb2adc069653ebce6045aa28342776cd58ab5d6ff"
+    },
+    {
+      "path": "images/commons/dos-tipos-diferentes-de-chiles-en-el-mercado-michoacan-b3c8e762.jpg",
+      "bytes": 134113,
+      "sha256": "6b379025c3e33ba6b395d10ca475e4664218c4ba348bf42ccec9eae9828ce50a"
+    },
+    {
+      "path": "images/commons/dried-fruits-shop-in-the-saleya-market-in-nice-b52b2c6c.jpg",
+      "bytes": 370726,
+      "sha256": "6e644c7969c70596add1cb5fdcf00381eaa8d7a76996a1a5e88be15a1899be05"
+    },
+    {
+      "path": "images/commons/driedchilesmerced-60c4769e.jpg",
+      "bytes": 360539,
+      "sha256": "d11c15bea55985737a8a539108199bc8e0b45aa04445caf780ee89b3aa5f37c5"
+    },
+    {
+      "path": "images/commons/eating-ramen-at-outdoor-table-by-ngader-in-tsukiji-tokyo-e6dfae62.jpg",
+      "bytes": 130327,
+      "sha256": "e557e80f7280c23a4c8674f72607b5f276048e37366a120e6bd5065f7d8f2e01"
+    },
+    {
+      "path": "images/commons/federweisser-and-zwiebelkuchen-8ffd112d.jpg",
+      "bytes": 230803,
+      "sha256": "ecf4c3f2cf6e0e83bdc394320215541fc9555d08334387e6f21b5ac442263f2f"
+    },
+    {
+      "path": "images/commons/feijoada-01-479bd619.jpg",
+      "bytes": 26396,
+      "sha256": "d6b2c884d6cef9287684eb626c252f21ca71a31b78b278a0642af70f5abb167a"
+    },
+    {
+      "path": "images/commons/feijoada-a-brasileira-0cc88aa0.jpg",
+      "bytes": 257796,
+      "sha256": "b1f64e8d5c74d12dbbd218de8ea88f35744da70f9686946256d7952674c94ae1"
+    },
+    {
+      "path": "images/commons/feijoada-brazilian-dish-sao-luis-maranhao-605b9848.jpg",
+      "bytes": 174280,
+      "sha256": "70b952a5e16fd7b4c01ed0396bd3df2e34bedfef7df9667d26d8eeee0ab6b54f"
+    },
+    {
+      "path": "images/commons/feijoada-vila-da-penha-rio-de-janeiro-brazil-food-largo-do-b-6c6ad31c.jpg",
+      "bytes": 240270,
+      "sha256": "c3f88896bc3667a8f3e49e66d1f03e5890e19214332bed37cf25677c50c60e3e"
+    },
+    {
+      "path": "images/commons/file-a7e37fbf.jpg",
+      "bytes": 551050,
+      "sha256": "17732914d5fa662b1ba22d3caef385998b0e4c365a68832667ebe3bafdb78cef"
+    },
+    {
+      "path": "images/commons/flor-de-calabaza-6148232245-4f21c30a.jpg",
+      "bytes": 209129,
+      "sha256": "66d057a1d280c5326c0bac42df1c429c4cb4f5363679ae36faa7654b0590e195"
+    },
+    {
+      "path": "images/commons/france-002482-market-day-in-nice-15721359589-4821153b.jpg",
+      "bytes": 421111,
+      "sha256": "9d31851e4e1e5e7af38d071838467fe626cecbcf704678a564c9358a95cb583e"
+    },
+    {
+      "path": "images/commons/french-bakery-bread-43991934612-d7300dd1.jpg",
+      "bytes": 146608,
+      "sha256": "14581ef709b96b10784b376ad6c7f8d629b6023d786d993126a205f20fb7c0af"
+    },
+    {
+      "path": "images/commons/french-toast-001-227d3f0e.jpg",
+      "bytes": 146528,
+      "sha256": "5b5e3be4c8cae7f371da802c030a2049aac1a27b1bd085f88a91603d86a9d182"
+    },
+    {
+      "path": "images/commons/fresh-green-basil-leaves-54986224214-d83eea18.jpg",
+      "bytes": 112551,
+      "sha256": "13b28d96f7861cfb2c9a5b1e8d38da7649ba88f52eeedd026ba055384003be14"
+    },
+    {
+      "path": "images/commons/fresh-lumpia-lumpiang-sariwa-ff7aecac.jpg",
+      "bytes": 64587,
+      "sha256": "07e133ab90fcdbf13ef703f81938d58e98173088cf2f1f3f8a7ad97e1a0153f3"
+    },
+    {
+      "path": "images/commons/fresh-spinach-leaves-52b491af.jpg",
+      "bytes": 739831,
+      "sha256": "d5d09f7cab39793abacc20f6a0f12ff3c22bcffe58665cc298c50e368e8fb863"
+    },
+    {
+      "path": "images/commons/frijoles-231ccecf.jpg",
+      "bytes": 250939,
+      "sha256": "eae0607b8cdc4cba529a0f5bf917e1f091f715aab4d34da4e13206140e523758"
+    },
+    {
+      "path": "images/commons/fruits-shop-in-the-saleya-market-in-nice-8bf9b322.jpg",
+      "bytes": 471451,
+      "sha256": "c0177e53d85a32fb7e54539a7b977477b0352c8e7842145926d7351991e10499"
+    },
+    {
+      "path": "images/commons/gemuseauflauf-mit-zucchini-tomate-und-oliven-c2f856c4.jpg",
+      "bytes": 377856,
+      "sha256": "8660b49f23efa163623face19c6f97ffffe83b879cbbeacf7c4e9d6a1bb42266"
+    },
+    {
+      "path": "images/commons/goi-cuon-e04a3946.jpg",
+      "bytes": 121066,
+      "sha256": "cbf9ebb7204b7e3edb10c1608d63472e4c4cff0a06c018dd7badda9dd5b80902"
+    },
+    {
+      "path": "images/commons/greece-food-moussaka-c1cf27a4.jpg",
+      "bytes": 191697,
+      "sha256": "9aedf636cae77ae2efdac9e496345ecabd2181f2241daede3ca168d2bc2f741e"
+    },
+    {
+      "path": "images/commons/green-almonds-kozan-01-fdc620f3.jpg",
+      "bytes": 257491,
+      "sha256": "456ab8e09f98d66a1931822a6c709973b270cf08be7427dbd55608631b451c66"
+    },
+    {
+      "path": "images/commons/green-pea-pods-716e4e6d.jpg",
+      "bytes": 415602,
+      "sha256": "60982ca053aea34196e480092ad34049398bbdc493d91281a06e4e0f53d657b2"
+    },
+    {
+      "path": "images/commons/grekiska-koket-01-f58b10dc.jpg",
+      "bytes": 113554,
+      "sha256": "5683f53265a4aa2e54dc8a4c2571d74bfa05b080336c968d075217ae51a28133"
+    },
+    {
+      "path": "images/commons/grilling-kebabs-in-adana-f49d6cdd.jpg",
+      "bytes": 274905,
+      "sha256": "deb2133135bca24c796ea7bd9c0b4f6bddaecd9a478c9f0e0b06b1babed00f4f"
+    },
+    {
+      "path": "images/commons/guerande-comparaison-en-fleur-de-sel-et-gros-sel-1a8070ec.jpg",
+      "bytes": 109330,
+      "sha256": "c3e38d9de00e236db5beba64a04655adfadae68a7b5f064d3d44cd24a7d23541"
+    },
+    {
+      "path": "images/commons/hanging-hachiya-persimmons-to-become-hoshigaki-5ce7e7d9.jpg",
+      "bytes": 202507,
+      "sha256": "775d3101bf51a58082fab19b9e0595adaa40f5cbd1e94d34f2a002e1634f4eee"
+    },
+    {
+      "path": "images/commons/homemade-lentil-soup-lavash-2025-02-10-f685d4cf.jpg",
+      "bytes": 147554,
+      "sha256": "b04ed0d9e3d56c9405844e87607b37938925a56a8c6be11bc0960a790fc331a1"
+    },
+    {
+      "path": "images/commons/huli-huli-8084262832-7a73e465.jpg",
+      "bytes": 69756,
+      "sha256": "c23fe88f25a72fb71c745ab5cc1aded0fdd0ea1977f1f38b7454f2fb63d68434"
+    },
+    {
+      "path": "images/commons/japan-rice-harvesting-e31f943d.jpg",
+      "bytes": 708671,
+      "sha256": "460789e02f77a8fd0ca75a82e3df20e62a3e6dad38ee1f8e9f04910d794aafdb"
+    },
+    {
+      "path": "images/commons/jeonju-bibim-bap-and-kongnamul-guk-3dbde1fa.png",
+      "bytes": 3444229,
+      "sha256": "570701a27994ccb9931e8140f98f76be317c0239b60470af6a2ac466c5cf382a"
+    },
+    {
+      "path": "images/commons/kluse-physalis-philadelphica-tomatillo-04-ies-7f9799d7.jpg",
+      "bytes": 247234,
+      "sha256": "72b8c15b6252aa17c30af9c2845791449fe8278ae09b78b4457eccf5f5fc57b1"
+    },
+    {
+      "path": "images/commons/korea-jeonju-bibimbap-festival-01-97c15e82.jpg",
+      "bytes": 149787,
+      "sha256": "1275413048ab59865a41b63bb807784ca972dc7f0d24a6aef69f3b226af0f2f5"
+    },
+    {
+      "path": "images/commons/korean-cuisine-hwangpomuk-01-e969b296.jpg",
+      "bytes": 82788,
+      "sha256": "0ac58da0c62f61c3a21f7b7b7b1059359b96f303318fe66d069bebae76f5e6bd"
+    },
+    {
+      "path": "images/commons/liat-portal-for-foodie-disorder-sauteed-green-beans-with-oni-8c226a81.jpg",
+      "bytes": 710391,
+      "sha256": "987929b70253f35b06851daf34a618f9e65b86f2c07f0a0af3a5ae0cc5694c38"
+    },
+    {
+      "path": "images/commons/liat-portal-for-foodie-disorder-spaghetti-and-meatballs-a0f26630.jpg",
+      "bytes": 309447,
+      "sha256": "5de6213c15d4e679b1f0e067c787587cece9b06c2652a6556f06d392cfcf82d0"
+    },
+    {
+      "path": "images/commons/los-navalmorales-2022-02-d373908a.jpg",
+      "bytes": 555687,
+      "sha256": "20cf31277a19a637cc6211f44da5464188d92878cf226db10cbc13d266858c15"
+    },
+    {
+      "path": "images/commons/maices-nativos-de-mexico-tlaxcala-mexico-2023-43a28851.jpg",
+      "bytes": 655939,
+      "sha256": "0ed7cb9ac38b03190a5e3c7add72150cf3f5bcb1f6f20b509616e283cfa630f1"
+    },
+    {
+      "path": "images/commons/makan-bajamba-ebc9c6b1.jpg",
+      "bytes": 362626,
+      "sha256": "6b3f96d7dda6249aed9c801cf259259eeae686f41728ef18c1151eb6e61d7b78"
+    },
+    {
+      "path": "images/commons/mango-milkshake-9c442e44.jpg",
+      "bytes": 55018,
+      "sha256": "aaaf22f0eafbe262727227c5205658f66ec42e9e28b02932295b856a088d88ce"
+    },
+    {
+      "path": "images/commons/mango-pudding-and-a-papaya-and-white-fungus-tong-sui-from-go-fa0333a8.jpg",
+      "bytes": 68977,
+      "sha256": "3e3198d9e26bf528002e3daf82c1f28305fb94c753a2468216e2b9aa3e13f09f"
+    },
+    {
+      "path": "images/commons/masa-de-tortillas-7aee6760.jpg",
+      "bytes": 444684,
+      "sha256": "7bd92b6e48be412f61662e9935ffd71200daea7bd294c942c32a6fa26f2e7ef0"
+    },
+    {
+      "path": "images/commons/matsutake-gohan-2016-11-29-01-af75b238.jpg",
+      "bytes": 225335,
+      "sha256": "7f8ac0ca8c2da8b88f4028529207472d35b75d424823c6a910ef82afc79f5e30"
+    },
+    {
+      "path": "images/commons/meat-dishes-sichuan-hotpot-1648200823-70137b5c.jpg",
+      "bytes": 171567,
+      "sha256": "91cce0a7f87fc46333bec2654b669ff4f30d0305822c16a1f9d1bbe82c8a824b"
+    },
+    {
+      "path": "images/commons/mexican-woman-maize-tortillas-8364ce67.jpg",
+      "bytes": 288037,
+      "sha256": "309dd73a998d95551e0910f0572b798f8824cd2a71851cd8b30ce19b593764cb"
+    },
+    {
+      "path": "images/commons/milpa-in-zaragoza-tilantongo-ca3e9667.jpg",
+      "bytes": 421895,
+      "sha256": "37ac154fdacbdb74d1b5dfad03cd6cc639f3f26606920c815068fd88d815d7f4"
+    },
+    {
+      "path": "images/commons/minestrone-soup-b9360d13.jpg",
+      "bytes": 143388,
+      "sha256": "3eb86519ae25e77285b90ebc2f21873dea56f6879b3eb38840f4e59abab18964"
+    },
+    {
+      "path": "images/commons/mixed-vegetables-on-brown-rice-massachusetts-955b0cdb.jpg",
+      "bytes": 342522,
+      "sha256": "81273bc374178e0dbe1f0da8e362440d4fdac90a35a89c91725cfccbf421d301"
+    },
+    {
+      "path": "images/commons/mmm-turkey-soup-5219221176-5399ffee.jpg",
+      "bytes": 178592,
+      "sha256": "b508f0be281d09771469812a7389fa29a2af82fe33807006966a9e5a406aae3a"
+    },
+    {
+      "path": "images/commons/mole-negro-de-oaxaca-con-arroz-706d2294.jpg",
+      "bytes": 250590,
+      "sha256": "ff0c8968f31e2f039d47cb39050023bdbc64ca7e97e2bf27f3d9495e33f9e4bc"
+    },
+    {
+      "path": "images/commons/mole-poblano-15f852e2.jpg",
+      "bytes": 207284,
+      "sha256": "c2fc257099da354d6d883e2fad491fdc908fbaae6c8927c378d655e97c0cd66c"
+    },
+    {
+      "path": "images/commons/mole-poblano-mexico-ed446091.jpg",
+      "bytes": 211315,
+      "sha256": "0ab63b642960e97889bd344530b9bbdc7a2acb3982dbedfc6abe8aea71566ad6"
+    },
+    {
+      "path": "images/commons/monday-red-beans-new-orleans-june-2019-bywater-bakery-c691f12b.jpg",
+      "bytes": 161147,
+      "sha256": "4d7241c05b97ca6487681676d05dc7a13f31f6c10c5d7c751c3477458da65e69"
+    },
+    {
+      "path": "images/commons/moroccan-herbs-2d75fccc.jpg",
+      "bytes": 250437,
+      "sha256": "3aaca7cd8dec220ab362b9dea5185cd40a970798e751f2d9e09ef13fccae058e"
+    },
+    {
+      "path": "images/commons/moussaka-and-greek-salad-at-a-taverna-in-greece-0a3bfa02.jpg",
+      "bytes": 262655,
+      "sha256": "51ea598ced56fcf8c4fdbdb993daaa9aa3d0f7f3f0535d57ac1724bb4c3b7234"
+    },
+    {
+      "path": "images/commons/nasi-padang-416ff60a.jpg",
+      "bytes": 182919,
+      "sha256": "335c1324d1734cc06d3bba3dea4faef6665715e5c03ab48dc680835fff20c9c6"
+    },
+    {
+      "path": "images/commons/new-orleans-march-2018-red-beans-rice-dunbars-06a48993.jpg",
+      "bytes": 156446,
+      "sha256": "8ccd7c9a2364669cfabb221020418ce57bd024724210da75bef79e6fcc7fd882"
+    },
+    {
+      "path": "images/commons/paddy-field-albufera-fd18d22f.jpg",
+      "bytes": 195793,
+      "sha256": "cfffc94b83b794ca78bdad3e5266938fef9a5bfe3f419046c41ae918ebb32540"
+    },
+    {
+      "path": "images/commons/paella-a-la-lena-en-valencia-f8e59052.jpg",
+      "bytes": 183479,
+      "sha256": "82b4ba719e38a8b1a6d6dc76a99a3c09fc3abb4e6344a699b39290af934f959c"
+    },
+    {
+      "path": "images/commons/paella-a-la-placa-de-la-reina-falla-tio-pep-05-c0fb8689.jpg",
+      "bytes": 341464,
+      "sha256": "cc6eb5a6309fe97e93226ee1a70f9ffa6bd34f0de4d7cdae2ed14e2ab6efa517"
+    },
+    {
+      "path": "images/commons/pain-de-campagne-073c5f63.jpg",
+      "bytes": 378436,
+      "sha256": "f97a61653773be07015004149501b648a12a186c9f67728c945e9c49830bbb86"
+    },
+    {
+      "path": "images/commons/pan-de-muerto-en-ofrenda-b780b290.jpg",
+      "bytes": 281025,
+      "sha256": "a2165989f9313517f214def3e57dd6fd2e0d8b0a3cd03fac5858c95459dfdbed"
+    },
+    {
+      "path": "images/commons/pinto-beans-2-2dc42905.jpg",
+      "bytes": 225132,
+      "sha256": "f917e3a3b4e0d98b032053e636d53c644ef9d2f34244ef7affc1cadbb07e9c14"
+    },
+    {
+      "path": "images/commons/pita-pizza-54fe8b5c.jpg",
+      "bytes": 144146,
+      "sha256": "39546357757ccec98214b0a97454a74f003175645d82a8d557c86b8a028999d8"
+    },
+    {
+      "path": "images/commons/potato-salad-with-fresh-vegetables-a3dae7d8.jpg",
+      "bytes": 140901,
+      "sha256": "cc8c7dd2fb35ee0492941fd4f8a233231fa9c3612804c207f684e383796961a8"
+    },
+    {
+      "path": "images/commons/prepared-food-display-in-an-italian-deli-in-rome-2584bb73.jpg",
+      "bytes": 336213,
+      "sha256": "2a3e913fdbe27ede598eb77ba2a646c739363b2c67ed96a8045f74a7971e1f07"
+    },
+    {
+      "path": "images/commons/preparing-musaka-654f6edc.jpg",
+      "bytes": 194470,
+      "sha256": "c0fd9c5ca15218530d15b2e458a013849dd145cb28a049355cfd56537dc8836b"
+    },
+    {
+      "path": "images/commons/preparing-paranthas-in-ghee-in-paranthe-wali-gali-delhi-indi-49077646.jpg",
+      "bytes": 248485,
+      "sha256": "8adc301cadbd9c8c746c87e41e9c3333862e482112f64bdf18d7014e206aefef"
+    },
+    {
+      "path": "images/commons/puestos-de-tacos-afuera-de-la-arena-mexico-01-9e3b044b.jpg",
+      "bytes": 269708,
+      "sha256": "7fe74a3da7f1610e2cc7b52e84278269e18b22c1b124ebdf04edc7f2250e49f7"
+    },
+    {
+      "path": "images/commons/ramen-shop-by-ngader-in-tsukiji-tokyo-25cbd251.jpg",
+      "bytes": 143954,
+      "sha256": "9c0265bae8dc3e33fb3b4242566a830b8cea98149318f48cd467508e1c56a4af"
+    },
+    {
+      "path": "images/commons/red-and-green-peppers-on-sale-in-bangkok-4dbc065b.jpg",
+      "bytes": 591148,
+      "sha256": "e603d92145e0724fd73b6d2f58717acd17e61a7fb72e9bda356b6c58fa486900"
+    },
+    {
+      "path": "images/commons/red-braised-pork-20141106191221-29cc4f26.jpg",
+      "bytes": 274584,
+      "sha256": "974dd3fc4f49b839f8ca25388688ce9a975903ce184a49f650efdd28d98f5d41"
+    },
+    {
+      "path": "images/commons/rendang-daging-sapi-asli-padang-916ae870.jpg",
+      "bytes": 229317,
+      "sha256": "66ac377e28950eec251502cd3751ea4319a6b5a5eb558657c87f0b3068507af3"
+    },
+    {
+      "path": "images/commons/rio-de-janeiro-panorama-adbe6abe.jpg",
+      "bytes": 290322,
+      "sha256": "f06558a6c88d2fb361ed963c0f79b93c518556d33f29adbbaa8375e85de659c6"
+    },
+    {
+      "path": "images/commons/roasted-beets-3426015484-a8ab36a1.jpg",
+      "bytes": 279244,
+      "sha256": "734628119fd0f0014187c3c048814e96f0b70f550f4657bb3bc160e81892b7a4"
+    },
+    {
+      "path": "images/commons/rumah-gadang-in-padang-panjang-d30405a2.jpg",
+      "bytes": 122666,
+      "sha256": "f07525b365ef783640c8457c06c20f9b38a5c19863c228759d25ea4f55287b83"
+    },
+    {
+      "path": "images/commons/s-rdan-adana-2022-1aadabaf.jpg",
+      "bytes": 305996,
+      "sha256": "3ab6dcd01adc85e8c3f097a5c70ddcf4c01494271dab058f2fbcc7be204cc98d"
+    },
+    {
+      "path": "images/commons/salades-de-fruit-ananas-banane-pasteque-0135b6bf.jpg",
+      "bytes": 168561,
+      "sha256": "7320f8185caaf5400f7f3291e29cbce3e7767b7ea9b49079ad4f5682c0c59a59"
+    },
+    {
+      "path": "images/commons/sate-padang-016f08bb.jpg",
+      "bytes": 129463,
+      "sha256": "fd6bf07036221f0b824f408d449792645589e8cea6c47bc44f9bd1df804e0124"
+    },
+    {
+      "path": "images/commons/shanghai-hairy-crab-4178989634-97674350.jpg",
+      "bytes": 155728,
+      "sha256": "7559bc0736ae5fb60bc50a2af448ad901af60dcdd3785fe2a6fb38d8f0a2e7de"
+    },
+    {
+      "path": "images/commons/shop-selling-spices-at-khari-baoli-old-delhi-fd7cc45b.jpg",
+      "bytes": 212977,
+      "sha256": "306bfec1082120f90734eb0dafec504237c5b21997dad62b3f2bbe62d8c54c0c"
+    },
+    {
+      "path": "images/commons/sliced-eggplant-daa48351.jpg",
+      "bytes": 165768,
+      "sha256": "e308e300812f97d3888e5817aaa5dff78ba06ed34b462b715a2ab4053b0ed361"
+    },
+    {
+      "path": "images/commons/songpyeon-674fd30e.jpg",
+      "bytes": 238135,
+      "sha256": "720ff72477a1709f7097b68c83e997143daf8c909dc6658fa93098c858147092"
+    },
+    {
+      "path": "images/commons/sourdough-starter-at-day-7-089813a1.jpg",
+      "bytes": 208103,
+      "sha256": "81987349fd447e5428b74857844c933684deb19fd1aa6a60ea28d1f26ef5f2f6"
+    },
+    {
+      "path": "images/commons/spaghetti-with-turkey-bolognese-and-grilled-zucchini-c9a061e7.jpg",
+      "bytes": 110825,
+      "sha256": "6c88b15ef2f03f612a6c08797925ed455ce5cb4c79a5aeca8b2eb028e55155a1"
+    },
+    {
+      "path": "images/commons/spice-box-2-6922905007-2329eab8.jpg",
+      "bytes": 341641,
+      "sha256": "a94d6986fe525a699a75d1300720c9155cac5fc783fe69672e058a15c21e7b8f"
+    },
+    {
+      "path": "images/commons/spice-market-in-campo-de-fiori-square-rome-italy-ec3a7016.jpg",
+      "bytes": 420432,
+      "sha256": "c4b78079c422ec52880525c4fa1d7eaa327f7a55151384c5338677d84b385ab0"
+    },
+    {
+      "path": "images/commons/spice-market-in-marrakech-20250125-1116-7196-fdfaca53.jpg",
+      "bytes": 889889,
+      "sha256": "73bddd6ff34e9fb32c150674365d883e7b773bd4186876c63e02e746ef07725d"
+    },
+    {
+      "path": "images/commons/spice-market-marakech-2242330035-bef83593.jpg",
+      "bytes": 123618,
+      "sha256": "548e9432d53488dffbe52f15ff70328db5648b10c7f1b4e22d7cc3f5417b2a07"
+    },
+    {
+      "path": "images/commons/spices-in-jemaa-al-fna-c908ce35.jpg",
+      "bytes": 902547,
+      "sha256": "d3c387257ad654d40019454a62d4b9935094a1318dd968cef0de36ec76ad6f82"
+    },
+    {
+      "path": "images/commons/spices-in-marrakech-04443693.jpg",
+      "bytes": 963308,
+      "sha256": "8ce03beeedc102c6a285e0ee8baa761f89d7b76fb3e1e9f06a3dbe005643bac7"
+    },
+    {
+      "path": "images/commons/steak-salad-94a80c7f.jpg",
+      "bytes": 83788,
+      "sha256": "307658792263bebc9e9ad53f5570f20fd347c255395be55444b3ec58bc924488"
+    },
+    {
+      "path": "images/commons/strawberry-and-banana-smoothie-1-14084474069-ac1b5e08.jpg",
+      "bytes": 204012,
+      "sha256": "3fbd3198276934110287f41b751ef91bcd7dc593beb03aa890230edf26d6f3b0"
+    },
+    {
+      "path": "images/commons/street-food-hanoi-15657896380-452de9ac.jpg",
+      "bytes": 432255,
+      "sha256": "6a3255c19fbce0b797452f96b4ae7523eab8bc670f1552210b280777142d532a"
+    },
+    {
+      "path": "images/commons/street-food-preparation-in-hanoi-49356318418-f8bfb7b9.jpg",
+      "bytes": 389312,
+      "sha256": "c827d204c449030aef6afc3e9c95a4e7240934571be16692a91eb880478ccecc"
+    },
+    {
+      "path": "images/commons/street-fruit-vendor-in-hanoi-9-march-2019-208eb95c.jpg",
+      "bytes": 343382,
+      "sha256": "437436174cbc0b4f70301c441df3eea2eb9faf8d3d99105605a31fbf0d19f55f"
+    },
+    {
+      "path": "images/commons/street-markets-urban-discovery-tour-hanoi-7060671921-999d54c9.jpg",
+      "bytes": 276047,
+      "sha256": "32f8fdf84a083a1a0b99065e90e78538a873d7f088341d33b6ff417c58cd0e6f"
+    },
+    {
+      "path": "images/commons/street-taco-stall-in-mexico-city-ce5e377e.jpg",
+      "bytes": 306057,
+      "sha256": "b53dbaff601430f98acbce72386907590e99d65c0c1f8efe654052260dac9e6f"
+    },
+    {
+      "path": "images/commons/street-vendor-pho-ga-hanoi-a692f591.jpg",
+      "bytes": 376855,
+      "sha256": "dbc27cbf45ff043c65284aa625493691aaed07b99a0f3ff5d6ed0d941d133370"
+    },
+    {
+      "path": "images/commons/sugar-roasted-chestnuts-1-e01ad027.jpg",
+      "bytes": 415486,
+      "sha256": "b75d6db61dcb3769e39166e08dea0f7ceb56b553dc4194dd1539e8e9c13f6794"
+    },
+    {
+      "path": "images/commons/sweet-potato-souffle-020cb513.jpg",
+      "bytes": 116519,
+      "sha256": "e0a004fb547e30ffe6b29a1ac9e2ae87b3957d48b63505dba7de47f6cb72f483"
+    },
+    {
+      "path": "images/commons/sweet-summer-rainbow-fruit-salad-ea198e03.jpg",
+      "bytes": 251954,
+      "sha256": "c6dc645160f2ac6bdf2038922cf6559e03be388c52987412fea2e30f970fc282"
+    },
+    {
+      "path": "images/commons/tachi-gui-ramen-2014-14327023280-7716b5b7.jpg",
+      "bytes": 473425,
+      "sha256": "8f6c519387ded84688a4dd0fb9b844fd447fd6cc51b9c857c3b5d9c24c94b898"
+    },
+    {
+      "path": "images/commons/tacos-al-pastor-taqueria-los-gueros-de-boturini-704e0a85.jpg",
+      "bytes": 372166,
+      "sha256": "9e1b77f89f65d43188a70939c8e1c58bfe7845c891514150319ee2bdbe833265"
+    },
+    {
+      "path": "images/commons/tapas-in-mercado-de-san-micuel-in-madrid-fc35313e.jpg",
+      "bytes": 207471,
+      "sha256": "2a7b871089ef1b4685c38ddc92ab1bd26b6d992dc15288c730f1081ec56f0842"
+    },
+    {
+      "path": "images/commons/thai-curry-paste-at-the-market-so-good-i-brought-some-home-3-cfca268e.jpg",
+      "bytes": 346457,
+      "sha256": "aef3993682570b035fe566fc340179a1a1843d39c169d5554421906f5930c2b1"
+    },
+    {
+      "path": "images/commons/thanksgiving-pumpkin-pie-new-orleans-2021-the-pie-d4bcb9af.jpg",
+      "bytes": 206762,
+      "sha256": "a35bb14870c8222781460e0064242b7b47873da4504dd6c16b866b1e6bc46da0"
+    },
+    {
+      "path": "images/commons/tokyo-ramen-street-in-first-avenue-tokyo-station-01-07bf0e6a.jpg",
+      "bytes": 117147,
+      "sha256": "419381e7a13031002fe8d40f0e4febccec4227e42eaa27450f810171865455ad"
+    },
+    {
+      "path": "images/commons/tomatillo-267fe5af.jpg",
+      "bytes": 259317,
+      "sha256": "ea12da7110248cddc8092b30205ad45f80565b9fbdb398b91a51c7ab8e7ab338"
+    },
+    {
+      "path": "images/commons/tomato-cream-sauce-on-pasta-and-chicken-7cfa2670.jpg",
+      "bytes": 115762,
+      "sha256": "e662417bfbe2bf8e85f6fd90a8d6e7f5ad7577ffb1738024c5b412e5ba68f8c1"
+    },
+    {
+      "path": "images/commons/tortillas-5469343283-5ac5d23d.jpg",
+      "bytes": 225264,
+      "sha256": "6a908056afa2e7529e77f65bd2f32a901d59120c8fcf5936a131cdfbee693a54"
+    },
+    {
+      "path": "images/commons/tortillas-de-maiz-blanco-mexico-01-7537e5dc.jpg",
+      "bytes": 112528,
+      "sha256": "16dababec7aa2c044e34d81cc4a699ab73e0f3514beb6aa114c4ea5a4d185686"
+    },
+    {
+      "path": "images/commons/turkey-burger-9fc40fa9.jpg",
+      "bytes": 172532,
+      "sha256": "2e54b1c3ea1f19ddf72b38f9b203762ab3d1739ee14e7c9446ffb40102d00736"
+    },
+    {
+      "path": "images/commons/tuscan-beans-7589804242-0db7fe14.jpg",
+      "bytes": 59450,
+      "sha256": "081cdf9c5c636d217f9f878659a9b31c929fab58830bb8c7e425910021204f6f"
+    },
+    {
+      "path": "images/commons/vegetable-dried-pea-and-bone-marrow-soup-chen-s-mapo-tofu-14-24c0dd86.jpg",
+      "bytes": 126949,
+      "sha256": "7034250ccb25e7f52d6da38da41f82d877268890f36ceb80451eeb0bc4a9b1a5"
+    },
+    {
+      "path": "images/commons/vegetables-stew-kolkata-2011-03-28-2074-64fbb9bf.jpg",
+      "bytes": 264985,
+      "sha256": "2ddd3a3e2fc47b6d46a61497da7c3134f3c4dd035b0cdfd8c657a1e86028e4da"
+    },
+    {
+      "path": "images/commons/wheat-flour-01-81f7f991.jpg",
+      "bytes": 191712,
+      "sha256": "7e0168333d854edaccedfdfdd994477116b7f12a34f97d976b81584aa46b6608"
+    },
+    {
+      "path": "images/commons/white-truffles-from-alba-d3a488bd.jpg",
+      "bytes": 299289,
+      "sha256": "1a3a550712d89c04935a911954150c785c652648245d4f0b452ed9342be70537"
+    },
+    {
+      "path": "images/commons/wing-wah-lotus-seed-paste-mooncake-2-ceb9f714.jpg",
+      "bytes": 122894,
+      "sha256": "c78745ea1e9cc343b97727a87805e21bc10b8644d8aa81f8e78e70cbc0d9511e"
+    },
+    {
+      "path": "images/commons/yaro-ramen-akihabara-main-shop-3-2-11-sotokanda-3-2-11-2022--97b1fa34.jpg",
+      "bytes": 476203,
+      "sha256": "db5c8db72e751bf59cd5b7945368a64e4fab6c34bb381dd080cd2d20e349a2bb"
+    },
+    {
+      "path": "images/commons/yogurt-fruit-bowl-c323b0e0.jpg",
+      "bytes": 302874,
+      "sha256": "cf857b37cf1c46b867c509f59ea9f2130b7502da3745126c79438f9d68b661a1"
+    },
+    {
+      "path": "images/commons/yuca-frita-d5960575.jpg",
+      "bytes": 161204,
+      "sha256": "4cff66e599d8a4e0c7fd34cc48ab5d8886cfa014250ab990c9ba2e32b9c9a88a"
+    },
+    {
+      "path": "images/community/mapo-tofu-zhengzhou.jpg",
+      "bytes": 3458499,
+      "sha256": "988dbc1f8a9daf2f27304fcb401249e461f4badc8affb484f2722e80baea1f52"
+    },
+    {
+      "path": "images/community/rendang-vina.png",
+      "bytes": 4542835,
+      "sha256": "d08a4acadc6d33416b1f246971bf48d8349aecd9edc6e20633f6454e736c6f73"
+    },
+    {
+      "path": "images/dishes/bibimbap.png",
+      "bytes": 2502229,
+      "sha256": "973a8ce3b0e88493cedb76cc168faec64785572c5d9f4ad973a34d50fe596ddc"
+    },
+    {
+      "path": "images/dishes/carbonara.jpg",
+      "bytes": 442301,
+      "sha256": "3001ba3c8043e7309726946fab83da892ba48a4f9c66121d0ce2a8e0da8ed3a4"
+    },
+    {
+      "path": "images/dishes/feijoada.jpg",
+      "bytes": 627556,
+      "sha256": "66368f85d2c8d91cefeee82fa3cc6003d309a848445acf0bfe3612b653bee9a5"
+    },
+    {
+      "path": "images/dishes/hansik-boribap.jpg",
+      "bytes": 209422,
+      "sha256": "64424c3bd2b28a8f65f3b7074c583e63bd69880dc6378688f27c917524a28b7e"
+    },
+    {
+      "path": "images/dishes/hansik-gimbap.jpg",
+      "bytes": 169864,
+      "sha256": "dc978c139018f8498dfa2d1aa50925360e3f1713dd4d5bcf9ad13e16e8d587f3"
+    },
+    {
+      "path": "images/dishes/hansik-jeyuk-deopbap.jpg",
+      "bytes": 130837,
+      "sha256": "da34a9a24261217e3c095de9f275e06393bc8abd266eb929638c6aecda852bcc"
+    },
+    {
+      "path": "images/dishes/hansik-kimchi-bokkeumbap.jpg",
+      "bytes": 249489,
+      "sha256": "ff2ce848cfe42597c47f92f1faf6ca42694df74c0c2b911a716254856d7d08ee"
+    },
+    {
+      "path": "images/dishes/hansik-kongnamul-bap.jpg",
+      "bytes": 142087,
+      "sha256": "4c8a8e35139e875ae518f51fa264ce532393abe3ce7716738d977fd87ba76041"
+    },
+    {
+      "path": "images/dishes/hansik-ssambap.jpg",
+      "bytes": 272493,
+      "sha256": "740206cc11fc38a620cae0b3ef1db9d28915934bfa6687b406620c561a477f6f"
+    },
+    {
+      "path": "images/dishes/howtocook-aloo-gobi.jpg",
+      "bytes": 243742,
+      "sha256": "b703b23a1b18e547cbaeaf8e728e689a7dd793dcb9051d564e402dd691a5634a"
+    },
+    {
+      "path": "images/dishes/howtocook-american-scrambled-eggs.jpg",
+      "bytes": 281002,
+      "sha256": "f220deb74f8445473937415850c49d49b2a012a09f7ade38da1c2546a4ea431a"
+    },
+    {
+      "path": "images/dishes/howtocook-ants-climbing-a-tree.jpg",
+      "bytes": 277372,
+      "sha256": "afec1f79f31260e4de3289c3cb6eda4e02b524dc5a43836dcfca75f8298a50c1"
+    },
+    {
+      "path": "images/dishes/howtocook-baby-cabbage-in-broth.jpg",
+      "bytes": 151663,
+      "sha256": "5ed2b783083963b40dd7d415612eee575b55dffde3d52c59a97bd083d14af2b2"
+    },
+    {
+      "path": "images/dishes/howtocook-black-bean-dace-lettuce.jpg",
+      "bytes": 235904,
+      "sha256": "0724a42ea5e64e95d83d6e60316d7e7b6dc505c8b1b3d812a3306d277512026d"
+    },
+    {
+      "path": "images/dishes/howtocook-black-bean-steamed-ribs.jpg",
+      "bytes": 294295,
+      "sha256": "59119c7bcb388b2643f74148ae6623266f92ecb53166f275ab8f5eb39a960bff"
+    },
+    {
+      "path": "images/dishes/howtocook-black-pepper-beef-strips.jpg",
+      "bytes": 99805,
+      "sha256": "c61e0ca0dad6946d1169a39156efff9678f55f2be890ba1149f120a7ec1a4d8b"
+    },
+    {
+      "path": "images/dishes/howtocook-blanched-choy-sum.jpg",
+      "bytes": 109539,
+      "sha256": "46a01df882e3f39a5315b3b766db5ec4958d4ae8e1da5c44792b9a3b75071fc5"
+    },
+    {
+      "path": "images/dishes/howtocook-blistered-green-peppers.jpg",
+      "bytes": 386953,
+      "sha256": "f7abfa24bd474da41bc230cf1913341c4f9fd85f255d407ff6e0fba13cd78d75"
+    },
+    {
+      "path": "images/dishes/howtocook-braised-pork-trotters.jpg",
+      "bytes": 143190,
+      "sha256": "0307a0d82e130362c9abc177694765e7e2689884bffbf5c73311f4c19b5ef0a6"
+    },
+    {
+      "path": "images/dishes/howtocook-braised-winter-melon.jpg",
+      "bytes": 152234,
+      "sha256": "c0fb4a76da7d9e00b4ed614dad21c04e667cd0dfa269bed4730b7f7f4775b784"
+    },
+    {
+      "path": "images/dishes/howtocook-cabbage-egg-glass-noodles.jpg",
+      "bytes": 171115,
+      "sha256": "3a8d32b1edf5e128fbd2f561453458034e45e405cde55d2336564e765be236da"
+    },
+    {
+      "path": "images/dishes/howtocook-carp-napa-cabbage.jpg",
+      "bytes": 298859,
+      "sha256": "14fffc7639af74fe394aaf2dc22f24a820627087b9821497a7da21c2c0074bdb"
+    },
+    {
+      "path": "images/dishes/howtocook-celery-pressed-tofu-pork.jpg",
+      "bytes": 381050,
+      "sha256": "6b7b3e3b4d5af23e7864f3ede19fb18dd7d7181d09975689dee459a2b00a0e49"
+    },
+    {
+      "path": "images/dishes/howtocook-celery-tea-tree-mushrooms.jpg",
+      "bytes": 242594,
+      "sha256": "851fdb90fa296a48b3034c2811062faa75bbcb2c0dba23386356a3cc3b6bfdb0"
+    },
+    {
+      "path": "images/dishes/howtocook-celtuce-leaf-egg-pancake.jpg",
+      "bytes": 308488,
+      "sha256": "a3581e16543f6d04e4306a986c199254d6b178b27c161775bbedede7a34c08dd"
+    },
+    {
+      "path": "images/dishes/howtocook-century-egg-tofu.jpg",
+      "bytes": 198208,
+      "sha256": "57c206f8f988476ee0e6618913b8202c78d02f7b090b897ed2ccacc99538383c"
+    },
+    {
+      "path": "images/dishes/howtocook-chicken-liver-green-garlic.jpg",
+      "bytes": 295921,
+      "sha256": "ebf68651246b5d26f40810e8dd99e79b4cb9410f97c23d008c7e026c6598557c"
+    },
+    {
+      "path": "images/dishes/howtocook-chili-sauce-buckwheat-noodles.jpg",
+      "bytes": 273338,
+      "sha256": "a789a0b31ea0ba65b83b33f79cee129185c79b3d3bf3a3d853b754931a9e3ce0"
+    },
+    {
+      "path": "images/dishes/howtocook-chilled-celtuce.jpg",
+      "bytes": 216899,
+      "sha256": "efbe70d9a169db54acbe0a939983f8b42d7fbe4d18ab802acc39e29a8d43c55d"
+    },
+    {
+      "path": "images/dishes/howtocook-chu-hou-beef-brisket.jpg",
+      "bytes": 392480,
+      "sha256": "c18dcb4d43319567970493a55a6fd8e707dcda175903085667ac030d6c5c9bbd"
+    },
+    {
+      "path": "images/dishes/howtocook-cola-chicken-wings.jpg",
+      "bytes": 309738,
+      "sha256": "d8d730ebc796d68c21b25d5f079cb78eb2893d14ef7056c56ed66c4f73f52341"
+    },
+    {
+      "path": "images/dishes/howtocook-corn-pork-rib-soup.jpg",
+      "bytes": 217008,
+      "sha256": "3215dfc8abec9ac6bcdc742e3f5b6259fef471c137f78124c85b2305bd782e08"
+    },
+    {
+      "path": "images/dishes/howtocook-corn-with-pine-nuts.jpg",
+      "bytes": 131362,
+      "sha256": "feac281569cfda1ad270d69759a98a071f5c9eed655d2098088d7749516719e5"
+    },
+    {
+      "path": "images/dishes/howtocook-covered-pan-shrimp.jpg",
+      "bytes": 282402,
+      "sha256": "0ee23e6340e62680bdc41071c44874ba0a43a9609cbd4dbe59de85dd1a8e22f5"
+    },
+    {
+      "path": "images/dishes/howtocook-cream-of-mushroom-soup.jpg",
+      "bytes": 187306,
+      "sha256": "25cd51ecf2e5f09be375acfc09aac795ef3a51ae0f591a067f4d34702fc452f0"
+    },
+    {
+      "path": "images/dishes/howtocook-di-san-xian.jpg",
+      "bytes": 438753,
+      "sha256": "68428f7a3bbe94e9e8b55f2ee74bf5525631486d77eca4e34eaca6090acb5223"
+    },
+    {
+      "path": "images/dishes/howtocook-edamame-preserved-plums.jpg",
+      "bytes": 217238,
+      "sha256": "c76b2a0d76a5ed7d7b2cc0283f4c303282d0b109fe198d86e873427658d62ba9"
+    },
+    {
+      "path": "images/dishes/howtocook-egg-bacon-sandwich.jpg",
+      "bytes": 242374,
+      "sha256": "60e907b5318b466afe8deeb048dee75f278d2b2090179ba30c27912afcc030b9"
+    },
+    {
+      "path": "images/dishes/howtocook-eggplant-cured-pork-fritters.jpg",
+      "bytes": 321300,
+      "sha256": "b4d59b0244cebf3fb817bb0c16b96be1a6d32284d5b0da4959ea87278bbb7073"
+    },
+    {
+      "path": "images/dishes/howtocook-english-scones.jpg",
+      "bytes": 265245,
+      "sha256": "19fd7168392edc93722faf5a3c2a6357d1b8256e0e5ae64529662b9cf3a8e196"
+    },
+    {
+      "path": "images/dishes/howtocook-fried-milk-bars.jpg",
+      "bytes": 226839,
+      "sha256": "2c4b0e2120fb101956bd3cd44c5687b43a220bf426f2a1efb7d3c9fe3301a25a"
+    },
+    {
+      "path": "images/dishes/howtocook-garlic-butter-shrimp.jpg",
+      "bytes": 187305,
+      "sha256": "709d02b111b5d752825e2f26ca3315f81171bb0f02adbb3e5e930233e54de220"
+    },
+    {
+      "path": "images/dishes/howtocook-garlic-cumin-roasted-eggplant.jpg",
+      "bytes": 322732,
+      "sha256": "f2da07edaa589c14c43caf13006608fdacb3b26c5f7bb94600913ec098002f6c"
+    },
+    {
+      "path": "images/dishes/howtocook-garlic-scapes-pork.jpg",
+      "bytes": 161912,
+      "sha256": "39275321b9a46ce4c57555baa3d7851685ad3fde9d2c6538dbf7a34f75d86722"
+    },
+    {
+      "path": "images/dishes/howtocook-garlic-steamed-shrimp.jpg",
+      "bytes": 264793,
+      "sha256": "2540e11acf3f0b2c7f6cbe2401f1f583c969e1287b1905ddd7d71ae9e563c0d8"
+    },
+    {
+      "path": "images/dishes/howtocook-garlic-water-spinach.jpg",
+      "bytes": 263727,
+      "sha256": "f7fa3878ebf75df2f4d5ac5f3c3f160c7ad0feb411523e919f26f8ec0ff41aca"
+    },
+    {
+      "path": "images/dishes/howtocook-gyudon.jpg",
+      "bytes": 286879,
+      "sha256": "97533cb28c38e584291a6917285d6b2ff911a55c7258c3835882c10913172107"
+    },
+    {
+      "path": "images/dishes/howtocook-hand-torn-cabbage-pork.jpg",
+      "bytes": 202241,
+      "sha256": "baa0cd2f707b1628054859d683410d73204b5fce1eb076b348e70c3235f88b84"
+    },
+    {
+      "path": "images/dishes/howtocook-hot-sour-potato-shreds.jpg",
+      "bytes": 312059,
+      "sha256": "94c521c8363dde9ae94e968b8e01350e786ec5c2875e4900523e0fda548c60d0"
+    },
+    {
+      "path": "images/dishes/howtocook-hunan-beef-celery.jpg",
+      "bytes": 323505,
+      "sha256": "017bc8f7386fcd232849741a69fd406948e42d3466bd96082e173cdbb49a4ba8"
+    },
+    {
+      "path": "images/dishes/howtocook-hunan-braised-pork-belly.jpg",
+      "bytes": 170964,
+      "sha256": "0237d4a5ff87c38cbbcf21724789a703090c641ec47fef65803c2dc79981ddb1"
+    },
+    {
+      "path": "images/dishes/howtocook-italian-style-roast-chicken-thighs.jpg",
+      "bytes": 488825,
+      "sha256": "a5deebb1790979b5b6fd575dc10f3833e6ea0a4d36915e1085df440470fd26f6"
+    },
+    {
+      "path": "images/dishes/howtocook-japanese-curry-rice.jpg",
+      "bytes": 220516,
+      "sha256": "f21d14b2903703f44d53851ba6bf89a406f1146e40109f031b49f9b9867190b4"
+    },
+    {
+      "path": "images/dishes/howtocook-lamb-rib-braised-noodles.jpg",
+      "bytes": 166418,
+      "sha256": "01a115fe124a96546f9dbc44081c6000da556cf8fd993c593d25e5cf5c6c18ce"
+    },
+    {
+      "path": "images/dishes/howtocook-lettuce-with-oyster-sauce.jpg",
+      "bytes": 109290,
+      "sha256": "f1744603724548b5594b7a566a06d9e9c52a1fbe7aa4f4f9d050763b712d22c2"
+    },
+    {
+      "path": "images/dishes/howtocook-lotus-root-stir-fry.jpg",
+      "bytes": 172105,
+      "sha256": "a2a33a871289bcca54c655a2ef77812bd750e89829527561e6d3b27e82feed8c"
+    },
+    {
+      "path": "images/dishes/howtocook-lurou-fan.jpg",
+      "bytes": 270680,
+      "sha256": "d4112ea216b21c298e539e2ec0c2974a2c06b83c6c603f993ffd687b8a429bb6"
+    },
+    {
+      "path": "images/dishes/howtocook-macau-minchi-rice.jpg",
+      "bytes": 282773,
+      "sha256": "3ba3016b136da3c159b1207c344e3bf7bd7d5f6cd8fd9f32dab0c48d9623f11b"
+    },
+    {
+      "path": "images/dishes/howtocook-mandarin-jasmine-tea-blend.jpg",
+      "bytes": 201132,
+      "sha256": "8fa293e453293a602242ba64a6d046ae13bd34f79a9d4b4760c85cfbd21ecfec"
+    },
+    {
+      "path": "images/dishes/howtocook-masala-chai.jpg",
+      "bytes": 137303,
+      "sha256": "c0e58ef9825bcc6ee0059993d2017e38461a3fa6403789bc536e950f56905927"
+    },
+    {
+      "path": "images/dishes/howtocook-microwave-tangyuan.jpg",
+      "bytes": 141357,
+      "sha256": "4f96e95fc2226a9bf3debae617e041037d1db053ffe7ad9324b9458b8dfa6b1a"
+    },
+    {
+      "path": "images/dishes/howtocook-milk-scrambled-eggs.jpg",
+      "bytes": 120734,
+      "sha256": "f71dd57572f9d3417cec7033e5ab84b996866e4530615889c6e4dd342ce0134f"
+    },
+    {
+      "path": "images/dishes/howtocook-mushroom-squab-soup.jpg",
+      "bytes": 128699,
+      "sha256": "54bea3d40a80c1a68ec6b9d19a20829f1845c06b2d06bb144c1ac75c121ed772"
+    },
+    {
+      "path": "images/dishes/howtocook-no-bake-tiramisu.jpg",
+      "bytes": 196960,
+      "sha256": "b9aae2fabb435539cf388e4ff3dd246d7e183ee1f75554f9ba1c31414229ed2f"
+    },
+    {
+      "path": "images/dishes/howtocook-oil-braised-prawns.jpg",
+      "bytes": 232094,
+      "sha256": "903e38e5c27ac8349388c5e0eb98cd8272502b9260530f12413d63611f460a2e"
+    },
+    {
+      "path": "images/dishes/howtocook-olive-preserve-pork-green-beans.jpg",
+      "bytes": 292006,
+      "sha256": "357ef2c8d7a8fde45a5b04782d84cd01058fb94882b5f8fe9a2572730ab7d0b2"
+    },
+    {
+      "path": "images/dishes/howtocook-omurice.jpg",
+      "bytes": 161242,
+      "sha256": "80017d86e5bb7e356870b80a407bfd2b7993e079f495ee77c13eb958d19fcc62"
+    },
+    {
+      "path": "images/dishes/howtocook-onion-scrambled-eggs.jpg",
+      "bytes": 211094,
+      "sha256": "873c247347f1200750a73c9d967da41b3c4d7168ec6496a6fb9ec8400b0f61be"
+    },
+    {
+      "path": "images/dishes/howtocook-oyster-sauce-three-mushrooms.jpg",
+      "bytes": 224775,
+      "sha256": "0f7364aad166d4b33e9f72ebfef2dadbf03599d2ef03c5272f9a2655bdd263a7"
+    },
+    {
+      "path": "images/dishes/howtocook-pan-cooked-naan.jpg",
+      "bytes": 129837,
+      "sha256": "ba169212d0d8a21b06fce897a3ceccea2b49723368569315979acfc26e074725"
+    },
+    {
+      "path": "images/dishes/howtocook-pan-fried-dumplings.jpg",
+      "bytes": 285601,
+      "sha256": "468cde902364c3b9857360a8d749b68125e68503c02a05e1f0c9ab6c20d8359b"
+    },
+    {
+      "path": "images/dishes/howtocook-passion-fruit-orange-tea-cooler.jpg",
+      "bytes": 170825,
+      "sha256": "a14454e2ed2b470c3b9fcac2c7a815a695ad677e4338f3d4b3937c285724b805"
+    },
+    {
+      "path": "images/dishes/howtocook-pea-starch-jelly-noodles.jpg",
+      "bytes": 86823,
+      "sha256": "1ce62a2041fa16f28f925d37c298e9b9f1f2190e45cfc91048e22a3039c4c9d4"
+    },
+    {
+      "path": "images/dishes/howtocook-pepper-butter-shrimp.jpg",
+      "bytes": 586471,
+      "sha256": "d748f4aa428222fa8ed3fb557aecfa44bbc25052bc7c16c3b4d1a394bb0496ed"
+    },
+    {
+      "path": "images/dishes/howtocook-pork-potato-slices.jpg",
+      "bytes": 199557,
+      "sha256": "ab15acfdd001f51037e747557f3e99cca97ed939e4bc6b8abfe5879332a620c0"
+    },
+    {
+      "path": "images/dishes/howtocook-qianlong-cabbage.jpg",
+      "bytes": 248921,
+      "sha256": "b4c008086c9274025d098b65ab65015c4d3ab0b5811e292924c7a91021bf5325"
+    },
+    {
+      "path": "images/dishes/howtocook-rajma-chawal.jpg",
+      "bytes": 126656,
+      "sha256": "3ae22b0daf667df51d9182e13459ef99cb2ba65faf7d5efe45375fd308e1996d"
+    },
+    {
+      "path": "images/dishes/howtocook-razor-clam-omelette.jpg",
+      "bytes": 268258,
+      "sha256": "645ff525f527db2272e0cb16f293f4ff38d72512a1c6cde32cef6694dc97968e"
+    },
+    {
+      "path": "images/dishes/howtocook-scallion-sea-cucumber.jpg",
+      "bytes": 194518,
+      "sha256": "df451a95fb60b7e386805a744ad17e3ce385ec018d97bae4be549e6f55ad85d0"
+    },
+    {
+      "path": "images/dishes/howtocook-shanghai-cured-pork-greens-rice.jpg",
+      "bytes": 235074,
+      "sha256": "4275e314db2d6410f52ac67ff2bda9b5369f3f81e49ef02ad5291b772409f0ab"
+    },
+    {
+      "path": "images/dishes/howtocook-shiitake-chicken-thighs.jpg",
+      "bytes": 299566,
+      "sha256": "8de681f11052d6f2234a9dc03af2cfb729212bc4c90e28562cd13e760ae89bd3"
+    },
+    {
+      "path": "images/dishes/howtocook-sichuan-boiled-fish-in-chili-broth.jpg",
+      "bytes": 356077,
+      "sha256": "2a1eab8a06ecad61c4f0ffa7e17f9f0abcbebb8f56592a07beb8f5fe919ad1a6"
+    },
+    {
+      "path": "images/dishes/howtocook-sichuan-mouthwatering-chicken.jpg",
+      "bytes": 289637,
+      "sha256": "56b4b50418449dc402eb589047c95d5e232f208cd88fd525c05fde5e7ec5627f"
+    },
+    {
+      "path": "images/dishes/howtocook-smashed-cucumber-salad.jpg",
+      "bytes": 338501,
+      "sha256": "16100678371bec06a6e9a5630c78a1f9b761d8069d18cc817729bb7c5ebf4a9c"
+    },
+    {
+      "path": "images/dishes/howtocook-snowflake-nougat-bites.jpg",
+      "bytes": 445462,
+      "sha256": "a6ff3ee066980578b26625ee0f88975047cb3515e8a77136164cf9b663ac24e4"
+    },
+    {
+      "path": "images/dishes/howtocook-spicy-crayfish.jpg",
+      "bytes": 305157,
+      "sha256": "edce3836daf3e0c62860d98ff21214b0cb667ad821e91ef31f40dcb8874c172c"
+    },
+    {
+      "path": "images/dishes/howtocook-spinach-scrambled-eggs.jpg",
+      "bytes": 204870,
+      "sha256": "b5ca1de6089ed7844ac3977750e523389a54892725dc43f52ac4bd23b9482b56"
+    },
+    {
+      "path": "images/dishes/howtocook-steamed-egg-custard.jpg",
+      "bytes": 129205,
+      "sha256": "8fa3cdd80913e21c9fa129035956719284ccd64511566f253f2f79469d6e033b"
+    },
+    {
+      "path": "images/dishes/howtocook-steamed-mandarin-fish.jpg",
+      "bytes": 304613,
+      "sha256": "abed32facb625e0ee6c7bac4be530feec45a7258e1746c1b912d419249dee09e"
+    },
+    {
+      "path": "images/dishes/howtocook-steamed-sea-bass.jpg",
+      "bytes": 324588,
+      "sha256": "d9c69fde5899487aea0a14a870053ea40b1c5d838c939b5de89b14e2c504b80d"
+    },
+    {
+      "path": "images/dishes/howtocook-stir-fried-pork-belly-chili.jpg",
+      "bytes": 333055,
+      "sha256": "ae2ac9877fde11c794993ad3936f3a4c842f14d4fcffb6de797080ce84edbb64"
+    },
+    {
+      "path": "images/dishes/howtocook-stir-fried-starch-jelly.jpg",
+      "bytes": 416019,
+      "sha256": "0c8a05a407e947e0ea6c2bfc9c7e4bfdced0c5b774300664b8dba4f9489835ff"
+    },
+    {
+      "path": "images/dishes/howtocook-strawberry-jam.jpg",
+      "bytes": 148781,
+      "sha256": "de135bb3545843d0c3ce4f1cf8ca9a85a79b07f54b37039f8a936f999db78137"
+    },
+    {
+      "path": "images/dishes/howtocook-sugar-crusted-taro.jpg",
+      "bytes": 405130,
+      "sha256": "e0363428842048fee07f11321f2ed7e9dc838c6ed2a17772342a971efefd2fe5"
+    },
+    {
+      "path": "images/dishes/howtocook-sugared-tomatoes.jpg",
+      "bytes": 427538,
+      "sha256": "c9c30654b23b56893de5c7dba54785d675bd9b2b06f23ff3d70b941b455a8507"
+    },
+    {
+      "path": "images/dishes/howtocook-sweet-sesame-egg-soup.jpg",
+      "bytes": 307236,
+      "sha256": "0e4d4d07edee29f2ce63a57cf8097a2cb019b66695a467af9c5cfb45b479c7e3"
+    },
+    {
+      "path": "images/dishes/howtocook-sweet-sour-pork-ribs.jpg",
+      "bytes": 292389,
+      "sha256": "a2b2aca21630a0280abded019a881227fbdeccb35d38b6e4d94790983ccfa5a2"
+    },
+    {
+      "path": "images/dishes/howtocook-tea-eggs.jpg",
+      "bytes": 247862,
+      "sha256": "785934a744bb7a270b86d1e3d38df08add46a70fb9b26ca8bb482570316d2ffc"
+    },
+    {
+      "path": "images/dishes/howtocook-teriyaki-chicken-thigh-rice.jpg",
+      "bytes": 195373,
+      "sha256": "682401456f17d459a0892ad954bb3ad89955c486502254f56d886db7ff1c8d24"
+    },
+    {
+      "path": "images/dishes/howtocook-thickened-shiitake-soup.jpg",
+      "bytes": 221352,
+      "sha256": "d4bf701715e1b7d08eb8091c454a22d8391529f3cb3f3264211928795bc8b93e"
+    },
+    {
+      "path": "images/dishes/howtocook-tomato-egg-wheat-noodles.jpg",
+      "bytes": 225689,
+      "sha256": "f45ad691a510e5cc6f4fd8c6edd5ddd008c757cf771b285369a30a05a97d59c4"
+    },
+    {
+      "path": "images/dishes/howtocook-tomato-scrambled-eggs.jpg",
+      "bytes": 204695,
+      "sha256": "0670bfc09e883f507934b662e083c58397ba8625dc0e775573091f4711bf52b9"
+    },
+    {
+      "path": "images/dishes/howtocook-tomato-tofu-egg-soup.jpg",
+      "bytes": 150679,
+      "sha256": "d9663a030c6212eb5ef38f7ff4801efbfa6f7590c321d6906e6bfb145a09b544"
+    },
+    {
+      "path": "images/dishes/howtocook-twice-cooked-pork.jpg",
+      "bytes": 246552,
+      "sha256": "68e44df79b90ff6c66682ae9d4603c976701ba4ee73e99a3d8398db1760dd937"
+    },
+    {
+      "path": "images/dishes/howtocook-water-bamboo-pork.jpg",
+      "bytes": 220751,
+      "sha256": "eaf93b243d914f1d07e1c6d463466ae55ba5cf7ef085bc07f85ed0274bf45fb5"
+    },
+    {
+      "path": "images/dishes/howtocook-wood-ear-salad.jpg",
+      "bytes": 436935,
+      "sha256": "469357d974139508287cd29b1206a0f9be07c3c4ba761e5f6eb4db2df3a0cce4"
+    },
+    {
+      "path": "images/dishes/howtocook-yangshuo-beer-fish.jpg",
+      "bytes": 468539,
+      "sha256": "7b35b9770a2e3601490fe162fc4680b4035520895ff10b86bcd63e899ac1100e"
+    },
+    {
+      "path": "images/dishes/howtocook-zhajiang-noodles.jpg",
+      "bytes": 280417,
+      "sha256": "41ee3073a7cd09243f2cd8b08758c7217c7fb38eaa10f716c01a4d05884d698b"
+    },
+    {
+      "path": "images/dishes/howtocook-zibo-pork-wraps.jpg",
+      "bytes": 309745,
+      "sha256": "8c645ba8549d19e8512f03417edc79d183fb735cdef69b303fc04373e4c565b4"
+    },
+    {
+      "path": "images/dishes/maff-28-1-iwate.jpg",
+      "bytes": 421569,
+      "sha256": "5dd58320eea8bb7cfeb18d88fb222f836b14d8fbd13ef87c1bbe0d9b0cbfc56e"
+    },
+    {
+      "path": "images/dishes/maff-28-4-iwate.jpg",
+      "bytes": 394481,
+      "sha256": "37cb70859fc4573c9b046f2dca2276e8da009fe3aa07f823bc5eac9ed0f2074b"
+    },
+    {
+      "path": "images/dishes/maff-29-18-akita.jpg",
+      "bytes": 470797,
+      "sha256": "8a0da0fb33032a5452ed25d8cb69d8e36c195f580e556b4ef2b834b0bbac5a4e"
+    },
+    {
+      "path": "images/dishes/maff-29-7-akita.jpg",
+      "bytes": 348306,
+      "sha256": "40177967099734f6b66e10e0d3d800b6446c2abd462b36e6523cc4de707db6a4"
+    },
+    {
+      "path": "images/dishes/maff-30-9-fukushima.jpg",
+      "bytes": 211427,
+      "sha256": "7f8c5ec8797039338548b6fc0deb96cb209dcca091f58ca22bf478a762dfcd64"
+    },
+    {
+      "path": "images/dishes/maff-31-16-tochigi.jpg",
+      "bytes": 354669,
+      "sha256": "4d828a5bf239bab9ccca564126d3513b8ec64c4c7ff8d07de40bd7b33f337e5e"
+    },
+    {
+      "path": "images/dishes/maff-31-27-tochigi.jpg",
+      "bytes": 249928,
+      "sha256": "194bcf9e02ea07096f2f3dee4b0b2b0bf00fc5e64fc2ad6f93d60150c69c72f9"
+    },
+    {
+      "path": "images/dishes/maff-31-3-tochigi.jpg",
+      "bytes": 396494,
+      "sha256": "10218d48335ff02648840f4fd90452f8de3bce310a23a62e9079a51ec60faf65"
+    },
+    {
+      "path": "images/dishes/maff-32-1-gunma.jpg",
+      "bytes": 465690,
+      "sha256": "6131271a15c3536c5a8f16acf559fc56b03357584d1735617e08d878cd427fdd"
+    },
+    {
+      "path": "images/dishes/maff-33-11-saitama.jpg",
+      "bytes": 248408,
+      "sha256": "5edf6454b1b7d297970b8b073e9fab60d62d9a43f7d87ac40599ce7340db108a"
+    },
+    {
+      "path": "images/dishes/maff-33-3-saitama.jpg",
+      "bytes": 408274,
+      "sha256": "c9f0622e196a2531035b722326cbeb2a351b1abf6175460087cf022362431e9c"
+    },
+    {
+      "path": "images/dishes/maff-33-8-saitama.jpg",
+      "bytes": 271203,
+      "sha256": "0d6bda83340f021d3faadc48e0f0f7ef57cab7fd2efec46847a402ce8279a8c7"
+    },
+    {
+      "path": "images/dishes/maff-34-1-tokyo.jpg",
+      "bytes": 442450,
+      "sha256": "f68351664fcbb007710ce69b0498319e1e15b55952674abe0e665f4bf97f4e93"
+    },
+    {
+      "path": "images/dishes/maff-34-11-tokyo.jpg",
+      "bytes": 237442,
+      "sha256": "198cdee8eb9b895e5d9efe4028665174424020defb809b998e264bf2d2da0ea1"
+    },
+    {
+      "path": "images/dishes/maff-34-12-tokyo.jpg",
+      "bytes": 187761,
+      "sha256": "a5fb645877952e140f8a1c85f8b67c1b3afbf10098506593769f86516d2dea15"
+    },
+    {
+      "path": "images/dishes/maff-34-23-tokyo.jpg",
+      "bytes": 141385,
+      "sha256": "5b128c5f62674b9eeb43cd53da11b9282560a80501180978dd2ad3428a98a5b0"
+    },
+    {
+      "path": "images/dishes/maff-34-26-tokyo.jpg",
+      "bytes": 338765,
+      "sha256": "a68c2873e8804955e2e3dcd622d6af064e1f2db5b8766164205929a7c5ec5a1e"
+    },
+    {
+      "path": "images/dishes/maff-36-1-shizuoka.jpg",
+      "bytes": 269176,
+      "sha256": "19aa13e3b17a0685f82e7be173c67403fcbe0ecdd66619dd1b60d9bd5938975d"
+    },
+    {
+      "path": "images/dishes/maff-36-17-shizuoka.jpg",
+      "bytes": 603583,
+      "sha256": "4d782c5df0832b7ceae1d7e494ed683faa75d28375839af775074483cae08d22"
+    },
+    {
+      "path": "images/dishes/maff-36-18-shizuoka.jpg",
+      "bytes": 336363,
+      "sha256": "aee2c85abb6812a8c5658fcb90d26af315217e7edfeefb0354db30ed852cbf6b"
+    },
+    {
+      "path": "images/dishes/maff-36-26-shizuoka.jpg",
+      "bytes": 471632,
+      "sha256": "73182ceebddb092852b196857e933cf69641fbe65f4788b73a976bcdd0cd5b4f"
+    },
+    {
+      "path": "images/dishes/maff-36-28-shizuoka.jpg",
+      "bytes": 301998,
+      "sha256": "b955b836a8e6867f77a2755c5cc9def4776fbfdd19e7f8ec16a06e145380ff02"
+    },
+    {
+      "path": "images/dishes/maff-37-4-toyama.jpg",
+      "bytes": 283185,
+      "sha256": "a4e1df8d04e87abc786bfcac64e7a723465f94691eab6605d8b0e1f65646d991"
+    },
+    {
+      "path": "images/dishes/maff-38-17-gifu.jpg",
+      "bytes": 286635,
+      "sha256": "6be31469782ed630ec56d447a5e9ea8183785363a9275a0021dc1d4a9645d691"
+    },
+    {
+      "path": "images/dishes/maff-39-18-osaka.jpg",
+      "bytes": 232510,
+      "sha256": "4662c62d16bf8d222f27c2e5e77988707da3d70ab5b2a9c49d55b32aa9e12f70"
+    },
+    {
+      "path": "images/dishes/maff-40-7-hyogo.jpg",
+      "bytes": 314266,
+      "sha256": "83ad8f06978a0eec702d77a5b410d2d706fadc6470251a2480020b90fe77a141"
+    },
+    {
+      "path": "images/dishes/maff-41-11-okayama.jpg",
+      "bytes": 293914,
+      "sha256": "6af68d406bd75a56397334356d34c27787008582110138269a42a29a15faa9ed"
+    },
+    {
+      "path": "images/dishes/maff-41-21-okayama.jpg",
+      "bytes": 215745,
+      "sha256": "5fd450605b8c15d0cbdc0743baf8b0931521c0e0451403cc4956a1145ee9c9c5"
+    },
+    {
+      "path": "images/dishes/maff-43-17-yamaguchi.jpg",
+      "bytes": 212436,
+      "sha256": "89c5b16e76166256a465c4bdb370a517c2d38385854cb7f9588d2c7aac42577f"
+    },
+    {
+      "path": "images/dishes/maff-43-2-yamaguchi.jpg",
+      "bytes": 442964,
+      "sha256": "8f88db0db3a8b54402c5207f84a3aaa9bf2e69e9248556bc971a69aebaf8c8ab"
+    },
+    {
+      "path": "images/dishes/maff-43-25-yamaguchi.jpg",
+      "bytes": 476967,
+      "sha256": "65fdc79f0ddde547cc9eb5f1b2565249f5b2b2389b5722db313a2587586db7a2"
+    },
+    {
+      "path": "images/dishes/maff-43-6-yamaguchi.jpg",
+      "bytes": 381753,
+      "sha256": "34fc9b8415ff78cd247fa8c1f04dabd5f8dccf05aa8b33e82ed009d8448d42e9"
+    },
+    {
+      "path": "images/dishes/maff-44-1-tokushima.jpg",
+      "bytes": 509073,
+      "sha256": "3f56534c4566aac6508bef07714bc80376c655dba978e989f93817c90b1af7a9"
+    },
+    {
+      "path": "images/dishes/maff-45-11-saga.jpg",
+      "bytes": 334050,
+      "sha256": "d1127b34123768ed9639bec6ea3e3cf42129c40b8c0436d0412d5b5121130559"
+    },
+    {
+      "path": "images/dishes/maff-45-18-saga.jpg",
+      "bytes": 304002,
+      "sha256": "7c3b3940b78430429e18e7f6b24f4f94ef095034c9fdac6fb85d5d827332eb1a"
+    },
+    {
+      "path": "images/dishes/maff-45-8-saga.jpg",
+      "bytes": 306095,
+      "sha256": "32bcc63c65c7026a9a4840bf51c61dc0f76821b638e8a47e4f82b3da456c57f9"
+    },
+    {
+      "path": "images/dishes/maff-46-24-nagasaki.jpg",
+      "bytes": 340358,
+      "sha256": "d81fa107f7938cf4287bcece652ecbeff7d795977c4f8d0b635aa056183f5cca"
+    },
+    {
+      "path": "images/dishes/maff-46-29-nagasaki.jpg",
+      "bytes": 337599,
+      "sha256": "d3803f8a24cf19c325f1479fe0f96b4643eb8a42bc53a16777521050f4a6ca68"
+    },
+    {
+      "path": "images/dishes/maff-46-7-nagasaki.jpg",
+      "bytes": 261099,
+      "sha256": "5f4dd5f8466db7bcec620ee2d1e0d480e3b648b45ec03405e2ebd67dc1afb120"
+    },
+    {
+      "path": "images/dishes/maff-46-8-nagasaki.jpg",
+      "bytes": 157654,
+      "sha256": "a410064d6c188589a477af02180a0b1e1c4e0509a1dd3a6481ddb81f7cf2678d"
+    },
+    {
+      "path": "images/dishes/maff-47-11-okinawa.jpg",
+      "bytes": 419927,
+      "sha256": "203cf328824013d84c217b7b02ed80a1db9b03e8e77c8da5837319e0251efa0b"
+    },
+    {
+      "path": "images/dishes/maff-47-8-okinawa.jpg",
+      "bytes": 459262,
+      "sha256": "d0c020858a8a540da8873fc50a36c125dd664a5e8c9864bb45be4d57312735d8"
+    },
+    {
+      "path": "images/dishes/maff-aburafu-don-miyagi.jpg",
+      "bytes": 282752,
+      "sha256": "c9888051cf6b175553a0baa5ff982e719a97ba36fa282b81055cd206d4daa9cc"
+    },
+    {
+      "path": "images/dishes/maff-aburagezushi-aichi.jpg",
+      "bytes": 284316,
+      "sha256": "d8e09426f718272eba652bb35f2536a3a5b0398827e39d8ed0ad8a97d14cbf00"
+    },
+    {
+      "path": "images/dishes/maff-aka-konnyaku-ni-shiga.jpg",
+      "bytes": 309308,
+      "sha256": "fd789bb4ae96bc851a2cc3a309e14b3de69df4fb79dfb7bcb57843c1032c0c19"
+    },
+    {
+      "path": "images/dishes/maff-atsuage-nitano-fukui.jpg",
+      "bytes": 366542,
+      "sha256": "994d07d0c149ce8e5352bfb1b9570503c7e78a53decffaee51e61331971f8e50"
+    },
+    {
+      "path": "images/dishes/maff-azuki-zouni-tottori.jpg",
+      "bytes": 240825,
+      "sha256": "0194abbef66c246b3eec6677609e9be47ab50360430cf2749dc2f933c1565e2c"
+    },
+    {
+      "path": "images/dishes/maff-butadon-hokkaido.jpg",
+      "bytes": 206004,
+      "sha256": "b5093253a005346454abfc7ce23109276f53b85b0e7ec684644f16e8b4ba76c6"
+    },
+    {
+      "path": "images/dishes/maff-chikin-nanban-miyazaki.jpg",
+      "bytes": 390816,
+      "sha256": "6b7dcd717da3590239c2eca5971defa90e8911f41f1198207e30b4a07842baea"
+    },
+    {
+      "path": "images/dishes/maff-chikko-toufu-chiba.jpg",
+      "bytes": 162403,
+      "sha256": "5d19c3280edb4730e1a8b619a233809ba333dbd0f3a1bc6d175b4c858ca373de"
+    },
+    {
+      "path": "images/dishes/maff-choujifu-no-karashi-ae-shiga.jpg",
+      "bytes": 353751,
+      "sha256": "457f4d97507823c54296f98652dc3bf1ce0a4ea55b0d512670e6a8c47f8cff2d"
+    },
+    {
+      "path": "images/dishes/maff-dashi-yamagata.jpg",
+      "bytes": 144564,
+      "sha256": "acbd8a5666a212b96b3ed2a99bee090dfaa98eb4216cb2981bb1e6639adb6562"
+    },
+    {
+      "path": "images/dishes/maff-ebiten-ehime.jpg",
+      "bytes": 255372,
+      "sha256": "546d72d1a39ac614f060e3bb229a2b6c251181617ce491eda09701b0cc40aae1"
+    },
+    {
+      "path": "images/dishes/maff-fukashi-nasu-niigata.jpg",
+      "bytes": 352097,
+      "sha256": "d3cdb302aa87c3b6c08a64719d7f9054fba7990ea73015c694cbf68f6aa517d7"
+    },
+    {
+      "path": "images/dishes/maff-furofukidaikon-aichi.jpg",
+      "bytes": 304941,
+      "sha256": "a7409cd897b62335ece95559b3f09ee90b2e6a22e6d85420a536be1e4c998e11"
+    },
+    {
+      "path": "images/dishes/maff-goae-tottori.jpg",
+      "bytes": 314548,
+      "sha256": "693485e73cf48af4f40c8d1a70f6fa500860acea2efcf41df22470417fee6933"
+    },
+    {
+      "path": "images/dishes/maff-goma-toufu-wakayama.jpg",
+      "bytes": 222639,
+      "sha256": "fd49f9b29be8af41f305e7741dfecc38069dbfeebaf6906103fb822ef39c33fa"
+    },
+    {
+      "path": "images/dishes/maff-hechimajiru-kagoshima.jpg",
+      "bytes": 149032,
+      "sha256": "a6a528238a2328b955131495c937338e700164acc0ba6495abb238e07cd1ce80"
+    },
+    {
+      "path": "images/dishes/maff-houtou-yama-nashi.jpg",
+      "bytes": 211369,
+      "sha256": "7c53370bba2a03b9b13b52fef6c661a992bce526cac6658dbdbc840aaa6d4951"
+    },
+    {
+      "path": "images/dishes/maff-hyuuga-kuro-kabocha-no-nimono-miyazaki.jpg",
+      "bytes": 224266,
+      "sha256": "73d6baa7bd9cb0fb037fa7a9dfbb6d2bd7039feef7de31677016beff1017386f"
+    },
+    {
+      "path": "images/dishes/maff-ika-menchi-aomori.jpg",
+      "bytes": 396148,
+      "sha256": "d6a14302171f8f13ae3c19addaa045d82a854e6e700ebdce1cf85367e5614049"
+    },
+    {
+      "path": "images/dishes/maff-ikinari-dango-kumamoto.jpg",
+      "bytes": 172231,
+      "sha256": "26a12ea20fbe0b99fd6002479ece56b4b9c2f164637fcdf873471d9e17ba19bb"
+    },
+    {
+      "path": "images/dishes/maff-imo-manjyu-fukuoka.jpg",
+      "bytes": 326192,
+      "sha256": "4200e98e680d497242e14612edf54f65520c8c4f7f40cd7445e263d1bfa4215a"
+    },
+    {
+      "path": "images/dishes/maff-imomiso-niigata.jpg",
+      "bytes": 207313,
+      "sha256": "6eff69c1fbff14bd52be4799a39ad6fc243e9bebd733522a4ab1c8cb3225577f"
+    },
+    {
+      "path": "images/dishes/maff-itimonji-no-guruguru-kumamoto.jpg",
+      "bytes": 214208,
+      "sha256": "9da2e93887e0a0a03037c7d059cfae9460d117e39d189f0fd6f37639d94849b1"
+    },
+    {
+      "path": "images/dishes/maff-jambomochi-kagoshima.jpg",
+      "bytes": 339511,
+      "sha256": "c168af976f42e8ca1f328a98d1cfc348a0d8b64b4adf31d8d43543a028035993"
+    },
+    {
+      "path": "images/dishes/maff-jibuni-ishikawa.jpg",
+      "bytes": 177183,
+      "sha256": "62648ef32bc98a85befa66f5034c394162c9135b6695a170743016fe9dfc0faf"
+    },
+    {
+      "path": "images/dishes/maff-kagafutokyurinoankake-ishikawa.jpg",
+      "bytes": 273490,
+      "sha256": "2c0f0c4f759743f255f86ba9d6d1b2c46d775299ec7d6d526996dd1574c8e634"
+    },
+    {
+      "path": "images/dishes/maff-karaimonettabo-kagoshima.jpg",
+      "bytes": 317453,
+      "sha256": "190e9a6fcee9406ec0baa688389a042efaa4f920187acc122ee11a700e41a8d4"
+    },
+    {
+      "path": "images/dishes/maff-karukan-kagoshima.jpg",
+      "bytes": 188557,
+      "sha256": "2fc3cd25455e587a6451f4770c9d2d593d73970a1fc62861cddf3ea0e67a1f5e"
+    },
+    {
+      "path": "images/dishes/maff-kashiwa-meshi-fukuoka.jpg",
+      "bytes": 103203,
+      "sha256": "07eb25ae32dcc41ab7731edb48e55d801edc9519b40a2b874ef851be6c07d68f"
+    },
+    {
+      "path": "images/dishes/maff-kirizai-niigata.jpg",
+      "bytes": 234975,
+      "sha256": "4fda1f52de9b8093956c4da55a51fdecac27e049ae1410580f22e9675f2e5a8a"
+    },
+    {
+      "path": "images/dishes/maff-kurigohan-kyoto.jpg",
+      "bytes": 182704,
+      "sha256": "f61a82e88d3e33abac0dd6e02570522e261e3b81e5d270779f51840959e2800f"
+    },
+    {
+      "path": "images/dishes/maff-kurumi-gobou-shiga.jpg",
+      "bytes": 327127,
+      "sha256": "1c6406a66ba9792ab7b566414478ed151e129fae0c39427b21f632790c5c5a1c"
+    },
+    {
+      "path": "images/dishes/maff-kuzu-mochi-nara.jpg",
+      "bytes": 163755,
+      "sha256": "99524a234c47e806fcf00898dfa3d474285b90411e73feb7a058efead9f43b50"
+    },
+    {
+      "path": "images/dishes/maff-mame-gohan-wakayama.jpg",
+      "bytes": 238999,
+      "sha256": "fcd10a0a469661edb216ae860d3518d63495bbad778dc6631905af696b0b9632"
+    },
+    {
+      "path": "images/dishes/maff-manganzitougarashitojakonotaitan-kyoto.jpg",
+      "bytes": 171873,
+      "sha256": "e4e80c087808ddf8903b124dec36b17ec9a9cafa6f150d4d134a3fe516cb27fd"
+    },
+    {
+      "path": "images/dishes/maff-mehari-zushi-wakayama.jpg",
+      "bytes": 229983,
+      "sha256": "2ff3dc667c83a1189a8d36b54f625f74bf2cbaa8853b4002803b9cb8e7807f2a"
+    },
+    {
+      "path": "images/dishes/maff-miso-shiru-ehime.jpg",
+      "bytes": 262914,
+      "sha256": "58932fa496775967744d350eab3e9170ee9d73ec6a58c81876df16272d50e872"
+    },
+    {
+      "path": "images/dishes/maff-misonikomiudon-aichi.jpg",
+      "bytes": 279055,
+      "sha256": "a27de9e200ea22f1d6fc9776e158d21ae506dfa0da2133e913928b7de0867f2a"
+    },
+    {
+      "path": "images/dishes/maff-nikudofu-kyoto.jpg",
+      "bytes": 344162,
+      "sha256": "a41973a2116b3029b4c56801a845b1f5f8be24655c97bc8400a984fea324fa31"
+    },
+    {
+      "path": "images/dishes/maff-nina-niigata.jpg",
+      "bytes": 219950,
+      "sha256": "50653c15ff6d76d8a54da3c899b2ee7ab059b421b84bebea9e49d22167be0dec"
+    },
+    {
+      "path": "images/dishes/maff-ohagi-kyoto.jpg",
+      "bytes": 178632,
+      "sha256": "bb39ffc3c20c5e2cf3bcb5e1b882da925780805afeebd65681e962c4452e61ce"
+    },
+    {
+      "path": "images/dishes/maff-okahijikinokarashiae-yamagata.jpg",
+      "bytes": 164729,
+      "sha256": "c1bb2a1bd8f5b12ae9fdf3c691374ab0643d43f341c54a3510fc7b4cb9927634"
+    },
+    {
+      "path": "images/dishes/maff-onimanju-aichi.jpg",
+      "bytes": 340315,
+      "sha256": "abadd2719f97f331d216b854ea44f281b0a03d341e4039b200c24e631473ce1a"
+    },
+    {
+      "path": "images/dishes/maff-oroshi-soba-fukui.jpg",
+      "bytes": 386764,
+      "sha256": "d18e0bc30691d77ba0820461538420bcbf07ce2ea0bf54cacecd2dd8bcb3a60e"
+    },
+    {
+      "path": "images/dishes/maff-oshibori-udon-nagano.jpg",
+      "bytes": 301158,
+      "sha256": "157e8d68d984f58e145ad2d4549fe0c67cc1a68c4ff0772235ff5fd87bc3ddf2"
+    },
+    {
+      "path": "images/dishes/maff-oyaki-nagano.jpg",
+      "bytes": 234188,
+      "sha256": "26d81c96b4022c94d7ec22712a2c3185cd6f241619a4c0e74c9cbe927f8b6be4"
+    },
+    {
+      "path": "images/dishes/maff-pinattsumiso-ibaraki.jpg",
+      "bytes": 345490,
+      "sha256": "ba993e921a1dbdf20d26918eaedc8ba9ab5ee640655b34483016b5673dc4f4eb"
+    },
+    {
+      "path": "images/dishes/maff-renkonnokinpira-ibaraki.jpg",
+      "bytes": 219272,
+      "sha256": "ab170e5b2a9dd51529d16122fcb092b3facc29eda85133efcf304c1af53d729c"
+    },
+    {
+      "path": "images/dishes/maff-sakeno-yakizuke-niigata.jpg",
+      "bytes": 325605,
+      "sha256": "82bbfcfd280ce9aaae1ab53a5e2e00f62ab9242e9e4c9f7992ba51e87ac7bd9d"
+    },
+    {
+      "path": "images/dishes/maff-sakenochanchanyaki-hokkaido.jpg",
+      "bytes": 363118,
+      "sha256": "362278d7bd5f85d2f1724f268d8b9c4c2c6ab3dda8bd129c8e66347129f62500"
+    },
+    {
+      "path": "images/dishes/maff-sanga-yaki-chiba.jpg",
+      "bytes": 343059,
+      "sha256": "c3fb62668e0899d67a48ba5e915d875a89f0522865a618898ccf0daf95e43345"
+    },
+    {
+      "path": "images/dishes/maff-senbei-jiru-aomori.jpg",
+      "bytes": 229959,
+      "sha256": "e61df4d08c488c9dc6f55e1de26c17ac5513657ece3bf2fbd1d8ffbb1ad72bd3"
+    },
+    {
+      "path": "images/dishes/maff-shijimijiru-shimane.jpg",
+      "bytes": 225725,
+      "sha256": "4023e861dd0a1966db3260b9356d9ada4f2265c43a4944428e0d9674e1a61ceb"
+    },
+    {
+      "path": "images/dishes/maff-shiromisonozoni-kyoto.jpg",
+      "bytes": 204464,
+      "sha256": "56d902e06899efefd8f87d3513095a7b9b2852fd38a8224b7bfa0310ed41f9c6"
+    },
+    {
+      "path": "images/dishes/maff-takomeshi-aichi.jpg",
+      "bytes": 164235,
+      "sha256": "c4fdc0f64364f6fc32f2860670b1e5d40e3a3f28b6895b69272fe801344d614b"
+    },
+    {
+      "path": "images/dishes/maff-tamakonnyaku-yamagata.jpg",
+      "bytes": 100681,
+      "sha256": "2dba186d05940a844c27a646ce912217247f427fa321e95dd3d8e20650dffc9d"
+    },
+    {
+      "path": "images/dishes/maff-uzumemeshi-shimane.jpg",
+      "bytes": 201142,
+      "sha256": "9ed811ae960522da1e75a08bebc3f8a54886254c8f45dee188fcbd428dbce478"
+    },
+    {
+      "path": "images/dishes/maff-yude-rakkasei-chiba.jpg",
+      "bytes": 307880,
+      "sha256": "d9b61d8cd3c2e244702e6a678990ac17a3de0784718a54442297792b2b5dc8d3"
+    },
+    {
+      "path": "images/dishes/mapo-tofu.jpg",
+      "bytes": 467222,
+      "sha256": "46d6182bffa805cae127e76c47a6bfba61a3f56168c9fa58127e49424feaba3d"
+    },
+    {
+      "path": "images/dishes/moussaka.png",
+      "bytes": 2131766,
+      "sha256": "cd17fc58b5fe8301a737ec4e265eff78c86e2ca17ec7a712665a847fd2d5519b"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-broccoli-with-asian-tofu.jpg",
+      "bytes": 375339,
+      "sha256": "5442cde9c02a4a908e9fc659f71757da8850aadbc8c35ad86ee24b957c1694f7"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-chicken-quesadillas-with-red-and-green-salsa.jpg",
+      "bytes": 231670,
+      "sha256": "250f698af4f8dfac80d56e2c617ac2a922afbf5f934ed550553d0f6c8743b416"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-classic-macaroni-and-cheese.jpg",
+      "bytes": 257582,
+      "sha256": "677c2bb1e8fe4b871c576e2a7955bf3385614761d15ea9448ef344be4ffa3b51"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-good-for-you-cornbread.jpg",
+      "bytes": 414736,
+      "sha256": "a91913365a1bd42e99cb9677dc72c905a9b2fca63e6321e02fb86411a0d7a033"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-grilled-romaine-lettuce-with-caesar-dressing.jpg",
+      "bytes": 150172,
+      "sha256": "a9242d99843ba4a589817fdad01344a09388ee2d4bd87a0784e318e88d145406"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-japanese-style-beef-and-noodle-soup.jpg",
+      "bytes": 312043,
+      "sha256": "c322506e3dcfbf08c1a01d25b08a968e0ce414111ef3a279bb00aa1ca36091fc"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-linguini-with-clam-sauce.jpg",
+      "bytes": 190462,
+      "sha256": "248eda901dcb3aaf2089c1ebf52161f6ef018e05c4fa2321144acd9789198180"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-moroccan-chicken-stew-with-couscous.jpg",
+      "bytes": 299171,
+      "sha256": "f8d236c43aedbf8fae204c0f0f679ffa9a5df8d4294dc3a864e19c9b29af495d"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-teriyaki-glazed-salmon-with-stir-fried-vegetables.jpg",
+      "bytes": 259721,
+      "sha256": "78e10c0414de29f6dd0239920109ff3d03af2839b426f18595a630199eb419c0"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-thai-style-chicken-curry.jpg",
+      "bytes": 347768,
+      "sha256": "5bb7fa7a4bab39830e02cfdba3c82554d3f93ceb8b9e563d929e96a2dd366de7"
+    },
+    {
+      "path": "images/dishes/nhlbi-dinners-three-bean-chili-with-chunky-tomatoes.jpg",
+      "bytes": 330991,
+      "sha256": "a208888d99ff2bed5ee0d77e30707f6b29a4ca0f46e04b954164f90f3465928b"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-baked-eggrolls.jpg",
+      "bytes": 167466,
+      "sha256": "2ade276908a69f36ee461ad554128f029dfed1d480e56ddcca271b1cdb167c09"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-broccoli-and-cheese-photo-20261005-v2.jpg",
+      "bytes": 323009,
+      "sha256": "8f102d5215b0eec536fb6ee37fd8ff146fe71f3015a594b07e6b8c923bb87052"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-broccoli-and-cheese.jpg",
+      "bytes": 323009,
+      "sha256": "8f102d5215b0eec536fb6ee37fd8ff146fe71f3015a594b07e6b8c923bb87052"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-bruschetta.jpg",
+      "bytes": 218046,
+      "sha256": "5903082770ddd71b942449aa2962d7df47f9bfb5eec314629564ebc2a506313e"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-celery-with-cream-cheese-mousse-photo-20261005-v2.jpg",
+      "bytes": 362009,
+      "sha256": "f1fcd850c026cd2f02471e61b481db52caf87357316b9be75efdcfe696469732"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-celery-with-cream-cheese-mousse.jpg",
+      "bytes": 362009,
+      "sha256": "f1fcd850c026cd2f02471e61b481db52caf87357316b9be75efdcfe696469732"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-dunkin-veggies-and-dips.jpg",
+      "bytes": 233422,
+      "sha256": "789a7e372568565ef2b33f71e69d4f8aeeb24281c0cefa89297d9b962bdc758f"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-parmesan-green-beans-photo-20261005-v2.jpg",
+      "bytes": 453309,
+      "sha256": "d66404cc4275f264ecf2ff8532fbeff32735e59118be5a8cb2bf1e57a592fdd5"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-parmesan-green-beans.jpg",
+      "bytes": 453309,
+      "sha256": "d66404cc4275f264ecf2ff8532fbeff32735e59118be5a8cb2bf1e57a592fdd5"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-peanut-butter-hummus.jpg",
+      "bytes": 195141,
+      "sha256": "511281338d099d0d53e3d61aa7788645244283d91155eaa357336688461afaff"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-red-white-and-green-grilled-cheese-photo-20261005-v2.jpg",
+      "bytes": 567975,
+      "sha256": "de9cf157bb2ccd1b95af6353b174125133260874c2cc44b6f8acf6422f5fe487"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-red-white-and-green-grilled-cheese.jpg",
+      "bytes": 567975,
+      "sha256": "de9cf157bb2ccd1b95af6353b174125133260874c2cc44b6f8acf6422f5fe487"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-tangy-salsa-photo-20261005-v2.jpg",
+      "bytes": 290936,
+      "sha256": "63035558db17fd80c3bdff4c40c613a16172028de46e32158f721f40670b8b87"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-tangy-salsa.jpg",
+      "bytes": 290936,
+      "sha256": "63035558db17fd80c3bdff4c40c613a16172028de46e32158f721f40670b8b87"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-tuna-and-avocado-cobb-salad-photo-20261005-v2.jpg",
+      "bytes": 218721,
+      "sha256": "9503af9b3478f9dcf09e584bcd0dc12f3285666bc0536eb187710cd3355d5e38"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-tuna-and-avocado-cobb-salad.jpg",
+      "bytes": 218721,
+      "sha256": "9503af9b3478f9dcf09e584bcd0dc12f3285666bc0536eb187710cd3355d5e38"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-watermelon-and-tomato-salad-photo-20261005-v2.jpg",
+      "bytes": 457613,
+      "sha256": "90ac22c76aa8a5902c556292329a2f792c08cf9e17e4458038bdae4c4c3f9719"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-watermelon-and-tomato-salad.jpg",
+      "bytes": 457613,
+      "sha256": "90ac22c76aa8a5902c556292329a2f792c08cf9e17e4458038bdae4c4c3f9719"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-zesty-tomato-soup-photo-20261005-v2.jpg",
+      "bytes": 443169,
+      "sha256": "e43157ca6625644a3d67baedae9a701898057606b14d441e379ef8e6f9df67d5"
+    },
+    {
+      "path": "images/dishes/nhlbi-family-zesty-tomato-soup.jpg",
+      "bytes": 443169,
+      "sha256": "e43157ca6625644a3d67baedae9a701898057606b14d441e379ef8e6f9df67d5"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-1-2-3-peach-cobbler.jpg",
+      "bytes": 221610,
+      "sha256": "6dbc635528be20b39ebf3bf776057b103358267129266278a06fa3232f561bc7"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-candied-yams.jpg",
+      "bytes": 249985,
+      "sha256": "fb996efae4b159b619d5edfe5df90a7cb08b06cbfd54fb8cf3b02b39986ac829"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-heart-healthy-sweet-potato-pie.jpg",
+      "bytes": 205354,
+      "sha256": "9605df434053201ba9391c8ba82457a2882034a46e52e3d9e45d3d9bcf3e4277"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-homestyle-biscuits.jpg",
+      "bytes": 170817,
+      "sha256": "a4224a191d0809c1fdc99266cb4ac4a58588c043132ee267dab0608ade29fda5"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-jumpin-jambalaya.jpg",
+      "bytes": 175891,
+      "sha256": "b498c75bb3c2aff3ef059fbe343088ff754db93fdc49a42e65b4f8a4228d5e6b"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-southern-banana-pudding.jpg",
+      "bytes": 232996,
+      "sha256": "df9c302f0fd75c0a02ed361c5bf79791b3a5b66d70711927cb6fbd26e7add1d9"
+    },
+    {
+      "path": "images/dishes/nhlbi-home-cooking-spicy-okra.jpg",
+      "bytes": 245258,
+      "sha256": "1852ab4887a1aa18db857269fc43c0a5b22e7db822114bff61757e82cac63afa"
+    },
+    {
+      "path": "images/dishes/ratatouille.jpg",
+      "bytes": 406886,
+      "sha256": "f0581ede199987a86e52c887814a2a603791097c5e00b6ee3d25a94fd9407098"
+    },
+    {
+      "path": "images/dishes/rendang.png",
+      "bytes": 2563654,
+      "sha256": "c79758e704a381ded16d3acfecbba11a6e97b3c93fdfa73a157b627ebf2e9365"
+    },
+    {
+      "path": "images/dishes/savora-home-aperol-spritz-photo-20261005-v2.jpg",
+      "bytes": 436702,
+      "sha256": "77d60b475fe9084c00df0600491502f644c7fee641b6e007633493cf6f8a7914"
+    },
+    {
+      "path": "images/dishes/savora-home-baked-crab-cakes-photo-20261005-v2.jpg",
+      "bytes": 607584,
+      "sha256": "75696bb2cb6160683ae7dfe7834884b325156d240f74d78da3489dedbfd2dba8"
+    },
+    {
+      "path": "images/dishes/savora-home-bbq-chicken-pizza-photo-20261005-v2.jpg",
+      "bytes": 480356,
+      "sha256": "997b41777ebfa4de8cc9a6ec9a734cd21b212dad21f624cd7d0076745da16be2"
+    },
+    {
+      "path": "images/dishes/savora-home-black-pepper-crab-photo-20261005-v2.jpg",
+      "bytes": 498310,
+      "sha256": "6874bf80b21beea7cf4f8e0250eb112f7de36f1c46b83c85c6e8d8e88252b261"
+    },
+    {
+      "path": "images/dishes/savora-home-bloody-mary-photo-20261005-v2.jpg",
+      "bytes": 335578,
+      "sha256": "179171f5b2995e771d337b15a1b3eefd54b45014661a8f2ac8852176f8ad1a9b"
+    },
+    {
+      "path": "images/dishes/savora-home-caipirinha-photo-20261005-v2.jpg",
+      "bytes": 291979,
+      "sha256": "650f3858d29441e7b21534de2fa499ed50fdd7849f6dd87436b94649ae6ecc79"
+    },
+    {
+      "path": "images/dishes/savora-home-caprese-sandwich-photo-20261005-v2.jpg",
+      "bytes": 364738,
+      "sha256": "c0dafc9a1dd138155e1b23bd66a9fce4de7eb4c88fe634abf7d9afe96dd2a7c0"
+    },
+    {
+      "path": "images/dishes/savora-home-chicken-club-sandwich-photo-20261005-v2.jpg",
+      "bytes": 794910,
+      "sha256": "a05f748b6192e6a68cd070a2296424d147dc2ec0fee2a98e00e6890c22114656"
+    },
+    {
+      "path": "images/dishes/savora-home-chicken-salad-sandwich-photo-20261005-v2.jpg",
+      "bytes": 960102,
+      "sha256": "366f4c43304acb1a035f3de8881e7e00ca363a065ca5dcba6006ec1d4bc3c7ad"
+    },
+    {
+      "path": "images/dishes/savora-home-classic-cheeseburger-photo-20261005-v2.jpg",
+      "bytes": 277332,
+      "sha256": "a566b2e39e8fe6f19246907d930466552758335cbf640002ab7e060ba2398a5c"
+    },
+    {
+      "path": "images/dishes/savora-home-cosmopolitan-photo-20261005-v2.jpg",
+      "bytes": 133245,
+      "sha256": "460f2bca0b300fe670c2abe38dd6bb3694f44eb475b654b7261bc994ec102280"
+    },
+    {
+      "path": "images/dishes/savora-home-crab-fried-rice-photo-20261005-v2.jpg",
+      "bytes": 451845,
+      "sha256": "879c7d9c35ac764bf526137275b3f21b4349fa86479635f4ca282f192132996d"
+    },
+    {
+      "path": "images/dishes/savora-home-daiquiri.jpg",
+      "bytes": 376882,
+      "sha256": "bb80e6d797a4ca639369c21b0aa3af61fc9f17c1f9691d9b5672897334e6e837"
+    },
+    {
+      "path": "images/dishes/savora-home-dark-n-stormy-photo-20261005-v2.jpg",
+      "bytes": 316259,
+      "sha256": "14e574e27000521f0e35feaaa078699fa83f4aec5817a13047dd65e352956ecc"
+    },
+    {
+      "path": "images/dishes/savora-home-dry-martini-photo-20261005-v2.jpg",
+      "bytes": 287975,
+      "sha256": "6d133c893bf6a6bee34051cb92c2922edd8f3654a0a9b238ad8c1e69e069b3fd"
+    },
+    {
+      "path": "images/dishes/savora-home-egg-salad-sandwich-photo-20261005-v2.jpg",
+      "bytes": 745336,
+      "sha256": "2687c9b74dcd53d969174c483ee01fc5c314b8302965e0f1b562dd48e2afa68e"
+    },
+    {
+      "path": "images/dishes/savora-home-espresso-martini-photo-20261005-v2.jpg",
+      "bytes": 433382,
+      "sha256": "c81f26db6256dbb331de35cfcbf00631719762b9f21bbc565c3c775d4345a029"
+    },
+    {
+      "path": "images/dishes/savora-home-four-cheese-pizza-photo-20261005-v2.jpg",
+      "bytes": 458163,
+      "sha256": "4a70acbc3493f5d973c0cb21d90cdc4583b4a8413818d7bf62eec9fc285acac7"
+    },
+    {
+      "path": "images/dishes/savora-home-garlic-butter-crab-legs-photo-20261005-v2.jpg",
+      "bytes": 618682,
+      "sha256": "6ac22e0432475cd0db6b9ad9b61ca4064e563009222c67a304f691b57935c175"
+    },
+    {
+      "path": "images/dishes/savora-home-ginger-scallion-crab-photo-20261005-v2.jpg",
+      "bytes": 368792,
+      "sha256": "278536298256adf5dd270d213deed7deb91e1af66d069f3f28c276921046b55e"
+    },
+    {
+      "path": "images/dishes/savora-home-hawaiian-pizza-photo-20261005-v2.jpg",
+      "bytes": 399485,
+      "sha256": "620488dfce3e8a25271874d993c5c53ba78c493831d289bcd6790d3c6399bb06"
+    },
+    {
+      "path": "images/dishes/savora-home-home-oven-char-siu-photo-20261005-v2.jpg",
+      "bytes": 913406,
+      "sha256": "fa61a15cddf5a9e6ec27a89b2013f4909c4f92804ced9b9d08d2f29f2e6ad8ba"
+    },
+    {
+      "path": "images/dishes/savora-home-hot-crab-dip-photo-20261005-v2.jpg",
+      "bytes": 280221,
+      "sha256": "7abc55ba2f8fe8db78d63c2999061492ee5abfc2cce2bc6e6db694604467519b"
+    },
+    {
+      "path": "images/dishes/savora-home-long-island-iced-tea-photo-20261005-v2.jpg",
+      "bytes": 496912,
+      "sha256": "98696a9b956611eb3d08621d699fa119ea5dde215f4b3a88aa0f4af76f5a15e7"
+    },
+    {
+      "path": "images/dishes/savora-home-manhattan-photo-20261005-v2.jpg",
+      "bytes": 90336,
+      "sha256": "1010a08710c75868d15dcecc54eabed3c029f1fd3b5025911fcde2eb725293de"
+    },
+    {
+      "path": "images/dishes/savora-home-margarita-photo-20261005-v2.jpg",
+      "bytes": 645282,
+      "sha256": "d81863b677636318419bb38a50b2fa8f7da8cf8616497431d98e4709cc045244"
+    },
+    {
+      "path": "images/dishes/savora-home-margarita.jpg",
+      "bytes": 609979,
+      "sha256": "cbebb0c82a6a0fc01c68774d8f472650fb7e797ce020a65a5f0ce03c922093d9"
+    },
+    {
+      "path": "images/dishes/savora-home-mojito.jpg",
+      "bytes": 251815,
+      "sha256": "fc4df49f16ec7e2d0c217ebc93b0dbe21331f614b741ab5f2f20912f01b288a6"
+    },
+    {
+      "path": "images/dishes/savora-home-moscow-mule-photo-20261005-v2.jpg",
+      "bytes": 264004,
+      "sha256": "29f48967c0847852a167be21b6abbec1ae027675cc9bbc7a3ac8bd78f27a7db6"
+    },
+    {
+      "path": "images/dishes/savora-home-mushroom-pizza-photo-20261005-v2.jpg",
+      "bytes": 617645,
+      "sha256": "481e080392cb2990d6c060461913b3f6b50690eb8f95d10e2ea153dc112572df"
+    },
+    {
+      "path": "images/dishes/savora-home-negroni-photo-20261005-v2.jpg",
+      "bytes": 288126,
+      "sha256": "eb01509c51be0254b7986a088d3c9b4debb10acf634852a589e4ec68de8a819d"
+    },
+    {
+      "path": "images/dishes/savora-home-old-fashioned.jpg",
+      "bytes": 274284,
+      "sha256": "cf6ab483ed31bdcd3f6d07e7834df78669a1fdda4c7ad128fa6ef27f7b3adb7f"
+    },
+    {
+      "path": "images/dishes/savora-home-oven-barbecue-chicken-wings-photo-20261005-v2.jpg",
+      "bytes": 582697,
+      "sha256": "d5c13dd94db2d142679d44d83512409f4c731147b92035c770dee57f61d22d29"
+    },
+    {
+      "path": "images/dishes/savora-home-oven-barbecue-pork-ribs-photo-20261005-v2.jpg",
+      "bytes": 610828,
+      "sha256": "d69e51aa8a649ac4ee8dcd3d33a819ab8631450b95a8eb5b8e8771ecaaf36df8"
+    },
+    {
+      "path": "images/dishes/savora-home-oven-pulled-pork-photo-20261005-v2.jpg",
+      "bytes": 592820,
+      "sha256": "1fb2040cbbe8882ea3bb2d18ad4dd3c579b82d68d266a7d57525f9cf2b9e26f4"
+    },
+    {
+      "path": "images/dishes/savora-home-paloma-photo-20261005-v2.jpg",
+      "bytes": 297827,
+      "sha256": "ed7f6e25b419828edba20c9fe07998b06d0181cc715177eb5ccbc051f3a2c5ab"
+    },
+    {
+      "path": "images/dishes/savora-home-pan-grilled-steak-photo-20261005-v2.jpg",
+      "bytes": 544628,
+      "sha256": "63f327617598d4c72f002cbf475354b82ce318c7b9e383007fd290898618b7a9"
+    },
+    {
+      "path": "images/dishes/savora-home-peanut-butter-and-jelly-sandwich-photo-20261005-v2.jpg",
+      "bytes": 407059,
+      "sha256": "bf9409d4903d81fb416066effdd0569d9cded7f5dcc8c284a5310b68d81343a4"
+    },
+    {
+      "path": "images/dishes/savora-home-pepperoni-pizza-photo-20261005-v2.jpg",
+      "bytes": 585753,
+      "sha256": "cc0603d48156c83b9acc33cea722db312e454e9bda6ed0349531a76843f1444b"
+    },
+    {
+      "path": "images/dishes/savora-home-philly-cheesesteak-sandwich-photo-20261005-v2.jpg",
+      "bytes": 231813,
+      "sha256": "b6c2d5fcb3c90a762ed8d52e70ecb806933bf94bbd1b810b3bc0d39d753a3c27"
+    },
+    {
+      "path": "images/dishes/savora-home-pina-colada-photo-20261005-v2.jpg",
+      "bytes": 162207,
+      "sha256": "c681c3dd02785c4dbefd43be742d96b0d6d210deb0a0b84221432cf3cb17f130"
+    },
+    {
+      "path": "images/dishes/savora-home-rosemary-garlic-lamb-chops-photo-20261005-v2.jpg",
+      "bytes": 819661,
+      "sha256": "8a5fbc6bf082d1d97af58e995d8fa488d4fa6ec8fccc610f470394e952bd470f"
+    },
+    {
+      "path": "images/dishes/savora-home-singapore-style-chilli-crab-photo-20261005-v2.jpg",
+      "bytes": 698901,
+      "sha256": "63e164f4f48461d680a4f0bfd1a079945baecf9ebd6d54866c867f5c6ceda4c5"
+    },
+    {
+      "path": "images/dishes/savora-home-spinach-ricotta-pizza-photo-20261005-v2.jpg",
+      "bytes": 849127,
+      "sha256": "4fe71fa38023923e4a788f1e6ed59eaf5d9cc3ae26903b30a04bf33a75c2b1c9"
+    },
+    {
+      "path": "images/dishes/savora-home-steamed-crab-photo-20261005-v2.jpg",
+      "bytes": 281576,
+      "sha256": "8862829467609929e6c46f3d9fac29cdd92a00012f6a8a57c11b97d9af815987"
+    },
+    {
+      "path": "images/dishes/savora-home-tequila-sunrise-photo-20261005-v2.jpg",
+      "bytes": 193331,
+      "sha256": "d6caa93813a89fba09e1d740ed751539754103f0c564670a074eea494fd61428"
+    },
+    {
+      "path": "images/dishes/savora-home-tuna-and-olive-pizza-photo-20261005-v2.jpg",
+      "bytes": 594055,
+      "sha256": "73752cf55f8aa26c9f6c58432ef7168a01c9fbb7eb461c956822960074d921b6"
+    },
+    {
+      "path": "images/dishes/savora-home-tuna-melt-sandwich-photo-20261005-v2.jpg",
+      "bytes": 543192,
+      "sha256": "0f7cf3ebec9e5b9e91f2b3416fe0de999b194b29df2dc93ec055c9419187c61b"
+    },
+    {
+      "path": "images/dishes/savora-home-whiskey-sour-photo-20261005-v2.jpg",
+      "bytes": 419257,
+      "sha256": "80bdbbc886bddf5ca391c7b2c477cd81a1e2bd73d3554aa28596f8cc5959bbbd"
+    },
+    {
+      "path": "images/dishes/tagine.jpg",
+      "bytes": 366264,
+      "sha256": "4de9e94e38f2b58aaecea1ef21bbd746b3d58e7f33180fdd5f7f87c93133af02"
+    },
+    {
+      "path": "images/dishes/wikibooks-100369-indian-butter-chicken-i.jpg",
+      "bytes": 238282,
+      "sha256": "107a019f6a61fd05831d4bfbd706c6b03749448d44b2b558190cf661d793f085"
+    },
+    {
+      "path": "images/dishes/wikibooks-10049-carrot-and-raisin-salad.jpg",
+      "bytes": 330469,
+      "sha256": "9fa2654417ab999ebf38210e4db993d707d2c9cdeb301e82dad47bdf9f7989c4"
+    },
+    {
+      "path": "images/dishes/wikibooks-101529-muffuletta-sandwich.jpg",
+      "bytes": 183727,
+      "sha256": "54006dfe6fcff6d32692196bc1929048bb0c7c643dd20367e744b5996df90f8e"
+    },
+    {
+      "path": "images/dishes/wikibooks-101535-cafe-au-lait.jpg",
+      "bytes": 199609,
+      "sha256": "7bcd4b55e991c7951b94c96e94a73b13786042db4cfa052384fc11710bdf9ff6"
+    },
+    {
+      "path": "images/dishes/wikibooks-101882-brandy-butter.jpg",
+      "bytes": 180615,
+      "sha256": "cb8ea56e7725b6cc9f29816ec96d1acdecacee9de930ac3515dccd75db22cf62"
+    },
+    {
+      "path": "images/dishes/wikibooks-102050-gambas-al-ajillo-garlic-shrimp.jpg",
+      "bytes": 134180,
+      "sha256": "1b1f8593282d9607e293c1e74e9054eaea560ffc34edec3a7c62c4bd95f07fb5"
+    },
+    {
+      "path": "images/dishes/wikibooks-104947-german-potato-salad.jpg",
+      "bytes": 226592,
+      "sha256": "b3d2c7de5a93ad2984dfafd2c9cf373227a53ab89607d8e91d74cd99ec37d539"
+    },
+    {
+      "path": "images/dishes/wikibooks-105063-pancakes-north-american.jpg",
+      "bytes": 356378,
+      "sha256": "e0e215da19a7bf8e401e2a60376928639e5b1d6e80634b5df815dc3a42867d44"
+    },
+    {
+      "path": "images/dishes/wikibooks-106607-summer-rolls.jpg",
+      "bytes": 166379,
+      "sha256": "5c183146282366ed4c03761243ed2cbbdc29504ef5fd1c02da9c2bc8a91f4592"
+    },
+    {
+      "path": "images/dishes/wikibooks-106716-pasties.jpg",
+      "bytes": 206511,
+      "sha256": "ef9792f7777c88a9168be414373dcb36321429ccd70f1559aca1246c54ed6ab7"
+    },
+    {
+      "path": "images/dishes/wikibooks-107543-socca-italian-chickpea-flatbread.jpg",
+      "bytes": 166889,
+      "sha256": "02a2114a66b64d505d67e8a0829d957b7583ca31cb67e9ccf6c70f0a8e138a40"
+    },
+    {
+      "path": "images/dishes/wikibooks-110262-broccoli-salad.jpg",
+      "bytes": 247808,
+      "sha256": "aa53bf6a8938fe1a0c8887519821447b06ccd82e849a6360777b1991cc6cc21e"
+    },
+    {
+      "path": "images/dishes/wikibooks-110292-hutspot-dutch-mashed-vegetables.jpg",
+      "bytes": 396135,
+      "sha256": "ee8ef0f4c9874201bd02081f4780fb722e60dd75f2228ba268fde047084ba7af"
+    },
+    {
+      "path": "images/dishes/wikibooks-112958-twice-baked-potatoes-i.jpg",
+      "bytes": 260397,
+      "sha256": "45ab47dea154dead9e91d529479158b7c371c0d1868295575dd8b4957a6e41ff"
+    },
+    {
+      "path": "images/dishes/wikibooks-112977-new-england-clam-chowder.jpg",
+      "bytes": 113004,
+      "sha256": "d3f423a26cb14da3c1a3f820c29efa5e8edd5cf5984d64324ae5ba2066fbf8fe"
+    },
+    {
+      "path": "images/dishes/wikibooks-114227-zucchini-pie.jpg",
+      "bytes": 90235,
+      "sha256": "c84538be9239d1c98d26cf65d8b44fd591c576a78b8e97cebc9ff17845b2d37b"
+    },
+    {
+      "path": "images/dishes/wikibooks-11468-apple-pie-i.jpg",
+      "bytes": 289008,
+      "sha256": "73dde97aa028086836b83cf192de554debafb65f55f92c3fbef8477722225f35"
+    },
+    {
+      "path": "images/dishes/wikibooks-11865-french-fries.jpg",
+      "bytes": 234315,
+      "sha256": "5cd1d9e7eb802c9d43ade0a0861d694a885e0674d22a379548984c3d5b129b24"
+    },
+    {
+      "path": "images/dishes/wikibooks-119068-mozzarella-sticks.jpg",
+      "bytes": 312746,
+      "sha256": "1684b21d8f0f143e41cb0018fa64759bbf9475de2d8d78dbe046e8e174903cd1"
+    },
+    {
+      "path": "images/dishes/wikibooks-119231-jersey-breakfast-dog.jpg",
+      "bytes": 274659,
+      "sha256": "82391af2974f0edb60ec9198602f2cd41c6265e89d586ba3f930864f534a2178"
+    },
+    {
+      "path": "images/dishes/wikibooks-119575-italian-meatballs.jpg",
+      "bytes": 222647,
+      "sha256": "6abdf1175e6c5bb21abb3ec8dd8e34785364491fedc62c1436dcb13136697f8e"
+    },
+    {
+      "path": "images/dishes/wikibooks-122648-latino-scramble.jpg",
+      "bytes": 189155,
+      "sha256": "7218815aa13c17d4c2d7946bbe1c8f3581377a8703b0f82ee39c92c61e2fbc0d"
+    },
+    {
+      "path": "images/dishes/wikibooks-122650-potato-and-sausage-casserole-papa-turmada.jpg",
+      "bytes": 219503,
+      "sha256": "8b2a5bbe4e1c67883a4c2254e361565c15b555e8fe2defce5645cc513536f0f7"
+    },
+    {
+      "path": "images/dishes/wikibooks-123453-grilled-aubergine.jpg",
+      "bytes": 449377,
+      "sha256": "c52aa60b10c3867a1a6fb4cc2bde711512766e936b5f228abcca28b9538613af"
+    },
+    {
+      "path": "images/dishes/wikibooks-124457-risotto-basic.jpg",
+      "bytes": 185111,
+      "sha256": "ef76412aa86409ab859dd98000505cf41bacd15fcffe9519673b06db40d0a829"
+    },
+    {
+      "path": "images/dishes/wikibooks-124512-split-peas-cooked.jpg",
+      "bytes": 226227,
+      "sha256": "5f04d23ce94c203bf63d313a6b09fde3708632655c1b72fab70d8180ab6e52e0"
+    },
+    {
+      "path": "images/dishes/wikibooks-124761-mazorca-desgranada-colombian-beef-salad.jpg",
+      "bytes": 202403,
+      "sha256": "85883329e37fe71796c7e6104bc28f7c479d99acfb1ea60590a28faa58b51597"
+    },
+    {
+      "path": "images/dishes/wikibooks-125631-spaghetti-with-clams.jpg",
+      "bytes": 324163,
+      "sha256": "673918f788323be331c79994bc6fff58857af4bc9553508593eef7b9cd1802d1"
+    },
+    {
+      "path": "images/dishes/wikibooks-127132-bhuna-khichuri-bengali-rice-and-lentils.jpg",
+      "bytes": 192970,
+      "sha256": "9a675079ef8ee91214b32c043e9577804b2314cdf29f4e88af81fbacea735a4d"
+    },
+    {
+      "path": "images/dishes/wikibooks-127705-frijoles-antioquenos-colombian-bean-stew.jpg",
+      "bytes": 398701,
+      "sha256": "47c66d77fb8cd233600fb808a64c171800b1fb4cc2a53d44be5d41f463201f1e"
+    },
+    {
+      "path": "images/dishes/wikibooks-127879-fish-and-chips.jpg",
+      "bytes": 217624,
+      "sha256": "9ff569c4fbf19df24da9c812e55237aa7ecd0e2ae16d9ebeae0645bd03fca9c7"
+    },
+    {
+      "path": "images/dishes/wikibooks-129695-shortbread.jpg",
+      "bytes": 162502,
+      "sha256": "cdcacbf629fed55c7c399a3be8ec1778aaf97e26e1670d7829a8098328faa7ea"
+    },
+    {
+      "path": "images/dishes/wikibooks-13296-swedish-meatballs-i.jpg",
+      "bytes": 378980,
+      "sha256": "62e1365776ec86222639657ef2f09801d6d12708f1bed0fc579f93b7f1e8d8f1"
+    },
+    {
+      "path": "images/dishes/wikibooks-13447-bulgogi.jpg",
+      "bytes": 487117,
+      "sha256": "02408f258373ae7cdd01c3f55ac1adc10c65f864786209eb84c426a632745a55"
+    },
+    {
+      "path": "images/dishes/wikibooks-134771-dabeli-potato-stuffed-buns-with-chutney.jpg",
+      "bytes": 287379,
+      "sha256": "73bfe3edffe6d0885bdf4d1975a27b61323aa8dec981737609725230b8cfab6f"
+    },
+    {
+      "path": "images/dishes/wikibooks-136073-mexican-rice-i.jpg",
+      "bytes": 397859,
+      "sha256": "35931721b5b2d4ad2c92d3df8b6a43c0bb9a95f01ba2a9c4cbd3393f1d00843e"
+    },
+    {
+      "path": "images/dishes/wikibooks-136694-homemade-paneer.jpg",
+      "bytes": 161317,
+      "sha256": "8f3dc50c391bb1f47849758fc9aacf47ab6b18e540d68567fc772cb656e1c1d8"
+    },
+    {
+      "path": "images/dishes/wikibooks-138101-corn-chowder-i.jpg",
+      "bytes": 153194,
+      "sha256": "bf932680d936fc514bbd18581c2c1c22e8ac8b98205b96559810f6e331846ac4"
+    },
+    {
+      "path": "images/dishes/wikibooks-14077-onigiri.jpg",
+      "bytes": 307414,
+      "sha256": "0a5b2f04f90bce53562ce2343650e867613ad4700815fc597b85c8a809d1d063"
+    },
+    {
+      "path": "images/dishes/wikibooks-141255-kedgeree-rice-and-smoked-fish.jpg",
+      "bytes": 204084,
+      "sha256": "82e8b18914a11a9397f8eae9434ec0d33a158c6623d2ef3440ff5ffc6417e144"
+    },
+    {
+      "path": "images/dishes/wikibooks-144311-creamed-spinach.jpg",
+      "bytes": 292881,
+      "sha256": "41886f11ee0da03fd57ee35bd00982f52ff5becd6e17ecb2155b98ef3ad793d0"
+    },
+    {
+      "path": "images/dishes/wikibooks-144398-rhubarb-fool.jpg",
+      "bytes": 210861,
+      "sha256": "9344ee0eaea6dcba1cb107e90eff0a2affd1090062d8e5b7a878e526a8988658"
+    },
+    {
+      "path": "images/dishes/wikibooks-14459-moqueca-de-peixe-brazilian-seafood-stew.jpg",
+      "bytes": 390071,
+      "sha256": "00b6a2b90195bf9fb2ef50597c648866c8dec23cf486f84b7f0614324f375ce5"
+    },
+    {
+      "path": "images/dishes/wikibooks-145694-potato-stew.jpg",
+      "bytes": 342853,
+      "sha256": "ba28f51f7316f8aca8f3c89c79f103b6708cf7f2e87cd74bc23b9419d2172438"
+    },
+    {
+      "path": "images/dishes/wikibooks-150880-potatoes-anna.jpg",
+      "bytes": 526604,
+      "sha256": "78a85ecf0bfa7f85e29daed5ea7609f5ed722276edd86282b42ee859344b82a0"
+    },
+    {
+      "path": "images/dishes/wikibooks-15237-potato-soup.jpg",
+      "bytes": 232655,
+      "sha256": "3cbb891018e189d07c6b329d13f8197cd19c4f1a47b9bcb4f38276cd8a5ca274"
+    },
+    {
+      "path": "images/dishes/wikibooks-15295-albanian-fried-meatballs.jpg",
+      "bytes": 301234,
+      "sha256": "3669cc68fdc3d2b6a03f7dfd0511e2b2f28a4a65eb76698045c0efffa991659a"
+    },
+    {
+      "path": "images/dishes/wikibooks-15522-raita.jpg",
+      "bytes": 237205,
+      "sha256": "bead04d45786b2836aa143d2a51dd6e6691c8d71a27afe2dd297611bd150a032"
+    },
+    {
+      "path": "images/dishes/wikibooks-155618-sandwich-layer-cake.jpg",
+      "bytes": 296304,
+      "sha256": "4aa1bae8cf34ca13baa1811a5e0917a99634b446d4fd1c26c16a527607c47223"
+    },
+    {
+      "path": "images/dishes/wikibooks-156566-simple-spaghetti.jpg",
+      "bytes": 283040,
+      "sha256": "eeb98b3ce843808a1d6a37298582a20d8a5948ff0c91249ddfe752686fa00d7c"
+    },
+    {
+      "path": "images/dishes/wikibooks-157450-rye-bread-layer-cake.jpg",
+      "bytes": 204676,
+      "sha256": "e8ae7cb14a1e25b78805e9b377cbeba238832aec0c7c9de4849a5383fd904e7c"
+    },
+    {
+      "path": "images/dishes/wikibooks-159806-austrian-napkin-dumpling-serviettenknodel.jpg",
+      "bytes": 384282,
+      "sha256": "36a906148691e17a6b948ffac69d78f9dfc46c4e010ccf1c9bba335c92373138"
+    },
+    {
+      "path": "images/dishes/wikibooks-159960-scheiterhaufen-austrian-bread-pudding.jpg",
+      "bytes": 312704,
+      "sha256": "318e2c1d9956c3b2ce70898c91b38c43f288b83dc26a178f5ef90ecdfb8e391b"
+    },
+    {
+      "path": "images/dishes/wikibooks-159961-austrian-apricot-dumplings-marillenknodel.jpg",
+      "bytes": 417816,
+      "sha256": "60f14922e035e211cd7bc40a00f8855b657a5b3b81d0f63cfc5d04a6eec169b2"
+    },
+    {
+      "path": "images/dishes/wikibooks-160810-germknodel-plum-and-poppy-seed-dumpling.jpg",
+      "bytes": 239262,
+      "sha256": "2d90b13a41e1f8b71671879037dd1fe956598a5e2f5665559315b4a7fc3e3c79"
+    },
+    {
+      "path": "images/dishes/wikibooks-163336-daifuku-sweet-filled-mochi.jpg",
+      "bytes": 358284,
+      "sha256": "cf3889bd34de029aef18569dd1ffa429e2ebe342365e026d802a042cfa123407"
+    },
+    {
+      "path": "images/dishes/wikibooks-164154-whole-wheat-irish-soda-bread.jpg",
+      "bytes": 362275,
+      "sha256": "4f0f375e0e5a5c1143de3d95752e6f2fe566b10cd0e44a357a8d4db4721548bf"
+    },
+    {
+      "path": "images/dishes/wikibooks-164412-cazuela-gallega-egg-ham-and-cheese-casserole.jpg",
+      "bytes": 174907,
+      "sha256": "da28a0fb2cc97b3ec40544177b185d3687fe4c0b50cb8a668983e7a737c578ea"
+    },
+    {
+      "path": "images/dishes/wikibooks-16581-pork-gyoza.jpg",
+      "bytes": 179008,
+      "sha256": "934d2106fcba986608bb2d4fde77db65340b8898510ae934d5f864cc8119674e"
+    },
+    {
+      "path": "images/dishes/wikibooks-167988-dud-patti-milk-tea.jpg",
+      "bytes": 509470,
+      "sha256": "64fe1bae13abf4c0b304adfb181174bc5f873cd04b708df1283c263bacd1cc5a"
+    },
+    {
+      "path": "images/dishes/wikibooks-168646-snails-with-garlic-butter-escargots-a-la-bourguignonne.jpg",
+      "bytes": 268725,
+      "sha256": "e2b3d142059566d119a2cd2000af233886cf5f3bfa8d8d38d80c4491dc05cbfe"
+    },
+    {
+      "path": "images/dishes/wikibooks-169037-bryndzove-halusky-slovak-dumplings-with-cheese.jpg",
+      "bytes": 252559,
+      "sha256": "2febda3ad14438a54455d48d26bcfa94596aa334033a20d24940b52b20b6be34"
+    },
+    {
+      "path": "images/dishes/wikibooks-169060-creme-anglaise.jpg",
+      "bytes": 113808,
+      "sha256": "1cd3b4e729583b688a9dd7a8288576a4f2a0894854fd3d2af8ebf74ea0d8f1fa"
+    },
+    {
+      "path": "images/dishes/wikibooks-169262-queen-of-puddings.jpg",
+      "bytes": 190057,
+      "sha256": "1cb3bae25d0a405249a20bba7ce90c90e5228823741f199c7365fed438d2f901"
+    },
+    {
+      "path": "images/dishes/wikibooks-173704-rosti-swiss-potato-patties.jpg",
+      "bytes": 241167,
+      "sha256": "f7519f29b96905b7bf98c11281f53aba918dc6c1fd7f6b8d2a08099cbc5a6b75"
+    },
+    {
+      "path": "images/dishes/wikibooks-175472-bangers-and-mash.jpg",
+      "bytes": 447490,
+      "sha256": "4a34ce792f63eaadf256268d601c1049ee4c158dd3d0d2f75e98c8cb9579925d"
+    },
+    {
+      "path": "images/dishes/wikibooks-176395-coffee-concentrate.jpg",
+      "bytes": 78867,
+      "sha256": "2d0a6da5d579acba94bc2ba0d2d1a940143aab324505ac1206217ada2fda0e3b"
+    },
+    {
+      "path": "images/dishes/wikibooks-176798-coronation-chicken.jpg",
+      "bytes": 154641,
+      "sha256": "2d689b3fc5a6ae03f72bfbe4a88c80a1a74da6648d35c4c46bc2c5bc736768e3"
+    },
+    {
+      "path": "images/dishes/wikibooks-177311-stuffed-squash.jpg",
+      "bytes": 188935,
+      "sha256": "3b823e71d50f704803ed8f98bb827b86a827991de0d84e4cbcb4d661cb14c90a"
+    },
+    {
+      "path": "images/dishes/wikibooks-177340-carrot-salad.jpg",
+      "bytes": 312065,
+      "sha256": "21b2c275cc3983e634228f897671ae35029c0a28832f9fb05a1bf77dee41718e"
+    },
+    {
+      "path": "images/dishes/wikibooks-17844-oat-porridge.jpg",
+      "bytes": 168374,
+      "sha256": "b0ffc26b629226ab0be78f5b808f7eb3f48eadf7b4892c37bce7a69f5cf7107e"
+    },
+    {
+      "path": "images/dishes/wikibooks-178942-fleischkrapfen-austrian-meat-pasties.jpg",
+      "bytes": 219639,
+      "sha256": "2efb77d933a384aaf807de79876ea71357947e9ba8e0c5700a141ba6dc5a4dbf"
+    },
+    {
+      "path": "images/dishes/wikibooks-178943-roasted-pork-with-potatoes-and-onions-schweinsbraten.jpg",
+      "bytes": 370655,
+      "sha256": "49d3ebca4a5503c93f4c7d9ba5b7ceae58dba8828fcf0b67db5b2fd62b065db8"
+    },
+    {
+      "path": "images/dishes/wikibooks-178944-frittaten-soup.jpg",
+      "bytes": 272492,
+      "sha256": "e79d8e9b534ddd53d0fa7323fc3358158812db02baa1a25a9ae9b4e82b0ff5c2"
+    },
+    {
+      "path": "images/dishes/wikibooks-180338-kasnocken-austrian-cheese-dumplings.jpg",
+      "bytes": 266428,
+      "sha256": "0d5c521f54e2525454a4f6930002f8681b8c8b96a958332380153de539685506"
+    },
+    {
+      "path": "images/dishes/wikibooks-180414-pastries-filled-with-jam-marmeladetascherl.jpg",
+      "bytes": 217000,
+      "sha256": "7bfab5717ebbe47fea0daa81a83949fc3e5966cc6dbd241ee6e28b9e4009a380"
+    },
+    {
+      "path": "images/dishes/wikibooks-18099-shepherd-s-pie-i.jpg",
+      "bytes": 283084,
+      "sha256": "a1597bf2ea15a478cc8099e33a3c224777bdd7fa9566bdc133ce09b63c6517d2"
+    },
+    {
+      "path": "images/dishes/wikibooks-185952-dal-makhani-black-gram-with-cream.jpg",
+      "bytes": 86544,
+      "sha256": "a02a83ec8cdd699635e61d0b15a3a98a066bfbb1429c4b4382aa19c9a5d903df"
+    },
+    {
+      "path": "images/dishes/wikibooks-18875-tirana-fergese-with-peppers.jpg",
+      "bytes": 164815,
+      "sha256": "ed3dbf1086c81d699c5abc04b48265cfb2f2091d3bfbd0788f53b6c4c52695f4"
+    },
+    {
+      "path": "images/dishes/wikibooks-190095-arroz-negro-valencian-squid-rice.jpg",
+      "bytes": 433065,
+      "sha256": "306c6347108b6988cefe08a59f04cb4c2425baa5bf3bdacf9755714af7f914e5"
+    },
+    {
+      "path": "images/dishes/wikibooks-190869-boliche-cuban-chorizo-stuffed-roast.jpg",
+      "bytes": 448116,
+      "sha256": "3b57bdc8886edac7b86faf2cbbf468dead6b44b1e215048a31ba76ebc6f350b3"
+    },
+    {
+      "path": "images/dishes/wikibooks-196407-caponata-sicilian-eggplant-and-vegetables.jpg",
+      "bytes": 138990,
+      "sha256": "713baf8016c0e226f5d24f7215770823ca26a1f2882fec48aa66cf7aceef0bcc"
+    },
+    {
+      "path": "images/dishes/wikibooks-198691-yeung-chow-fried-rice.jpg",
+      "bytes": 285373,
+      "sha256": "f356ec6e1b831cb78b372e08f73329158b23a0585dc04605b9c9bf68ab477240"
+    },
+    {
+      "path": "images/dishes/wikibooks-198696-stir-fried-seafood-with-noodles.jpg",
+      "bytes": 368362,
+      "sha256": "9f20526ccbec4e67a8fe5702b34078a568c5b05795efda214b917b571db89202"
+    },
+    {
+      "path": "images/dishes/wikibooks-202395-popcorn.jpg",
+      "bytes": 169837,
+      "sha256": "e6d7bac9db33ac9513ef0ed751b4cd57cc345ca13b212b0a6cf8da43bdba923d"
+    },
+    {
+      "path": "images/dishes/wikibooks-203935-asian-grilled-duck-breasts.jpg",
+      "bytes": 319147,
+      "sha256": "26ce48539943d09eb469d4afc5275ec3a6e2b5c3b59a9ba7b3ed73c5af48fb55"
+    },
+    {
+      "path": "images/dishes/wikibooks-20455-deep-fried-mars-bar.jpg",
+      "bytes": 238689,
+      "sha256": "b970caca1b94ca8f0929d46fd75723a01a6637f2e5a81d8643f1f9430b5d7056"
+    },
+    {
+      "path": "images/dishes/wikibooks-210770-new-york-city-style-pizza.jpg",
+      "bytes": 201267,
+      "sha256": "7abe164bcdda3be6a5b75b221746ab235cb8251d9f5184c1a5807f1517382bf3"
+    },
+    {
+      "path": "images/dishes/wikibooks-210800-welsh-cakes.jpg",
+      "bytes": 279756,
+      "sha256": "3bc4a83ac6d0eb5b3db5e90484d1e812fe6424c01776d8de1ef336105c2f4cf3"
+    },
+    {
+      "path": "images/dishes/wikibooks-21215-lancashire-corned-beef-hash.jpg",
+      "bytes": 182732,
+      "sha256": "c9c165f648e18bac7e617c4a7acfaaeb29a858cc4b9cc6465a08c5eba0c6c73d"
+    },
+    {
+      "path": "images/dishes/wikibooks-212336-roast-turkey-with-stuffing.jpg",
+      "bytes": 164382,
+      "sha256": "1f6a7a205b97348061ec942ce5d6857396e1235bc8d76da805483beb0a8c6c05"
+    },
+    {
+      "path": "images/dishes/wikibooks-213798-aji-de-gallina-peruvian-chili-chicken.jpg",
+      "bytes": 487283,
+      "sha256": "c68dcf14805c338ddd39dbce5b35becdd5d887d8fd43c6921732a4e53d4d1384"
+    },
+    {
+      "path": "images/dishes/wikibooks-213812-manhattan-clam-chowder-i.jpg",
+      "bytes": 297065,
+      "sha256": "81c5c4c5e3497a5ea2e87003d2eee05210188589b493df05d3a723c324c49aa4"
+    },
+    {
+      "path": "images/dishes/wikibooks-216017-bread-pudding.jpg",
+      "bytes": 220220,
+      "sha256": "88f8ab972f9fe61713dff097eb1015db10cf2fd2f634ab14554bf1da24bb9028"
+    },
+    {
+      "path": "images/dishes/wikibooks-21833-lomo-saltado-peruvian-steak-stir-fry.jpg",
+      "bytes": 445928,
+      "sha256": "7afb88c05771283afaa49915c4caf5e79e6965e92d5a58832dd9cb751fd7cca7"
+    },
+    {
+      "path": "images/dishes/wikibooks-219286-pan-fried-white-brined-cheese-saganaki.jpg",
+      "bytes": 375167,
+      "sha256": "d077bb936c3b2d3a726883554f78548c3feaf49d422178e4422b42a30b083648"
+    },
+    {
+      "path": "images/dishes/wikibooks-223408-tofu-chocolate-mousse.jpg",
+      "bytes": 241438,
+      "sha256": "af8b1293e83c3eb09d17e03c6861e9d4cd4d09bd872d26d86db36347eca9a024"
+    },
+    {
+      "path": "images/dishes/wikibooks-22765-baked-potatoes.jpg",
+      "bytes": 354061,
+      "sha256": "146eb04d63c774204e16da6e8f7e3951d0df79787c835bfc5edb74ee671419f9"
+    },
+    {
+      "path": "images/dishes/wikibooks-227813-tortilla-canaria.jpg",
+      "bytes": 98728,
+      "sha256": "961698252a744533997a4e6e43b52154a109242aca8b293af404b65e6e4a8478"
+    },
+    {
+      "path": "images/dishes/wikibooks-230109-bell-pepper-chili.jpg",
+      "bytes": 300136,
+      "sha256": "22ceff604d560bd03327794350bbb6d8c059ef4f6404c7908cb628b16803a59d"
+    },
+    {
+      "path": "images/dishes/wikibooks-23144-french-dressing.jpg",
+      "bytes": 442301,
+      "sha256": "00435d2d36cf5857e1cb899d957da8aae3b51492ecc1061227d5ad275d6fe268"
+    },
+    {
+      "path": "images/dishes/wikibooks-23257-bubble-tea.jpg",
+      "bytes": 106579,
+      "sha256": "3aac3f69be12555f28036df37d088e9b1ec3003121e7b1648b060bf47c4cb5ec"
+    },
+    {
+      "path": "images/dishes/wikibooks-23288-spanakopita.jpg",
+      "bytes": 281144,
+      "sha256": "bd27618dabbfcae3d99b7562feaff9f51e313f182920dbb17d90dd154ad591d7"
+    },
+    {
+      "path": "images/dishes/wikibooks-23426-blt-sandwich.jpg",
+      "bytes": 185004,
+      "sha256": "7997ad79471d72d9a9d1eaec7cfc5cfeffe040c8b8de438ead33d059d0176656"
+    },
+    {
+      "path": "images/dishes/wikibooks-237175-chimichurri.jpg",
+      "bytes": 192916,
+      "sha256": "cec265c3a368ec8733dce05b6e280a873a7cfb30a7a31fb02dcb902358fefb3d"
+    },
+    {
+      "path": "images/dishes/wikibooks-238352-fried-pickle.jpg",
+      "bytes": 166120,
+      "sha256": "b076dec389face798fec78d6219aebb31e2969af601dd4a04e3840716ed257f1"
+    },
+    {
+      "path": "images/dishes/wikibooks-245915-eargon-salsa.jpg",
+      "bytes": 144730,
+      "sha256": "ba1b969deceebadc2d844b700e3097350190fdc378da7112baf1bfc150403f49"
+    },
+    {
+      "path": "images/dishes/wikibooks-246028-tomato-juice.jpg",
+      "bytes": 99957,
+      "sha256": "c69f73264d07191d8821d9e993158e423a8df06fc9e7f3df703c9754e0198a49"
+    },
+    {
+      "path": "images/dishes/wikibooks-252227-rosemary-grilled-salmon-steaks.jpg",
+      "bytes": 302330,
+      "sha256": "6e9be3a86f69ad67739590460b161c371080fad669257e2087ac2a2a58e21748"
+    },
+    {
+      "path": "images/dishes/wikibooks-254237-mediterranean-grilled-tuna.jpg",
+      "bytes": 270410,
+      "sha256": "6141ed3659041876547d126bfc382f56ec9d1e8af15b21df7d980dfba8d4c713"
+    },
+    {
+      "path": "images/dishes/wikibooks-25427-jambalaya-i.jpg",
+      "bytes": 101700,
+      "sha256": "8e8ab9589ff9ebc3974b244fedca0cd70693d15d12b89d5991cf341d04e9fe37"
+    },
+    {
+      "path": "images/dishes/wikibooks-257781-seafood-risotto.jpg",
+      "bytes": 193291,
+      "sha256": "583c86750b24d876f72f0555d51ce20ef4bf89a389b0b14eec0373629fddf9a9"
+    },
+    {
+      "path": "images/dishes/wikibooks-259851-croque-monsieur.jpg",
+      "bytes": 100080,
+      "sha256": "ed207e6c98e3ebd4d130e8220fa29126f57273c4d796eac83303b27925f00ea5"
+    },
+    {
+      "path": "images/dishes/wikibooks-263046-stroopwafels.jpg",
+      "bytes": 148779,
+      "sha256": "71027d9602e270c01330e3d0b69d3ed7cc9b000116dc85bf34a9f2130d55386e"
+    },
+    {
+      "path": "images/dishes/wikibooks-276070-kyselo-czech-sourdough-mushroom-soup.jpg",
+      "bytes": 409452,
+      "sha256": "3a0d1db9275e8e6efe02a3faa643268a2033d7bd73d27988607d1e39f1794ce7"
+    },
+    {
+      "path": "images/dishes/wikibooks-283009-cheese-egg-toast.jpg",
+      "bytes": 288325,
+      "sha256": "3dffee359c92a4de03360271e3a893c96d99c7d37a2c190049566164f424e6ee"
+    },
+    {
+      "path": "images/dishes/wikibooks-283018-banana-split-i.jpg",
+      "bytes": 245251,
+      "sha256": "ef0f8164643b61baee4ff25a012f4291f636f8d1a721cbe4ace2e25d4ccea5cc"
+    },
+    {
+      "path": "images/dishes/wikibooks-283099-affogato.jpg",
+      "bytes": 216299,
+      "sha256": "032754d111b081e51ad72ee14d78001b613f36011e19b71afa55ecdb2a231365"
+    },
+    {
+      "path": "images/dishes/wikibooks-283109-khaman-dhokla-steamed-gram-bread.jpg",
+      "bytes": 75343,
+      "sha256": "7031c8a67b6030df6da5ca808d70664e11a026dacf035699063f0f426b5bbb69"
+    },
+    {
+      "path": "images/dishes/wikibooks-28381-baba-ganoush.jpg",
+      "bytes": 86780,
+      "sha256": "51bfd51eff18f061b5911250cfe1548111bfcb2603469a9ccd005606c4d90516"
+    },
+    {
+      "path": "images/dishes/wikibooks-29043-hash-browns.jpg",
+      "bytes": 224928,
+      "sha256": "7a0bab22e317fe1db6b2da3d30629d645f0b9ae2f1f9298a0e600164d7753a82"
+    },
+    {
+      "path": "images/dishes/wikibooks-290958-coconut-pyramids.jpg",
+      "bytes": 246330,
+      "sha256": "012af9b818241825c70f2981205654e51cde99f500728cdb591e8b432f5d3b6e"
+    },
+    {
+      "path": "images/dishes/wikibooks-293425-ensalada-rusa-uruguayan-potato-salad.jpg",
+      "bytes": 298179,
+      "sha256": "c74265529a404657966ebbe9b9fd303b68e8348f80327b1b8a8a7e79863180c8"
+    },
+    {
+      "path": "images/dishes/wikibooks-295828-pecan-pie.jpg",
+      "bytes": 207626,
+      "sha256": "e35c95d9061398c75d613c50a4708e3cbf03b0448b48a3103c4c9e8e1d7d5ff2"
+    },
+    {
+      "path": "images/dishes/wikibooks-296144-princess-cake.jpg",
+      "bytes": 307266,
+      "sha256": "1f7009ac311ab8c1865ccc315e01d01076ed0f196bb3d51533b7f77a3468bb51"
+    },
+    {
+      "path": "images/dishes/wikibooks-29733-zuppa-toscana.jpg",
+      "bytes": 219010,
+      "sha256": "3c108390c08990916bf00c835452fa69c563f23f89cc90e7460b59e6a8309068"
+    },
+    {
+      "path": "images/dishes/wikibooks-297433-bread-with-tomato-sauce-pappa-al-pomodoro.jpg",
+      "bytes": 226865,
+      "sha256": "690a79a553d30283b641b0117f7731c4b9ab96fecc88faf1ef3244e9b2b19811"
+    },
+    {
+      "path": "images/dishes/wikibooks-299313-chicken-broth-ii.jpg",
+      "bytes": 313992,
+      "sha256": "0201647914ff2ff2bba47268cee8a41e34809ed89454f18656ab6023105f59d7"
+    },
+    {
+      "path": "images/dishes/wikibooks-30142-brazilian-black-bean-soup.jpg",
+      "bytes": 213382,
+      "sha256": "3983b38f2236c4ec9a2dfb717cb16a427cfb2db9a3f20ddd4dc1098b912a2bce"
+    },
+    {
+      "path": "images/dishes/wikibooks-308380-spaghetti-aglio-e-olio.jpg",
+      "bytes": 444089,
+      "sha256": "c9581fbe339aca731fdc41a250c9cb1ba467ba1da9d0bc0cf77c6d723adc321d"
+    },
+    {
+      "path": "images/dishes/wikibooks-31181-angels-on-horseback-bacon-wrapped-oysters.jpg",
+      "bytes": 442232,
+      "sha256": "2af3824331066ddbbe5ae3c1526b97e21135331be4ecb705f0fc86f62ea72976"
+    },
+    {
+      "path": "images/dishes/wikibooks-32970-potato-samosas-aloo-pies.jpg",
+      "bytes": 156407,
+      "sha256": "d07ccc92ad2ff8dfe128a04f49e20ca120c4eba3e2f3f3fd6ecd4c60d529d88f"
+    },
+    {
+      "path": "images/dishes/wikibooks-34651-aubergine-and-onion-vegetable-pie.jpg",
+      "bytes": 462800,
+      "sha256": "4abb356be419682ccf0563ebc53d1762450336110ab75b7361f5c65faf061dc8"
+    },
+    {
+      "path": "images/dishes/wikibooks-3548-pumpkin-pie-i.jpg",
+      "bytes": 269064,
+      "sha256": "7e92a5f3a9ffbf3593609b7eb59ff8350dd765e67c4ce59f75dae9064f832fb8"
+    },
+    {
+      "path": "images/dishes/wikibooks-360917-omelette-of-breadcrumbs.jpg",
+      "bytes": 163214,
+      "sha256": "db2f5a4b68fec3c4e2c856c6a3bb0a90698638a89a5c6e32c550c700aa60668b"
+    },
+    {
+      "path": "images/dishes/wikibooks-36159-beef-heart-kabobs-anticuchos.jpg",
+      "bytes": 123050,
+      "sha256": "53b0c554487c39dd1b24e1dfa7cb12dcd0c851ab5d1d84c7e08ed34bb457bdd0"
+    },
+    {
+      "path": "images/dishes/wikibooks-365682-seafood-cocktail-sauce.jpg",
+      "bytes": 208895,
+      "sha256": "a6e5e09ef795aa6ee8f7069c2ac9a85f4a7eec3308ef0d63becd1ebb775d5e88"
+    },
+    {
+      "path": "images/dishes/wikibooks-37643-tofu-scramble-i.jpg",
+      "bytes": 369169,
+      "sha256": "ed18b030f7b1c18b732bea0841f29f3ac1abfeddc0d2b0aff7a04cd230764f68"
+    },
+    {
+      "path": "images/dishes/wikibooks-38091-cioppino-italian-seafood-stew.jpg",
+      "bytes": 152801,
+      "sha256": "55df9048e8e24d72d0a89d35ca7249b486f58fbd56043f48a5371af6b7a53ae0"
+    },
+    {
+      "path": "images/dishes/wikibooks-382322-ghormeh-sabzi-iranian-herb-stew.jpg",
+      "bytes": 618759,
+      "sha256": "909e38cc2cbf148f200c1cf7795e07ec0736dceb45729d2cc256f7ac32e7ec6e"
+    },
+    {
+      "path": "images/dishes/wikibooks-39267-welsh-rarebit.jpg",
+      "bytes": 180130,
+      "sha256": "3c404e4a2d338fb9a3739ea8813c3ec12e6045ca88439404ee26526c97a66eba"
+    },
+    {
+      "path": "images/dishes/wikibooks-404205-creamy-mushroom-pasta.jpg",
+      "bytes": 110623,
+      "sha256": "3c5291f3b6aa79fedac9fc085bfdb57a8e44ae9ee7292ca0fe82e091af0269d3"
+    },
+    {
+      "path": "images/dishes/wikibooks-404658-jam-sandwich.jpg",
+      "bytes": 342503,
+      "sha256": "785011f9ea7c86368ed83d8063457befe2d4132774a50143b7ddc1b9365a3457"
+    },
+    {
+      "path": "images/dishes/wikibooks-405340-turkish-dolma-pilav.jpg",
+      "bytes": 224483,
+      "sha256": "3a717cd912cb98eacff1e5d1610d02b7b44f89f73c2f9450e8b5dc7821504821"
+    },
+    {
+      "path": "images/dishes/wikibooks-408629-sweet-potatoes-sauteed-with-honey.jpg",
+      "bytes": 244133,
+      "sha256": "023e72c359421ad8d03c292d30d226ffb4063f0452d32e6228a68d3137045867"
+    },
+    {
+      "path": "images/dishes/wikibooks-4097-grilled-cheese-sandwich.jpg",
+      "bytes": 351910,
+      "sha256": "d4d12e4672087d0beebf1e02cc2055dd327d360a791f9bf4f4d7235e3813dd25"
+    },
+    {
+      "path": "images/dishes/wikibooks-413739-herrencreme-german-custard-dessert.jpg",
+      "bytes": 199254,
+      "sha256": "2bbd78c98bcce4b6764a51c760441f0a420a0f4ed53998697c633f15be01c193"
+    },
+    {
+      "path": "images/dishes/wikibooks-414032-semolina-pudding.jpg",
+      "bytes": 187699,
+      "sha256": "11890541be8fa94eee5943456bb8afde801a9fbf1901c260217385a44737fa18"
+    },
+    {
+      "path": "images/dishes/wikibooks-414107-nuremberg-gingerbread.jpg",
+      "bytes": 301393,
+      "sha256": "a78808afd3e0c0035c78c73f85e1f04e4d44ee581071aa4df3ebfe23e91fbf78"
+    },
+    {
+      "path": "images/dishes/wikibooks-414623-dalgona-coffee.jpg",
+      "bytes": 192700,
+      "sha256": "fd85dc0f2acaebd4c8e015d7c68bad7f0c91c7cd0ec98949eed4efff829e9a1e"
+    },
+    {
+      "path": "images/dishes/wikibooks-4151-pickert-german-potato-dumpling.jpg",
+      "bytes": 267116,
+      "sha256": "68214d3e887c0e6ffe7fba514679a1187b0748d88685c3c21919d69b64d5b402"
+    },
+    {
+      "path": "images/dishes/wikibooks-415234-khubz-muluwah-yemenite-layered-flatbread.jpg",
+      "bytes": 408125,
+      "sha256": "0d58f5b58e39edbbcfd81fdb8c841fab3ef7d8a59ef46be49064c1f4475cdef0"
+    },
+    {
+      "path": "images/dishes/wikibooks-4169-s-mores.jpg",
+      "bytes": 159519,
+      "sha256": "3230b95390a991ac44ee7bd5922cc20f6d281be48a1b77a2d191c5c7a3566a24"
+    },
+    {
+      "path": "images/dishes/wikibooks-42010-marinara-sauce.jpg",
+      "bytes": 186142,
+      "sha256": "bb88126a9e36aeaa3999c03c8b07ac7ac3d109e5991e69b546b6ffaa30a876fe"
+    },
+    {
+      "path": "images/dishes/wikibooks-42652-chicken-tikka.jpg",
+      "bytes": 373462,
+      "sha256": "5106a115dd950c19c76a5efacb56befb972ccbf63ee506118e3e3f70bae342d7"
+    },
+    {
+      "path": "images/dishes/wikibooks-42657-chicken-tikka-masala.jpg",
+      "bytes": 197461,
+      "sha256": "02ad34a8c77eaae8df080de23171e5ee5111798def6a0523af05460e975eb227"
+    },
+    {
+      "path": "images/dishes/wikibooks-43048-c-lb-r-turkish-eggs-with-yogurt.jpg",
+      "bytes": 234855,
+      "sha256": "adff79fdde352c92bda93a37af07f9088115261cb73ff7373de68d774a7d349f"
+    },
+    {
+      "path": "images/dishes/wikibooks-441355-jambons.jpg",
+      "bytes": 292220,
+      "sha256": "ffd4276c4b06e18496949c68c96735aa8974dbb6705a69b2a0ccf4cfbd11ea90"
+    },
+    {
+      "path": "images/dishes/wikibooks-442280-chickpea-omelette.jpg",
+      "bytes": 331880,
+      "sha256": "b5a744dbde242c5b85dc7bf958e537e2c7e40fdf34e081969f6c1855aabd8ab6"
+    },
+    {
+      "path": "images/dishes/wikibooks-445935-nigerian-jollof-rice.jpg",
+      "bytes": 145744,
+      "sha256": "9f6fe43f35bda16f74ced215d82ff676247d0cddad169166dd2043a6353b2288"
+    },
+    {
+      "path": "images/dishes/wikibooks-446249-tuwo-shinkafa-nigerian-mashed-rice.jpg",
+      "bytes": 356248,
+      "sha256": "73dd3966f9ba9691648577936684d11da77ba8a6b98511ce6df98c006ee461ac"
+    },
+    {
+      "path": "images/dishes/wikibooks-446271-miyan-kuka-baobab-leaf-soup.jpg",
+      "bytes": 184527,
+      "sha256": "167dd49c9574e0626cc6f7312cfa2a703e707d1682d52c5fbb4acd5a1ac90864"
+    },
+    {
+      "path": "images/dishes/wikibooks-447885-cauliflower-cheese.jpg",
+      "bytes": 338008,
+      "sha256": "fee2444b3074393746aae44f3311e1f99a8de3533f4571dc1c7a4456238ca6b7"
+    },
+    {
+      "path": "images/dishes/wikibooks-451734-two-ingredient-brownies.jpg",
+      "bytes": 139373,
+      "sha256": "3917b0b5e7273f50cfeb284eb5b19a500a0dda119c5638428f509f1d52b1fd12"
+    },
+    {
+      "path": "images/dishes/wikibooks-452845-egg-noodles-iv.jpg",
+      "bytes": 312913,
+      "sha256": "e23c512e686a865ec572288374be3212c1a1f4f111ae105e167558b8310eabed"
+    },
+    {
+      "path": "images/dishes/wikibooks-455492-chicken-bog-grand-strand.jpg",
+      "bytes": 291457,
+      "sha256": "4f1a945ea0b991d787de7a1460580b19f5d71da8f4ae7d0922c549230adfee90"
+    },
+    {
+      "path": "images/dishes/wikibooks-456328-oreo-milkshake.jpg",
+      "bytes": 581928,
+      "sha256": "2604420f1adab6c3acb87e8fc82e9a388a2644d1fffbef81b315d20d01fed9d0"
+    },
+    {
+      "path": "images/dishes/wikibooks-456735-otong-soup.jpg",
+      "bytes": 741356,
+      "sha256": "210a93756f31dc318c32d7e274957b6d8e14bb884a532f4cebc760b3fb99642c"
+    },
+    {
+      "path": "images/dishes/wikibooks-456919-omu-tuo-ghanian-mashed-rice.jpg",
+      "bytes": 143742,
+      "sha256": "6632d4b8685b1d27fdc6bd56b542ab5b6fcc6c327bd122d919ef7e25c2b17c6b"
+    },
+    {
+      "path": "images/dishes/wikibooks-456952-fanke-hausa-puff-puff.jpg",
+      "bytes": 325093,
+      "sha256": "324a1ea76f4656dbf8c94c4bbf00d87b09dc3d42e60fac027655315e9c2cc8f2"
+    },
+    {
+      "path": "images/dishes/wikibooks-456990-ndole-cameroonian-bitter-leaf-and-peanut-soup.jpg",
+      "bytes": 246045,
+      "sha256": "ce3d8615bf8e2953584d3227186a15fc5c3bab62999b6b4d0386e1565b82ceb8"
+    },
+    {
+      "path": "images/dishes/wikibooks-457096-nigerian-yam-and-potato-porridge.jpg",
+      "bytes": 301433,
+      "sha256": "c724663562a915e158560759a36bf6f7d5927c629f88344c5990776879e4d83d"
+    },
+    {
+      "path": "images/dishes/wikibooks-457290-roasted-spiced-chicken-drumsticks.jpg",
+      "bytes": 291362,
+      "sha256": "c1f85dc235e9ff56e245e436a4a9acc97698b6842d5fb833b7053a73a914aaf2"
+    },
+    {
+      "path": "images/dishes/wikibooks-461783-croissant.jpg",
+      "bytes": 390056,
+      "sha256": "87540e402bf5e36b3fb5d28e53aaec8d30fa74ae535021a1088d99234e323745"
+    },
+    {
+      "path": "images/dishes/wikibooks-461945-sylheti-fried-rice.jpg",
+      "bytes": 229152,
+      "sha256": "82a839ba67cbe245eb7b76b1ecf482d644469aba9ea0a5792fafbc83de992bfe"
+    },
+    {
+      "path": "images/dishes/wikibooks-461964-sylheti-tangy-curry.jpg",
+      "bytes": 389032,
+      "sha256": "657d9c92e23329f89fa5eccb243245dac0aa6a3e69be62b44f32acdbbfe6afd0"
+    },
+    {
+      "path": "images/dishes/wikibooks-462098-tempe-mendoan-ii.jpg",
+      "bytes": 525777,
+      "sha256": "ffd209596d7d491039dc364c9220d98834d65cd3e66c5980174a8c0d422cec98"
+    },
+    {
+      "path": "images/dishes/wikibooks-464494-lumpiang-shanghai-filipino-pork-spring-rolls.jpg",
+      "bytes": 385157,
+      "sha256": "dc26814a56a9329963e2bb0f7d4f0efc85be6b19213f39d3f7d93271f65b9665"
+    },
+    {
+      "path": "images/dishes/wikibooks-469311-romanian-roasted-eggplant-spread-ii.jpg",
+      "bytes": 551913,
+      "sha256": "9a369dfb2400766cf4504cadf1c2af98f82817e22d914d040019c8ec34381c5e"
+    },
+    {
+      "path": "images/dishes/wikibooks-469315-zacusca-romanian-vegetable-spread.jpg",
+      "bytes": 126692,
+      "sha256": "a8c7a4222dcf02ec93a9b641f87a5e5592d4352c10db22c745b63068c765826a"
+    },
+    {
+      "path": "images/dishes/wikibooks-470677-beurre-manie.jpg",
+      "bytes": 384080,
+      "sha256": "a34a07e95e9950f0cee4188e578b770cd728a2436e44a4e528d32b0e6aa0aed2"
+    },
+    {
+      "path": "images/dishes/wikibooks-470705-air-fried-zucchini.jpg",
+      "bytes": 367839,
+      "sha256": "c8ab39666ce472480e70c6ef0db784b9ac60a73714e94a184c510d7ad56570fb"
+    },
+    {
+      "path": "images/dishes/wikibooks-470721-dibi-senegalese-grilled-meat.jpg",
+      "bytes": 257320,
+      "sha256": "0732461ea2a77a4b306ce9987e3a31f13b0bbcc2be1ca29d942c41824f283e25"
+    },
+    {
+      "path": "images/dishes/wikibooks-470726-italian-mulled-wine.jpg",
+      "bytes": 210475,
+      "sha256": "826dfe19f17758bb6f0b3b5c00a627e071b36e0eae00588ed4182238c928ef47"
+    },
+    {
+      "path": "images/dishes/wikibooks-470806-tarta-de-santiago.jpg",
+      "bytes": 220407,
+      "sha256": "76af4390452b26bd876429735f064ce0d82bca4cdda50ca075c1b9fbeb277f43"
+    },
+    {
+      "path": "images/dishes/wikibooks-473350-algerian-couscous-with-meat-and-vegetables.jpg",
+      "bytes": 649406,
+      "sha256": "2cff2b30b85785903e1618fa9f705ab71ab2cdd1747ac8206d973d382d589c12"
+    },
+    {
+      "path": "images/dishes/wikibooks-474356-miyan-taushe-hausa-pumpkin-soup.jpg",
+      "bytes": 224670,
+      "sha256": "b24565988eea10ba873b551f215f00b158bb5325209039ae62d3a7826c126f4d"
+    },
+    {
+      "path": "images/dishes/wikibooks-476140-chakalaka-south-african-vegetable-stew.jpg",
+      "bytes": 503248,
+      "sha256": "920b3a45932adbe3d181d6a755cb588bed8af8140887ebd3ce9fadb47fa5ba02"
+    },
+    {
+      "path": "images/dishes/wikibooks-476397-faten-wake-hausa-bean-porridge.jpg",
+      "bytes": 153177,
+      "sha256": "683f7b9c2baa02652dfad0d07b57efc399cf803d6a44d8a9d60a6f0c14cd866e"
+    },
+    {
+      "path": "images/dishes/wikibooks-477181-turkey-barley-cabbage-rolls-with-fresh-dill.jpg",
+      "bytes": 184944,
+      "sha256": "df664b3ad7eba892927b26ad23437611bedd7e6ad5c08367273958f4aaac29cf"
+    },
+    {
+      "path": "images/dishes/wikibooks-479695-grenadine.jpg",
+      "bytes": 109374,
+      "sha256": "e61366930bc8bdb0dcb34ce6e64c58a34be8d0043a56323f375fda943cf78cfc"
+    },
+    {
+      "path": "images/dishes/wikibooks-479919-jamaican-sorrel-soda.jpg",
+      "bytes": 210413,
+      "sha256": "3792782e0027ed8caa01d79f2a2d99ae59b2d3ee5935289a6bfcb7520c1dc3f6"
+    },
+    {
+      "path": "images/dishes/wikibooks-480517-steak-and-wine-pie.jpg",
+      "bytes": 443904,
+      "sha256": "d4961581eca4d67056078629c702223119de1aeb182078bfc85ef31e37cf366e"
+    },
+    {
+      "path": "images/dishes/wikibooks-480531-fribourg-omelet.jpg",
+      "bytes": 340858,
+      "sha256": "d46141e5828b5767b9378a7de72c383cb29b9da8620b4a8266e1feb51286a953"
+    },
+    {
+      "path": "images/dishes/wikibooks-480537-veggie-pizza.jpg",
+      "bytes": 504107,
+      "sha256": "f59fcb9e9156b49cb54c60ef9242f59b11a5333a1fd275bdf6c0342fffb3f976"
+    },
+    {
+      "path": "images/dishes/wikibooks-480540-supercharger-tea.jpg",
+      "bytes": 452848,
+      "sha256": "4d42dca26a97edca58bcd8b67cf1c0a2c99a3eef8c49f36f9d98773e76b25e69"
+    },
+    {
+      "path": "images/dishes/wikibooks-481440-bo-bia.jpg",
+      "bytes": 327126,
+      "sha256": "cc79541fb4102716bc5c4920f51b21ea1972796a56407beb67e5f1705cae045c"
+    },
+    {
+      "path": "images/dishes/wikibooks-483794-obe-ata.jpg",
+      "bytes": 375903,
+      "sha256": "d3699e22513b5ff4d9a49148879f2dd665fc88adf8b52ac5b26fdccc46b0a4c5"
+    },
+    {
+      "path": "images/dishes/wikibooks-483806-bunny-chow.jpg",
+      "bytes": 303488,
+      "sha256": "19e3e25fcb4597896a05a055847832db9bab6be6905e62ad79a151b508d2bb0f"
+    },
+    {
+      "path": "images/dishes/wikibooks-483816-asaro.jpg",
+      "bytes": 400180,
+      "sha256": "9c06ab8b3b2f09b61ede35a6f12e39e6e8a46ac2441f36d82482e9a2a3550685"
+    },
+    {
+      "path": "images/dishes/wikibooks-485740-pizza-with-peppers.jpg",
+      "bytes": 161544,
+      "sha256": "293c82072ac5055e48a192b651e85cb2b207b48f4b62229433c2bdc4a34bb6ac"
+    },
+    {
+      "path": "images/dishes/wikibooks-485811-family-pizza.jpg",
+      "bytes": 333320,
+      "sha256": "e9e503e8f55b24cd0edcc6f47325116461e7b0d29561453f83e0484974206313"
+    },
+    {
+      "path": "images/dishes/wikibooks-49272-menudo-mexican-tripe-and-hominy-soup.jpg",
+      "bytes": 221766,
+      "sha256": "92b022306a47dfe80b2ae0913f3ea92275b94bbd887db04580d55126d42c1499"
+    },
+    {
+      "path": "images/dishes/wikibooks-4936-ratatouille-i.jpg",
+      "bytes": 298396,
+      "sha256": "7d4b16db40d8007b4c2929de5bff880ffbe5b7325370c2b6de87e58032aedb14"
+    },
+    {
+      "path": "images/dishes/wikibooks-54215-malvani-chicken-curry.jpg",
+      "bytes": 387467,
+      "sha256": "7fa2c82a361a9f8208e08e06fbd5237135d9e7f2d0332d9d7cbdaea01ce790e6"
+    },
+    {
+      "path": "images/dishes/wikibooks-56144-butter-tea.jpg",
+      "bytes": 313587,
+      "sha256": "156872a6a3cb378b4862a0e072ea52b111be24dd6b3070d6881b7f771918c4ce"
+    },
+    {
+      "path": "images/dishes/wikibooks-6066-zupa-ogorkowa-polish-cucumber-soup.jpg",
+      "bytes": 275914,
+      "sha256": "b36776ba7b7493076563651f025e9c6b69ec14aac0331cc82668e93692545220"
+    },
+    {
+      "path": "images/dishes/wikibooks-62604-chocolate-chocolate-chip-muffins.jpg",
+      "bytes": 391935,
+      "sha256": "8ed3fd5a8cb83b7a5b39289748f66504a62ace011b4dba09fa031137bc23192d"
+    },
+    {
+      "path": "images/dishes/wikibooks-62605-banana-chip-muffins.jpg",
+      "bytes": 247811,
+      "sha256": "18f5c12765ab208ea803782ff5bbb39e0c5fb39aa1975c52a5edd33fc0fa1716"
+    },
+    {
+      "path": "images/dishes/wikibooks-62682-oatmeal-cookies-i.jpg",
+      "bytes": 571979,
+      "sha256": "508ac6f7651f2ccb4cf13ae0be60df9eabcfeeefa3f52dd774cab1fe8b5715d9"
+    },
+    {
+      "path": "images/dishes/wikibooks-63850-basic-flapjacks.jpg",
+      "bytes": 101743,
+      "sha256": "f9cd38589c29005c41159213174557ce3e3fd8b51bba5335b12362e98e4e01da"
+    },
+    {
+      "path": "images/dishes/wikibooks-6494-paprika-chicken.jpg",
+      "bytes": 128642,
+      "sha256": "2a586cc22217f25554e769993fc5e3ec87128884491ac485422c00b0f8aeafc4"
+    },
+    {
+      "path": "images/dishes/wikibooks-66447-chicken-vindaloo.jpg",
+      "bytes": 175237,
+      "sha256": "c6e611584879a4b893463bba1aa999390a3f60dbfd8908ae665ba4f0a1e23bac"
+    },
+    {
+      "path": "images/dishes/wikibooks-68629-rendang-indonesian-beef-and-coconut-stew.jpg",
+      "bytes": 269861,
+      "sha256": "201308416dbc934f667468c6a57163bc6e84757b3ed99d9b33d04724c6d25ef3"
+    },
+    {
+      "path": "images/dishes/wikibooks-69125-spaghetti-and-meatballs.jpg",
+      "bytes": 159913,
+      "sha256": "9502aeac345a0511d775d330c8df2391758519ad316405569a8628a0d7dacaf7"
+    },
+    {
+      "path": "images/dishes/wikibooks-6973-gingerbread.jpg",
+      "bytes": 210902,
+      "sha256": "60add7e0832ace009c0e26311a1ced0186e61f82dbb24185603d2212ca0caccc"
+    },
+    {
+      "path": "images/dishes/wikibooks-70189-chess-pie.jpg",
+      "bytes": 232701,
+      "sha256": "a86f356ea6156a01d5b3c3dbd66cfa2db37f39ce6f552f214ff3760066492c34"
+    },
+    {
+      "path": "images/dishes/wikibooks-7277-chapati.jpg",
+      "bytes": 164840,
+      "sha256": "ca8d7ea8a3d310c7712ac44880ee70bfe772c7aebe1cad56690869fbb6806893"
+    },
+    {
+      "path": "images/dishes/wikibooks-72799-coleslaw-i.jpg",
+      "bytes": 163134,
+      "sha256": "b5f221f6386460e0c3a9ab440e6abd44bd78948cd9b2f650af7afdd216383add"
+    },
+    {
+      "path": "images/dishes/wikibooks-7287-basic-indian-tomato-gravy.jpg",
+      "bytes": 706957,
+      "sha256": "ab3d4f154e9406dd565e9ba13281dc88a51a6903bbb294384053ac3ef2e408af"
+    },
+    {
+      "path": "images/dishes/wikibooks-72877-rhubarb-crumble-i.jpg",
+      "bytes": 421947,
+      "sha256": "40207eccc451a7858f4f9b4fa84f733f086efe113b7c612162d489d19bd2c416"
+    },
+    {
+      "path": "images/dishes/wikibooks-7289-khara-pongal-rice-and-mung-bean-porridge.jpg",
+      "bytes": 174522,
+      "sha256": "d432f60830b2f522d6670b467e0dd3c28285ea4fd0f9eeb6c7f9820bea92ce42"
+    },
+    {
+      "path": "images/dishes/wikibooks-74388-reuben-sandwich.jpg",
+      "bytes": 226707,
+      "sha256": "d18fe3106f0ab5e726b569c9aa29a9a9c6a87a89e28efa947e46b69947d9e251"
+    },
+    {
+      "path": "images/dishes/wikibooks-78576-banoffee-pie.jpg",
+      "bytes": 119055,
+      "sha256": "9972432bf2e8f5c05952b2aa3bed871cc7457f5c91d47926053c184edaf734be"
+    },
+    {
+      "path": "images/dishes/wikibooks-78658-chip-butty.jpg",
+      "bytes": 168075,
+      "sha256": "178014d2e8ad5e7a52050b2b51aa845693bf43473079ab4cceae41b73a158aa7"
+    },
+    {
+      "path": "images/dishes/wikibooks-7980-potato-curry-aloo-masala.jpg",
+      "bytes": 161662,
+      "sha256": "eade8d970655869096b715111fa957aa0378412c85b6e04e2afbc6452a7c4456"
+    },
+    {
+      "path": "images/dishes/wikibooks-8040-garlic-croutons-i.jpg",
+      "bytes": 255392,
+      "sha256": "c72129adbc49ba39e01ad55698a0a1673395714499650fb5671ac6125b2bf58c"
+    },
+    {
+      "path": "images/dishes/wikibooks-81031-loukoumas-greek-donuts-with-honey-ii.jpg",
+      "bytes": 272609,
+      "sha256": "7d129d27931daabd1f79ff5d2f27b35a41044d8ae71ef88c311396b92cc85ad5"
+    },
+    {
+      "path": "images/dishes/wikibooks-8324-french-toast.jpg",
+      "bytes": 368433,
+      "sha256": "d4ffa8ee9c2951926428214ec0ef31eb6b067c2a0879eadc150b8f6752b062ca"
+    },
+    {
+      "path": "images/dishes/wikibooks-83396-pohe-spiced-flattened-rice.jpg",
+      "bytes": 363048,
+      "sha256": "20ccf74f58550c1b271796f3e7b94747090be57e34f6b0b32b327a1652f9c83a"
+    },
+    {
+      "path": "images/dishes/wikibooks-85337-huevos-rancheros.jpg",
+      "bytes": 188903,
+      "sha256": "03c641470582c44c52fa0475887d69386a4fb6dd40cecd13216d88891426f37d"
+    },
+    {
+      "path": "images/dishes/wikibooks-8658-rice-and-lentils-mejadra.jpg",
+      "bytes": 385060,
+      "sha256": "3a98047f29262757f851512e24b0a33baf91c205177a861ded92262e40495b45"
+    },
+    {
+      "path": "images/dishes/wikibooks-88513-baked-ziti.jpg",
+      "bytes": 514143,
+      "sha256": "4fb8fc0a52ba4a3d112d09c2370026dd0c43f22d0f15e2de1cc3707d92911508"
+    },
+    {
+      "path": "images/dishes/wikibooks-89047-borhani-spiced-yogurt-drink.jpg",
+      "bytes": 210575,
+      "sha256": "94a624c9137349651f3fa108c96868859f9c51393eb31a3840f53235eca0b81d"
+    },
+    {
+      "path": "images/dishes/wikibooks-9014-red-lentil-soup.jpg",
+      "bytes": 194573,
+      "sha256": "5c39127f3fb4bfc9d9c0084f89238a6ca38a3e1d08bbf96cc9af8ee8e81d4230"
+    },
+    {
+      "path": "images/dishes/wikibooks-9082-hard-tack.jpg",
+      "bytes": 178350,
+      "sha256": "43417c9e67c641e51f894467f753fb678e48f0b7b5ff286358df3bbf1df6334c"
+    },
+    {
+      "path": "images/dishes/wikibooks-91275-madras-filter-coffee.jpg",
+      "bytes": 121410,
+      "sha256": "e97771adf8770a2c6646ccbdf669478a328ab916673228c2c33e9bdd02224ec0"
+    },
+    {
+      "path": "images/dishes/wikibooks-93030-lime-and-mascarpone-cheesecake.jpg",
+      "bytes": 319023,
+      "sha256": "37fc2a49b5ea5cd1410ddef3f0b2b04c85368f8799559a53aa6dfe11720c0839"
+    },
+    {
+      "path": "images/dishes/wikibooks-96882-machacado-con-huevo-eggs-with-shredded-beef.jpg",
+      "bytes": 272811,
+      "sha256": "dd4f5dc8597ad49b2dc5ba0209a562cc790b814b6f5d69bae362c8491d663f0c"
+    },
+    {
+      "path": "images/dishes/wikibooks-96900-tahdiq-crisped-persian-rice.jpg",
+      "bytes": 546103,
+      "sha256": "15b783acbde67f5f7e4bb80d0964473cecfca0929a11612e34f478039e34cabc"
+    },
+    {
+      "path": "images/dishes/wikibooks-96979-snickerdoodles-iv.jpg",
+      "bytes": 480400,
+      "sha256": "4c3e2dd8d671a5b2f6ba0af0dbf5e867cc2371fff4da836fd9eb513a052ab717"
+    },
+    {
+      "path": "images/dishes/wikibooks-97874-trifle.jpg",
+      "bytes": 165138,
+      "sha256": "923425c6b31a66842f1902ae6e6b386f6a372e863e5cbfd9d701ccdb4d8714c7"
+    },
+    {
+      "path": "images/dishes/wikibooks-97975-chokladboll-swedish-chocolate-balls.jpg",
+      "bytes": 420808,
+      "sha256": "499f32d63f5771ed831aabd02b66b91779aa654b9336555b5b78712b9540ef71"
+    },
+    {
+      "path": "images/dishes/wikibooks-99896-ayran-turkish-yogurt-drink.jpg",
+      "bytes": 511084,
+      "sha256": "1df6de0761c991f1dca391e71f650f55e614bdc062b509dfc9141e7d05370a12"
+    },
+    {
+      "path": "images/generated/alaska-salmon-salad-v1.png",
+      "bytes": 2572046,
+      "sha256": "c2a8f26113e5de58784947efd1a605d2e56417c14406629dfc7d7f212e1c79dc"
+    },
+    {
+      "path": "images/generated/asian-style-steamed-salmon-v1.png",
+      "bytes": 2377265,
+      "sha256": "4f09b3531271804f2e74db09fa558056e938e42175814e4b28869c97c3e18119"
+    },
+    {
+      "path": "images/generated/autumn-salad-v1.png",
+      "bytes": 2808790,
+      "sha256": "9d44d7853155048f64e77aad134bec8711b0743794d601dc3e361676934e3ce4"
+    },
+    {
+      "path": "images/generated/baby-spinach-golden-raisins-pine-nuts-v1.png",
+      "bytes": 2723162,
+      "sha256": "892caf128fbc8b64e02b4690bcde7fb6350dd0677cb92334371d34fa11a13b17"
+    },
+    {
+      "path": "images/generated/baked-fish-v1.png",
+      "bytes": 2746408,
+      "sha256": "4c8518811e4d65c3278ef2d5c25e055ba9b7bca8739c4246436437e1832952c4"
+    },
+    {
+      "path": "images/generated/baked-french-fries-v1.png",
+      "bytes": 2718542,
+      "sha256": "3c871ac3e71c8ad2d9a2146a1a49497d5bc5fc2e8afe0c91b7c2f504f60f3664"
+    },
+    {
+      "path": "images/generated/baked-tilapia-tomatoes-v1.png",
+      "bytes": 2675991,
+      "sha256": "7853d5313cadd3f286b59f9adb8244430ff329283dc62ef202d3891c154d2216"
+    },
+    {
+      "path": "images/generated/braised-cod-leeks-v1.png",
+      "bytes": 2321639,
+      "sha256": "f9ee3671d4565e8e1a2c0844e85b373cfb0709be11bf76ae7ce252090cafe589"
+    },
+    {
+      "path": "images/generated/caribbean-pink-beans-v1.png",
+      "bytes": 2642162,
+      "sha256": "defc20e99b991384ae668db1c161f077b5f5bb6d28fe14d4c962301e8e30d81a"
+    },
+    {
+      "path": "images/generated/chicken-creole-v1.png",
+      "bytes": 2843189,
+      "sha256": "0c51771dab28d63241cfe6858c02ca7d216fb2acdde8157eca5cd1c2b81e49a5"
+    },
+    {
+      "path": "images/generated/chicken-picadillo-v1.png",
+      "bytes": 2569769,
+      "sha256": "cee86fda88e6ccfc94c0f93c9267ce8851bbd15b21cc69196974e2af499b3819"
+    },
+    {
+      "path": "images/generated/chicken-salad-v1.png",
+      "bytes": 2351447,
+      "sha256": "b57ddc29ad89431615d7956aaab8eeccec312480a6afa12a2923d6852ca963e6"
+    },
+    {
+      "path": "images/generated/cold-fusilli-pasta-summer-v1.png",
+      "bytes": 2706364,
+      "sha256": "086e3db97d545da50024f3d190e275c2356700f5f61cbfeb27b08b64e3834fcf"
+    },
+    {
+      "path": "images/generated/couscous-carrots-walnuts-and-v1.png",
+      "bytes": 2615229,
+      "sha256": "41aa400775346007012ecf3cbb1465c53a97070a31dbd9f15da66c5347a85508"
+    },
+    {
+      "path": "images/generated/hansik-japchae-bap-v1.png",
+      "bytes": 2645404,
+      "sha256": "273f2d29ceec6bb15a272d65d8c7ba575007df7bcd6e68e1137f7ce12ad6d4c8"
+    },
+    {
+      "path": "images/generated/hansik-japgokbap-v1.png",
+      "bytes": 2333352,
+      "sha256": "d7aa00973bbb40fcec0789097090c616c91b83450b0a1f983ac34418df6386ec"
+    },
+    {
+      "path": "images/generated/hansik-jeyuk-bibimbap-v1.png",
+      "bytes": 2792587,
+      "sha256": "f9bab48985264e67d72f134ee4b2b87421459433b261568ca97e429d5ec48dcc"
+    },
+    {
+      "path": "images/generated/hansik-jumeokbap-v1.png",
+      "bytes": 2498730,
+      "sha256": "92b203088039b4fb629ec157b48e7dfeaa2fe59acd5f294f738bdc8babc1761b"
+    },
+    {
+      "path": "images/generated/hansik-nakji-deopbap-v1.png",
+      "bytes": 2606600,
+      "sha256": "9909983d4712a9527068462628a5549dc7f3bd1449bf75ee6514329949e4c5d8"
+    },
+    {
+      "path": "images/generated/hansik-nurungji-v1.png",
+      "bytes": 2482570,
+      "sha256": "f058e91634f0ed1b6a5601e8930e60de2c4e5fdacfa0d4082c187582f086028e"
+    },
+    {
+      "path": "images/generated/hansik-ojingeo-deopbap-v1.png",
+      "bytes": 2643780,
+      "sha256": "064fa21e12d1054e41eb833ac4fda24eb0c21dd8f0a3f05b787334ddefc87e20"
+    },
+    {
+      "path": "images/generated/hansik-sogogi-gukbap-v1.png",
+      "bytes": 2401242,
+      "sha256": "0866db1eb80017c50d71b080b3fbfc1a8f1af3ee8ee08683628fa96e75abf326"
+    },
+    {
+      "path": "images/generated/howtocook-avocado-lassi-v1.png",
+      "bytes": 2074062,
+      "sha256": "514431e9bfe8deacfac34edf274777856f5174b4eb6db87f6ef244008fb18d5e"
+    },
+    {
+      "path": "images/generated/howtocook-braised-chicken-wings-v1.png",
+      "bytes": 2722301,
+      "sha256": "6cc58c791996ac19e877c2a883cedaa6761b0e5748debfa7bb7318dff7755651"
+    },
+    {
+      "path": "images/generated/howtocook-century-egg-pork-congee-v1.png",
+      "bytes": 2549210,
+      "sha256": "e94ed72ad271d27dd34d44e9155c7b66bd807f5b0a32f61e5572403c36fe731b"
+    },
+    {
+      "path": "images/generated/howtocook-chinese-chives-scrambled-eggs-v1.png",
+      "bytes": 2688667,
+      "sha256": "73d159b6a28b39ba4f2de7b4afaaed1184df4b5a2706342a2769133ad74abca0"
+    },
+    {
+      "path": "images/generated/howtocook-cold-enoki-mushroom-salad-v1.png",
+      "bytes": 2595012,
+      "sha256": "a47b3536b636513e5bbc49c83c1e4503b7b78cf24fe80d518a42c200e1515cec"
+    },
+    {
+      "path": "images/generated/howtocook-cold-tofu-with-scallion-and-garlic-v1.png",
+      "bytes": 2586080,
+      "sha256": "8f71711d21da7b0b4ff87b3b43c9ae7a970900092fe28267308f4948c5c8e11a"
+    },
+    {
+      "path": "images/generated/howtocook-cucumber-century-egg-soup-v1.png",
+      "bytes": 2657182,
+      "sha256": "54a9d1bfe47b97034117c8c69eec06e0b08d98e25eff7040957ad93c94e9cade"
+    },
+    {
+      "path": "images/generated/howtocook-cumin-beef-stir-fry-v1.png",
+      "bytes": 2942323,
+      "sha256": "172caf7a4209d93414432054c48b8357e499914b462e7ad6aece5cb7c2239a7a"
+    },
+    {
+      "path": "images/generated/howtocook-enoki-soup-v1.png",
+      "bytes": 2235433,
+      "sha256": "54cc7f9d37e48f8d514f3c6e75d902b395753bb2a8486fab3b47347242d68e08"
+    },
+    {
+      "path": "images/generated/howtocook-garlic-broccoli-v1.png",
+      "bytes": 2686436,
+      "sha256": "5afae9ba2b3989f5a524238189d9ff053b05ffb36090ded76d0be330a7dff7e2"
+    },
+    {
+      "path": "images/generated/howtocook-garlic-cauliflower-v1.png",
+      "bytes": 2400807,
+      "sha256": "7e2efb31292d57b38527d88ac677d003d738efb0aac7b27e6840de669755ac87"
+    },
+    {
+      "path": "images/generated/howtocook-garlic-celery-v1.png",
+      "bytes": 2613180,
+      "sha256": "ca076a75741845c8e59c9c8ef2e85b1a035091e1221b3bc50c64eff7bd331b9e"
+    },
+    {
+      "path": "images/generated/howtocook-millet-porridge-v1.png",
+      "bytes": 2483137,
+      "sha256": "5ecffa9ff89d599bde667d828bab678811f823d2a905c5092395fb54681736f0"
+    },
+    {
+      "path": "images/generated/howtocook-oatmeal-milk-with-fried-egg-v1.png",
+      "bytes": 2613427,
+      "sha256": "8a4391dcad68eb17e80a0264ac0c4ba9ef47297efaa7782751a118a1e225b64e"
+    },
+    {
+      "path": "images/generated/howtocook-pork-rib-yam-corn-soup-v1.png",
+      "bytes": 2477154,
+      "sha256": "c2d8c5c7b65cec63060073d4bf0f2776a7788b53ce35c59bdae5859d85e2f45f"
+    },
+    {
+      "path": "images/generated/howtocook-pressed-tofu-pork-v1.png",
+      "bytes": 2577171,
+      "sha256": "16f2fce45765d1aba0865200d666aad263a3df01f0c29b5cbc5c62bcf7cd7c23"
+    },
+    {
+      "path": "images/generated/howtocook-scallion-oil-noodles-v1.png",
+      "bytes": 2693577,
+      "sha256": "8ceb2cfe3f2b03e880f11c54a54a647a28cbe019e2eb60be7b4298bdd355133c"
+    },
+    {
+      "path": "images/generated/howtocook-seaweed-egg-drop-soup-v1.png",
+      "bytes": 2704185,
+      "sha256": "f9dcb56da27185211ef436c5b18b6597563e920a72bc1a1e4bbd3223c52d1dc7"
+    },
+    {
+      "path": "images/generated/howtocook-smashed-pepper-century-eggs-v1.png",
+      "bytes": 2846526,
+      "sha256": "d317101b2ebfd87f394dc6124a80bbdb1b3e07d7e12daff58ef60b19c5e0d311"
+    },
+    {
+      "path": "images/generated/howtocook-snow-peas-chinese-sausage-v1.png",
+      "bytes": 2448180,
+      "sha256": "aa154ebbc0c06f3fbad46dc068eb23ae37ad7f180e0cba0e8d6910919a53a5f9"
+    },
+    {
+      "path": "images/generated/howtocook-steamed-pumpkin-v1.png",
+      "bytes": 2412065,
+      "sha256": "1fffb2bcf1db56970bf40240d0eaf052d07984823997d28c5fc8bfe62e181ada"
+    },
+    {
+      "path": "images/generated/howtocook-suanmeitang-sour-plum-drink-v1.png",
+      "bytes": 2451275,
+      "sha256": "d0fab3a589f1cfc7ad98f7e386785c9ee6f349b3ba34f68a2a910c31c11de751"
+    },
+    {
+      "path": "images/generated/howtocook-tomato-beef-egg-drop-soup-v1.png",
+      "bytes": 2560799,
+      "sha256": "b2032138329541bc73e8bd361582f60c2da83cb0bae35280d53e9eef7132c69b"
+    },
+    {
+      "path": "images/generated/howtocook-winter-melon-tea-v1.png",
+      "bytes": 2079603,
+      "sha256": "07ad41625bf72a9e0441b39a7766996708c398b4fa652fa420dc624af7edc279"
+    },
+    {
+      "path": "images/generated/howtocook-zucchini-tomato-eggs-v1.png",
+      "bytes": 2786751,
+      "sha256": "5e9d32487d2e04bb57ed10ce808b3ad19aaf3e321f52c976a6dcfc62cb279981"
+    },
+    {
+      "path": "images/generated/nhlbi/grapesicles-v1.png",
+      "bytes": 2147751,
+      "sha256": "b89103c5673d5a650aa172c773273e3b57ca382d097f20caa496d4fd7918e054"
+    },
+    {
+      "path": "images/generated/nhlbi-dinners-pesto-baked-polenta-reference-20261011-v1.png",
+      "bytes": 2154803,
+      "sha256": "519992f56170ffd85e925746314de35ae7a7f0a3a00fd44fbf1ad2b6bf0b0895"
+    },
+    {
+      "path": "images/generated/nhlbi-dinners-pesto-baked-polenta-v1.png",
+      "bytes": 2767094,
+      "sha256": "17af9efd4b8239a0ed2ded293004a828428f99ceef7e61626db528997fbae5a0"
+    },
+    {
+      "path": "images/generated/nhlbi-dinners-whole-wheat-bow-tie-pasta-with-puttanesca-sauce-v1.png",
+      "bytes": 2652131,
+      "sha256": "0f05cd73f8f7c65434d43b31b4101874ed22c838d27416fe145fcc821f462769"
+    },
+    {
+      "path": "images/generated/nhlbi-family-baked-french-toast-fritters-with-apples-and-bananas-v1.png",
+      "bytes": 2415569,
+      "sha256": "f7edb56f7c33dc3a25db7801eb6714adbd368a978cc483c28f6eb238d7ec7f73"
+    },
+    {
+      "path": "images/generated/nhlbi-family-bowtie-pasta-with-chicken-broccoli-and-feta-v1.png",
+      "bytes": 2500312,
+      "sha256": "33084690e1b24224214ac43bd6d3a9dccddd020eab724727c9ca8c374da30765"
+    },
+    {
+      "path": "images/generated/nhlbi-family-broccoli-and-cheese-v1.png",
+      "bytes": 2452275,
+      "sha256": "6425bdeae06c2d96e9da2dfd1a2b76a898ac0edcf848078985c2db29c5394945"
+    },
+    {
+      "path": "images/generated/nhlbi-family-buttons-and-bows-pasta-v1.png",
+      "bytes": 2321610,
+      "sha256": "21cac6cb9d916e4f94879ec3c4f6d805d6dcba72bed0d7b7b2e12c5554c9ba5d"
+    },
+    {
+      "path": "images/generated/nhlbi-family-celery-with-cream-cheese-mousse-v1.png",
+      "bytes": 2402120,
+      "sha256": "639cbf726a80a9bcd91b2a1c0d111bbdeaa341eba5bdacb67e44a30f3b5d1b57"
+    },
+    {
+      "path": "images/generated/nhlbi-family-crunchy-chicken-fingers-with-tangy-dipping-sauce-v1.png",
+      "bytes": 2388108,
+      "sha256": "c7da9781302c8c8996ab76bda1850a60c7054ab736e1a6dd02b1c07a27aed0ad"
+    },
+    {
+      "path": "images/generated/nhlbi-family-garden-turkey-meatloaf-v1.png",
+      "bytes": 2617685,
+      "sha256": "4f11ab229aedf25038b0cb75274e010f00985f37844a885f187aed6aa0148c8a"
+    },
+    {
+      "path": "images/generated/nhlbi-family-make-your-own-snack-mix-v1.png",
+      "bytes": 2744845,
+      "sha256": "39f14cc5897a273a9da74423340d2167fc7d0eb547d3816f620725b2ee5754b1"
+    },
+    {
+      "path": "images/generated/nhlbi-family-orange-couscous-with-almonds-raisins-and-mint-v1.png",
+      "bytes": 2704695,
+      "sha256": "b7068a7c8f5f5515849b4be0c863a3b6c8dab03f9db908cce0ac544692ded6fa"
+    },
+    {
+      "path": "images/generated/nhlbi-family-parmesan-green-beans-v1.png",
+      "bytes": 2825122,
+      "sha256": "b03ef3b13e1ec01047077e927f0ae4394c223c23912f4c7796bc387e171dc9f1"
+    },
+    {
+      "path": "images/generated/nhlbi-family-pasta-primavera-v1.png",
+      "bytes": 2618568,
+      "sha256": "2c0d50a4e425ef85064007b9788a76501abd7e3e3a186bb644cd4d9154fe8d5a"
+    },
+    {
+      "path": "images/generated/nhlbi-family-red-white-and-green-grilled-cheese-v1.png",
+      "bytes": 2229086,
+      "sha256": "1ef4780af5e3c30ea8f4faa1ae0f52d8b7fb2df2de2a9d0ee2d0a69e6b090f0c"
+    },
+    {
+      "path": "images/generated/nhlbi-family-roasted-red-pepper-and-toasted-orzo-v1.png",
+      "bytes": 2744556,
+      "sha256": "1197ed65d16de3af2772b4613ec1680e3185b71e70d5ac7ae4a6bd5e5a356e4c"
+    },
+    {
+      "path": "images/generated/nhlbi-family-spinach-and-corn-pancakes-v1.png",
+      "bytes": 2939370,
+      "sha256": "4ad131c2aa18bd88444ce6be1c2d097cc8de1b4b66352eade26cae722686a9f7"
+    },
+    {
+      "path": "images/generated/nhlbi-family-tangy-salsa-v1.png",
+      "bytes": 2508026,
+      "sha256": "dc7e84eb098a6e1baf582126c38fd9c005dce7888c740313a3be72926b467f6a"
+    },
+    {
+      "path": "images/generated/nhlbi-family-tuna-and-avocado-cobb-salad-v1.png",
+      "bytes": 2611015,
+      "sha256": "12750c8a51a4bb0720eb4bd002d8db1922db3141964f22a5133799e514e50f65"
+    },
+    {
+      "path": "images/generated/nhlbi-family-turkey-pinwheels-v1.png",
+      "bytes": 2699956,
+      "sha256": "afb0b48bc5cf043cf7bcb7e99fe27a51d7fbea6656af5530a05b27cd5d7d225c"
+    },
+    {
+      "path": "images/generated/nhlbi-family-watermelon-and-tomato-salad-v1.png",
+      "bytes": 2441145,
+      "sha256": "70c815d6e0049a36645d253c2be29c82d14283927aa7a3615b1510edb85b643c"
+    },
+    {
+      "path": "images/generated/nhlbi-family-wow-y-maui-pasta-salad-v1.png",
+      "bytes": 2576772,
+      "sha256": "925ed1bfc70bee945e75d87515dc349324d3a43efbc71bc5d94febff3c802dfd"
+    },
+    {
+      "path": "images/generated/nhlbi-family-zesty-tomato-soup-v1.png",
+      "bytes": 2699110,
+      "sha256": "e6d6e48bf416643de5c0594c1be7b771cc92eff417424440e5bcf2c3d59e1559"
+    },
+    {
+      "path": "images/generated/savora-home-aperol-spritz-v1.png",
+      "bytes": 2143980,
+      "sha256": "3fd6ca80f487c243f84bafc9e55a5d2b3968cecc849e508f98f7b67811ed035b"
+    },
+    {
+      "path": "images/generated/savora-home-baked-crab-cakes-v1.png",
+      "bytes": 2861329,
+      "sha256": "a9469c2a7ab15bb14edabf248b7ee2f09813079c5799ee3a1db699e7643ad672"
+    },
+    {
+      "path": "images/generated/savora-home-bbq-chicken-pizza-v1.png",
+      "bytes": 2691909,
+      "sha256": "948f05d0e3258119ad70df529c815cb65b47c404f2f9402af7c07ed0f2e139fc"
+    },
+    {
+      "path": "images/generated/savora-home-black-pepper-crab-v1.png",
+      "bytes": 2843562,
+      "sha256": "2d7e8b9fade5d9849db4785e983cb7cc074ed6e64f0bf5bc9813501f173ef5ba"
+    },
+    {
+      "path": "images/generated/savora-home-bloody-mary-v1.png",
+      "bytes": 2157886,
+      "sha256": "0ed67d1bd9a41feabea643cb0c3e9335b6343f950d875af0e78d13651b3907b5"
+    },
+    {
+      "path": "images/generated/savora-home-caipirinha-v1.png",
+      "bytes": 2191622,
+      "sha256": "8dcea6746c750e68ec34a004c940c9eced3466c338f8705e3a7a4690b6bc9607"
+    },
+    {
+      "path": "images/generated/savora-home-caprese-sandwich-v1.png",
+      "bytes": 2546997,
+      "sha256": "9b4a9e734570f1b7b011ce616502c649bbf80cc068f4a064344079c3c6969611"
+    },
+    {
+      "path": "images/generated/savora-home-chicken-club-sandwich-v1.png",
+      "bytes": 2373269,
+      "sha256": "9bf7fb8b164817d11cc7c764373607cfd3fc22603d1912c5d16cd49422aec281"
+    },
+    {
+      "path": "images/generated/savora-home-chicken-salad-sandwich-v1.png",
+      "bytes": 2514885,
+      "sha256": "02972b629961c86bf006df64268d8d599d6bafcb20b79582f08642933fcc98b7"
+    },
+    {
+      "path": "images/generated/savora-home-classic-cheeseburger-v1.png",
+      "bytes": 2319245,
+      "sha256": "043de5dc567bb041c685f32d4d472e0dd0b46e4ee6da9c9f63ffe5b4a3db0422"
+    },
+    {
+      "path": "images/generated/savora-home-cosmopolitan-v1.png",
+      "bytes": 1916644,
+      "sha256": "3a337978bfd77fe73bdbf56bf230f2be5b1c00fa2f95c19b77b45e3b4a030afb"
+    },
+    {
+      "path": "images/generated/savora-home-crab-fried-rice-v1.png",
+      "bytes": 2398243,
+      "sha256": "93f1bfb085abb4d7e030e6422e97e5d87f7a524ce46396e5c137f411cb8093c1"
+    },
+    {
+      "path": "images/generated/savora-home-dark-n-stormy-v1.png",
+      "bytes": 2282267,
+      "sha256": "3694247938fd86f4fb6c20986af92aa1a0fbb993c73e46fcfaa01c831605ce2e"
+    },
+    {
+      "path": "images/generated/savora-home-dry-martini-v1.png",
+      "bytes": 2011296,
+      "sha256": "59609bfbac6644d388e2dfd87a36415de1df3f1d2076b57a05c95b3cd411e6d5"
+    },
+    {
+      "path": "images/generated/savora-home-egg-salad-sandwich-v1.png",
+      "bytes": 2362697,
+      "sha256": "6b059b541db2cce2b5a044a1ee427271e9a17efb98f443f90017913ccf13a80c"
+    },
+    {
+      "path": "images/generated/savora-home-espresso-martini-v1.png",
+      "bytes": 2047591,
+      "sha256": "c54e4c5710811aae86649697ce33705368f1800c08176270f705e820fa3eeee3"
+    },
+    {
+      "path": "images/generated/savora-home-four-cheese-pizza-v1.png",
+      "bytes": 2867820,
+      "sha256": "f9ad8f2535d9e5ecbcb8505b6a20f5fc2014e033a59c251c088d61c8b0562e0c"
+    },
+    {
+      "path": "images/generated/savora-home-garlic-butter-crab-legs-v1.png",
+      "bytes": 2856036,
+      "sha256": "8c27b4d4c905d390af840bf7091b00906206586f24d65d12ceb538be07bd8f4e"
+    },
+    {
+      "path": "images/generated/savora-home-ginger-scallion-crab-v1.png",
+      "bytes": 2743415,
+      "sha256": "2e413012f4ed09d466063e613af9183a17442e27e876991c3946d94c09ce1322"
+    },
+    {
+      "path": "images/generated/savora-home-hawaiian-pizza-v1.png",
+      "bytes": 2693092,
+      "sha256": "e39d818bc144df40ebabbe3739d9c9ff0753d11ef173326826a9f2795cc309f8"
+    },
+    {
+      "path": "images/generated/savora-home-home-oven-char-siu-v1.png",
+      "bytes": 2635950,
+      "sha256": "0d0c5161200c63681650d442ad5edc4e9093059be9184b85dd3feebaa25e8519"
+    },
+    {
+      "path": "images/generated/savora-home-hot-crab-dip-v1.png",
+      "bytes": 2536076,
+      "sha256": "0c219e446e74aea442626854ad6f7c677982f4ee96c610000b5e0156e31c6670"
+    },
+    {
+      "path": "images/generated/savora-home-long-island-iced-tea-v1.png",
+      "bytes": 2245164,
+      "sha256": "61345f5e919f1ea3a2a1c0c6b345aa0a54cdc08e72e92389c1ccbb88334eea9f"
+    },
+    {
+      "path": "images/generated/savora-home-manhattan-v1.png",
+      "bytes": 2015476,
+      "sha256": "333b7dcdc4e64366d69c9a51c1f27ddd6432256972f6546631ba43cf9fafeaeb"
+    },
+    {
+      "path": "images/generated/savora-home-margarita-v1.png",
+      "bytes": 2007234,
+      "sha256": "0235ed2c7da63da45bc3238ae479b6c01c6ca06cd5723cbafb7e1973b5903c60"
+    },
+    {
+      "path": "images/generated/savora-home-moscow-mule-v1.png",
+      "bytes": 2519326,
+      "sha256": "5922471f1d48b08b68e78c752ba145006a09b6f77291c7a9e94e84c549281fa8"
+    },
+    {
+      "path": "images/generated/savora-home-mushroom-pizza-v1.png",
+      "bytes": 2857977,
+      "sha256": "b99c3e984d1b0b9b5a8f38fa399bf8b87328ba8d0b8102495d4f3834233e1af3"
+    },
+    {
+      "path": "images/generated/savora-home-negroni-v1.png",
+      "bytes": 2239172,
+      "sha256": "3d2733fb9beb955f1b164d98f6a77728d7dd0ed8cbdd69743448562d0f3815d7"
+    },
+    {
+      "path": "images/generated/savora-home-oven-barbecue-chicken-wings-v1.png",
+      "bytes": 2648645,
+      "sha256": "2bf6aba57f4d9cf0de1a6145a0136cffde950e36d428ff4b05260dc1be7e1443"
+    },
+    {
+      "path": "images/generated/savora-home-oven-barbecue-pork-ribs-v1.png",
+      "bytes": 2599853,
+      "sha256": "70dc4f2da63081fee115ff5182d76541da376b708fd8e820e0270cafcf606970"
+    },
+    {
+      "path": "images/generated/savora-home-oven-pulled-pork-v1.png",
+      "bytes": 2919022,
+      "sha256": "0799752b422c4277e78c9a964f84e45127ac6236f6b2f661e60951dbfdb39ad7"
+    },
+    {
+      "path": "images/generated/savora-home-paloma-v1.png",
+      "bytes": 2120904,
+      "sha256": "eaba7bfc80f22c5d2cfa2f7deb2356fcb59086858e1e87cceb8da910a086d57a"
+    },
+    {
+      "path": "images/generated/savora-home-pan-grilled-steak-v1.png",
+      "bytes": 2702803,
+      "sha256": "93a16495b1a289501f66abb754aa06afd35694d5f03c35ff83ece880ae20e2aa"
+    },
+    {
+      "path": "images/generated/savora-home-peanut-butter-and-jelly-sandwich-v1.png",
+      "bytes": 2396941,
+      "sha256": "153a0f4e1bbb9893551c0347b122ef1a5b578c9971f0941f4466a0bb529e94b3"
+    },
+    {
+      "path": "images/generated/savora-home-pepperoni-pizza-v1.png",
+      "bytes": 2786657,
+      "sha256": "0efd0fbfa2bbf7d1806e90943c21728cf41822fd6b8f896eea4404096f11723f"
+    },
+    {
+      "path": "images/generated/savora-home-philly-cheesesteak-sandwich-v1.png",
+      "bytes": 2268780,
+      "sha256": "8db79a410e779f1aeab79b17fb6f7c833cf337dce37781cc1f4d90fb92434b2d"
+    },
+    {
+      "path": "images/generated/savora-home-pina-colada-v1.png",
+      "bytes": 1959969,
+      "sha256": "d5b692b9be24b372ded8098c282ad3ff39627cbc8ba066ca4b75be66a488d72d"
+    },
+    {
+      "path": "images/generated/savora-home-rosemary-garlic-lamb-chops-v1.png",
+      "bytes": 2641212,
+      "sha256": "b37f2e7196226eed2d4579702f02ac96f2ed004d31cc85e0c04148ea327df251"
+    },
+    {
+      "path": "images/generated/savora-home-singapore-style-chilli-crab-v1.png",
+      "bytes": 2683489,
+      "sha256": "0844666bf55f80cb23a32360f6ab1ac62a6083a4cf272904ce0c9158c9f62785"
+    },
+    {
+      "path": "images/generated/savora-home-spinach-ricotta-pizza-v1.png",
+      "bytes": 2880686,
+      "sha256": "31108811646487cfb09fef5702d3d51d9433a8299f516bf7589d28f9ebfdeff7"
+    },
+    {
+      "path": "images/generated/savora-home-steamed-crab-v1.png",
+      "bytes": 2705885,
+      "sha256": "78c73f3369b3b5ac91f74c73fd4ca3d2e21cc1ba3b3ce978b5bb4b6cc628b752"
+    },
+    {
+      "path": "images/generated/savora-home-tequila-sunrise-v1.png",
+      "bytes": 1940686,
+      "sha256": "048326ffe27cfa92772994be43698fa63b48c1c562e99a889cee1fb0c9e3cfe2"
+    },
+    {
+      "path": "images/generated/savora-home-tuna-and-olive-pizza-v1.png",
+      "bytes": 2812824,
+      "sha256": "3ed47fb0b075cd04c41568ef4da19b5fffefa75c2da5986995f6e54ab959c0dc"
+    },
+    {
+      "path": "images/generated/savora-home-tuna-melt-sandwich-v1.png",
+      "bytes": 2419702,
+      "sha256": "948403b708cd24603807f388bff258189993f4ede04f8846e6de3c477d7dc781"
+    },
+    {
+      "path": "images/generated/savora-home-whiskey-sour-v1.png",
+      "bytes": 2145117,
+      "sha256": "19558e0189c1672e4c1273101ddedaf7e434ec31d7b739bc291180aa613d857a"
+    },
+    {
+      "path": "images/generated/themealdb/52846-chicken-mushroom-hotpot-v1.png",
+      "bytes": 2788644,
+      "sha256": "eb7cbce4995171f1b88cf376efe74a928bcde205e612de5a49335e55fcd996e5"
+    },
+    {
+      "path": "images/generated/themealdb/52933-rappie-pie-v1.png",
+      "bytes": 2777172,
+      "sha256": "2d56f5aad704dc95a81ae3fd372729c31c8b8f38228ba45026b1d7b210a2bebb"
+    },
+    {
+      "path": "images/generated/themealdb/52941-red-peas-soup-v1.png",
+      "bytes": 2741925,
+      "sha256": "b30241495e42cf41246db936babaa02ab25ed032b4fbb6f3805babc6d4a3b9fc"
+    },
+    {
+      "path": "images/generated/themealdb/53050-ayam-percik-v1.png",
+      "bytes": 2860891,
+      "sha256": "ce16c7ac9689db750ecb727ff1808a0070b84d046ea7a055049982918cc04ca8"
+    },
+    {
+      "path": "images/generated/themealdb/53053-beef-rendang-v1.png",
+      "bytes": 2814308,
+      "sha256": "016465c656c25f76dd298a017d38373aa5110f45bf7eeeffbabd42debfde3489"
+    },
+    {
+      "path": "images/generated/themealdb/53067-stuffed-bell-peppers-with-quinoa-and-black-beans-v1.png",
+      "bytes": 2703345,
+      "sha256": "6b4affec016a073cc32c48532b847d62f8860cc16030a5ad5ea5e6a8d64e57e4"
+    },
+    {
+      "path": "images/generated/themealdb/53069-bistek-v1.png",
+      "bytes": 2868768,
+      "sha256": "f97f0792f0885e05c2503a50c27e544bdafac6118670e86007f3704de3ed47cb"
+    },
+    {
+      "path": "images/generated/themealdb/53095-syrian-rice-with-meat-v1.png",
+      "bytes": 2921813,
+      "sha256": "837432a7d8843ddbfddaea87da98a77d3abbd40c5fb54be3605812a7201ba087"
+    },
+    {
+      "path": "images/generated/themealdb/53124-raspeballer-norwegian-potato-dumplings-v1.png",
+      "bytes": 2899411,
+      "sha256": "0549010ec7b80e8f390d162eebf0d37f507bb35c3e7df789cada94bd1af75ee6"
+    },
+    {
+      "path": "images/generated/themealdb/53163-spanish-fig-almond-balls-v1.png",
+      "bytes": 2820081,
+      "sha256": "b7f649d4c7ee707e2b6fc69b3f0e2d099bbefb661a47519afa62fdf12c7533e5"
+    },
+    {
+      "path": "images/generated/themealdb/53273-roast-aubergine-with-goat-s-cheese-toasted-flatbread-v1.png",
+      "bytes": 2986903,
+      "sha256": "a8ca10ac4708ee397d4a8330eaf13a0080c1cd1098e13f0aff2d924296bb8e75"
+    },
+    {
+      "path": "images/generated/themealdb/53275-sweet-potato-salad-v1.png",
+      "bytes": 2871666,
+      "sha256": "cf9e067eea1715eecc9bb3fb286f232e88f126ed1edf485fb6aa8b793422a119"
+    },
+    {
+      "path": "images/generated/themealdb/53276-apricot-turkish-delight-mess-v1.png",
+      "bytes": 2817453,
+      "sha256": "54129a124c86129b673ea34f0b0e80352efd58beffbe1f964feb18d85911d739"
+    },
+    {
+      "path": "images/generated/themealdb/53300-bigos-polish-hunter-s-stew-v1.png",
+      "bytes": 2866111,
+      "sha256": "71fa878bfaf63129d184c122c33b0c75266499a55aa123584879175775e2a3bf"
+    },
+    {
+      "path": "images/generated/themealdb/53324-chocolate-empanadas-v1.png",
+      "bytes": 2698577,
+      "sha256": "9f3dd3971a36750df2e75905e5039062a6aaa267013002a720bec067647f292c"
+    },
+    {
+      "path": "images/generated/themealdb/53342-figgy-duff-v1.png",
+      "bytes": 2637490,
+      "sha256": "6f41046f716562c2f231e8aa819617329d956c053a0318050311ee81295bdb27"
+    },
+    {
+      "path": "images/generated/themealdb/53345-jamaican-curry-chicken-recipe-v1.png",
+      "bytes": 2754814,
+      "sha256": "ba369c940f8d696e02f9541a6de07461058f5f9c4fe13628af03e94f0140d0fb"
+    },
+    {
+      "path": "images/generated/themealdb/53458-breadfruit-in-butter-sauce-v1.png",
+      "bytes": 2751396,
+      "sha256": "ebc62b0a32cf1132bfee1dd54ca773a8e02a24256335cf9002a70f4262803790"
+    },
+    {
+      "path": "images/generated/themealdb/53500-num-ansom-sticky-rice-cake-v1.png",
+      "bytes": 2603651,
+      "sha256": "cd4d903789df7d3bf572b52be246f3ed19e02472e6fac34c8700706409d8e2db"
+    },
+    {
+      "path": "images/generated/themealdb/53575-apple-pie-v1.png",
+      "bytes": 2840327,
+      "sha256": "e08785418ca960b8bd2da02d0f373311e9a01d33f79db4e56a7330b719718125"
+    },
+    {
+      "path": "images/generated/themealdb/53580-healthy-biss-jaggery-modak-v1.png",
+      "bytes": 2694303,
+      "sha256": "5ef2ee2185727442e3bd3f67f4fc819ce87e4e89117a9db1e9fd750fc4c113b2"
+    },
+    {
+      "path": "images/generated/wikibooks-100131-asian-inspired-chicken-salad-v1.png",
+      "bytes": 2621046,
+      "sha256": "b50c061bc306e747fde06a336b9aeaa218575c137952f90410aeeda63061afbc"
+    },
+    {
+      "path": "images/generated/wikibooks-104758-out-of-salad-dressing-salad-dressing-v1.png",
+      "bytes": 2477703,
+      "sha256": "c76a8fd78952e92890d06ada9a0b75548666283f0c69b494c85ef6945523e1f4"
+    },
+    {
+      "path": "images/generated/wikibooks-108581-chocolate-chip-peanut-butter-toast-v1.png",
+      "bytes": 2626791,
+      "sha256": "e6430593aaf5268e668653b85ef90aee5a59203270bd3bf965deae4661ca50c2"
+    },
+    {
+      "path": "images/generated/wikibooks-109338-mushroom-soup-v1.png",
+      "bytes": 2467581,
+      "sha256": "4195ceebd43c5ccf3e076178b22cfb21781a30507d67762ac4879fc00f35b406"
+    },
+    {
+      "path": "images/generated/wikibooks-112624-new-orleans-style-chicken-wing-dipping-sauce-v1.png",
+      "bytes": 2734966,
+      "sha256": "fe0436efe3273011bd382baaedf783380d45cc8db5c89ce548c5db18b3d429e4"
+    },
+    {
+      "path": "images/generated/wikibooks-114253-radish-tart-v1.png",
+      "bytes": 2588657,
+      "sha256": "8125bbcfaed4b77ccec22cddbb16391236f0dc8457c95cb16aa570c1fadd6e91"
+    },
+    {
+      "path": "images/generated/wikibooks-127691-slow-cooked-chicken-in-cream-sauce-v1.png",
+      "bytes": 2240102,
+      "sha256": "b412f6a772eddad2451b5bc2b4456368c60024b1a49f3796885cd6a53aa7fcb3"
+    },
+    {
+      "path": "images/generated/wikibooks-133096-pepperoni-pasta-salad-v1.png",
+      "bytes": 2493337,
+      "sha256": "2ec286f5e6608df31cabd3cf2addb5406d1ab42dd1f188b801c277a3cac4e4eb"
+    },
+    {
+      "path": "images/generated/wikibooks-13337-midwestern-chicken-wings-v1.png",
+      "bytes": 2974951,
+      "sha256": "3a79c5b829d0a59dc35b245ebceae6fea6486da1c7c12d1b1867fdeb65f14f0c"
+    },
+    {
+      "path": "images/generated/wikibooks-135205-easy-onion-chicken-v1.png",
+      "bytes": 2899023,
+      "sha256": "fc4b37e9595dec227a1b541e8a717f7828ea350769063b1203a38b748f52b0ed"
+    },
+    {
+      "path": "images/generated/wikibooks-146786-pear-and-almond-smoothie-vegan-v1.png",
+      "bytes": 2088525,
+      "sha256": "d43cd361efbbb2eb1c1136c5f69cbc123edfa9b8ba57a6b08c214b3609c8c80b"
+    },
+    {
+      "path": "images/generated/wikibooks-156921-cookies-and-milk-v1.png",
+      "bytes": 2710651,
+      "sha256": "f3436830a0bed0ad0f8d850042783dadb9413feedc1ab3f431031002309af72e"
+    },
+    {
+      "path": "images/generated/wikibooks-161251-agnolotti-pasta-soup-agnolotti-in-brodo-v1.png",
+      "bytes": 2718524,
+      "sha256": "05309356539001f22dac353bae62cf8a69494e7412f48378a083a5565f3753f2"
+    },
+    {
+      "path": "images/generated/wikibooks-184093-mayonnaise-vegan-v1.png",
+      "bytes": 2259116,
+      "sha256": "38c08df10331f244974dd4c076f4107b79c16ca096c799129e8fe7e38b493eb0"
+    },
+    {
+      "path": "images/generated/wikibooks-18543-mashed-pumpkin-v1.png",
+      "bytes": 2209770,
+      "sha256": "71e1d18f92b8b751bf32641892159f148898ad7e848b21217b8b6db5b541c249"
+    },
+    {
+      "path": "images/generated/wikibooks-18882-albanian-mixed-vegetables-v1.png",
+      "bytes": 2816188,
+      "sha256": "122030204fb467ee3f500a8b00c7cbffab90a809641bcda4b9fdda9cee782e91"
+    },
+    {
+      "path": "images/generated/wikibooks-18884-albanian-stewed-fig-pudding-v1.png",
+      "bytes": 2531275,
+      "sha256": "eddfbec40cbfdad55a65a96c9836d75340bb1f274e81aab2b41de95042e91aee"
+    },
+    {
+      "path": "images/generated/wikibooks-202101-apple-bbq-sauce-v1.png",
+      "bytes": 2809048,
+      "sha256": "44f8962f2c65663b11c78004d6649ab1ac4b9751f9acb0048bf925728285073f"
+    },
+    {
+      "path": "images/generated/wikibooks-202116-southwestern-black-beans-and-rice-v1.png",
+      "bytes": 2616235,
+      "sha256": "e6a5092ac7504d41209450767c62390e82a8d1c18514bd646d852ba7e46a4faa"
+    },
+    {
+      "path": "images/generated/wikibooks-202268-dutch-oven-beans-v1.png",
+      "bytes": 2647085,
+      "sha256": "a47f2de5c9392e4bdba146975e94d216d554ffe9df746ec11a4709d091830c8e"
+    },
+    {
+      "path": "images/generated/wikibooks-21837-peruvian-molded-rice-arroz-tapado-v1.png",
+      "bytes": 2497577,
+      "sha256": "5ab7df24028e3b4c19c3485672af2906d059e7be9687bae28d58831a6e535fa6"
+    },
+    {
+      "path": "images/generated/wikibooks-227095-soppa-ta-l-armla-maltese-widow-s-soup-v1.png",
+      "bytes": 2508208,
+      "sha256": "e44ee7bc26551b1264eccff2803e37c35ad52805a088d5794e5067bd3cd7e8f5"
+    },
+    {
+      "path": "images/generated/wikibooks-23038-crispy-chicken-v1.png",
+      "bytes": 2881609,
+      "sha256": "f96a58adad1c0a266801b7680d6bb6d1dc81531807159775927bfde391bb0ef1"
+    },
+    {
+      "path": "images/generated/wikibooks-240909-cucumber-and-radish-salad-v1.png",
+      "bytes": 2550789,
+      "sha256": "4e7f51ad936bd28a82de87f8df04a8926babf24cc50c4e569dcdade4a8f77baf"
+    },
+    {
+      "path": "images/generated/wikibooks-27270-easy-wedding-soup-v1.png",
+      "bytes": 2697691,
+      "sha256": "bab589865a0f430eb5e2a42dc4bcf8288f5340f318b78429f1c8cdef4ff2f5f3"
+    },
+    {
+      "path": "images/generated/wikibooks-304663-crab-and-corn-salad-v1.png",
+      "bytes": 2220136,
+      "sha256": "7862b8fc7532f078dfa21232a9362a0a2b45c53dc3ce13963f9a713bd98f6b58"
+    },
+    {
+      "path": "images/generated/wikibooks-380508-swedish-cabbage-soup-kalsoppa-v1.png",
+      "bytes": 2567472,
+      "sha256": "3a4f48606f50ec82db46e997a007e3e002ddf7250b2872ef701c3b319728b379"
+    },
+    {
+      "path": "images/generated/wikibooks-38141-persian-apple-dessert-v1.png",
+      "bytes": 2686755,
+      "sha256": "815cf1580237deae6832faec5c186387fdf13ae67c0201c0349d0e6a935e494f"
+    },
+    {
+      "path": "images/generated/wikibooks-3992-brown-rice-with-ground-turkey-v1.png",
+      "bytes": 2633853,
+      "sha256": "700f64a195b5832ec57a4b3817693943b4b3458fe9aca207554a887bd3131d3d"
+    },
+    {
+      "path": "images/generated/wikibooks-405427-egg-with-cabbage-and-turkish-sausage-v1.png",
+      "bytes": 3060369,
+      "sha256": "f94119f3bf858f16bb056da91ebd08e47f884cfb551ad51d68c2bf40819aaec4"
+    },
+    {
+      "path": "images/generated/wikibooks-4101-grilled-peanut-butter-sandwiches-v1.png",
+      "bytes": 2631024,
+      "sha256": "bb5361e2435c49014e5f97d3ef9754c0b7db800fbf27e2df6b91491f5795f815"
+    },
+    {
+      "path": "images/generated/wikibooks-413652-salmon-with-rice-and-sauce-v1.png",
+      "bytes": 2477909,
+      "sha256": "515aa9849c3d630c456979a727347b26d20aa9f61a88fa698ea1ea3944043557"
+    },
+    {
+      "path": "images/generated/wikibooks-4153-no-bake-chocolate-chip-cookie-pie-v1.png",
+      "bytes": 2789613,
+      "sha256": "cb1a2fa0ad33723c129661b09bdd6eb76d0f474b79d1b89ed460cc01f720d5f0"
+    },
+    {
+      "path": "images/generated/wikibooks-415341-lahoh-spongy-flatbread-i-v1.png",
+      "bytes": 2665418,
+      "sha256": "924e2446873751753b063d7a9164acb03c642eec25624753b070db9881668092"
+    },
+    {
+      "path": "images/generated/wikibooks-417017-rocky-road-confectionery-ii-v1.png",
+      "bytes": 2323828,
+      "sha256": "5198dfb6f30668dd078776ad00bf1863f7e283ee5565a4926009418c329d75ed"
+    },
+    {
+      "path": "images/generated/wikibooks-424774-habichuela-con-dulce-dominican-sweet-beans-v1.png",
+      "bytes": 2326655,
+      "sha256": "a8c03cc23774255fb1df468f6881217423832504648fca0cb1a4825e921795a6"
+    },
+    {
+      "path": "images/generated/wikibooks-4347-peanut-curry-sauce-v1.png",
+      "bytes": 2591565,
+      "sha256": "b12dbe8f544c0585f0a283ea5f4b6292c7a4aeb3878ca1f5b9b95dcdfe8525a9"
+    },
+    {
+      "path": "images/generated/wikibooks-443381-quick-tomato-noodle-soup-v1.png",
+      "bytes": 2416931,
+      "sha256": "c1c1a7b291767100f50294cca0a1a1771211eda23e8b9ba181f4436060288f5e"
+    },
+    {
+      "path": "images/generated/wikibooks-447822-almond-meringue-v1.png",
+      "bytes": 2673482,
+      "sha256": "20ba19eb4a5a8c4ffe75f430cffe9def794401cadfe7a724226489a8dbd21fda"
+    },
+    {
+      "path": "images/generated/wikibooks-451064-fried-pita-bread-with-eggs-v1.png",
+      "bytes": 2489322,
+      "sha256": "05f907d8e1b641fb1f77a0387fda2fb57c13f5dc330e09a666b53eda6e888472"
+    },
+    {
+      "path": "images/generated/wikibooks-457086-tajine-bil-samak-libyan-fish-tajine-v1.png",
+      "bytes": 2709965,
+      "sha256": "9a97951f7f0711d1b548932891dec5b036c0702090ef75acd943b71c59de7479"
+    },
+    {
+      "path": "images/generated/wikibooks-457275-yetsom-shiro-ethiopian-vegan-chickpea-stew-v1.png",
+      "bytes": 2737893,
+      "sha256": "02833f67cbeb0cbcf21b9a24851f949e5462d481fafc5b2d96a3e2ddce3c12cc"
+    },
+    {
+      "path": "images/generated/wikibooks-457330-carrot-fufu-v1.png",
+      "bytes": 2418925,
+      "sha256": "b72ac5c31174783ec364f28fb1dc325351244e44dfa2103075ce724b8e124e8c"
+    },
+    {
+      "path": "images/generated/wikibooks-46055-blackberry-mush-v1.png",
+      "bytes": 2617769,
+      "sha256": "0910ea72996838d36e87487ec119dd6558c319bef90d87854a8eb86809f4e9aa"
+    },
+    {
+      "path": "images/generated/wikibooks-461753-simple-chocolate-fudge-v1.png",
+      "bytes": 2400874,
+      "sha256": "daf48bb4a4049f301b881f9d7dd42509d7a2d88dbe6d546d8c220763daa0fc44"
+    },
+    {
+      "path": "images/generated/wikibooks-461953-fried-bananas-v1.png",
+      "bytes": 2795071,
+      "sha256": "04a58dde39cb6f49d7c4f8f4f723e848bd8f05e372b6ef5cff994478de4cd8a4"
+    },
+    {
+      "path": "images/generated/wikibooks-473348-algerian-coca-v1.png",
+      "bytes": 3002831,
+      "sha256": "cd19e8905e40323bb64d111dff2e7bac4e6067fe24257ad42326e4ec9581c905"
+    },
+    {
+      "path": "images/generated/wikibooks-479547-cream-soda-v1.png",
+      "bytes": 2480668,
+      "sha256": "1fe0ac7d001e242c423441e340994902d7c87174940cc76db2589fc6dd90678b"
+    },
+    {
+      "path": "images/generated/wikibooks-479550-orange-soda-ii-v1.png",
+      "bytes": 2175094,
+      "sha256": "663c6579875b6d78afbdf0c9ff42e991e5c3a3f0c345b2775946ed2fb4d6e888"
+    },
+    {
+      "path": "images/generated/wikibooks-479644-cherry-soda-v1.png",
+      "bytes": 2349370,
+      "sha256": "3c498c5acf8c656cbdd456c5f37c534aca7f23102f850ec10e1260ce47132ef0"
+    },
+    {
+      "path": "images/generated/wikibooks-480636-date-soda-v1.png",
+      "bytes": 2304250,
+      "sha256": "13cbdf7220533914f55eba2024646e0a131e35630e14ca0e009d5ebb29577d78"
+    },
+    {
+      "path": "images/generated/wikibooks-481190-tea-extract-v1.png",
+      "bytes": 2033838,
+      "sha256": "43f4e1a6b45c45cd0cbd6fc1d455796ed7a196b90045f1a79ec5cb3e0d2cce9e"
+    },
+    {
+      "path": "images/generated/wikibooks-56119-creme-de-papaya-v1.png",
+      "bytes": 2140427,
+      "sha256": "5314c9184affa32681c1f5aa1b8d8402d8baaa3dca88bc01ff9b312ea75683b0"
+    },
+    {
+      "path": "images/generated/wikibooks-56140-carrot-jam-v1.png",
+      "bytes": 2355819,
+      "sha256": "002b645f9eac7c4f0ef7f9b8f86a78879222f7c977757e7af3bcb7d1d38bbd58"
+    },
+    {
+      "path": "images/generated/wikibooks-56854-cinnamon-croutons-v1.png",
+      "bytes": 2913993,
+      "sha256": "556c25bd09ea1f3638591e5452e9de53ce3ab89af341af4ec71496803df0357c"
+    },
+    {
+      "path": "images/generated/wikibooks-59633-frito-pie-baked-v1.png",
+      "bytes": 2756256,
+      "sha256": "a93325581605dc03f4969e1542c657b38c5cd52c49417516e0f82ba67735a71e"
+    },
+    {
+      "path": "images/generated/wikibooks-65037-tartar-sauce-v1.png",
+      "bytes": 2140613,
+      "sha256": "05baa064dbe60c1330c7e173c9464c15b111d96275352c83f7f3bf449581b6d0"
+    },
+    {
+      "path": "images/generated/wikibooks-72236-mexican-tomato-soup-v1.png",
+      "bytes": 2643532,
+      "sha256": "135e36e268232cfde4d540db7e8ad67cb724f1b393765b59f4699f7ce3d1bf09"
+    },
+    {
+      "path": "images/generated/wikibooks-81408-nuked-nachos-v1.png",
+      "bytes": 2546302,
+      "sha256": "4dd8a9a921de36e0b0ea42b551ffd520900a086c462931af71939f6b8ef3155a"
+    },
+    {
+      "path": "images/generated/wikibooks-85512-glazed-sweet-potatoes-v1.png",
+      "bytes": 2379846,
+      "sha256": "52b2c18e58dafc5b550c7e5d290bec954e284a1996fd965bf0e7eb6e402624ef"
+    },
+    {
+      "path": "images/generated/wikibooks-95957-sweet-italian-sausage-skillet-v1.png",
+      "bytes": 2774356,
+      "sha256": "d993ea657e33668772f82aa54335bd400f0f3daa566de7d8f95450306247b938"
+    },
+    {
+      "path": "images/generated/wikibooks-96175-irish-soda-bread-v1.png",
+      "bytes": 2595549,
+      "sha256": "677dd48241fac99689ad908cc8c2cfbcd9bfd7f9746e47b9a76d492d8b56ab75"
+    },
+    {
+      "path": "images/generated/wikibooks-9695-tarbes-salad-v1.png",
+      "bytes": 2940153,
+      "sha256": "f2f64c29b32da51f18cf89c0ef936f35106a446103d5fe55cfb68f1570093921"
+    },
+    {
+      "path": "images/generated/wikibooks-9715-louis-dressing-v1.png",
+      "bytes": 2152200,
+      "sha256": "ff227aed47fa5b76b1ebd798c52b39b0a548558d85259da5d43ef131d69fbba1"
+    },
+    {
+      "path": "images/generated/wikibooks-97895-cheese-spread-on-french-bread-v1.png",
+      "bytes": 2499638,
+      "sha256": "b0763bb917824e3ad6d71a5db3f0b428f56a34d91bd3ae8d1610048af16306af"
+    },
+    {
+      "path": "images/generated/wikibooks-98250-polish-cauliflower-with-breadcrumbs-v1.png",
+      "bytes": 2521397,
+      "sha256": "ef2c7eaf162e6e6da294022cde17b33995cdbd6054318c00f64e4b2ce6fcaafc"
+    },
+    {
+      "path": "maps/savora-basemap.pmtiles",
+      "bytes": 45073267,
+      "sha256": "d0b5f3d471aac729d99c32cf96ba4631cb5ddb2916e422646fbc156c71a03e7b"
+    },
+    {
+      "path": "maps/savora-overview-4470ed328f6daebee113d990812de6748cec649566e09929d32e5469a01883e8.bin",
+      "bytes": 286514,
+      "sha256": "4470ed328f6daebee113d990812de6748cec649566e09929d32e5469a01883e8"
+    }
+  ]
+}

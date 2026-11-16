@@ -1,0 +1,2 @@
+ALTER TABLE "translation_runs" DROP CONSTRAINT "translation_run_budget";--> statement-breakpoint
+ALTER TABLE "translation_runs" ADD CONSTRAINT "translation_run_budget" CHECK ("translation_runs"."budget_usd">0 AND "translation_runs"."budget_usd"<=19);

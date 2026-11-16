@@ -1,0 +1,197 @@
+// Hand-written translations for "The autumn table" (October 2026 rewrite). Merged into the
+// redesign dictionary, so the offline website translator covers the exhibition without any
+// runtime model calls. Strings that already exist in the generated bundles are not repeated.
+type Targets = { zh: string; ja: string; fr: string; it: string; es: string };
+const t = (zh: string, ja: string, fr: string, it: string, es: string): Targets => ({ zh, ja, fr, it, es });
+
+export const autumnCopy: Record<string, Targets> = {
+  // hero
+  "Rows of peeled persimmons hanging on strings to dry.": t("一串串去皮的柿子挂在绳上晾晒。", "皮をむいた柿がひもに吊るされ、干されている。", "Des rangées de kakis pelés suspendus à des ficelles pour sécher.", "File di cachi sbucciati appesi a spaghi ad essiccare.", "Hileras de caquis pelados colgados de cuerdas para secarse."),
+  "Six solar terms, one full moon, and harvest tables from Japan to Mexico.": t("六个节气，一轮满月，以及从日本到墨西哥的收获餐桌。", "六つの節気、ひとつの満月、そして日本からメキシコまでの収穫の食卓。", "Six termes solaires, une pleine lune et des tables de récolte du Japon au Mexique.", "Sei termini solari, una luna piena e tavole del raccolto dal Giappone al Messico.", "Seis términos solares, una luna llena y mesas de cosecha de Japón a México."),
+  "Begin the season": t("开启这个秋天", "季節をたどる", "Entrer dans la saison", "Entra nella stagione", "Empezar la temporada"),
+
+  // photo captions (also used as alt text)
+  "Persimmons hung to dry into hoshigaki, Japan": t("挂起晾晒、准备做成柿饼的柿子，日本", "干し柿にするために吊るされた柿（日本）", "Kakis suspendus pour sécher en hoshigaki, Japon", "Cachi appesi ad essiccare per diventare hoshigaki, Giappone", "Caquis colgados para secarse como hoshigaki, Japón"),
+  "Red-braised pork, Shanghai style": t("上海风味红烧肉", "上海風の紅焼肉（豚の醤油煮込み）", "Porc braisé rouge, à la shanghaïenne", "Maiale brasato rosso, alla maniera di Shanghai", "Cerdo estofado rojo al estilo de Shanghái"),
+  "Papaya and white fungus sweet soup, Singapore": t("木瓜银耳糖水，新加坡", "パパイヤと白きくらげの甘いスープ（シンガポール）", "Soupe sucrée à la papaye et au champignon blanc, Singapour", "Zuppa dolce di papaya e fungo bianco, Singapore", "Sopa dulce de papaya y hongo blanco, Singapur"),
+  "Steamed hairy crab, Shanghai": t("清蒸大闸蟹，上海", "蒸した上海蟹（上海）", "Crabe chinois à la vapeur, Shanghai", "Granchio peloso al vapore, Shanghai", "Cangrejo peludo al vapor, Shanghái"),
+  "Sugar-roasted chestnuts": t("糖炒栗子", "甘栗（糖炒栗子）", "Châtaignes grillées au sucre", "Castagne arrostite con lo zucchero", "Castañas tostadas con azúcar"),
+  "Dried persimmons for sale in Wandong Village, Huizhou": t("惠州万洞古村售卖的柿饼", "恵州・万洞村で売られる干し柿", "Kakis séchés en vente au village de Wandong, Huizhou", "Cachi secchi in vendita nel villaggio di Wandong, Huizhou", "Caquis secos a la venta en la aldea de Wandong, Huizhou"),
+  "Lotus-seed paste mooncake with salted egg yolk": t("蛋黄莲蓉月饼", "塩漬け卵黄入りの蓮の実あん月餅", "Gâteau de lune à la pâte de graines de lotus et jaune d’œuf salé", "Torta della luna alla pasta di semi di loto con tuorlo d’uovo salato", "Pastel de luna de pasta de semilla de loto con yema de huevo salada"),
+  "Songpyeon, Korean half-moon rice cakes": t("松饼，韩国半月形米糕", "ソンピョン（韓国の半月形の餅）", "Songpyeon, gâteaux de riz coréens en demi-lune", "Songpyeon, dolci di riso coreani a mezzaluna", "Songpyeon, pasteles de arroz coreanos en media luna"),
+  "Matsutake rice with ginkgo nuts": t("松茸银杏饭", "銀杏入りの松茸ご飯", "Riz aux matsutake et noix de ginkgo", "Riso ai matsutake con noci di ginkgo", "Arroz con matsutake y nueces de ginkgo"),
+  "Federweißer and Zwiebelkuchen": t("新酿葡萄酒 Federweißer 与洋葱挞", "フェーダーヴァイサーとツヴィーベルクーヘン", "Federweißer et Zwiebelkuchen", "Federweißer e Zwiebelkuchen", "Federweißer y Zwiebelkuchen"),
+  "White truffles from Alba": t("阿尔巴白松露", "アルバ産の白トリュフ", "Truffes blanches d’Alba", "Tartufi bianchi d’Alba", "Trufas blancas de Alba"),
+  "Pan de muerto on an ofrenda": t("供桌上的亡灵面包", "オフレンダに供えられたパン・デ・ムエルト", "Pan de muerto sur une ofrenda", "Pan de muerto su una ofrenda", "Pan de muerto en una ofrenda"),
+  "Pumpkin pie for Thanksgiving, New Orleans": t("感恩节南瓜派，新奥尔良", "感謝祭のパンプキンパイ（ニューオーリンズ）", "Tarte à la citrouille pour Thanksgiving, La Nouvelle-Orléans", "Torta di zucca per il Ringraziamento, New Orleans", "Pastel de calabaza para Acción de Gracias, Nueva Orleans"),
+
+  // chapter rail
+  "Almanac": t("节气历", "暦", "Almanach", "Almanacco", "Almanaque"),
+  "Liqiu": t("立秋", "立秋", "Liqiu", "Liqiu", "Liqiu"),
+  "Bailu": t("白露", "白露", "Bailu", "Bailu", "Bailu"),
+  "Hanlu": t("寒露", "寒露", "Hanlu", "Hanlu", "Hanlu"),
+  "Chestnuts": t("栗子", "栗", "Châtaignes", "Castagne", "Castañas"),
+  "Shuangjiang": t("霜降", "霜降", "Shuangjiang", "Shuangjiang", "Shuangjiang"),
+  "Full moon": t("满月", "満月", "Pleine lune", "Luna piena", "Luna llena"),
+  "Around the world": t("世界各地", "世界の食卓", "Autour du monde", "Nel mondo", "Por el mundo"),
+  "Cook": t("下厨", "料理する", "Cuisiner", "Cucina", "Cocinar"),
+
+  // almanac
+  "The almanac": t("节气历", "節気の暦", "L’almanach", "L’almanacco", "El almanaque"),
+  "Six solar terms, six reasons to set the table.": t("六个节气，六个摆上餐桌的理由。", "六つの節気、食卓を整える六つの理由。", "Six termes solaires, six raisons de mettre la table.", "Sei termini solari, sei motivi per apparecchiare.", "Seis términos solares, seis razones para poner la mesa."),
+  "China’s farming calendar divides the year into twenty-four solar terms of about fifteen days each. In 2016 UNESCO inscribed them on its list of the Intangible Cultural Heritage of Humanity.": t(
+    "中国的农历把一年分为二十四个节气，每个约十五天。2016 年，联合国教科文组织将其列入人类非物质文化遗产代表作名录。",
+    "中国の農暦は一年を約十五日ずつの二十四節気に分けます。2016 年、ユネスコはこれを人類の無形文化遺産の代表一覧に登録しました。",
+    "Le calendrier agricole chinois divise l’année en vingt-quatre termes solaires d’une quinzaine de jours chacun. En 2016, l’UNESCO les a inscrits sur la Liste représentative du patrimoine culturel immatériel de l’humanité.",
+    "Il calendario agricolo cinese divide l’anno in ventiquattro termini solari di circa quindici giorni ciascuno. Nel 2016 l’UNESCO li ha iscritti nella Lista rappresentativa del patrimonio culturale immateriale dell’umanità.",
+    "El calendario agrícola chino divide el año en veinticuatro términos solares de unos quince días cada uno. En 2016 la UNESCO los inscribió en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad."),
+  "Start of Autumn": t("秋天开始", "秋の始まり", "Début de l’automne", "Inizio dell’autunno", "Comienzo del otoño"),
+  "End of Heat": t("炎热结束", "暑さの終わり", "Fin des chaleurs", "Fine del caldo", "Fin del calor"),
+  "White Dew": t("露水凝白", "白い露", "Rosée blanche", "Rugiada bianca", "Rocío blanco"),
+  "Autumn Equinox": t("昼夜平分", "昼と夜が同じ長さになる日", "Équinoxe d’automne", "Equinozio d’autunno", "Equinoccio de otoño"),
+  "Cold Dew": t("露水寒凉", "冷たい露", "Rosée froide", "Rugiada fredda", "Rocío frío"),
+  "Frost’s Descent": t("初霜降临", "霜が降りる頃", "Descente du givre", "Discesa della brina", "Descenso de la escarcha"),
+  "Around 7 August": t("8 月 7 日前后", "8 月 7 日ごろ", "Vers le 7 août", "Intorno al 7 agosto", "Hacia el 7 de agosto"),
+  "Around 23 August": t("8 月 23 日前后", "8 月 23 日ごろ", "Vers le 23 août", "Intorno al 23 agosto", "Hacia el 23 de agosto"),
+  "Around 7 September": t("9 月 7 日前后", "9 月 7 日ごろ", "Vers le 7 septembre", "Intorno al 7 settembre", "Hacia el 7 de septiembre"),
+  "Around 23 September": t("9 月 23 日前后", "9 月 23 日ごろ", "Vers le 23 septembre", "Intorno al 23 settembre", "Hacia el 23 de septiembre"),
+  "Around 8 October": t("10 月 8 日前后", "10 月 8 日ごろ", "Vers le 8 octobre", "Intorno all’8 ottobre", "Hacia el 8 de octubre"),
+  "Around 23 October": t("10 月 23 日前后", "10 月 23 日ごろ", "Vers le 23 octobre", "Intorno al 23 ottobre", "Hacia el 23 de octubre"),
+  "Braised meat to “put on autumn weight”, and watermelon to “bite the autumn”.": t("吃炖肉“贴秋膘”，吃西瓜“啃秋”。", "「秋の脂をつける」ための肉の煮込みと、「秋をかじる」スイカ。", "De la viande braisée pour « prendre du poids d’automne », et de la pastèque pour « croquer l’automne ».", "Carne brasata per «mettere su il peso d’autunno» e anguria per «mordere l’autunno».", "Carne estofada para «ganar peso de otoño» y sandía para «morder el otoño»."),
+  "Duck, in many northern households, as the last heat breaks.": t("暑气渐消，北方许多人家吃鸭子。", "最後の暑さが和らぐころ、北方の多くの家庭では鴨を。", "Du canard, dans de nombreux foyers du nord, quand cèdent les dernières chaleurs.", "Anatra, in molte case del nord, quando cede l’ultimo caldo.", "Pato, en muchos hogares del norte, cuando cede el último calor."),
+  "Longan in Fuzhou; clear sweet soups against the dry air.": t("福州人吃龙眼；清甜的糖水抵御秋燥。", "福州では竜眼、乾いた空気には澄んだ甘いスープ。", "Du longane à Fuzhou ; des soupes sucrées et claires contre l’air sec.", "Longan a Fuzhou; zuppe dolci e limpide contro l’aria secca.", "Longan en Fuzhou; sopas dulces y claras contra el aire seco."),
+  "Harvest celebrations, and in Lingnan a soup of wild autumn greens.": t("庆祝丰收；岭南人家煮一锅野生秋菜汤。", "収穫を祝い、嶺南では野生の秋の青菜のスープを。", "Des fêtes de la récolte et, dans le Lingnan, une soupe de verdures sauvages d’automne.", "Feste del raccolto e, nel Lingnan, una zuppa di verdure selvatiche d’autunno.", "Fiestas de la cosecha y, en Lingnan, una sopa de verduras silvestres de otoño."),
+  "Chrysanthemums open and freshwater crabs are at their fullest.": t("菊花盛开，河蟹正肥。", "菊が咲き、川蟹がいちばん身の詰まる時期。", "Les chrysanthèmes s’ouvrent et les crabes d’eau douce sont à leur meilleur.", "Sbocciano i crisantemi e i granchi d’acqua dolce sono al loro meglio.", "Se abren los crisantemos y los cangrejos de agua dulce están en su mejor momento."),
+  "Persimmons, eaten fresh or dried for winter.": t("吃柿子，鲜食或晒成柿饼留到冬天。", "柿。生で食べるほか、冬のために干す。", "Des kakis, frais ou séchés pour l’hiver.", "Cachi, freschi o essiccati per l’inverno.", "Caquis, frescos o secos para el invierno."),
+
+  // chapters
+  "Did you know?": t("你知道吗？", "ご存じですか？", "Le saviez-vous ?", "Lo sapevi?", "¿Sabías que…?"),
+  "Beijing · Late autumn": t("北京 · 深秋", "北京 · 晩秋", "Pékin · Fin d’automne", "Pechino · Tardo autunno", "Pekín · Otoño tardío"),
+  "After summer, the table puts on autumn weight.": t("夏天过后，餐桌开始“贴秋膘”。", "夏が終わり、食卓は秋の脂をつける。", "Après l’été, la table reprend du poids.", "Dopo l’estate, la tavola mette su peso d’autunno.", "Tras el verano, la mesa gana peso de otoño."),
+  "Liqiu, the Start of Autumn, arrives in early August while the heat has barely loosened. In northern China, families mark it with tiē qiū biāo, “putting on autumn fat”: braised pork and other rich dishes that make up for a long summer of light eating.": t(
+    "立秋在八月初到来，此时暑热尚未退去。在中国北方，人们以“贴秋膘”迎接它：红烧肉等浓郁的菜肴，补回漫长夏天清淡饮食所少吃的。",
+    "立秋は八月初め、暑さがまだ残るころに訪れます。中国北方では「貼秋膘（秋の脂をつける）」としてこれを迎え、紅焼肉などの濃厚な料理で、長い夏のあっさりした食事を補います。",
+    "Liqiu, le Début de l’automne, arrive début août alors que la chaleur se relâche à peine. Dans le nord de la Chine, les familles le marquent par le tiē qiū biāo, « prendre de la graisse d’automne » : du porc braisé et d’autres plats riches qui compensent un long été de repas légers.",
+    "Liqiu, l’Inizio dell’autunno, arriva a inizio agosto, quando il caldo ha appena cominciato ad allentarsi. Nel nord della Cina le famiglie lo celebrano con il tiē qiū biāo, «mettere su il grasso d’autunno»: maiale brasato e altri piatti ricchi che compensano una lunga estate di pasti leggeri.",
+    "Liqiu, el Comienzo del otoño, llega a principios de agosto, cuando el calor apenas ha aflojado. En el norte de China las familias lo celebran con el tiē qiū biāo, «ganar grasa de otoño»: cerdo estofado y otros platos contundentes que compensan un largo verano de comidas ligeras."),
+  "In parts of China people also “bite the autumn” at Liqiu, eating watermelon to see the summer off.": t("在中国一些地方，人们在立秋还要“啃秋”，吃西瓜送别夏天。", "中国の一部の地域では、立秋に「秋をかじる」と言ってスイカを食べ、夏を見送ります。", "Dans certaines régions de Chine, on « croque aussi l’automne » à Liqiu, en mangeant de la pastèque pour dire adieu à l’été.", "In alcune parti della Cina a Liqiu si «morde anche l’autunno», mangiando anguria per salutare l’estate.", "En partes de China también se «muerde el otoño» en Liqiu, comiendo sandía para despedir el verano."),
+  "Find braised pork recipes": t("查找红烧肉食谱", "豚の煮込みのレシピを探す", "Trouver des recettes de porc braisé", "Trova ricette di maiale brasato", "Buscar recetas de cerdo estofado"),
+  "In Fuzhou, longan is the fruit of White Dew, eaten as the harvest reaches its peak.": t("在福州，龙眼是白露的时令水果，正值收获旺季。", "福州では竜眼が白露の果物で、収穫の最盛期に食べられます。", "À Fuzhou, le longane est le fruit de la Rosée blanche, dégusté au plus fort de la récolte.", "A Fuzhou il longan è il frutto della Rugiada bianca, mangiato quando il raccolto è al culmine.", "En Fuzhou, el longan es la fruta del Rocío blanco y se come en el punto álgido de la cosecha."),
+  "Chrysanthemums open, and crabs come to the table.": t("菊花盛开，螃蟹上桌。", "菊が咲き、蟹が食卓へ。", "Les chrysanthèmes s’ouvrent, les crabes arrivent à table.", "Sbocciano i crisantemi e i granchi arrivano in tavola.", "Se abren los crisantemos y los cangrejos llegan a la mesa."),
+  "By Cold Dew, chrysanthemum shows fill parks and temple courtyards, and the freshwater crabs of the lower Yangtze are at their best. Holding a crab claw while admiring chrysanthemums has been a scholar’s pleasure for centuries, with ginger and vinegar to balance the rich roe.": t(
+    "到了寒露，公园和寺院里办起菊展，长江下游的河蟹也到了最好的时候。持螯赏菊是文人延续了数百年的雅趣，姜醋正好平衡蟹黄的肥美。",
+    "寒露のころには公園や寺院の中庭で菊の展示が開かれ、長江下流の川蟹が最もおいしくなります。蟹の爪を手に菊を愛でるのは何世紀も続く文人の楽しみで、生姜と酢が濃厚な蟹みそを引き締めます。",
+    "À la Rosée froide, les expositions de chrysanthèmes envahissent parcs et cours de temples, et les crabes d’eau douce du bas Yangtsé sont à leur meilleur. Tenir une pince de crabe en admirant les chrysanthèmes est un plaisir de lettrés depuis des siècles, avec du gingembre et du vinaigre pour équilibrer la richesse des œufs.",
+    "Con la Rugiada fredda, le mostre di crisantemi riempiono parchi e cortili dei templi, e i granchi d’acqua dolce del basso Yangtze sono al loro meglio. Tenere una chela di granchio ammirando i crisantemi è un piacere da letterati da secoli, con zenzero e aceto a bilanciare la ricchezza delle uova.",
+    "Con el Rocío frío, las exposiciones de crisantemos llenan parques y patios de templos, y los cangrejos de agua dulce del bajo Yangtsé están en su mejor momento. Sostener una pinza de cangrejo mientras se admiran los crisantemos es un placer de letrados desde hace siglos, con jengibre y vinagre para equilibrar la riqueza de las huevas."),
+  "An old saying advises female crabs in the ninth lunar month, when their roe is fullest, and males in the tenth.": t("老话说“九雌十雄”：农历九月吃母蟹，蟹黄最满；十月吃公蟹。", "古いことわざは、卵がいちばん詰まる旧暦九月には雌、十月には雄の蟹を勧めています。", "Un vieux dicton conseille les crabes femelles au neuvième mois lunaire, quand leurs œufs sont les plus pleins, et les mâles au dixième.", "Un vecchio detto consiglia le femmine di granchio nel nono mese lunare, quando le uova sono più piene, e i maschi nel decimo.", "Un viejo dicho aconseja las hembras en el noveno mes lunar, cuando sus huevas están más llenas, y los machos en el décimo."),
+  "Street vendors roast chestnuts in woks of hot dark sand mixed with sugar, which gives the shells their shine.": t("街头小贩用拌了糖的热黑砂在铁锅里翻炒栗子，栗壳因此油亮。", "屋台では砂糖を混ぜた熱い黒砂の中華鍋で栗を炒ります。殻のつやはそのためです。", "Les marchands de rue grillent les châtaignes dans des woks de sable sombre brûlant mêlé de sucre, ce qui fait briller les coques.", "I venditori ambulanti tostano le castagne in wok di sabbia scura rovente mescolata a zucchero, che rende lucidi i gusci.", "Los vendedores callejeros tuestan las castañas en woks de arena oscura caliente mezclada con azúcar, que da brillo a las cáscaras."),
+  "At Frost’s Descent the persimmons are ripe, and a folk saying promises that eating one will keep colds away all winter. Fruit that cannot be eaten fresh is peeled and dried into shìbǐng, pressed flat until a white bloom of natural sugar forms on the skin.": t(
+    "霜降时柿子成熟，民间说法认为吃了柿子一冬不易感冒。来不及鲜吃的柿子被削皮晒干，压成柿饼，直到表皮析出一层白色的天然糖霜。",
+    "霜降には柿が熟し、ひとつ食べれば冬じゅう風邪をひかないという言い伝えもあります。生で食べきれない実は皮をむいて干し、平たく押して、表面に天然の糖分の白い粉がふくまで仕上げた柿餅になります。",
+    "À la Descente du givre, les kakis sont mûrs, et un dicton populaire promet qu’en manger un éloigne les rhumes tout l’hiver. Les fruits qu’on ne peut manger frais sont pelés et séchés en shìbǐng, aplatis jusqu’à ce qu’une fleur blanche de sucre naturel se forme sur la peau.",
+    "Alla Discesa della brina i cachi sono maturi, e un detto popolare promette che mangiarne uno tiene lontani i raffreddori per tutto l’inverno. I frutti che non si possono mangiare freschi vengono sbucciati ed essiccati in shìbǐng, schiacciati finché sulla buccia si forma una patina bianca di zucchero naturale.",
+    "En el Descenso de la escarcha los caquis están maduros, y un dicho popular promete que comer uno aleja los resfriados todo el invierno. La fruta que no se puede comer fresca se pela y se seca en shìbǐng, aplanada hasta que en la piel se forma una flor blanca de azúcar natural."),
+  "Japan dries persimmons too: hoshigaki hang on strings and are gently massaged every few days as they dry.": t("日本也晒柿子：干柿挂在绳上晾晒，每隔几天要用手轻轻揉捏一次。", "日本でも柿を干します。干し柿はひもに吊るし、数日おきに手でやさしくもみながら乾かします。", "Le Japon sèche aussi ses kakis : les hoshigaki sont suspendus à des ficelles et doucement massés à la main tous les quelques jours pendant le séchage.", "Anche in Giappone si essiccano i cachi: gli hoshigaki pendono da spaghi e ogni pochi giorni vengono massaggiati delicatamente a mano.", "Japón también seca caquis: los hoshigaki cuelgan de cuerdas y se masajean suavemente a mano cada pocos días mientras se secan."),
+
+  // full moon
+  "The fifteenth night of the eighth month": t("八月十五之夜", "旧暦八月十五日の夜", "La quinzième nuit du huitième mois", "La quindicesima notte dell’ottavo mese", "La decimoquinta noche del octavo mes"),
+  "One moon, two tables.": t("同一轮月亮，两张餐桌。", "ひとつの月、ふたつの食卓。", "Une lune, deux tables.", "Una luna, due tavole.", "Una luna, dos mesas."),
+  "The Mid-Autumn Festival in China and Chuseok in Korea fall on the same full moon, usually in September or early October. Both bring families home, and both are eaten as much as they are celebrated.": t(
+    "中国的中秋节和韩国的秋夕在同一个满月之夜，通常在九月或十月初。两个节日都让家人团聚，也都离不开吃。",
+    "中国の中秋節と韓国のチュソク（秋夕）は同じ満月の日、たいてい九月か十月初めにあたります。どちらも家族が帰省し、祝うことと食べることがひとつになった行事です。",
+    "La fête de la Mi-Automne en Chine et Chuseok en Corée tombent à la même pleine lune, généralement en septembre ou début octobre. Les deux réunissent les familles, et l’on y mange autant qu’on y célèbre.",
+    "La Festa di metà autunno in Cina e il Chuseok in Corea cadono con la stessa luna piena, di solito a settembre o all’inizio di ottobre. Entrambe riportano a casa le famiglie, ed entrambe si mangiano quanto si festeggiano.",
+    "La Fiesta del Medio Otoño en China y el Chuseok en Corea caen en la misma luna llena, normalmente en septiembre o a principios de octubre. Ambas reúnen a las familias, y en ambas se come tanto como se celebra."),
+  "China · Mid-Autumn Festival": t("中国 · 中秋节", "中国 · 中秋節", "Chine · Fête de la Mi-Automne", "Cina · Festa di metà autunno", "China · Fiesta del Medio Otoño"),
+  "Mooncakes": t("月饼", "月餅", "Gâteaux de lune", "Torte della luna", "Pasteles de luna"),
+  "Round like the moon and cut into wedges to share, mooncakes stand for reunion. In the Cantonese style, a salted duck egg yolk sits in lotus-seed paste like a small moon of its own.": t(
+    "月饼圆如满月，切块分享，象征团圆。广式月饼里，咸蛋黄嵌在莲蓉中，像一轮小小的月亮。",
+    "月のように丸く、切り分けて分け合う月餅は、家族の団らんの象徴です。広東式では、塩漬けのアヒルの卵黄が蓮の実あんの中に小さな月のように収まっています。",
+    "Ronds comme la lune et coupés en parts à partager, les gâteaux de lune symbolisent les retrouvailles. Dans le style cantonais, un jaune d’œuf de cane salé repose dans la pâte de graines de lotus comme une petite lune.",
+    "Rotonde come la luna e tagliate a spicchi da condividere, le torte della luna simboleggiano la riunione. Nello stile cantonese, un tuorlo d’uovo d’anatra salato riposa nella pasta di semi di loto come una piccola luna.",
+    "Redondos como la luna y cortados en porciones para compartir, los pasteles de luna simbolizan el reencuentro. En el estilo cantonés, una yema de huevo de pato salada descansa en la pasta de semilla de loto como una pequeña luna."),
+  "Korea · Chuseok": t("韩国 · 秋夕", "韓国 · チュソク", "Corée · Chuseok", "Corea · Chuseok", "Corea · Chuseok"),
+  "Songpyeon": t("松饼", "ソンピョン", "Songpyeon", "Songpyeon", "Songpyeon"),
+  "Families shape these half-moon rice cakes together, filling them with sesame, beans or chestnut, then steam them on a bed of pine needles that leaves a light, resinous scent.": t(
+    "一家人一起捏这种半月形的米糕，包入芝麻、豆子或栗子，再铺在松针上蒸熟，留下淡淡的松香。",
+    "家族で一緒に半月形の餅を作り、ごま、豆、栗を包んで、松葉を敷いて蒸します。ほのかな松の香りが移ります。",
+    "Les familles façonnent ensemble ces gâteaux de riz en demi-lune, garnis de sésame, de haricots ou de châtaigne, puis les cuisent à la vapeur sur un lit d’aiguilles de pin qui leur laisse un léger parfum résineux.",
+    "Le famiglie modellano insieme questi dolci di riso a mezzaluna, ripieni di sesamo, fagioli o castagne, poi li cuociono al vapore su un letto di aghi di pino che lascia un leggero profumo resinoso.",
+    "Las familias dan forma juntas a estos pasteles de arroz en media luna, rellenos de sésamo, judías o castaña, y los cuecen al vapor sobre un lecho de agujas de pino que les deja un ligero aroma resinoso."),
+
+  // around the world
+  "Harvest tables around the world": t("世界各地的收获餐桌", "世界の収穫の食卓", "Tables de récolte autour du monde", "Tavole del raccolto nel mondo", "Mesas de cosecha por el mundo"),
+  "The same turn of year, read in other kitchens.": t("同样的季节更替，在别处的厨房里。", "同じ季節の移ろいを、ほかの台所で読む。", "Le même tournant de l’année, lu dans d’autres cuisines.", "Lo stesso volgere dell’anno, letto in altre cucine.", "El mismo cambio de estación, leído en otras cocinas."),
+  "Autumn arrives with frost in some places and with rain, new wine or remembrance in others. Five tables, from September to November.": t(
+    "有的地方秋天随霜而来，有的地方随雨水、新酒或对逝者的追思而来。五张餐桌，从九月到十一月。",
+    "秋は霜とともに来る土地もあれば、雨や新酒、故人をしのぶ行事とともに来る土地もあります。九月から十一月までの五つの食卓。",
+    "L’automne arrive avec le givre à certains endroits, avec la pluie, le vin nouveau ou le souvenir des défunts ailleurs. Cinq tables, de septembre à novembre.",
+    "L’autunno arriva con la brina in alcuni luoghi e con la pioggia, il vino nuovo o il ricordo dei defunti in altri. Cinque tavole, da settembre a novembre.",
+    "El otoño llega con escarcha en algunos lugares y con lluvia, vino nuevo o el recuerdo de los difuntos en otros. Cinco mesas, de septiembre a noviembre."),
+  "Germany": t("德国", "ドイツ", "Allemagne", "Germania", "Alemania"),
+  "Italy · Piedmont": t("意大利 · 皮埃蒙特", "イタリア · ピエモンテ", "Italie · Piémont", "Italia · Piemonte", "Italia · Piamonte"),
+  "Canada · United States": t("加拿大 · 美国", "カナダ · アメリカ", "Canada · États-Unis", "Canada · Stati Uniti", "Canadá · Estados Unidos"),
+  "September–November": t("九月至十一月", "九月〜十一月", "Septembre–novembre", "Settembre–novembre", "Septiembre–noviembre"),
+  "September–October": t("九月至十月", "九月〜十月", "Septembre–octobre", "Settembre–ottobre", "Septiembre–octubre"),
+  "October–December": t("十月至十二月", "十月〜十二月", "Octobre–décembre", "Ottobre–dicembre", "Octubre–diciembre"),
+  "1–2 November": t("11 月 1–2 日", "11 月 1–2 日", "1–2 novembre", "1–2 novembre", "1–2 de noviembre"),
+  "October–November": t("十月至十一月", "十月〜十一月", "Octobre–novembre", "Ottobre–novembre", "Octubre–noviembre"),
+  "Aki no mikaku, the tastes of autumn": t("秋之味觉（秋の味覚）", "秋の味覚", "Aki no mikaku, les saveurs de l’automne", "Aki no mikaku, i sapori dell’autunno", "Aki no mikaku, los sabores del otoño"),
+  "New wine and onion tart": t("新酒与洋葱挞", "新酒と玉ねぎのタルト", "Vin nouveau et tarte à l’oignon", "Vino nuovo e torta di cipolle", "Vino nuevo y tarta de cebolla"),
+  "The white truffle of Alba": t("阿尔巴的白松露", "アルバの白トリュフ", "La truffe blanche d’Alba", "Il tartufo bianco d’Alba", "La trufa blanca de Alba"),
+  "Bread for the Day of the Dead": t("亡灵节的面包", "死者の日のパン", "Le pain du Jour des morts", "Il pane del Giorno dei morti", "Pan para el Día de Muertos"),
+  "A harvest pie": t("丰收的馅饼", "収穫のパイ", "Une tarte de récolte", "Una torta del raccolto", "Un pastel de cosecha"),
+  "Japan has a phrase for the season’s flavours: aki no mikaku. Matsutake perfumes rice and clear soup, grilled sanma arrives with grated daikon, and ginkgo nuts and chestnuts turn up everywhere.": t(
+    "日本有一个形容秋季风味的词：秋の味覚。松茸为米饭和清汤增香，烤秋刀鱼配萝卜泥上桌，银杏和栗子随处可见。",
+    "日本には季節の味を表す「秋の味覚」という言葉があります。松茸はご飯やお吸い物に香りを添え、焼いた秋刀魚には大根おろしが付き、銀杏や栗があらゆる料理に登場します。",
+    "Le Japon a une expression pour les saveurs de la saison : aki no mikaku. Le matsutake parfume le riz et le bouillon clair, le sanma grillé arrive avec du daikon râpé, et noix de ginkgo et châtaignes se glissent partout.",
+    "Il Giappone ha un’espressione per i sapori della stagione: aki no mikaku. Il matsutake profuma il riso e il brodo limpido, il sanma alla griglia arriva con daikon grattugiato, e noci di ginkgo e castagne compaiono ovunque.",
+    "Japón tiene una expresión para los sabores de la estación: aki no mikaku. El matsutake perfuma el arroz y el caldo claro, el sanma a la parrilla llega con daikon rallado, y las nueces de ginkgo y las castañas aparecen por todas partes."),
+  "In German wine regions, the first partly fermented wine of the harvest, Federweißer, is sold for just a few weeks. It is drunk young and cloudy, almost always with warm Zwiebelkuchen, an onion and bacon tart.": t(
+    "在德国葡萄酒产区，丰收后第一批部分发酵的新酒 Federweißer 只卖几个星期。它要趁新鲜、带着浑浊时喝，几乎总是配一块热腾腾的洋葱培根挞（Zwiebelkuchen）。",
+    "ドイツのワイン産地では、収穫後最初の発酵途中のワイン「フェーダーヴァイサー」がわずか数週間だけ売られます。若く濁ったまま飲み、ほぼ必ず温かいツヴィーベルクーヘン（玉ねぎとベーコンのタルト）と一緒に楽しみます。",
+    "Dans les régions viticoles allemandes, le premier vin partiellement fermenté de la vendange, le Federweißer, n’est vendu que quelques semaines. On le boit jeune et trouble, presque toujours avec un Zwiebelkuchen chaud, une tarte à l’oignon et au lard.",
+    "Nelle regioni vinicole tedesche il primo vino parzialmente fermentato della vendemmia, il Federweißer, si vende solo per poche settimane. Si beve giovane e torbido, quasi sempre con uno Zwiebelkuchen caldo, una torta di cipolle e pancetta.",
+    "En las regiones vinícolas alemanas, el primer vino parcialmente fermentado de la vendimia, el Federweißer, se vende solo unas semanas. Se bebe joven y turbio, casi siempre con un Zwiebelkuchen caliente, una tarta de cebolla y tocino."),
+  "Truffle hunters and their dogs search the oak and poplar woods around Alba, whose white truffle fair runs through the autumn. The truffle is never cooked: it is shaved raw over buttered tajarin or a fried egg.": t(
+    "松露猎人带着狗在阿尔巴周边的橡树和杨树林里搜寻，阿尔巴的白松露节贯穿整个秋天。白松露从不加热：生刨在黄油细面（tajarin）或煎蛋上。",
+    "トリュフハンターと犬がアルバ周辺のナラやポプラの森を探し、アルバの白トリュフ祭りは秋じゅう続きます。トリュフは決して加熱せず、バターであえたタヤリンや目玉焼きの上に生のまま削ります。",
+    "Les chercheurs de truffes et leurs chiens fouillent les bois de chênes et de peupliers autour d’Alba, dont la foire de la truffe blanche dure tout l’automne. La truffe ne se cuit jamais : elle est râpée crue sur des tajarin au beurre ou un œuf au plat.",
+    "I cercatori di tartufi e i loro cani battono i boschi di querce e pioppi intorno ad Alba, la cui fiera del tartufo bianco dura tutto l’autunno. Il tartufo non si cuoce mai: si affetta crudo sui tajarin al burro o su un uovo al tegamino.",
+    "Los buscadores de trufas y sus perros recorren los bosques de robles y álamos alrededor de Alba, cuya feria de la trufa blanca dura todo el otoño. La trufa nunca se cocina: se lamina cruda sobre tajarin con mantequilla o un huevo frito."),
+  "For Día de Muertos, families build ofrendas for those who have died, with marigolds, photographs and favourite foods. Pan de muerto, scented with orange blossom and topped with dough shaped like bones, is placed on the altar and shared.": t(
+    "亡灵节期间，家家户户为逝去的亲人搭起供桌（ofrenda），摆上万寿菊、照片和他们生前爱吃的食物。带着橙花香、顶上用面团捏成骨头形状的亡灵面包，被摆上供桌，也与家人分享。",
+    "死者の日には、家族が亡くなった人のためにオフレンダ（祭壇）を作り、マリーゴールドや写真、好物を供えます。オレンジの花の香りがし、骨の形の生地をのせたパン・デ・ムエルトは祭壇に供えられ、皆で分け合います。",
+    "Pour le Día de Muertos, les familles dressent des ofrendas pour leurs défunts, avec des œillets d’Inde, des photographies et des plats qu’ils aimaient. Le pan de muerto, parfumé à la fleur d’oranger et décoré de pâte en forme d’os, est posé sur l’autel puis partagé.",
+    "Per il Día de Muertos le famiglie allestiscono ofrendas per i propri defunti, con tagete, fotografie e i cibi che amavano. Il pan de muerto, profumato ai fiori d’arancio e decorato con pasta a forma di ossa, viene posto sull’altare e condiviso.",
+    "En el Día de Muertos, las familias montan ofrendas para quienes han fallecido, con cempasúchil, fotografías y sus comidas favoritas. El pan de muerto, perfumado con azahar y coronado con masa en forma de huesos, se coloca en el altar y se comparte."),
+  "Canada gives thanks for the harvest on the second Monday of October, the United States on the fourth Thursday of November. Pumpkin pie, spiced with cinnamon, ginger and nutmeg, closes both tables.": t(
+    "加拿大在十月的第二个星期一感恩丰收，美国在十一月的第四个星期四。用肉桂、姜和肉豆蔻调味的南瓜派，是两张餐桌共同的收尾。",
+    "カナダは十月の第二月曜日、アメリカは十一月の第四木曜日に収穫に感謝します。シナモン、生姜、ナツメグで香りづけしたパンプキンパイが、どちらの食卓も締めくくります。",
+    "Le Canada rend grâce pour la récolte le deuxième lundi d’octobre, les États-Unis le quatrième jeudi de novembre. La tarte à la citrouille, épicée à la cannelle, au gingembre et à la muscade, clôt les deux tables.",
+    "Il Canada ringrazia per il raccolto il secondo lunedì di ottobre, gli Stati Uniti il quarto giovedì di novembre. La torta di zucca, speziata con cannella, zenzero e noce moscata, chiude entrambe le tavole.",
+    "Canadá da gracias por la cosecha el segundo lunes de octubre; Estados Unidos, el cuarto jueves de noviembre. El pastel de calabaza, especiado con canela, jengibre y nuez moscada, cierra ambas mesas."),
+  "Previous table": t("上一张餐桌", "前の食卓", "Table précédente", "Tavola precedente", "Mesa anterior"),
+  "Next table": t("下一张餐桌", "次の食卓", "Table suivante", "Tavola successiva", "Mesa siguiente"),
+
+  // notes and quiz
+  "Since 2018, China has celebrated its Farmers’ Harvest Festival on the Autumn Equinox.": t("自 2018 年起，中国在秋分这天庆祝中国农民丰收节。", "2018 年から、中国は秋分の日に「中国農民豊作祭」を祝っています。", "Depuis 2018, la Chine célèbre sa Fête des récoltes paysannes le jour de l’équinoxe d’automne.", "Dal 2018 la Cina celebra la Festa del raccolto dei contadini nell’equinozio d’autunno.", "Desde 2018, China celebra su Fiesta de la Cosecha de los Agricultores en el equinoccio de otoño."),
+  "Matsutake cannot be farmed. It grows only with the roots of living pine trees, which is why it is foraged and costly.": t("松茸无法人工栽培，只能与活松树的根共生，所以只能野外采集，价格昂贵。", "松茸は栽培できません。生きた松の根と共生してのみ育つため、採集に頼り、高価なのです。", "Le matsutake ne se cultive pas. Il ne pousse qu’avec les racines de pins vivants, c’est pourquoi on le cueille et qu’il coûte cher.", "Il matsutake non si può coltivare. Cresce solo insieme alle radici di pini vivi, per questo si raccoglie in natura e costa caro.", "El matsutake no se puede cultivar. Solo crece junto a las raíces de pinos vivos, por eso se recolecta y es caro."),
+  "South of the equator, autumn runs from March to May, so Argentina and Chile celebrate their grape harvest in March.": t("在南半球，秋天是三月到五月，所以阿根廷和智利在三月庆祝葡萄丰收。", "南半球では秋は三月から五月。そのためアルゼンチンやチリでは三月にブドウの収穫を祝います。", "Au sud de l’équateur, l’automne va de mars à mai : l’Argentine et le Chili fêtent donc leurs vendanges en mars.", "A sud dell’equatore l’autunno va da marzo a maggio, così Argentina e Cile festeggiano la vendemmia a marzo.", "Al sur del ecuador, el otoño va de marzo a mayo, así que Argentina y Chile celebran la vendimia en marzo."),
+  "Test your almanac": t("考考你的节气知识", "節気クイズ", "Testez votre almanach", "Metti alla prova il tuo almanacco", "Pon a prueba tu almanaque"),
+  "In much of China, which fruit belongs to Frost’s Descent?": t("在中国很多地方，哪种水果属于霜降？", "中国の多くの地域で、霜降の果物とされるのはどれ？", "Dans une grande partie de la Chine, quel fruit appartient à la Descente du givre ?", "In gran parte della Cina, quale frutto appartiene alla Discesa della brina?", "En gran parte de China, ¿qué fruta pertenece al Descenso de la escarcha?"),
+  "Watermelon": t("西瓜", "スイカ", "Pastèque", "Anguria", "Sandía"),
+  "Longan": t("龙眼", "竜眼", "Longane", "Longan", "Longan"),
+  "Persimmon": t("柿子", "柿", "Kaki", "Caco", "Caqui"),
+  "Lychee": t("荔枝", "ライチ", "Litchi", "Litchi", "Lichi"),
+  "Right. Persimmons ripen as the first frost arrives.": t("答对了。柿子在初霜到来时成熟。", "正解。柿は初霜のころに熟します。", "Exact. Les kakis mûrissent à l’arrivée des premiers givres.", "Esatto. I cachi maturano all’arrivo della prima brina.", "Correcto. Los caquis maduran cuando llega la primera escarcha."),
+  "Not quite. Watermelon belongs to the Start of Autumn and longan to White Dew; lychee is a summer fruit. The answer is persimmon.": t("不太对。西瓜属于立秋，龙眼属于白露，荔枝是夏天的水果。答案是柿子。", "惜しい。スイカは立秋、竜眼は白露の果物で、ライチは夏の果物です。正解は柿です。", "Pas tout à fait. La pastèque appartient au Début de l’automne et le longane à la Rosée blanche ; le litchi est un fruit d’été. La réponse est le kaki.", "Non proprio. L’anguria appartiene all’Inizio dell’autunno e il longan alla Rugiada bianca; il litchi è un frutto estivo. La risposta è il caco.", "No exactamente. La sandía pertenece al Comienzo del otoño y el longan al Rocío blanco; el lichi es una fruta de verano. La respuesta es el caqui."),
+  "Try again": t("再试一次", "もう一度", "Réessayer", "Riprova", "Intentar de nuevo"),
+
+  // sources
+  "Photographs": t("照片", "写真", "Photographies", "Fotografie", "Fotografías"),
+  "Further reading": t("延伸阅读", "参考資料", "Pour aller plus loin", "Per approfondire", "Lecturas recomendadas"),
+  "A Taste of China · Google Arts & Culture ↗": t("慢慢吃 · Google 艺术与文化 ↗", "A Taste of China · Google Arts & Culture ↗", "A Taste of China · Google Arts & Culture ↗", "A Taste of China · Google Arts & Culture ↗", "A Taste of China · Google Arts & Culture ↗"),
+  "The Twenty-Four Solar Terms · UNESCO ↗": t("二十四节气 · 联合国教科文组织 ↗", "二十四節気 · ユネスコ ↗", "Les vingt-quatre termes solaires · UNESCO ↗", "I ventiquattro termini solari · UNESCO ↗", "Los veinticuatro términos solares · UNESCO ↗"),
+};

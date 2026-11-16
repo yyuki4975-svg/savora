@@ -1,0 +1,29 @@
+/* "Cooks' notes" band between the recipe sheet and "Keep cooking". Reads only --sv-* tokens. */
+.notes { padding: var(--sv-space-8) 0; color: var(--sv-ink); background: var(--sv-oat); font-family: var(--sv-font-text); }
+.inner { display: grid; width: min(var(--sv-measure), 100%); margin-inline: auto; padding-inline: var(--sv-gutter); grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 24px clamp(32px, 5vw, 88px); align-items: start; }
+.notes header h2 { margin: 0; font-family: var(--sv-font-display); font-size: clamp(30px, 3.2vw, 44px); font-weight: 600; line-height: 1.02; letter-spacing: -.03em; text-wrap: balance; }
+.notes header p { max-width: 34ch; margin: 12px 0 0; color: var(--sv-muted); font-size: 16px; }
+.body { display: grid; min-width: 0; gap: 18px; }
+.quiet { margin: 0; padding: 18px 20px; color: var(--sv-muted); background: var(--sv-linen); border-radius: var(--sv-radius-control); }
+.list { display: grid; margin: 0; padding: 0; gap: 0; list-style: none; }
+.list li { padding: 18px 0; border-top: 1px solid var(--sv-line); }
+.list li:first-child { padding-top: 0; border-top: 0; }
+.text { max-width: 64ch; margin: 0; font-size: 17px; line-height: 1.6; white-space: pre-line; overflow-wrap: anywhere; }
+.by { margin: 8px 0 0; color: var(--sv-muted); font-size: 14px; }
+.by strong { color: var(--sv-ink); }
+.form { display: grid; gap: 10px; }
+.form label { display: grid; gap: 8px; }
+.form label span { font-weight: 700; }
+.form textarea { width: 100%; min-height: 96px; padding: 12px 14px; color: var(--sv-ink); background: var(--sv-linen); border: 1px solid color-mix(in srgb, var(--sv-line) 40%, var(--sv-muted)); border-radius: var(--sv-radius-control); font: inherit; resize: vertical; }
+.form textarea:focus-visible { outline: var(--sv-focus); outline-offset: 2px; }
+.form > div { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.form small { color: var(--sv-muted); font-size: 13.5px; }
+.form button, .more { min-height: 44px; padding: 0 18px; color: var(--sv-on-action); background: var(--sv-action); border: 0; border-radius: var(--sv-radius-control); font: 700 15px/1 var(--sv-font-text); cursor: pointer; }
+.form button:hover:not(:disabled) { background: var(--sv-action-strong); }
+.form button:disabled, .more:disabled { cursor: default; opacity: .6; }
+.more { justify-self: start; color: var(--sv-ink); background: var(--sv-linen); }
+.signIn { margin: 0; }
+.signIn a { color: var(--sv-moss); font-weight: 700; text-decoration: underline; text-decoration-color: var(--sv-action-strong); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.status { margin: 0; color: var(--sv-muted); font-size: 14px; }
+.status:empty { display: none; }
+@media (max-width: 860px) { .inner { grid-template-columns: 1fr; } }

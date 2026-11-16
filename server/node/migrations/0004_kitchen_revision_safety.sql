@@ -1,0 +1,2 @@
+CREATE SEQUENCE "savora_product"."kitchen_revision" INCREMENT BY 1 MINVALUE 2147483648 MAXVALUE 9007199254740990 START WITH 2147483648 CACHE 1;--> statement-breakpoint
+ALTER TABLE "savora_product"."kitchen_states" ALTER COLUMN "revision" SET DATA TYPE bigint;

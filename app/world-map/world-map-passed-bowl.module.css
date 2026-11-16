@@ -1,0 +1,258 @@
+/* World Map (Passed Bowl). Reads only --sv-* tokens; Leaflet marker styles are global by necessity. */
+.page {
+  min-height: 100vh;
+  overflow-x: clip;
+  color: var(--sv-ink);
+  background: var(--sv-oat);
+  font-family: var(--sv-font-text);
+  font-size: var(--sv-size-body);
+  line-height: 1.55;
+}
+.page :is(a, button, select):focus-visible { outline: var(--sv-focus); outline-offset: 3px; }
+.page h1,
+.page h2,
+.page h3 { font-family: var(--sv-font-display); font-weight: 600; letter-spacing: -.02em; text-wrap: balance; }
+
+/* ---------- Map stage: the map is the hero, with floating cards ---------- */
+.stage { position: relative; height: clamp(620px, calc(100dvh - var(--sv-header-height)), 920px); background: #dfe4d6; scroll-margin-top: var(--sv-header-height); }
+.stage .mapFrame { position: absolute; inset: 0; min-height: 0; border-radius: 0; clip-path: none; }
+.introCard {
+  position: absolute;
+  z-index: 2;
+  bottom: clamp(16px, 2.4vw, 32px);
+  left: 50%;
+  display: grid;
+  width: min(1040px, calc(100% - 2 * var(--sv-gutter)));
+  padding: 22px clamp(22px, 2.4vw, 34px);
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 12px clamp(24px, 3vw, 44px);
+  align-items: center;
+  background: color-mix(in srgb, var(--sv-oat) 95%, transparent);
+  border-top-left-radius: 48px;
+  box-shadow: 0 24px 60px -30px rgba(40, 30, 20, .55);
+  backdrop-filter: blur(10px);
+  transform: translateX(-50%);
+}
+.introCard h1 { max-width: 7ch; margin: 0; font-size: clamp(34px, 3.4vw, 52px); line-height: .95; letter-spacing: -.035em; }
+.introText > p:not(.statLine) { max-width: 46ch; margin: 0; color: var(--sv-muted); font-size: 16px; line-height: 1.5; }
+.stage[data-panel="open"] .introCard {
+  left: max(var(--sv-gutter), calc((100vw - var(--sv-measure)) / 2 + var(--sv-gutter)));
+  transform: none;
+}
+.stage[data-panel="open"] .introCard { width: auto; padding: 12px 14px 12px 22px; grid-template-columns: auto auto auto; gap: 18px; border-top-left-radius: 28px; }
+.stage[data-panel="open"] .introCard h1 { max-width: none; font-size: 22px; letter-spacing: -.02em; }
+.stage[data-panel="open"] .introText > p:not(.statLine) { display: none; }
+.stage[data-panel="open"] .statLine { margin: 0; }
+.stage[data-panel="open"] .surprise { min-height: 44px; padding: 0 16px 0 8px; font-size: 15px; }
+.stage[data-panel="open"] .surpriseMark { width: 28px; height: 28px; }
+.closePanel { position: absolute; z-index: 3; top: 10px; right: 10px; display: grid; width: 40px; height: 40px; place-items: center; color: var(--sv-ink); background: color-mix(in srgb, var(--sv-oat) 92%, transparent); border: 0; border-radius: 50%; font-size: 24px; line-height: 1; cursor: pointer; }
+.closePanel:hover { background: var(--sv-oat); }
+.statLine { margin: 8px 0 0; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.surprise {
+  display: inline-flex;
+  min-height: 50px;
+  padding: 0 22px 0 12px;
+  gap: 12px;
+  align-items: center;
+  color: var(--sv-on-action);
+  background: var(--sv-action);
+  border: 0;
+  border-radius: var(--sv-radius-control);
+  font: 700 16px/1 var(--sv-font-text);
+  cursor: pointer;
+  transition: background var(--sv-fast) var(--sv-ease), transform var(--sv-fast) var(--sv-ease);
+}
+.surprise:hover { background: var(--sv-action-strong); transform: translateY(-2px); }
+.surpriseMark { width: 32px; height: 32px; padding: 3px; background: var(--sv-oat); border-radius: 50%; }
+.stage .placePanel {
+  position: absolute;
+  z-index: 3;
+  top: 24px;
+  right: max(var(--sv-gutter), calc((100vw - var(--sv-measure)) / 2 + var(--sv-gutter)));
+  bottom: 40px;
+  width: min(390px, 34vw);
+  overflow-y: auto;
+  border: 0;
+  border-radius: var(--sv-radius-control);
+  box-shadow: 0 24px 60px -30px rgba(40, 30, 20, .55);
+  scrollbar-width: thin;
+}
+.stage .mapSource { top: auto; right: auto; bottom: 8px; left: 50%; transform: translateX(-50%); }
+
+/* ---------- Atlas ---------- */
+.atlasInner { width: min(var(--sv-measure), 100%); margin-inline: auto; padding-inline: var(--sv-gutter); }
+.atlasSection { padding: clamp(40px, 5vw, 64px) 0 var(--sv-space-9); background: var(--sv-butter); }
+.atlasHeader { display: flex; justify-content: space-between; gap: 24px; align-items: end; margin-bottom: 20px; }
+.atlasHeader h2 { margin: 0; font-size: clamp(32px, 3.4vw, 48px); line-height: 1; }
+.atlasControls { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+.atlasControls label { display: grid; gap: 4px; font-size: 14px; font-weight: 700; }
+.atlasControls select { min-width: 200px; min-height: 46px; padding: 0 36px 0 13px; color: var(--sv-ink); background: var(--sv-oat); border: 1px solid color-mix(in srgb, var(--sv-line) 40%, var(--sv-muted)); border-radius: var(--sv-radius-control); font: 600 15px/1 var(--sv-font-text); }
+.atlasControls > div { display: flex; padding: 3px; background: var(--sv-oat); border: 1px solid color-mix(in srgb, var(--sv-line) 40%, var(--sv-muted)); border-radius: var(--sv-radius-control); }
+.atlasControls button { min-height: 40px; padding: 0 16px; color: var(--sv-muted); background: transparent; border: 0; border-radius: 4px; font: 700 15px/1 var(--sv-font-text); cursor: pointer; transition: background var(--sv-fast) var(--sv-ease), color var(--sv-fast) var(--sv-ease); }
+.atlasControls button[aria-pressed="true"] { color: var(--sv-on-action); background: var(--sv-action); }
+
+.atlasLayout { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(320px, .64fr); min-height: 640px; overflow: hidden; background: var(--sv-oat); border-top-left-radius: clamp(72px, 9vw, 140px); }
+.mapFrame { position: relative; min-width: 0; min-height: 640px; overflow: hidden; border-top-left-radius: clamp(72px, 9vw, 140px); isolation: isolate; clip-path: inset(0 round clamp(72px, 9vw, 140px) 0 0 0); }
+.mapCanvas { position: absolute; inset: 0; width: 100%; height: 100%; background: #dfe4d6; }
+:global(:root[data-theme="dark"]) .mapCanvas { background: #141914; }
+.mapSource { position: absolute; z-index: 500; left: 8px; bottom: 8px; padding: 4px 8px; color: var(--sv-ink); background: color-mix(in srgb, var(--sv-oat) 90%, transparent); font-size: 12px; }
+.mapSource a { color: inherit; }
+
+.placePanel { display: flex; min-width: 0; flex-direction: column; background: var(--sv-oat); border-left: 1px solid var(--sv-line); }
+.placeFeature { position: relative; display: block; color: #fffaf0; text-decoration: none; }
+.placeFeatureImage { position: relative; display: block; aspect-ratio: 4 / 3; overflow: hidden; background: var(--sv-photo); }
+.placeFeatureImage img { object-fit: cover; transition: transform 600ms var(--sv-ease); }
+.placeFeature:hover img { transform: scale(1.04); }
+.placeFeatureCopy { position: absolute; right: 0; bottom: 0; left: 0; display: grid; gap: 4px; padding: 56px 22px 18px; background: linear-gradient(transparent, rgba(16, 24, 15, .78)); }
+.placeFeatureCopy small { font-size: 14px; opacity: .92; }
+.placeFeatureCopy strong { font-family: var(--sv-font-display); font-size: 24px; font-weight: 600; line-height: 1.1; }
+.placeBody { display: flex; flex: 1; flex-direction: column; padding: clamp(22px, 2.6vw, 34px); }
+.placeCountry { margin: 0 0 6px; color: var(--sv-clay); font-size: 15px; font-weight: 700; }
+.placeBody h3 { margin: 0; font-size: clamp(38px, 3.8vw, 56px); line-height: .96; letter-spacing: -.04em; }
+.placeBody > p:not(.placeCountry) { margin: 14px 0 18px; color: var(--sv-muted); font-size: 15px; line-height: 1.6; }
+.placeRecipes { margin: 0; padding: 0; border-top: 1px solid var(--sv-line); list-style: none; }
+.placeRecipes a { display: flex; min-height: 48px; justify-content: space-between; gap: 12px; align-items: center; color: var(--sv-ink); border-bottom: 1px solid var(--sv-line); text-decoration: none; transition: padding var(--sv-medium) var(--sv-ease), color var(--sv-fast) var(--sv-ease); }
+.placeRecipes a:hover { padding-left: 6px; color: var(--sv-clay); }
+.placeRecipes strong { font-size: 16px; font-weight: 600; line-height: 1.3; }
+.placeRecipes small { flex: none; color: var(--sv-muted); font-size: 14px; }
+.placeLink { display: inline-flex; min-height: 44px; margin-top: auto; padding-top: 18px; align-items: center; color: var(--sv-moss); font-size: 15px; font-weight: 700; text-decoration: none; }
+.placeLink:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+.cityDirectory { margin: 0; padding: 0 clamp(20px, 3vw, 40px); background: var(--sv-oat); list-style: none; border-top-left-radius: clamp(72px, 9vw, 140px); }
+.cityDirectory li { display: grid; grid-template-columns: minmax(240px, .7fr) 1fr; gap: 32px; padding: 20px 0; border-bottom: 1px solid var(--sv-line); }
+.cityDirectory li:first-child { padding-top: clamp(40px, 5vw, 72px); }
+.cityDirectory button { display: flex; min-height: 44px; justify-content: space-between; gap: 20px; padding: 0; color: inherit; text-align: left; background: transparent; border: 0; cursor: pointer; }
+.cityDirectory button span { display: grid; gap: 2px; }
+.cityDirectory button small { color: var(--sv-muted); font-size: 14px; }
+.cityDirectory button strong { font-family: var(--sv-font-display); font-size: 28px; font-weight: 600; }
+.cityDirectory button:hover strong { color: var(--sv-clay); }
+.cityDirectory button em { color: var(--sv-clay); font-size: 14px; font-style: normal; font-weight: 700; }
+.cityDirectory li > div { display: flex; flex-wrap: wrap; gap: 6px 20px; align-content: center; }
+.cityDirectory li > div a { display: inline-flex; min-height: 36px; align-items: center; color: var(--sv-ink); font-size: 15px; text-underline-offset: 5px; }
+
+.countryCount { margin: 10px 0 12px; color: var(--sv-ink); font-size: 17px; font-weight: 700; }
+.categoryChips { display: flex; flex-wrap: wrap; margin: 0 0 16px; padding: 0; gap: 6px; list-style: none; }
+.categoryChips li { padding: 4px 10px; color: var(--sv-ink); background: var(--sv-linen); border-radius: 999px; font-size: 14px; font-weight: 600; }
+.cityChips { display: flex; flex-wrap: wrap; margin-top: 16px; gap: 6px; align-items: center; }
+.cityChips span { width: 100%; color: var(--sv-muted); font-size: 14px; font-weight: 700; }
+.cityChips button { min-height: 36px; padding: 0 12px; color: var(--sv-on-clay); background: var(--sv-clay); border: 0; border-radius: 999px; font: 700 14px/1 var(--sv-font-text); cursor: pointer; }
+.cityChips button:hover { background: var(--sv-clay-strong); }
+.panelLinks { display: grid; margin-top: auto; padding-top: 14px; }
+.panelLinks .placeLink { margin-top: 0; padding-top: 0; }
+.backToCountry { padding: 0; color: inherit; background: none; border: 0; font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+.placeIndex { margin-top: 8px; }
+.placeIndex > h3 { margin: 0 0 18px; font-size: clamp(26px, 2.6vw, 34px); }
+.regionColumns { columns: 4 230px; column-gap: clamp(20px, 3vw, 40px); }
+.regionColumns section { margin-bottom: 28px; break-inside: avoid; }
+.regionColumns h4 { margin: 0 0 6px; padding-bottom: 6px; font-family: var(--sv-font-display); font-size: 20px; font-weight: 600; border-bottom: 2px solid var(--sv-ink); }
+.regionColumns ul { margin: 0; padding: 0; list-style: none; }
+.regionColumns li { border-bottom: 1px solid color-mix(in srgb, var(--sv-line) 70%, var(--sv-linen)); }
+.regionColumns li > button { display: flex; width: 100%; min-height: 44px; padding: 0 4px; justify-content: space-between; gap: 10px; align-items: center; color: var(--sv-ink); background: transparent; border: 0; border-radius: 4px; font: 600 15px/1.2 var(--sv-font-text); text-align: left; cursor: pointer; transition: background var(--sv-fast) var(--sv-ease), color var(--sv-fast) var(--sv-ease); }
+.regionColumns li > button small { color: var(--sv-muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.regionColumns li > button:hover { color: var(--sv-clay); }
+.regionColumns li > button[aria-pressed="true"] { color: var(--sv-on-action); background: var(--sv-action); }
+.regionColumns li > button[aria-pressed="true"] small { color: inherit; }
+.indexCities { display: flex; flex-wrap: wrap; padding: 0 4px 8px; gap: 4px; }
+.indexCities button { min-height: 32px; padding: 0 10px; color: var(--sv-clay); background: var(--sv-oat); border: 1px solid transparent; border-radius: 999px; font: 600 14px/1 var(--sv-font-text); cursor: pointer; }
+.indexCities button:hover, .indexCities button[aria-pressed="true"] { border-color: var(--sv-clay); }
+
+/* ---------- Exhibitions ---------- */
+.exhibitionsSection { padding: var(--sv-space-9) 0; scroll-margin-top: var(--sv-header-height); }
+.exhibitionsIntro,
+.exhibitionList { width: min(var(--sv-measure), 100%); margin-inline: auto; padding-inline: var(--sv-gutter); }
+.exhibitionsIntro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 400px); gap: 32px; margin-bottom: clamp(32px, 4vw, 56px); align-items: end; }
+.exhibitionsIntro h2 { max-width: 14ch; margin: 0; font-size: clamp(40px, 5vw, 72px); line-height: .98; letter-spacing: -.035em; }
+.exhibitionsIntro p { margin: 0; color: var(--sv-muted); font-size: 17px; }
+.exhibitionList { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(40px, 5vw, 72px) clamp(20px, 3vw, 44px); }
+.exhibitionList article { display: grid; min-width: 0; align-content: start; }
+.exhibitionList article:nth-child(even) { margin-top: clamp(0px, 8vw, 120px); }
+.exhibitionImage { position: relative; display: block; aspect-ratio: 5 / 4; overflow: hidden; background: var(--sv-photo); }
+.exhibitionList article:first-child .exhibitionImage { border-top-left-radius: clamp(72px, 10vw, 160px); }
+.exhibitionImage img { object-fit: cover; transition: transform 800ms var(--sv-ease), filter 600ms var(--sv-ease); }
+.exhibitionList article:hover .exhibitionImage img { transform: scale(1.035); filter: saturate(1.06); }
+.exhibitionList article > div { padding-top: 22px; }
+.exhibitionList small { color: var(--sv-clay); font-size: 15px; font-weight: 700; }
+.exhibitionList h3 { margin: 8px 0 12px; font-size: clamp(30px, 3vw, 44px); line-height: 1.02; letter-spacing: -.035em; }
+.exhibitionList p { max-width: 46ch; margin: 0; color: var(--sv-muted); font-size: 16px; line-height: 1.6; }
+.exhibitionList article > div a { display: inline-flex; min-height: 44px; margin-top: 10px; align-items: center; color: var(--sv-moss); font-size: 15px; font-weight: 700; text-decoration: none; }
+.exhibitionList article > div a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+/* ---------- MapLibre: Savora basemap (atlas-style.ts), country plates, city pins ---------- */
+.mapFrame :global(.maplibregl-map) { font-family: var(--sv-font-text); }
+.mapFrame :global(.maplibregl-ctrl-group) { overflow: hidden; background: var(--sv-oat); border-radius: var(--sv-radius-control); box-shadow: 0 6px 18px -10px rgba(20, 35, 20, .5); }
+.mapFrame :global(.maplibregl-ctrl-group button) { width: 38px; height: 38px; }
+:global(:root[data-theme="dark"]) .mapFrame :global(.maplibregl-ctrl-group button .maplibregl-ctrl-icon) { filter: invert(1); }
+.mapFrame :global(.maplibregl-ctrl-attrib) { color: var(--sv-ink); background: color-mix(in srgb, var(--sv-oat) 88%, transparent); font-size: 12px; }
+.mapFrame :global(.maplibregl-ctrl-attrib a) { color: inherit; }
+
+:global(.savora-country-shell) { display: grid; padding: 0; place-items: center; background: none; border: 0; cursor: pointer; }
+:global(.savora-country-plate) { display: grid; width: var(--size); height: var(--size); place-items: center; color: #20301f; background: color-mix(in srgb, #e8b75a 94%, transparent); border: 2px solid #faf5e9; border-radius: 50%; box-shadow: 0 6px 16px -8px rgba(20, 35, 20, .55); font: 700 14px/1 var(--font-sv-text), Arial, sans-serif; font-variant-numeric: tabular-nums; transition: transform var(--sv-medium) var(--sv-ease), background var(--sv-fast) var(--sv-ease); }
+:global(.savora-country-shell:hover .savora-country-plate) { transform: scale(1.08); }
+:global(.savora-country-name) { position: absolute; top: calc(100% + 4px); left: 50%; padding: 2px 7px; color: #20301f; background: rgba(250, 245, 233, .94); border-radius: 4px; font: 700 13px/1.3 var(--font-sv-text), Arial, sans-serif; white-space: nowrap; transform: translateX(-50%); opacity: 0; pointer-events: none; transition: opacity var(--sv-fast) var(--sv-ease); }
+:global(.savora-country-shell:hover .savora-country-name),
+:global(.savora-country-shell.is-selected .savora-country-name) { opacity: 1; }
+:global(.savora-country-shell.is-selected .savora-country-plate) { background: #a8482c; transform: scale(1.1); }
+
+:global(.savora-atlas-marker-shell) { display: block; width: 18px; height: 18px; padding: 0; background: none; border: 0; cursor: pointer; }
+:global(.savora-atlas-marker) { position: relative; display: block; width: 18px; height: 18px; }
+:global(.savora-atlas-marker i) { display: block; width: 16px; height: 16px; box-sizing: border-box; background: #a8482c; border: 3px solid #faf5e9; border-radius: 50%; box-shadow: 0 2px 6px rgba(20, 35, 20, .35); transition: transform var(--sv-medium) var(--sv-ease); }
+:global(.savora-atlas-marker small) { position: absolute; top: 50%; left: 22px; padding: 3px 7px; color: #20301f; background: rgba(250, 245, 233, .94); border-radius: 4px; font: 700 13px/1.2 var(--font-sv-text), Arial, sans-serif; white-space: nowrap; transform: translateY(-50%); }
+[data-zoom="far"] :global(.savora-atlas-marker small) { display: none; }
+[data-zoom="far"] :global(.savora-atlas-marker-shell:hover .savora-atlas-marker small),
+[data-zoom="far"] :global(.is-selected .savora-atlas-marker small) { display: block; }
+:global(.is-selected .savora-atlas-marker i) { background: #2f5236; transform: scale(1.35); }
+:global(.is-selected .savora-atlas-marker small) { color: #faf5e9; background: #2f5236; }
+
+/* ---------- Motion ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .surpriseMark { animation: plate-spin 900ms var(--sv-ease) both; }
+  .placePanel { animation: panel-in 360ms var(--sv-ease) both; }
+  .exhibitionList article { animation: rise 700ms var(--sv-ease) both; animation-delay: calc(var(--i, 0) * 90ms); animation-timeline: view(); animation-range: entry 0% entry 60%; }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(20px); } }
+@keyframes panel-in { from { opacity: 0; transform: translateX(14px); } }
+@keyframes plate-spin { from { transform: rotate(-200deg) scale(.7); } to { transform: none; } }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 980px) {
+  .stage { display: grid; height: auto; background: var(--sv-oat); }
+  .stage .mapFrame { position: relative; inset: auto; height: 62vh; min-height: 380px; }
+  .introCard, .stage .placePanel, .stage[data-panel="open"] .introCard { position: static; width: auto; margin: 0; transform: none; box-shadow: none; backdrop-filter: none; grid-template-columns: 1fr; }
+  .introCard .surprise { justify-self: start; }
+  .introCard { border-top-left-radius: 0; background: var(--sv-oat); }
+  .stage .placePanel { border-radius: 0; border-top: 1px solid var(--sv-line); }
+  .atlasHeader { flex-direction: column; align-items: flex-start; }
+  .atlasLayout { grid-template-columns: 1fr; border-top-left-radius: 72px; }
+  .mapFrame { border-top-left-radius: 72px; clip-path: inset(0 round 72px 0 0 0); }
+  .mapFrame,
+  .mapCanvas { min-height: 460px; }
+  .placePanel { border-top: 1px solid var(--sv-line); border-left: 0; }
+  .placeFeatureImage { aspect-ratio: 16 / 9; }
+  .exhibitionsIntro { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .exhibitionList { grid-template-columns: 1fr; }
+  .exhibitionList article:nth-child(even) { margin-top: 0; }
+  .cityDirectory { border-top-left-radius: 48px; }
+  .cityDirectory li { grid-template-columns: 1fr; gap: 10px; }
+}
+@media (max-width: 560px) {
+  .atlasControls { width: 100%; }
+  .atlasControls label,
+  .atlasControls select { width: 100%; }
+  .mapFrame,
+  .mapCanvas { min-height: 380px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .surprise,
+  .placeFeatureImage img,
+  .placeRecipes a,
+  .exhibitionImage img,
+  .placeIndex button,
+  .atlasControls button,
+  :global(.savora-atlas-marker) { transition: none; }
+  .surprise:hover,
+  .placeFeature:hover img,
+  .exhibitionList article:hover .exhibitionImage img { transform: none; }
+}

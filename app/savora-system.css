@@ -1,0 +1,160 @@
+/*
+  Savora design system v2 ("The Passed Bowl").
+  New surfaces read only the --sv-* tokens below. Legacy --md-sys-* and palette tokens in
+  savora-theme.css stay untouched until each page is migrated, so frozen recipe and
+  exhibition pages keep their current appearance. Migration order and the legacy rules that
+  are now unused are tracked in docs/handoff/FRONTEND_REDESIGN_HANDOFF.md.
+*/
+:root {
+  /* Surfaces (owner, 2026-11-08: "too much cream"): a porcelain-white base with warm cream and
+     cool celadon bands. Deep cobalt/forest bands were tried and removed at the owner's request.
+     --sv-oat keeps its historical name but is now the white base every page, header and footer read. */
+  --sv-oat: #ffffff;
+  --sv-cream: #faf5e9;
+  --sv-linen: #f4eddd;
+  --sv-celadon: #e3eee7;
+  --sv-ink: #20301f;
+  --sv-muted: #55604f;
+  --sv-line: #d9d0ba;
+  --sv-moss: #2f5236;
+  --sv-moss-strong: #23402a;
+  --sv-on-moss: #faf5e9;
+  --sv-clay: #a8482c;
+  --sv-clay-strong: #8d3a22;
+  --sv-on-clay: #fffaf0;
+  --sv-leaf: #6f8f55;
+  --sv-honey: #d79a2b;
+  --sv-earth: #8a6a3f;
+  --sv-chile: #7c2f1c;
+  --sv-photo: #e4dac2;
+  /* Filled action buttons: warm honey (owner request, 2026-10-11). */
+  --sv-action: #e8b75a;
+  --sv-action-strong: #dda544;
+  --sv-on-action: #20301f;
+  /* Two light accents for bands and chips, so pages are not all oat and linen. */
+  --sv-butter: #f6e6b4;
+  --sv-blush: #f5d8c8;
+
+  --sv-font-display: var(--font-sv-display), "Songti SC", "Hiragino Mincho ProN", Georgia, "Times New Roman", serif;
+  --sv-font-text: var(--font-sv-text), "PingFang SC", "Hiragino Sans", "Microsoft YaHei", "Yu Gothic", Arial, sans-serif;
+
+  --sv-size-display: clamp(40px, 5.2vw, 68px);
+  --sv-size-h2: clamp(28px, 3vw, 38px);
+  --sv-size-h3: 20px;
+  --sv-size-body: 17px;
+  --sv-size-small: 15px;
+  --sv-size-min: 14px;
+
+  --sv-space-1: 4px;
+  --sv-space-2: 8px;
+  --sv-space-3: 12px;
+  --sv-space-4: 16px;
+  --sv-space-5: 24px;
+  --sv-space-6: 32px;
+  --sv-space-7: 48px;
+  --sv-space-8: 72px;
+  --sv-space-9: clamp(72px, 9vw, 120px);
+
+  --sv-radius-control: 6px;
+  --sv-gutter: clamp(16px, 4vw, 56px);
+  --sv-measure: 1320px;
+  --sv-header-height: 72px;
+
+  --sv-fast: 160ms;
+  --sv-medium: 220ms;
+  --sv-ease: cubic-bezier(.2, .7, .2, 1);
+  --sv-focus: 3px solid var(--sv-clay);
+}
+
+:root[data-theme="dark"] {
+  --sv-oat: #141914;
+  --sv-cream: #1a201a;
+  --sv-linen: #222a22;
+  --sv-celadon: #1a2722;
+  --sv-ink: #ece7d8;
+  --sv-muted: #b0b8a8;
+  --sv-line: #3a443a;
+  --sv-moss: #a9c79a;
+  --sv-moss-strong: #c2dbb5;
+  --sv-on-moss: #152016;
+  --sv-clay: #e08c6c;
+  --sv-clay-strong: #eba488;
+  --sv-on-clay: #2a140c;
+  --sv-leaf: #88a871;
+  --sv-honey: #e3b25a;
+  --sv-earth: #c2a074;
+  --sv-chile: #d9765c;
+  --sv-photo: #2b342b;
+  --sv-action: #e3b25a;
+  --sv-action-strong: #ecc47e;
+  --sv-on-action: #1d1a12;
+  --sv-butter: #3a3422;
+  --sv-blush: #3d2a24;
+}
+
+/* Latin headlines use the display face; Chinese and Japanese use the matching Noto Serif so
+   Han glyphs take the right regional forms. The CJK files load only for those locales. */
+:root[data-locale="zh"] { --sv-font-display: var(--font-sv-display), var(--font-sv-cjk-sc), "Songti SC", "SimSun", serif; }
+:root[data-locale="ja"] { --sv-font-display: var(--font-sv-display), var(--font-sv-cjk-jp), "Hiragino Mincho ProN", "Yu Mincho", serif; }
+
+/* Navigation progress: a thin honey bar while the next page loads (app/navigation-progress.tsx). */
+.nav-progress { position: fixed; z-index: 200; inset: 0 0 auto; height: 3px; pointer-events: none; }
+.nav-progress i { display: block; width: 0; height: 100%; background: var(--sv-action-strong); box-shadow: 0 0 8px color-mix(in srgb, var(--sv-action) 70%, transparent); opacity: 0; }
+.nav-progress[data-state="loading"] i { opacity: 1; animation: nav-progress-run 8s cubic-bezier(.1, .7, .2, 1) forwards; }
+.nav-progress[data-state="done"] i { width: 100%; opacity: 0; transition: width 180ms ease, opacity 300ms ease 160ms; }
+@keyframes nav-progress-run { from { width: 0; } 10% { width: 35%; } to { width: 92%; } }
+@media (prefers-reduced-motion: reduce) { .nav-progress[data-state="loading"] i { animation: none; width: 60%; } }
+
+/* Route loading skeleton (app/page-skeleton.tsx): calm oat blocks with a soft sheen. */
+.page-skeleton { min-height: 100vh; background: var(--sv-oat); }
+.page-skeleton-body { display: grid; gap: clamp(32px, 5vw, 64px); width: min(var(--sv-measure), 100%); margin: 0 auto; padding: clamp(32px, 5vw, 64px) var(--sv-gutter); }
+.page-skeleton-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.page-skeleton-copy { display: grid; gap: 16px; }
+.page-skeleton i { display: block; height: 16px; border-radius: 999px; background: linear-gradient(100deg, var(--sv-linen) 30%, color-mix(in srgb, var(--sv-linen) 45%, var(--sv-oat)) 50%, var(--sv-linen) 70%) 0 0 / 300% 100%; animation: skeleton-sheen 1.4s ease-in-out infinite; }
+.page-skeleton i[data-w="30"] { width: 30%; } .page-skeleton i[data-w="55"] { width: 55%; } .page-skeleton i[data-w="70"] { width: 70%; } .page-skeleton i[data-w="80"] { width: 80%; }
+.page-skeleton i[data-h="title"] { height: clamp(44px, 5vw, 72px); border-radius: 18px; }
+.page-skeleton .page-skeleton-media { height: auto; aspect-ratio: 5 / 4; border-radius: 28px; }
+.page-skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.page-skeleton-grid i { height: auto; aspect-ratio: 4 / 3; border-radius: 20px; }
+.page-skeleton[data-variant="recipe"] .page-skeleton-grid { grid-template-columns: minmax(0, .8fr) minmax(0, 1.5fr); }
+.page-skeleton[data-variant="recipe"] .page-skeleton-grid i { aspect-ratio: auto; height: 320px; }
+@keyframes skeleton-sheen { from { background-position: 100% 0; } to { background-position: 0 0; } }
+@media (max-width: 860px) { .page-skeleton-hero, .page-skeleton[data-variant="recipe"] .page-skeleton-grid { grid-template-columns: minmax(0, 1fr); } .page-skeleton .page-skeleton-media { order: -1; } }
+@media (prefers-reduced-motion: reduce) { .page-skeleton i { animation: none; } }
+
+/* Phone bottom tab bar (app/mobile-tab-bar.tsx). */
+.mobile-tabs { display: none; }
+@media (max-width: 759px) {
+  .mobile-tabs {
+    position: fixed; z-index: 70; right: 0; bottom: 0; left: 0;
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding: 6px 6px calc(6px + env(safe-area-inset-bottom, 0px));
+    background: color-mix(in srgb, var(--sv-oat) 90%, transparent);
+    border-top: 1px solid var(--sv-line);
+    box-shadow: 0 -10px 24px -20px rgba(32, 48, 31, .55);
+    backdrop-filter: saturate(1.3) blur(14px);
+    font-family: var(--sv-font-text);
+  }
+  .mobile-tabs a { display: grid; min-height: 52px; place-items: center; align-content: center; gap: 3px; color: var(--sv-muted); border-radius: 14px; font-size: 11.5px; font-weight: 700; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+  .mobile-tabs svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .mobile-tabs a[aria-current="page"] { color: var(--sv-clay); background: color-mix(in srgb, var(--sv-butter) 70%, transparent); }
+  .mobile-tabs a:active { transform: scale(.96); }
+  .mobile-tabs a:focus-visible { outline: var(--sv-focus); outline-offset: -2px; }
+  /* Keep the footer and last content clear of the bar. */
+  body:has(.mobile-tabs) { padding-bottom: calc(66px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (max-width: 759px) {
+  /* Bottom-anchored bars and toasts sit above the tab bar on phones. */
+  body:has(.mobile-tabs) .toast { bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* Search suggestions dropdown (app/search-suggest.tsx). */
+.search-suggest { position: relative; flex: 1; min-width: 0; }
+.search-suggest > input { width: 100%; }
+.search-suggest-list { position: absolute; z-index: 80; top: calc(100% + 6px); right: 0; left: 0; display: grid; margin: 0; padding: 6px; list-style: none; background: var(--sv-oat); border: 1px solid var(--sv-line); border-radius: 18px; box-shadow: 0 22px 40px -24px rgba(32, 48, 31, .5); font: 500 15px/1.35 var(--sv-font-text); color: var(--sv-ink); text-align: left; }
+.search-suggest-list li { display: flex; min-height: 42px; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 12px; cursor: pointer; }
+.search-suggest-list li[aria-selected="true"] { background: var(--sv-linen); }
+.search-suggest-list i { width: 8px; height: 12px; flex: none; border-radius: 50%; background: var(--sv-leaf); rotate: 24deg; }
+.search-suggest-list li[data-kind="intent"] { font-weight: 700; }
+.search-suggest-list li[data-kind="intent"] i { background: var(--sv-honey); }
+.search-suggest-list li[data-kind="country"] i { background: var(--sv-clay); }

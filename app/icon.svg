@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-36 -36 72 72">
+  <!-- Savora three-seed favicon (Seed Circle, approved Passed Bowl layouts): rice, maize, bean. -->
+  <style>
+    .rice { fill: #2f5236; } .maize { fill: #d79a2b; } .bean { fill: #a8482c; }
+    @media (prefers-color-scheme: dark) { .rice { fill: #a9c79a; } .maize { fill: #e3b25a; } .bean { fill: #e08c6c; } }
+  </style>
+  <g transform="rotate(10) translate(0 -17)"><path class="rice" d="M-17 2C-14-7 7-10 17-3c2 3 0 7-5 8-10 4-26 4-29-3Z"/></g>
+  <g transform="rotate(130) translate(0 -17)"><path class="maize" d="M-8-12c7-3 15-2 18 3 2 10-3 20-10 22-7-2-13-13-8-25Z"/></g>
+  <g transform="rotate(250) translate(0 -17)"><path class="bean" d="M-13-5c6-8 22-6 27 3 2 8-6 13-11 8-3-3-6-3-10 0-6 3-11-5-6-11Z"/></g>
+</svg>

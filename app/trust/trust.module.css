@@ -1,0 +1,13 @@
+.page { width: min(760px, 100%); margin: 0 auto; padding: clamp(40px, 6vw, 72px) var(--sv-gutter) 96px; color: var(--sv-ink); font-family: var(--sv-font-text); }
+.page h1 { margin: 0; font-family: var(--sv-font-display); font-size: clamp(36px, 5vw, 52px); font-weight: 700; line-height: 1.05; letter-spacing: -.02em; }
+.lead { margin: 14px 0 0; color: var(--sv-muted); font-size: 18px; line-height: 1.6; }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 28px 0 8px; }
+.toc a { padding: 7px 13px; color: var(--sv-ink); border: 1px solid var(--sv-line); border-radius: 999px; font-size: 14px; font-weight: 700; text-decoration: none; }
+.toc a:hover, .toc a:focus-visible { background: var(--sv-linen); }
+.section { padding: 28px 0 4px; border-bottom: 1px solid var(--sv-line); scroll-margin-top: 96px; }
+.section h2 { margin: 0 0 12px; font-family: var(--sv-font-text); font-size: 21px; font-weight: 800; }
+.section ul { display: grid; gap: 10px; margin: 0 0 24px; padding-left: 20px; list-style: disc; }
+.section li { font-size: 16.5px; line-height: 1.65; }
+.section li::marker { color: var(--sv-clay); }
+.more { display: flex; flex-wrap: wrap; gap: 18px; margin: 28px 0 0; }
+.more a { color: var(--sv-ink); font-weight: 800; text-decoration-color: var(--sv-action-strong); text-decoration-thickness: 2px; text-underline-offset: 4px; }

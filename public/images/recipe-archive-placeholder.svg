@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Savora recipe archive placeholder</title>
+  <desc id="desc">An abstract ivory and herb-green illustration used when a recipe has no reviewed photograph.</desc>
+  <rect width="1200" height="900" fill="#f6f2e8"/>
+  <circle cx="600" cy="450" r="260" fill="#d9e7cc"/>
+  <circle cx="600" cy="450" r="196" fill="#fffdf7" stroke="#788d69" stroke-width="12"/>
+  <path d="M400 276c72 20 127 81 143 157-78-5-143-56-169-128 3-12 12-22 26-29Z" fill="#a7bd92"/>
+  <path d="M800 276c-72 20-127 81-143 157 78-5 143-56 169-128-3-12-12-22-26-29Z" fill="#839b73"/>
+  <path d="M600 227v445" stroke="#5f7755" stroke-width="12" stroke-linecap="round"/>
+  <path d="M477 490c56 10 96 45 123 99 27-54 67-89 123-99" fill="none" stroke="#5f7755" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="520" cy="454" r="28" fill="#e7ad68"/>
+  <circle cx="680" cy="454" r="28" fill="#d88f74"/>
+  <text x="600" y="765" text-anchor="middle" fill="#344234" font-family="Arial, sans-serif" font-size="35" letter-spacing="7">SAVORA ARCHIVE</text>
+</svg>

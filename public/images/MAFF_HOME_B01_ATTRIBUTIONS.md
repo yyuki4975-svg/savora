@@ -1,0 +1,19 @@
+# MAFF home recipes: source and photograph credits
+
+English adaptations by Savora; not official MAFF translations or endorsement. Recipes retain contributor credits on the detail page. Downloadable-photo permission is specific to the ZIP offers documented below, not blanket permission for MAFF images. Local copies are proportionally reduced and JPEG-recompressed, not generated or upscaled.
+
+Permission: https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/index.html
+Use terms: https://www.maff.go.jp/j/use/link.html
+
+| Recipe | Photograph | Supplier credit for selected photo | Official page | Original ZIP |
+| --- | --- | --- | --- | --- |
+| Onimanju — Aichi Sweet Potato Steamed Cakes | images/dishes/maff-onimanju-aichi.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/onimanju_aichi.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/aichi_7_2.zip) |
+| Renkon Kinpira — Ibaraki Lotus Root Stir-Fry | images/dishes/maff-renkonnokinpira-ibaraki.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/renkonnokinpira_ibaraki.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/ibaraki_7_1.zip) |
+| Sake no Yakizuke — Niigata Grilled Salmon in Soy Marinade | images/dishes/maff-sakeno-yakizuke-niigata.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakeno_yakizuke_niigata.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/niigata_7_1.zip) |
+| Aka Konnyaku Ni — Shiga Simmered Red Konjac | images/dishes/maff-aka-konnyaku-ni-shiga.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aka_konnyaku_ni_shiga.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/shiga_6_1.zip) |
+| Goae — Tottori Eggplant with Edamame Miso Dressing | images/dishes/maff-goae-tottori.jpg | 日南町食育推進協議会 「日南の邑の味」 | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/goae_tottori.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/tottori_26_1.zip) |
+| Fukashi Nasu — Niigata Steamed Eggplant with Ginger | images/dishes/maff-fukashi-nasu-niigata.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukashi_nasu_niigata.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/niigata_22_1.zip) |
+| Tochigi Eggplant and Green Beans in Sweet Miso | images/dishes/maff-31-27-tochigi.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_27_tochigi.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/tochigi_27_1.zip) |
+| Kuri Gohan — Kyoto Chestnut Rice | images/dishes/maff-kurigohan-kyoto.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kurigohan_kyoto.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/kyoto_3_1.zip) |
+| Niku Dofu — Kyoto Beef and Tofu Simmer | images/dishes/maff-nikudofu-kyoto.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nikudofu_kyoto.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/kyoto_17_1.zip) |
+| Yamagata Dashi — Chopped Summer Vegetable Relish | images/dishes/maff-dashi-yamagata.jpg | MAFF (no separate supplier named) | [Source](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dashi_yamagata.html) | [Download](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/img/yamagata_8_4.zip) |

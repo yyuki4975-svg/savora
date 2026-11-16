@@ -1,0 +1,2 @@
+# Large map extracts are served from object storage, not Worker static assets (25 MB file limit).
+maps/*.pmtiles

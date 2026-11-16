@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.vinext/
+dist/
+.run/
+.env*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.dump
+*.log
+*.tsbuildinfo
